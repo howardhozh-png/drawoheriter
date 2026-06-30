@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Building in public — 2026-06-30</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F2F2F7;
+  padding: 32px 24px 48px;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+}
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8E8E93;
+  margin-bottom: 6px;
+}
+.theme {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1D1D1F;
+  margin-bottom: 4px;
+}
+.date { font-size: 14px; color: #8E8E93; }
+
+/* Text cards */
+.text-cards {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 700px) { .text-cards { grid-template-columns: 1fr; } }
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 22px;
+}
+.card .label { margin-bottom: 8px; }
+.card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1D1D1F;
+  white-space: pre-wrap;
+}
+
+/* Slides row */
+.slides-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+.slides-row {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+/* Individual slide — 1080x1080 scaled to 340x340 */
+.slide {
+  width: 340px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  background: #fff;
+}
+.slide-inner {
+  width: 1080px;
+  height: 1080px;
+  transform: scale(0.3148);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 80px;
+  background: #FFFFFF;
+}
+.top-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-bottom: 52px;
+}
+.overline {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+}
+.page { font-size: 22px; font-weight: 500; color: #BBB; letter-spacing: 0.05em; }
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  overflow: hidden;
+  min-height: 0;
+}
+.main {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #0A0A0A;
+  letter-spacing: -0.03em;
+  flex-shrink: 0;
+}
+.hl { color: #3333FF; }
+.sub {
+  font-size: 30px;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+.stat-num {
+  font-size: 160px;
+  font-weight: 900;
+  color: #3333FF;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.stat-lbl {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0A0A0A;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+.cta { font-size: 28px; font-weight: 700; color: #3333FF; flex-shrink: 0; }
+.bubble-wrap { flex-shrink: 0; margin-top: auto; padding-top: 28px; }
+.divider { width: 56px; height: 2px; background: #E0E0E0; margin-bottom: 18px; }
+.bubble {
+  display: inline-block;
+  background: #F0F0F0;
+  border-radius: 36px 36px 36px 8px;
+  padding: 20px 32px;
+  font-size: 24px;
+  color: #444;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 100%;
+}
+.bottom-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-top: 36px;
+}
+.handle { font-size: 22px; font-weight: 600; color: #AAA; }
+.swipe { font-size: 22px; font-weight: 600; color: #AAA; letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="label">Draft preview — 2026-06-30</div>
+    <div class="theme">Building in public</div>
+  </div>
+
+  <div class="text-cards">
+    <div class="card">
+      <div class="label">Threads text post</div>
+      <p>Day 2 of building kakisewa. I picked Malaysian rental agents as my market. Still tracking contracts in WhatsApp. Nobody thinks it's exciting. I think that's the point.
+
+Poll: which would you build?
+U = Unsexy market with real pain
+C = Cool idea with hype</p>
+    </div>
+    <div class="card">
+      <div class="label">Instagram caption</div>
+      <p>Day 2. Still zero customers. But I picked this market on purpose.
+
+Most people told me rental agents in Malaysia weren't exciting enough to build for. I thought: good, fewer people will try to compete with me.
+
+Swipe to see why I chose boring over cool — and whether it's actually smart or just cope.
+
+Unsexy market or cool idea — which would you build? Vote in comments: U or C</p>
+    </div>
+  </div>
+
+  <div class="slides-wrap">
+    <div class="slides-row">
+      
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">01 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">I picked the most <span class="hl">unsexy market</span> possible.</div>
+      <div class="sub">Malaysian rental agents who still track contracts in WhatsApp.</div>
+      
+      
+    
+          
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe">swipe →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">02 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="sub">Rental agents in Malaysia with no digital contract system</div>
+      <div class="stat-num">8,471</div>
+      <div class="stat-lbl">agents scraped. 100 cold emails going out every day.</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">I have their emails. I do not have their money. Yet.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">03 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main"><span class="hl">Nobody is building for this market.</span></div>
+      <div class="sub">Which either means it's a wide open opportunity.</div>
+      <div class="sub">Or everyone already tried and left. I'm choosing to believe the first one.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">This is the part where I find out which.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">04 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">The problem is <span class="hl">obvious once you talk to one agent.</span></div>
+      <div class="sub">Contracts in WhatsApp. Renewals tracked in their head. Chasing landlords over text.</div>
+      <div class="sub">Nobody built a tool because nobody thought it was worth building.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">First agent I talked to said 'aiya, I just use notes lor.' That was my product validation.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">05 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main"><span class="hl">Unsexy markets have real paying customers</span> and fewer competitors.</div>
+      <div class="sub">The pain is specific, the buyers exist, and nobody's pitching them at TechCrunch.</div>
+      
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">My friends thought I was building something boring. I think boring pays rent.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">06 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">I chose this over a <span class="hl">'cool' idea</span> because the pain is specific.</div>
+      <div class="sub">Specific pain means the customer knows they have a problem before you explain it.</div>
+      <div class="sub">That's a much easier sales conversation.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Cool ideas need you to convince people they have a problem. Hard pass.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">07 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main"><span class="hl">Boring problems, real customers,</span> less noise.</div>
+      <div class="sub">Still zero paying customers — but I know exactly who I'm building for.</div>
+      
+      <div class="cta">Follow to know what happens next.</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Unsexy market or cool idea — which would you build? Drop U or C in the comments.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

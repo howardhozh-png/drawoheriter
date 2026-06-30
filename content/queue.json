@@ -24,6 +24,7 @@
   },
   {
     "id": "day1-mockup",
+    "plan_day": 1,
     "date": "2026-06-30",
     "topic": "founder-journey",
     "angle": "Day 1 — Building in public: zero paying customers",
@@ -94,7 +95,7 @@
     "date": "2026-06-30",
     "topic": "malaysia-startup",
     "angle": "What working at a US startup from Malaysia is actually like",
-    "status": "pending",
+    "status": "skipped",
     "theme": "Building in public",
     "caption": "Everyone romanticises working at a US startup. Here's what it actually looks like from Malaysia.",
     "threads_text": "Working at a US startup from Malaysia sounds cool until you're on a 10pm Zoom call while your friends are at mamak. The pay is decent. The timezone is not. You're always half a day behind everyone who matters. Still beats a lot of alternatives though, not gonna lie.",
@@ -146,6 +147,69 @@
         "sub_text": "Still figuring out if I'm playing it right.",
         "follow_cta": "Follow to know what happens next.",
         "bubble": "Ask me again once someone actually pays for kakisewa."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1782833680140",
+    "plan_day": 2,
+    "date": "2026-06-30",
+    "topic": "building-in-public",
+    "angle": "I picked the most unsexy market possible.",
+    "status": "pending",
+    "theme": "Building in public",
+    "caption": "Day 2. Still zero customers. But I picked this market on purpose.\n\nMost people told me rental agents in Malaysia weren't exciting enough to build for. I thought: good, fewer people will try to compete with me.\n\nSwipe to see why I chose boring over cool — and whether it's actually smart or just cope.\n\nUnsexy market or cool idea — which would you build? Vote in comments: U or C",
+    "threads_text": "Day 2 of building kakisewa. I picked Malaysian rental agents as my market. Still tracking contracts in WhatsApp. Nobody thinks it's exciting. I think that's the point.\n\nPoll: which would you build?\nU = Unsexy market with real pain\nC = Cool idea with hype",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I picked the most **unsexy market** possible.",
+        "sub_text": "Malaysian rental agents who still track contracts in WhatsApp.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Rental agents in Malaysia with no digital contract system",
+        "stat_number": "8,471",
+        "stat_label": "agents scraped. 100 cold emails going out every day.",
+        "bubble": "I have their emails. I do not have their money. Yet."
+      },
+      {
+        "type": "content",
+        "main_text": "**Nobody is building for this market.**",
+        "sub_text": "Which either means it's a wide open opportunity.",
+        "sub_text_2": "Or everyone already tried and left. I'm choosing to believe the first one.",
+        "bubble": "This is the part where I find out which."
+      },
+      {
+        "type": "content",
+        "main_text": "The problem is **obvious once you talk to one agent.**",
+        "sub_text": "Contracts in WhatsApp. Renewals tracked in their head. Chasing landlords over text.",
+        "sub_text_2": "Nobody built a tool because nobody thought it was worth building.",
+        "bubble": "First agent I talked to said 'aiya, I just use notes lor.' That was my product validation."
+      },
+      {
+        "type": "content",
+        "main_text": "**Unsexy markets have real paying customers** and fewer competitors.",
+        "sub_text": "The pain is specific, the buyers exist, and nobody's pitching them at TechCrunch.",
+        "sub_text_2": null,
+        "bubble": "My friends thought I was building something boring. I think boring pays rent."
+      },
+      {
+        "type": "content",
+        "main_text": "I chose this over a **'cool' idea** because the pain is specific.",
+        "sub_text": "Specific pain means the customer knows they have a problem before you explain it.",
+        "sub_text_2": "That's a much easier sales conversation.",
+        "bubble": "Cool ideas need you to convince people they have a problem. Hard pass."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Boring problems, real customers,** less noise.",
+        "sub_text": "Still zero paying customers — but I know exactly who I'm building for.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "Unsexy market or cool idea — which would you build? Drop U or C in the comments."
       }
     ],
     "images": [],
