@@ -280,16 +280,7 @@ async function main() {
       console.error("  You can post manually with the images at content/images/" + entry.id + "/");
     }
 
-    // Step 3: Instagram Story — slide 1 posted as image story
-    if (result.instagram_id && hostedImageUrls.length > 0) {
-      try {
-        console.log("\n  Instagram (story — slide 1)...");
-        result.instagram_story_id = await postInstagramStory(hostedImageUrls[0]);
-        console.log(`  Instagram story: done (id: ${result.instagram_story_id})`);
-      } catch (err) {
-        console.error("  Instagram story failed:", err.message);
-      }
-    }
+    // Step 3: Instagram Story — done manually in the app (Graph API can't reshare carousel to story)
   } else if (!entry.images?.length) {
     console.log("\n  Instagram: no images rendered — run `node scripts/render.mjs` first.");
   }
