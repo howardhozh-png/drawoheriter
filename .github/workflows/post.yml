@@ -2,13 +2,13 @@ name: Daily Post
 
 on:
   schedule:
-    - cron: "0 1 * * *"    # 9am MYT (1am UTC)
+    - cron: "0 13 * * *"   # 9pm MYT (13:00 UTC)
   workflow_dispatch:         # also allow manual trigger from GitHub UI
 
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 60      # post.mjs waits 25 min for Threads carousel reply
+    timeout-minutes: 15      # post.mjs: ~2 min delay + upload time
 
     steps:
       - name: Checkout

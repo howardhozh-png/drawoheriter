@@ -294,11 +294,10 @@ async function main() {
     console.log("\n  Instagram: no images rendered — run `node scripts/render.mjs` first.");
   }
 
-  // Step 4: Threads carousel reply — wait 25 min so the text post circulates first,
-  // then the reply resurfaces the thread in followers' feeds
+  // Step 4: Threads carousel reply — short wait so the text post is indexed first
   if (result.threads_id && entry.images?.length > 0) {
-    console.log("\n  Waiting 25 min before posting Threads carousel reply...");
-    await new Promise(r => setTimeout(r, 25 * 60 * 1000));
+    console.log("\n  Waiting 2 min before posting Threads carousel reply...");
+    await new Promise(r => setTimeout(r, 2 * 60 * 1000));
     try {
       console.log("  Threads (carousel reply)...");
       const urls = hostedImageUrls.length > 0
