@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>drawoheriter — Carousel Preview</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  background: #111;
+  color: #fff;
+  min-height: 100vh;
+  padding: 32px 24px 60px;
+}
+
+h1 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+.post {
+  margin-bottom: 64px;
+}
+
+.post-meta {
+  margin-bottom: 16px;
+}
+
+.post-theme {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3333FF;
+  margin-bottom: 4px;
+}
+
+.post-date {
+  font-size: 13px;
+  color: #555;
+}
+
+.post-angle {
+  font-size: 14px;
+  color: #888;
+  margin-top: 2px;
+}
+
+/* Scrollable slide strip */
+.slides {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slides::-webkit-scrollbar {
+  height: 4px;
+}
+.slides::-webkit-scrollbar-track { background: #222; }
+.slides::-webkit-scrollbar-thumb { background: #444; border-radius: 2px; }
+
+.slide-wrap {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  cursor: pointer;
+}
+
+.slide-wrap img {
+  display: block;
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #222;
+  transition: transform 0.15s ease;
+}
+
+.slide-wrap img:hover {
+  transform: scale(1.02);
+}
+
+.slide-num {
+  font-size: 11px;
+  color: #444;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* Caption block */
+.caption-block {
+  margin-top: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 16px 20px;
+  border-left: 3px solid #3333FF;
+  max-width: 600px;
+}
+
+.caption-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.caption-text {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+/* Threads block */
+.threads-block {
+  margin-top: 12px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 16px 20px;
+  border-left: 3px solid #444;
+  max-width: 600px;
+}
+
+.threads-text {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.92);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.lightbox.open { display: flex; }
+
+.lightbox img {
+  max-width: min(90vw, 700px);
+  max-height: 80vh;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.lightbox-nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.lightbox-nav button {
+  background: #222;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.lightbox-nav button:hover { background: #333; }
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 28px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.lightbox-close:hover { color: #fff; }
+
+.lightbox-counter {
+  font-size: 13px;
+  color: #555;
+}
+
+.no-images {
+  font-size: 13px;
+  color: #444;
+  font-style: italic;
+  padding: 16px 0;
+}
+
+.status-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.status-pending  { background: #2a2000; color: #ff9500; }
+.status-approved { background: #002200; color: #34c759; }
+.status-posted   { background: #001a33; color: #3399ff; }
+.status-skipped  { background: #1a1a1a; color: #555; }
+</style>
+</head>
+<body>
+
+<h1>drawoheriter — queue preview</h1>
+
+<div id="posts"></div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightbox-img" src="" alt="">
+  <div class="lightbox-nav">
+    <button onclick="lbNav(-1)">←</button>
+    <span class="lightbox-counter" id="lb-counter"></span>
+    <button onclick="lbNav(1)">→</button>
+  </div>
+</div>
+
+<script>
+let lbImages = [];
+let lbIdx = 0;
+
+function openLightbox(images, idx) {
+  lbImages = images;
+  lbIdx = idx;
+  renderLb();
+  document.getElementById('lightbox').classList.add('open');
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+
+function lbNav(dir) {
+  lbIdx = (lbIdx + dir + lbImages.length) % lbImages.length;
+  renderLb();
+}
+
+function renderLb() {
+  document.getElementById('lightbox-img').src = lbImages[lbIdx];
+  document.getElementById('lb-counter').textContent = `${lbIdx + 1} / ${lbImages.length}`;
+}
+
+document.getElementById('lightbox').addEventListener('click', function(e) {
+  if (e.target === this) closeLightbox();
+});
+
+document.addEventListener('keydown', e => {
+  if (!document.getElementById('lightbox').classList.contains('open')) return;
+  if (e.key === 'ArrowLeft') lbNav(-1);
+  if (e.key === 'ArrowRight') lbNav(1);
+  if (e.key === 'Escape') closeLightbox();
+});
+
+// Load queue.json — requires running from the drawoheriter directory
+// Since this is a local file, we embed the data via a script tag generated by preview-server.mjs
+// Fallback: try to fetch queue.json relative to this file
+async function loadQueue() {
+  try {
+    const r = await fetch('./content/queue.json');
+    return await r.json();
+  } catch {
+    return [];
+  }
+}
+
+function statusBadge(status) {
+  return `<span class="status-badge status-${status}">${status}</span>`;
+}
+
+// Convert absolute paths to relative so the browser can load them over HTTP
+function toRel(absPath) {
+  return absPath.replace(/^\/Users\/wonders\/drawoheriter\//, '');
+}
+
+async function render() {
+  const queue = await loadQueue();
+  const container = document.getElementById('posts');
+
+  if (!queue.length) {
+    container.innerHTML = '<p style="color:#555">No posts in queue yet. Run node scripts/generate.mjs</p>';
+    return;
+  }
+
+  // Show newest first
+  const sorted = [...queue].reverse();
+
+  for (const post of sorted) {
+    const rawImages = post.images || [];
+    const images = rawImages.map(toRel);
+    const theme = post.theme || post.topic || '';
+    const date = post.date || '';
+    const angle = post.angle || '';
+    const caption = post.caption || post.carousel?.caption || '';
+    const threads = post.threads_text || post.threads || '';
+    const status = post.status || 'pending';
+
+    const slideHTML = images.length
+      ? images.map((src, i) => `
+          <div class="slide-wrap" onclick="openLightbox(${JSON.stringify(images)}, ${i})">
+            <img src="${src}" alt="Slide ${i+1}" loading="lazy">
+            <div class="slide-num">${i+1} / ${images.length}</div>
+          </div>`).join('')
+      : `<div class="no-images">No images rendered yet — run: node scripts/render.mjs ${post.id}</div>`;
+
+    const captionHTML = caption
+      ? `<div class="caption-block">
+           <div class="caption-label">Caption</div>
+           <div class="caption-text">${caption}</div>
+         </div>` : '';
+
+    const threadsHTML = threads
+      ? `<div class="threads-block">
+           <div class="caption-label" style="color:#666">Threads</div>
+           <div class="threads-text">${threads}</div>
+         </div>` : '';
+
+    const div = document.createElement('div');
+    div.className = 'post';
+    div.innerHTML = `
+      <div class="post-meta">
+        <div class="post-theme">${theme} ${statusBadge(status)}</div>
+        <div class="post-date">${date}</div>
+        <div class="post-angle">${angle}</div>
+      </div>
+      <div class="slides">${slideHTML}</div>
+      ${captionHTML}
+      ${threadsHTML}
+    `;
+    container.appendChild(div);
+  }
+}
+
+render();
+</script>
+</body>
+</html>

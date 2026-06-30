@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Posting Flow Preview</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #0a0a0a;
+  color: #fff;
+  padding: 40px 24px 80px;
+}
+
+h1 {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #444;
+  margin-bottom: 48px;
+}
+
+/* Section headers */
+.section {
+  margin-bottom: 64px;
+}
+
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.section-label .platform {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.section-label .step-num {
+  font-size: 11px;
+  font-weight: 700;
+  background: #222;
+  border-radius: 4px;
+  padding: 2px 7px;
+  color: #888;
+  letter-spacing: 0;
+}
+
+.section-label .badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 20px;
+  letter-spacing: 0.04em;
+}
+.badge-threads { background: #1a1a1a; border: 1px solid #333; color: #aaa; }
+.badge-ig { background: #2a1a2e; border: 1px solid #8b2fc9; color: #c77dff; }
+.badge-story { background: #1a2a1a; border: 1px solid #2ea84f; color: #5ddb7e; }
+
+.section-desc {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 20px;
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+/* ── Phone shell ── */
+.phone {
+  width: 375px;
+  background: #000;
+  border-radius: 44px;
+  border: 1.5px solid #2a2a2a;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+
+.phone-notch {
+  height: 44px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-notch-pill {
+  width: 120px;
+  height: 34px;
+  background: #111;
+  border-radius: 20px;
+}
+
+.phone-screen {
+  background: #000;
+  min-height: 300px;
+}
+
+/* ── Threads UI ── */
+.threads-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.threads-logo {
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.threads-post {
+  padding: 16px;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.threads-reply {
+  padding: 16px;
+  padding-left: 52px;
+  background: #080808;
+  position: relative;
+}
+
+.threads-reply::before {
+  content: '';
+  position: absolute;
+  left: 28px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #222;
+}
+
+.thread-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.thread-avatar-sm {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.thread-row {
+  display: flex;
+  gap: 10px;
+}
+
+.thread-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.thread-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.thread-text {
+  font-size: 13px;
+  color: #ccc;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.thread-time {
+  font-size: 11px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.thread-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.thread-action {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: #555;
+}
+
+.thread-action svg {
+  width: 16px;
+  height: 16px;
+  stroke: #555;
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Carousel strip inside Threads reply */
+.threads-carousel-strip {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.threads-carousel-strip::-webkit-scrollbar { display: none; }
+
+.threads-slide {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.threads-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.threads-slide-count {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: rgba(0,0,0,0.65);
+  border-radius: 8px;
+  padding: 2px 6px;
+  font-size: 9px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.reply-label {
+  font-size: 11px;
+  color: #555;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+/* ── Instagram Feed UI ── */
+.ig-header {
+  padding: 10px 16px;
+  border-bottom: 1px solid #111;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ig-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f9a825, #e91e8c, #9c27b0);
+  padding: 2px;
+}
+
+.ig-avatar-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+.ig-username {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  flex: 1;
+}
+
+.ig-more {
+  font-size: 20px;
+  color: #555;
+  line-height: 1;
+}
+
+.ig-carousel-container {
+  position: relative;
+  background: #111;
+  aspect-ratio: 1;
+}
+
+.ig-carousel-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ig-dots {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 0;
+}
+
+.ig-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #444;
+}
+
+.ig-dot.active {
+  background: #3b82f6;
+  width: 14px;
+  border-radius: 3px;
+}
+
+.ig-slide-counter {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.ig-actions {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ig-action svg {
+  width: 22px;
+  height: 22px;
+  stroke: #fff;
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ig-action-bookmark {
+  margin-left: auto;
+}
+
+.ig-likes {
+  padding: 0 16px 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.ig-caption {
+  padding: 0 16px 12px;
+  font-size: 12px;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.ig-caption strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.ig-time {
+  padding: 0 16px 12px;
+  font-size: 10px;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ── Instagram Story UI ── */
+.ig-story-shell {
+  position: relative;
+  background: #b8c4ce;
+  aspect-ratio: 9/16;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.story-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 10px 0;
+  display: flex;
+  gap: 3px;
+  z-index: 11;
+}
+
+.story-progress-bar {
+  height: 2px;
+  background: rgba(255,255,255,0.45);
+  border-radius: 1px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.story-progress-fill {
+  height: 100%;
+  background: #fff;
+  border-radius: 1px;
+  width: 60%;
+}
+
+.story-header {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  right: 0;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 10;
+}
+
+.story-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f9a825, #e91e8c);
+  padding: 1.5px;
+  flex-shrink: 0;
+}
+
+.story-avatar-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  border: 1.5px solid #b8c4ce;
+}
+
+.story-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.story-time-label {
+  font-size: 10px;
+  color: rgba(255,255,255,0.7);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  flex: 1;
+}
+
+.story-close {
+  font-size: 18px;
+  color: rgba(255,255,255,0.85);
+  line-height: 1;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+/* The reshared post — large image centered, username below */
+.story-post-wrap {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-54%);
+  z-index: 5;
+}
+
+.story-post-image {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Carousel icon overlay — top right of image */
+.story-carousel-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 22px;
+  height: 22px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-handle {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.85);
+  margin-top: 8px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+
+/* "swipe up" / tap label */
+.story-swipe {
+  position: absolute;
+  bottom: 20px;
+  right: 14px;
+  font-size: 10px;
+  color: rgba(255,255,255,0.6);
+  z-index: 10;
+  letter-spacing: 0.04em;
+}
+
+/* ── Layout ── */
+.phones-row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.phone-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.phone-col-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #444;
+  text-align: center;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: #1a1a1a;
+  margin: 48px 0;
+}
+
+/* Flow diagram */
+.flow {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.flow-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.flow-step-num {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #222;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: #888;
+}
+
+.flow-step-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: #555;
+  text-align: center;
+  max-width: 80px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.flow-arrow {
+  font-size: 16px;
+  color: #333;
+  padding: 0 4px;
+  margin-top: -12px;
+}
+
+.note {
+  font-size: 11px;
+  color: #444;
+  border-left: 2px solid #222;
+  padding-left: 10px;
+  margin: 12px 0 20px;
+  line-height: 1.6;
+}
+</style>
+</head>
+<body>
+
+<h1>drawoheriter — Daily Posting Flow</h1>
+
+<!-- Flow overview -->
+<div class="flow">
+  <div class="flow-step">
+    <div class="flow-step-num">1</div>
+    <div class="flow-step-label">Threads text</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="flow-step-num">2</div>
+    <div class="flow-step-label">IG carousel</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="flow-step-num">3</div>
+    <div class="flow-step-label">IG story reshare</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="flow-step-num">4</div>
+    <div class="flow-step-label">Threads carousel reply</div>
+  </div>
+</div>
+
+<!-- ─── STEP 1 + 4: Threads ─────────────────────────────── -->
+<div class="section">
+  <div class="section-label">
+    <span class="step-num">Steps 1 + 4</span>
+    <span class="platform">Threads</span>
+    <span class="badge badge-threads">text post → carousel reply</span>
+  </div>
+  <p class="section-desc">
+    Step 1: text post goes live in the "For You" feed — hook captures scroll-stoppers.<br>
+    Step 4: carousel slides posted as a reply immediately after. Engaged readers tap in and see the full visual.
+  </p>
+  <p class="note">The thread looks like one connected conversation. Your username appears on both posts, so it's clearly you replying to yourself with the slides.</p>
+
+  <div class="phone">
+    <div class="phone-notch"><div class="phone-notch-pill"></div></div>
+    <div class="phone-screen">
+
+      <!-- Threads app header -->
+      <div class="threads-header">
+        <div class="threads-logo">Threads</div>
+      </div>
+
+      <!-- Post 1: text -->
+      <div class="threads-post">
+        <div class="thread-row">
+          <div>
+            <div class="thread-avatar">H</div>
+            <!-- thread line down to reply -->
+            <div style="width:2px;background:#222;margin:6px auto 0;height:calc(100% - 42px);min-height:40px;display:block;margin-left:17px;"></div>
+          </div>
+          <div class="thread-body">
+            <div class="thread-name">drawoheriter</div>
+            <div class="thread-text">
+              I built a SaaS and have zero paying customers.<br><br>
+              Here is what week 1 actually looked like: the launch nobody saw, the Stripe dashboard I kept refreshing, and what building while employed actually costs you.<br><br>
+              What are you building right now?
+            </div>
+            <div class="thread-time">Just now</div>
+            <div class="thread-actions">
+              <div class="thread-action">
+                <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <span>12</span>
+              </div>
+              <div class="thread-action">
+                <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                <span>Reply</span>
+              </div>
+              <div class="thread-action">
+                <svg viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+                <span>Repost</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reply: carousel -->
+      <div class="threads-reply">
+        <div class="thread-avatar-sm">H</div>
+        <div class="thread-name" style="font-size:12px;margin-bottom:5px;">drawoheriter</div>
+        <div class="reply-label">Slides ↓</div>
+        <div class="threads-carousel-strip">
+          <div class="threads-slide">
+            <img src="content/images/day1-mockup/slide-01.png" alt="Slide 1">
+            <div class="threads-slide-count">1 / 6</div>
+          </div>
+          <div class="threads-slide">
+            <img src="content/images/day1-mockup/slide-02.png" alt="Slide 2">
+          </div>
+          <div class="threads-slide">
+            <img src="content/images/day1-mockup/slide-03.png" alt="Slide 3">
+          </div>
+          <div class="threads-slide">
+            <img src="content/images/day1-mockup/slide-04.png" alt="Slide 4">
+          </div>
+          <div class="threads-slide">
+            <img src="content/images/day1-mockup/slide-05.png" alt="Slide 5">
+          </div>
+          <div class="threads-slide">
+            <img src="content/images/day1-mockup/slide-06.png" alt="Slide 6">
+          </div>
+        </div>
+        <div class="thread-time">Just now</div>
+        <div class="thread-actions">
+          <div class="thread-action">
+            <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <span>3</span>
+          </div>
+          <div class="thread-action">
+            <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <span>Reply</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ─── STEP 2 + 3: Instagram ─────────────────────────────── -->
+<div class="section">
+  <div class="section-label">
+    <span class="step-num">Steps 2 + 3</span>
+    <span class="platform">Instagram</span>
+    <span class="badge badge-ig">carousel feed + story reshare</span>
+  </div>
+  <p class="section-desc">
+    Step 2: carousel posted to your feed. Step 3: that same post is automatically reshared to your story — viewers see a preview sticker and tap to go directly to the feed post.
+  </p>
+
+  <div class="phones-row">
+
+    <!-- Instagram Feed -->
+    <div class="phone-col">
+      <div class="phone-col-label">Feed (Step 2)</div>
+      <div class="phone" style="width:320px;">
+        <div class="phone-notch"><div class="phone-notch-pill"></div></div>
+        <div class="phone-screen">
+
+          <div class="ig-header">
+            <div class="ig-avatar">
+              <div class="ig-avatar-inner">H</div>
+            </div>
+            <div class="ig-username">drawoheriter</div>
+            <div class="ig-more">···</div>
+          </div>
+
+          <div class="ig-carousel-container">
+            <img src="content/images/day1-mockup/slide-01.png" alt="Slide 1">
+            <div class="ig-slide-counter">1 / 6</div>
+          </div>
+
+          <div class="ig-dots">
+            <div class="ig-dot active"></div>
+            <div class="ig-dot"></div>
+            <div class="ig-dot"></div>
+            <div class="ig-dot"></div>
+            <div class="ig-dot"></div>
+            <div class="ig-dot"></div>
+          </div>
+
+          <div class="ig-actions">
+            <div class="ig-action">
+              <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <div class="ig-action">
+              <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div class="ig-action">
+              <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </div>
+            <div class="ig-action ig-action-bookmark">
+              <svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+            </div>
+          </div>
+
+          <div class="ig-likes">248 likes</div>
+          <div class="ig-caption">
+            <strong>drawoheriter</strong> I built a SaaS and have zero paying customers. Here is what week 1 actually looked like. What are you building right now? Drop it in the comments.
+          </div>
+          <div class="ig-time">1 minute ago</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Instagram Story -->
+    <div class="phone-col">
+      <div class="phone-col-label">Story reshare (Step 3)</div>
+      <div class="phone" style="width:220px;">
+        <div class="phone-notch"><div class="phone-notch-pill"></div></div>
+        <div class="phone-screen">
+          <div class="ig-story-shell">
+
+            <!-- Progress bars -->
+            <div class="story-progress">
+              <div class="story-progress-bar"><div class="story-progress-fill"></div></div>
+              <div class="story-progress-bar"></div>
+            </div>
+
+            <!-- Story header -->
+            <div class="story-header">
+              <div class="story-avatar">
+                <div class="story-avatar-inner">H</div>
+              </div>
+              <div class="story-name">drawoheriter</div>
+              <div class="story-time-label">now</div>
+              <div class="story-close">×</div>
+            </div>
+
+            <!-- Reshared post — large image + handle below -->
+            <div class="story-post-wrap">
+              <div style="position:relative;">
+                <img src="content/images/day1-mockup/slide-01.png" alt="Post" class="story-post-image">
+                <!-- carousel icon top-right -->
+                <div class="story-carousel-icon">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="13" height="13" rx="2"/><path d="M7 7V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-2"/></svg>
+                </div>
+              </div>
+              <div class="story-handle">@drawoheriter</div>
+            </div>
+
+            <div class="story-swipe">swipe →</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

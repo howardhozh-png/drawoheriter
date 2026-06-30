@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1782739907006",
+    "date": "2026-06-29",
+    "topic": "founder-journey",
+    "angle": "What it's like building a product while working full-time",
+    "status": "posted",
+    "threads": "Building kakisewa while working full-time is basically: 8am–6pm doing my actual job, then 9pm–midnight arguing with myself about database schemas. Currently cold emailing 8,471 Malaysian rental agents at 100/day. Did I have time to build this? No. Did I do it anyway? Unfortunately yes.",
+    "carousel": {
+      "slides": [
+        "What building a product while working full-time actually looks like",
+        "Your 'deep work' hours are 10pm on a Tuesday",
+        "You ship features in 90-minute windows between meetings",
+        "Every weekend is a negotiation between rest and roadmap",
+        "Currently cold emailing 8,471 rental agents. 100 a day. One by one.",
+        "It's not romantic. It's just stubbornness with a Notion doc.",
+        "But it's the only way I know how to find out if this is real"
+      ],
+      "caption": "kakisewa is getting built in the gaps. Sharing the whole thing as it happens."
+    },
+    "engagement": null,
+    "posted_at": "2026-06-29T13:32:30.902Z",
+    "threads_id": "17862260145639660"
+  }
+]

@@ -1,0 +1,50 @@
+name: Daily Post
+
+on:
+  schedule:
+    - cron: "0 1 * * *"    # 9am MYT (1am UTC)
+  workflow_dispatch:         # also allow manual trigger from GitHub UI
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60      # post.mjs waits 25 min for Threads carousel reply
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: Render slides for next approved post
+        run: node scripts/render.mjs --next
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Post to Threads and Instagram
+        run: node scripts/post.mjs
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_USER_ID: ${{ secrets.META_USER_ID }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+
+      - name: Commit updated queue and posted log
+        run: |
+          git config user.name "drawoheriter-bot"
+          git config user.email "bot@drawoheriter"
+          git add content/queue.json content/posted.json
+          git diff --cached --quiet || git commit -m "Auto: post $(date +%Y-%m-%d)"
+          git push

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>drawoheriter — Carousel Preview</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #E8E8E8;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 24px;
+  }
+
+  h1 {
+    font-size: 13px;
+    color: #999;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .carousel {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 8px 0 24px;
+    scroll-snap-type: x mandatory;
+    max-width: 100%;
+  }
+
+  /* Strict layout: top + content + bottom, no overflow */
+  .slide {
+    flex-shrink: 0;
+    width: 400px;
+    height: 400px;
+    background: #FFFFFF;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 32px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    overflow: hidden;
+  }
+
+  /* ── Top bar: fixed, never moves ── */
+  .top-bar {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .overline {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #999999;
+  }
+
+  .page-num {
+    font-size: 11px;
+    font-weight: 500;
+    color: #BBBBBB;
+    letter-spacing: 0.05em;
+  }
+
+  /* ── Content: fills middle, clips overflow ── */
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+    min-height: 0;
+  }
+
+  .main-text {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0A0A0A;
+    letter-spacing: -0.02em;
+    flex-shrink: 0;
+  }
+
+  .highlight {
+    color: #3333FF;
+  }
+
+  .sub-text {
+    font-size: 13px;
+    font-weight: 500;
+    color: #555555;
+    line-height: 1.5;
+    flex-shrink: 0;
+  }
+
+  .stat-number {
+    font-size: 60px;
+    font-weight: 900;
+    color: #3333FF;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .stat-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #0A0A0A;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+
+  /* ── Chat bubble: always sits just above bottom bar ── */
+  .bubble-wrap {
+    flex-shrink: 0;
+    margin-top: auto;
+    padding-top: 12px;
+  }
+
+  .divider {
+    width: 24px;
+    height: 1px;
+    background: #E0E0E0;
+    margin-bottom: 8px;
+  }
+
+  .bubble {
+    display: inline-block;
+    background: #F0F0F0;
+    border-radius: 16px 16px 16px 3px;
+    padding: 9px 14px;
+    font-size: 10.5px;
+    color: #444444;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 100%;
+  }
+
+  /* ── Bottom bar: fixed, always at bottom ── */
+  .bottom-bar {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-top: 16px;
+  }
+
+  .handle {
+    font-size: 10px;
+    font-weight: 600;
+    color: #AAAAAA;
+    letter-spacing: 0.02em;
+  }
+
+  .swipe {
+    font-size: 10px;
+    font-weight: 600;
+    color: #AAAAAA;
+    letter-spacing: 0.04em;
+  }
+
+  .cta-text {
+    font-size: 22px;
+    font-weight: 800;
+    color: #0A0A0A;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    flex-shrink: 0;
+  }
+
+  .follow-cta {
+    font-size: 12px;
+    font-weight: 700;
+    color: #3333FF;
+    flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>drawoheriter — carousel preview · scroll →</h1>
+
+<div class="carousel">
+
+  <!-- SLIDE 1: Hook -->
+  <div class="slide">
+    <div class="top-bar">
+      <span class="overline">Building in public</span>
+      <span class="page-num">01 / 06</span>
+    </div>
+    <div class="content">
+      <div class="main-text">
+        I built a SaaS and have <span class="highlight">zero paying customers.</span>
+      </div>
+      <div class="sub-text">Here is what week 1 actually looked like.</div>
+    </div>
+    <div class="bottom-bar">
+      <span class="handle">@drawoheriter</span>
+      <span class="swipe">swipe →</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 2: Number/stat -->
+  <div class="slide">
+    <div class="top-bar">
+      <span class="overline">Building in public</span>
+      <span class="page-num">02 / 06</span>
+    </div>
+    <div class="content">
+      <div class="sub-text">I picked the most unsexy market possible.</div>
+      <div class="stat-number">8,471</div>
+      <div class="stat-label">Malaysian rental agents tracking contracts in WhatsApp and Excel.</div>
+      <div class="bubble-wrap">
+        <div class="divider"></div>
+        <div class="bubble">Every one of them is a potential customer. I just have to convince them first.</div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <span class="handle">@drawoheriter</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: Content -->
+  <div class="slide">
+    <div class="top-bar">
+      <span class="overline">Building in public</span>
+      <span class="page-num">03 / 06</span>
+    </div>
+    <div class="content">
+      <div class="main-text">I validated <span class="highlight">nothing.</span></div>
+      <div class="sub-text">No customer interviews. No landing page. No waitlist.</div>
+      <div class="sub-text">I built it because the problem was obvious and nobody had touched it.</div>
+      <div class="bubble-wrap">
+        <div class="divider"></div>
+        <div class="bubble">Ex-consultant who skipped the research phase. My professors would be horrified.</div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <span class="handle">@drawoheriter</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 4: Content -->
+  <div class="slide">
+    <div class="top-bar">
+      <span class="overline">Building in public</span>
+      <span class="page-num">04 / 06</span>
+    </div>
+    <div class="content">
+      <div class="main-text">The first version was <span class="highlight">embarrassing.</span></div>
+      <div class="sub-text">No onboarding. Broken mobile layout. Three features that half-worked.</div>
+      <div class="sub-text">I showed 4 agents anyway.</div>
+      <div class="bubble-wrap">
+        <div class="divider"></div>
+        <div class="bubble">Two of them said "I'd pay for this." Neither has paid yet. That's okay.</div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <span class="handle">@drawoheriter</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: Content -->
+  <div class="slide">
+    <div class="top-bar">
+      <span class="overline">Building in public</span>
+      <span class="page-num">05 / 06</span>
+    </div>
+    <div class="content">
+      <div class="main-text">100 cold emails.<br>Every single day.<br><span class="highlight">Automated.</span></div>
+      <div class="sub-text">While working a full-time job at a US startup from Malaysia.</div>
+      <div class="bubble-wrap">
+        <div class="divider"></div>
+        <div class="bubble">My boss doesn't know I'm doing this. Hi, if you're reading this.</div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <span class="handle">@drawoheriter</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 6: Conclusion -->
+  <div class="slide">
+    <div class="top-bar">
+      <span class="overline">Building in public</span>
+      <span class="page-num">06 / 06</span>
+    </div>
+    <div class="content">
+      <div class="main-text">Zero customers doesn't mean <span class="highlight">zero progress.</span></div>
+      <div class="sub-text" style="margin-top: 8px;">It means you're still early enough to get it right.</div>
+      <div class="sub-text">I'm sharing everything as it happens.</div>
+      <div class="follow-cta" style="margin-top: 4px;">Follow to know what happens next.</div>
+      <div class="bubble-wrap">
+        <div class="divider"></div>
+        <div class="bubble">Month 2 starts tomorrow. Let's see if the emails start converting.</div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <span class="handle">@drawoheriter</span>
+    </div>
+  </div>
+
+</div>
+
+<p style="font-size:11px; color:#999; margin-top:-8px;">← scroll to see all 6 slides</p>
+
+</body>
+</html>

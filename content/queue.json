@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1782739907006",
+    "date": "2026-06-29",
+    "topic": "founder-journey",
+    "angle": "What it's like building a product while working full-time",
+    "status": "posted",
+    "threads": "Building kakisewa while working full-time is basically: 8am-6pm doing my actual job, then 9pm-midnight arguing with myself about database schemas. Currently cold emailing 8,471 Malaysian rental agents at 100/day. Did I have time to build this? No. Did I do it anyway? Unfortunately yes.",
+    "carousel": {
+      "slides": [
+        "What building a product while working full-time actually looks like",
+        "Your 'deep work' hours are 10pm on a Tuesday",
+        "You ship features in 90-minute windows between meetings",
+        "Every weekend is a negotiation between rest and roadmap",
+        "Currently cold emailing 8,471 rental agents. 100 a day. One by one.",
+        "It's not romantic. It's just stubbornness with a Notion doc.",
+        "But it's the only way I know how to find out if this is real"
+      ],
+      "caption": "kakisewa is getting built in the gaps. Sharing the whole thing as it happens."
+    },
+    "engagement": null,
+    "posted_at": "2026-06-29T13:32:30.902Z",
+    "threads_id": "17862260145639660"
+  },
+  {
+    "id": "day1-mockup",
+    "date": "2026-06-30",
+    "topic": "founder-journey",
+    "angle": "Day 1 — Building in public: zero paying customers",
+    "status": "approved",
+    "theme": "Building in public",
+    "caption": "I built a SaaS and have zero paying customers.\n\nHere is what week 1 actually looked like.\n\nWhat are you building right now? Drop it in the comments.",
+    "threads_text": "I built a SaaS and have zero paying customers.\n\nHere is what week 1 actually looked like: the launch nobody saw, the Stripe dashboard I kept refreshing, and what building while employed actually costs you.\n\nWhat are you building right now?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I built a SaaS and have **zero paying customers.**",
+        "sub_text": "Here is what week 1 actually looked like.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "After 7 days live. Fully launched. Real people able to sign up.",
+        "stat_number": "0",
+        "stat_label": "paying customers",
+        "bubble": "I kept refreshing Stripe expecting something to happen. Nothing happened."
+      },
+      {
+        "type": "content",
+        "main_text": "I built it in **evenings and weekends.**",
+        "sub_text": "While working full-time at a US startup in Malaysia.",
+        "sub_text_2": "No co-founder. No investors. No announcement.",
+        "bubble": "My colleagues think I go to bed early."
+      },
+      {
+        "type": "content",
+        "main_text": "I launched **quietly.**",
+        "sub_text": "No Product Hunt. No X post. No fanfare.",
+        "sub_text_2": "Just pushed it live and waited to see if anyone noticed.",
+        "bubble": "The scariest part was not launching. It was nobody noticing."
+      },
+      {
+        "type": "content",
+        "main_text": "The gap between **it is ready** and anyone caring.",
+        "sub_text": "Nobody is waiting for your product. You have to go find them.",
+        "sub_text_2": null,
+        "bubble": "Week 1 taught me: building is the easy part. Distribution is the job."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Zero customers does not mean **zero progress.**",
+        "sub_text": "It means you are still early enough to get it right.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "Month 2 starts tomorrow. Let's see if the emails start converting."
+      }
+    ],
+    "images": [
+      "content/images/day1-mockup/slide-01.png",
+      "content/images/day1-mockup/slide-02.png",
+      "content/images/day1-mockup/slide-03.png",
+      "content/images/day1-mockup/slide-04.png",
+      "content/images/day1-mockup/slide-05.png",
+      "content/images/day1-mockup/slide-06.png"
+    ],
+    "engagement": null
+  }
+]

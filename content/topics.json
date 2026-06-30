@@ -1,0 +1,72 @@
+{
+  "persona": {
+    "name": "Howard",
+    "bio": "Ex-MBB consultant. Working at Tarro, a US startup based in Malaysia. Building kakisewa.com on the side — a property management SaaS for Malaysian rental agents. Into fitness, investing, and figuring out life.",
+    "voice": "Honest, direct, slightly self-deprecating. No corporate speak. Writes like a smart friend texting you, not a LinkedIn influencer. Short sentences. Real opinions.",
+    "never": ["motivational fluff", "humble brags dressed as lessons", "em dashes", "buzzwords like synergy/leverage/pivot"]
+  },
+  "topics": [
+    {
+      "id": "founder-journey",
+      "label": "Building kakisewa",
+      "weight": 30,
+      "prompts": [
+        "Something real that happened this week building kakisewa",
+        "A mistake made and what it cost",
+        "What it's like building a product while working full-time",
+        "A metric or milestone — signups, emails sent, agents reached"
+      ]
+    },
+    {
+      "id": "consulting-to-startup",
+      "label": "MBB to startup life",
+      "weight": 20,
+      "prompts": [
+        "What consulting taught me that actually applies to startups",
+        "What consulting taught me that is completely useless in startups",
+        "Why I left a high-paying consulting job",
+        "What nobody tells you about joining a startup after consulting"
+      ]
+    },
+    {
+      "id": "malaysia-startup",
+      "label": "Malaysian startup scene",
+      "weight": 15,
+      "prompts": [
+        "What's different about building in Malaysia vs the US",
+        "A gap in the Malaysian market nobody is solving",
+        "What working at a US startup from Malaysia is actually like"
+      ]
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness and discipline",
+      "weight": 15,
+      "prompts": [
+        "How I balance working out while building a startup",
+        "Something fitness taught me about work",
+        "An honest take on gym culture or fitness advice online"
+      ]
+    },
+    {
+      "id": "investing",
+      "label": "Personal finance and investing",
+      "weight": 10,
+      "prompts": [
+        "How I think about money as someone building a startup",
+        "An investing mistake or lesson",
+        "What a consultant's salary does and doesn't prepare you for"
+      ]
+    },
+    {
+      "id": "life",
+      "label": "Life and relationships",
+      "weight": 10,
+      "prompts": [
+        "Balancing ambition with relationships",
+        "Something personal that shaped how I work",
+        "An honest take on hustle culture"
+      ]
+    }
+  ]
+}

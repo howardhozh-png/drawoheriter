@@ -1,0 +1,37 @@
+name: Generate Post
+
+on:
+  workflow_dispatch:    # manual only — run from GitHub UI when you want to top up the queue
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate next post
+        run: node scripts/generate.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit new queue entry
+        run: |
+          git config user.name "drawoheriter-bot"
+          git config user.email "bot@drawoheriter"
+          git add content/queue.json
+          git diff --cached --quiet || git commit -m "Auto: generate $(date +%Y-%m-%d)"
+          git push
