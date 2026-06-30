@@ -27,7 +27,7 @@
     "date": "2026-06-30",
     "topic": "founder-journey",
     "angle": "Day 1 — Building in public: zero paying customers",
-    "status": "approved",
+    "status": "posted",
     "theme": "Building in public",
     "caption": "I built a SaaS and have zero paying customers.\n\nHere is what week 1 actually looked like.\n\nWhat are you building right now? Drop it in the comments.",
     "threads_text": "I built a SaaS and have zero paying customers.\n\nHere is what week 1 actually looked like: the launch nobody saw, the Stripe dashboard I kept refreshing, and what building while employed actually costs you.\n\nWhat are you building right now?",
@@ -82,6 +82,73 @@
       "content/images/day1-mockup/slide-05.png",
       "content/images/day1-mockup/slide-06.png"
     ],
+    "engagement": null,
+    "posted_at": "2026-06-30T14:51:39.599Z",
+    "threads_id": "18009060179873823",
+    "threads_carousel_id": "18097027160251417",
+    "instagram_id": "18065818442706739",
+    "instagram_story_id": "18063146900739172"
+  },
+  {
+    "id": "1782824417955",
+    "date": "2026-06-30",
+    "topic": "malaysia-startup",
+    "angle": "What working at a US startup from Malaysia is actually like",
+    "status": "pending",
+    "theme": "Building in public",
+    "caption": "Everyone romanticises working at a US startup. Here's what it actually looks like from Malaysia.",
+    "threads_text": "Working at a US startup from Malaysia sounds cool until you're on a 10pm Zoom call while your friends are at mamak. The pay is decent. The timezone is not. You're always half a day behind everyone who matters. Still beats a lot of alternatives though, not gonna lie.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Working at a **US startup** from Malaysia sounds like the dream.",
+        "sub_text": "Here's what nobody tells you about it.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Average time difference between KL and US West Coast",
+        "stat_number": "15 hrs",
+        "stat_label": "behind San Francisco. Every single day.",
+        "bubble": "My most productive hours are when my boss is asleep. Make of that what you will."
+      },
+      {
+        "type": "content",
+        "main_text": "Your **mornings are free**. Your evenings are not.",
+        "sub_text": "All the real meetings happen after 9pm KL time.",
+        "sub_text_2": "You learn to eat dinner early and keep your laptop charged.",
+        "bubble": "I have perfected the art of looking alert on camera at 11pm."
+      },
+      {
+        "type": "content",
+        "main_text": "The **pay gap** is real and it works in your favour.",
+        "sub_text": "US salary, Malaysian cost of living. The math is genuinely good.",
+        "sub_text_2": "This is the one part that lives up to the hype.",
+        "bubble": "Not going to pretend this isn't the reason most of us do it."
+      },
+      {
+        "type": "content",
+        "main_text": "But you are always **half a day behind** everyone who matters.",
+        "sub_text": "Decisions get made while you sleep. You catch up in the morning.",
+        "sub_text_2": "You get used to it. Doesn't mean it stops being annoying.",
+        "bubble": "Nothing like waking up to 47 Slack messages and a decision that affects your whole week."
+      },
+      {
+        "type": "content",
+        "main_text": "So I started building **kakisewa.com** in the pockets of time I actually own.",
+        "sub_text": "8,471 cold emails out to rental agents. 100 a day, automated.",
+        "sub_text_2": "Zero paying customers so far. But the mornings are mine.",
+        "bubble": "Running a cold email campaign while my day job sleeps. Very normal behaviour."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The **timezone gap** is the tax. The free mornings are the opportunity.",
+        "sub_text": "Still figuring out if I'm playing it right.",
+        "follow_cta": "Follow to know what happens next.",
+        "bubble": "Ask me again once someone actually pays for kakisewa."
+      }
+    ],
+    "images": [],
     "engagement": null
   }
 ]

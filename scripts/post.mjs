@@ -3,12 +3,12 @@
  *
  * Flow:
  *  1. Threads — text post (hook + copy)
- *  2. Instagram — carousel (images uploaded to catbox.moe once, URLs reused below)
- *  3. Instagram — Story (slide 1 auto-shared after feed post)
- *  4. Threads — carousel reply to step 1 (same catbox URLs, no re-upload)
+ *  2. Instagram — carousel (images uploaded to litterbox once, URLs reused below)
+ *  3. Instagram — Story (slide 1 posted as image story)
+ *  4. Threads — carousel reply to step 1 (same litterbox URLs, no re-upload)
  *
  * Run:  node scripts/post.mjs
- * Cron: daily at 1pm MYT
+ * Cron: daily at 9am MYT
  */
 
 import fs from "fs";
@@ -73,17 +73,19 @@ function post(hostname, path, body) {
   });
 }
 
-// Upload image to catbox.moe (anonymous, no API key, returns permanent public URL)
+// Upload image to litterbox.catbox.moe (anonymous, 24h URL — long enough for Meta's servers to crawl it)
 // Instagram Media API requires a public URL reachable from Facebook's servers.
 async function uploadImage(filePath) {
   const fileData = fs.readFileSync(filePath);
   const filename = filePath.split("/").pop();
-  const boundary = "----CatboxBoundary" + Date.now();
+  const boundary = "----LitterboxBoundary" + Date.now();
 
   const CRLF = "\r\n";
   const preamble = Buffer.from(
     `--${boundary}${CRLF}` +
     `Content-Disposition: form-data; name="reqtype"${CRLF}${CRLF}fileupload${CRLF}` +
+    `--${boundary}${CRLF}` +
+    `Content-Disposition: form-data; name="time"${CRLF}${CRLF}24h${CRLF}` +
     `--${boundary}${CRLF}` +
     `Content-Disposition: form-data; name="fileToUpload"; filename="${filename}"${CRLF}` +
     `Content-Type: image/png${CRLF}${CRLF}`,
@@ -94,8 +96,8 @@ async function uploadImage(filePath) {
 
   return new Promise((resolve, reject) => {
     const req = https.request({
-      hostname: "catbox.moe",
-      path: "/user.php",
+      hostname: "litterbox.catbox.moe",
+      path: "/resources/internals/api.php",
       method: "POST",
       headers: {
         "Content-Type": `multipart/form-data; boundary=${boundary}`,
@@ -106,7 +108,7 @@ async function uploadImage(filePath) {
       res.on("end", () => {
         const url = d.trim();
         if (url.startsWith("https://")) resolve(url);
-        else reject(new Error("catbox upload failed: " + url.slice(0, 200)));
+        else reject(new Error("litterbox upload failed: " + url.slice(0, 200)));
       });
     });
     req.on("error", reject);
@@ -180,21 +182,28 @@ async function createInstagramCarousel(childIds, caption) {
   return r.id;
 }
 
-async function publishInstagramMedia(mediaId) {
-  const r = await post(
-    "graph.instagram.com",
-    `/v21.0/${INSTAGRAM_USER_ID}/media_publish?creation_id=${mediaId}&access_token=${INSTAGRAM_ACCESS_TOKEN}`,
-    null
-  );
-  return r.id;
+async function publishInstagramMedia(mediaId, retries = 5) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const r = await post(
+        "graph.instagram.com",
+        `/v21.0/${INSTAGRAM_USER_ID}/media_publish?creation_id=${mediaId}&access_token=${INSTAGRAM_ACCESS_TOKEN}`,
+        null
+      );
+      return r.id;
+    } catch (err) {
+      if (i < retries - 1 && err.message.includes("not available")) {
+        await new Promise(r => setTimeout(r, 5000));
+      } else throw err;
+    }
+  }
 }
 
-// Reshares an existing IG feed post to your story (appears as a post-preview sticker,
-// tapping links back to the original post — same as tapping "Add post to your story" in the app)
-async function postInstagramStory(feedPostId) {
+// Posts slide 1 as an image story (source_media_id reshare only works for Reels via Graph API)
+async function postInstagramStory(slide1Url) {
   const container = await post(
     "graph.instagram.com",
-    `/v21.0/${INSTAGRAM_USER_ID}/media?media_type=STORIES&source_media_id=${feedPostId}&access_token=${INSTAGRAM_ACCESS_TOKEN}`,
+    `/v21.0/${INSTAGRAM_USER_ID}/media?media_type=STORIES&image_url=${encodeURIComponent(slide1Url)}&access_token=${INSTAGRAM_ACCESS_TOKEN}`,
     null
   );
   return publishInstagramMedia(container.id);
@@ -271,11 +280,11 @@ async function main() {
       console.error("  You can post manually with the images at content/images/" + entry.id + "/");
     }
 
-    // Step 3: Instagram Story — reshare the feed post (tap-to-view links back to it)
-    if (result.instagram_id) {
+    // Step 3: Instagram Story — slide 1 posted as image story
+    if (result.instagram_id && hostedImageUrls.length > 0) {
       try {
-        console.log("\n  Instagram (story reshare)...");
-        result.instagram_story_id = await postInstagramStory(result.instagram_id);
+        console.log("\n  Instagram (story — slide 1)...");
+        result.instagram_story_id = await postInstagramStory(hostedImageUrls[0]);
         console.log(`  Instagram story: done (id: ${result.instagram_story_id})`);
       } catch (err) {
         console.error("  Instagram story failed:", err.message);
