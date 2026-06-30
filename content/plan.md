@@ -35,7 +35,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 2
-**Hook:** I picked the most **unsexy market** possible.
+**Hook:** My friends said my idea was **boring.** They were right. That is why I built it.
 **Sub-text:** Malaysian rental agents who still track contracts in WhatsApp.
 **Stat slide:** 8,471 / rental agents in Malaysia with no digital contract system
 **Content angles:**
@@ -50,7 +50,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 3
-**Hook:** Nobody told me building solo would feel this **lonely.**
+**Hook:** The hardest part of building solo is not the work. **Nobody warns you about this part.**
 **Sub-text:** It is not the work. It is the silence.
 **Stat slide:** 0 / people on the team who can tell you if you are making the right call
 **Content angles:**
@@ -65,7 +65,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 4
-**Hook:** I scraped **8,471 agents** and email 100 of them every day.
+**Hook:** I am cold emailing **8,471 strangers.** Automatically. Here is what I built.
 **Sub-text:** Automated. While working full-time.
 **Stat slide:** 100 / cold emails sent automatically at 1pm, every single day
 **Content angles:**
@@ -80,7 +80,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 5
-**Hook:** The first version was **embarrassing.** I showed it anyway.
+**Hook:** I showed my product to 4 people before it was ready. **Two said they would pay. Neither has.**
 **Sub-text:** Two people said they would pay. Neither has.
 **Stat slide:** 4 / agents I showed the product to before it was ready
 **Content angles:**
@@ -95,7 +95,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 6
-**Hook:** This is what building a product **while employed** looks like.
+**Hook:** I get **3 hours a day** to build my startup. Here is the honest schedule.
 **Sub-text:** 6am. Gym. Commute. Work. Build. Sleep. Repeat.
 **Stat slide:** 3 / hours per day I actually get to build
 **Content angles:**
@@ -110,7 +110,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 7
-**Hook:** Week 1 done. Here is the **real scoreboard.**
+**Hook:** Week 1 is done. Here are the **honest numbers.** Not what I planned.
 **Sub-text:** Not what I expected.
 **Stat slide:** [fill in: emails sent, open rate, replies]
 **Content angles:**
@@ -125,7 +125,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 8
-**Hook:** I gave my AI an **extra brain.** Here is what that means.
+**Hook:** Most people use AI like a search engine. **I gave mine actual tools.** Here is the difference.
 **Sub-text:** What MCPs are — explained simply, no tech background needed.
 **Stat slide:** 3 / tools that make Claude 10x more useful for building
 **Content angles:**
@@ -140,7 +140,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 9
-**Hook:** The 3 tools that make **building with AI** actually work.
+**Hook:** **3 tools** that make Claude dramatically more useful. Most builders have never heard of them.
 **Sub-text:** In plain English. No jargon.
 **Stat slide:** 3 / MCPs I run on every project — each does one specific job
 **Content angles:**
@@ -155,7 +155,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 10
-**Hook:** I created a file that makes my AI **10x smarter** about my project.
+**Hook:** I created one file that **stopped my AI from repeating the same mistakes.** Every builder needs this.
 **Sub-text:** What CLAUDE.md is and why every builder needs one.
 **Stat slide:** 1 / file that gives Claude your rules, preferences, and project context permanently
 **Content angles:**
@@ -171,7 +171,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 11
-**Hook:** I built a SaaS with **no full-time engineers** on the team.
+**Hook:** **Zero developers** on the team. I shipped a full product anyway. Here is exactly how.
 **Sub-text:** Here is exactly how.
 **Stat slide:** 0 / full-time developers — just me, Claude, and the right setup
 **Content angles:**
@@ -187,7 +187,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 12
-**Hook:** Here is exactly what it costs to run a tech startup in Malaysia **in 2025.**
+**Hook:** Running a tech startup in Malaysia costs less than **dinner for two.** The real numbers.
 **Sub-text:** Real numbers. Monthly. In ringgit.
 **Stat slide:** [fill in: e.g. RM 180 / total monthly cost to run kakisewa]
 **Content angles:**
@@ -205,7 +205,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 13
-**Hook:** Enterprise or Sdn Bhd — which do you **actually need** first?
+**Hook:** Everyone registers a Sdn Bhd first. **Most of them do not need to.** Here is the truth.
 **Sub-text:** The answer depends on one question.
 **Stat slide:** RM 60 / cost of a Sole Proprietorship (Enterprise) registration vs RM 1,000+ for Sdn Bhd
 **Content angles:**
@@ -221,7 +221,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 14
-**Hook:** How I protect **building time** when my day job wants everything.
+**Hook:** My day job wants everything. My startup wants the rest. Here is the **system that protects both.**
 **Sub-text:** The exact system. Not motivation. Not a morning routine.
 **Stat slide:** 3 / non-negotiable rules that protect my building hours every week
 **Content angles:**
@@ -237,7 +237,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 15
-**Hook:** I built **shortcuts** for my AI that save hours every week.
+**Hook:** I type one word and my AI runs **a full 10-step process.** Here is how I set that up.
 **Sub-text:** They are called Skills. Here is what they do.
 **Stat slide:** 3 / skills I use most — each runs a 10-step process with one command
 **Content angles:**
@@ -253,7 +253,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 16
-**Hook:** What nobody tells you about **cold emailing 8,000 people.**
+**Hook:** **8,000 cold emails later.** Here are the 4 types of replies and what each one means.
 **Sub-text:** It starts to feel personal. It should not. It does anyway.
 **Stat slide:** [fill in: open rate %, reply rate %]
 **Content angles:**
@@ -269,7 +269,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 17
-**Hook:** Running a SaaS costs less than your **gym membership.**
+**Hook:** The tools I refuse to pay for until kakisewa has **paying customers.** Full breakdown.
 **Sub-text:** Here is the full breakdown.
 **Stat slide:** [fill in: total monthly RM cost]
 **Content angles:**
@@ -284,7 +284,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 18
-**Hook:** I haven't quit my job. Here is the **math.**
+**Hook:** I have not quit my job. Here is the **exact number** that would change that.
 **Sub-text:** And the part that has nothing to do with math.
 **Stat slide:** [fill in: MRR target before quitting, e.g. RM 5,000 / MRR I need to see before I even consider quitting]
 **Content angles:**
@@ -299,7 +299,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 19
-**Hook:** The mistake every first-time builder makes in **month 1.**
+**Hook:** I made **5 first-month mistakes.** I knew about all of them before I started.
 **Sub-text:** I made all of them. Here is the list.
 **Stat slide:** 5 / mistakes I made in the first 30 days that cost me time
 **Content angles:**
@@ -315,7 +315,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 20
-**Hook:** If I restarted today, I would do **3 things differently.**
+**Hook:** If I restarted kakisewa today, I would do **3 things completely differently.** Specific. Not generic.
 **Sub-text:** Specific. Not generic advice.
 **Stat slide:** 3 / things I would change if I started kakisewa over
 **Content angles:**
@@ -329,7 +329,7 @@ Overline label: **Building in public**
 ---
 
 ### Day 21
-**Hook:** Week 3 done. Here is what **actually changed.**
+**Hook:** Three weeks in. The number I am most proud of **is not the obvious one.**
 **Sub-text:** The number I care about most is not the obvious one.
 **Stat slide:** [fill in: current key metrics — emails sent, replies, signups, MRR]
 **Content angles:**
@@ -349,7 +349,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 22
-**Hook:** I walked away from the best **job title** I will probably ever have.
+**Hook:** I left the best **job title** I will probably ever have. Here is what nobody tells you comes next.
 **Sub-text:** Here is what came after.
 **Stat slide:** [fill in: years at MBB, e.g. 2 / years in consulting before I left]
 **Content angles:**
@@ -364,7 +364,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 23
-**Hook:** MBB taught me **one thing** that actually applies to startups.
+**Hook:** MBB taught me **one skill** that transfers to startups. Everything else I had to unlearn.
 **Sub-text:** Everything else I had to unlearn.
 **Stat slide:** 1 / skill from consulting I use every single day building kakisewa
 **Content angles:**
@@ -379,7 +379,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 24
-**Hook:** Consulting trained me to be **excellent at things that do not matter.**
+**Hook:** Consulting trained me to be **excellent at things that do not matter.** Startups cured me of this. Slowly.
 **Sub-text:** Startups cured me of this. Slowly.
 **Stat slide:** 200 / hours I spent on slide decks that changed nothing at the client
 **Content angles:**
@@ -394,7 +394,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 25
-**Hook:** I took a significant **pay cut** to join a startup.
+**Hook:** I took a significant **pay cut** to join a startup. Here are the honest numbers.
 **Sub-text:** The honest numbers. And whether it was worth it.
 **Stat slide:** [fill in: from RM X to RM Y — your real numbers]
 **Content angles:**
@@ -409,7 +409,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 26
-**Hook:** Consultants make **terrible founders.** I might be proving this.
+**Hook:** Consulting actively trains you to be **a terrible founder.** I am proving this in real time.
 **Sub-text:** Three reasons why.
 **Stat slide:** 3 / founder habits that consulting actively trains out of you
 **Content angles:**
@@ -424,7 +424,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 27
-**Hook:** I spent 3 years making **slides.** Now I make products.
+**Hook:** I spent 3 years making **slides** for clients. Not one of them shipped anything people could use.
 **Sub-text:** The skills do not transfer the way you think.
 **Stat slide:** 3 / years consulting before I shipped anything people could actually use
 **Content angles:**
@@ -439,7 +439,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 28
-**Hook:** What a US startup taught me that **consulting never did.**
+**Hook:** A US startup taught me something **consulting never did.** It was not what I expected.
 **Sub-text:** Speed. Real speed.
 **Stat slide:** 48 / hours from idea to shipped at Tarro vs weeks in consulting
 **Content angles:**
@@ -454,7 +454,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 29
-**Hook:** I shipped my first product and felt like a **fraud** the entire time.
+**Hook:** I shipped my first product and felt like a **fraud** the whole time. Nobody warned me about this part.
 **Sub-text:** Nobody told me this part.
 **Stat slide:** 0 / people I told about kakisewa for the first 2 weeks after launch
 **Content angles:**
@@ -469,7 +469,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 30
-**Hook:** Does the MBB network **actually help** when you are building something?
+**Hook:** The MBB alumni network sounds powerful. Here is what it is **actually useful for** when you are building.
 **Sub-text:** Honest answer: yes and no.
 **Stat slide:** 2 / meaningful introductions from consulting network that actually mattered for kakisewa
 **Content angles:**
@@ -484,7 +484,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 31
-**Hook:** Things I genuinely **miss** about consulting.
+**Hook:** Things I genuinely miss about consulting. **Shorter list than I expected.**
 **Sub-text:** Shorter list than I expected.
 **Stat slide:** 3 / things I actually miss — honest count
 **Content angles:**
@@ -499,7 +499,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 32
-**Hook:** Things I **do not miss.** At all.
+**Hook:** Things I do not miss about consulting. **This list is much longer.**
 **Sub-text:** This list is longer.
 **Stat slide:** 6 / things I do not miss — honest count
 **Content angles:**
@@ -516,7 +516,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 33
-**Hook:** Why I am keeping my job AND building, instead of **going all in.**
+**Hook:** Everyone says quit and **go all in.** Here is why I have not. It is not fear.
 **Sub-text:** It is not fear. It is math.
 **Stat slide:** [fill in: months of runway if you quit today, e.g. 8 / months runway if I quit tomorrow]
 **Content angles:**
@@ -531,7 +531,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 34
-**Hook:** If I could go back, would I take the **consulting job** again?
+**Hook:** If I could go back, would I take the **consulting job** again? The honest answer surprised me.
 **Sub-text:** The honest answer surprised me.
 **Stat slide:** [fill in: year you started consulting]
 **Content angles:**
@@ -546,7 +546,7 @@ Overline label: **MBB to startup**
 ---
 
 ### Day 35
-**Hook:** Two weeks of MBB content. Here is what **surprised me most** about sharing it.
+**Hook:** Two weeks of MBB content done. **The post that hit hardest was not the one I expected.**
 **Sub-text:** What people actually responded to vs what I expected.
 **Stat slide:** [fill in: engagement stats from days 22-34]
 **Content angles:**
@@ -566,7 +566,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 36
-**Hook:** I have not missed a workout in **[X] weeks.** Here is how.
+**Hook:** I have not missed a workout in **[X] weeks.** Here is the only thing that actually made it stick.
 **Sub-text:** Not motivation. Not a morning routine. Something simpler.
 **Stat slide:** [fill in: your actual streak, e.g. 47 / days without missing a session]
 **Content angles:**
@@ -581,7 +581,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 37
-**Hook:** Fitness taught me the one thing about **startups** no one says out loud.
+**Hook:** The gym taught me the one thing about **building a startup** that nobody says out loud.
 **Sub-text:** Results are always slower than the work deserves.
 **Stat slide:** 12 / weeks before I saw real physical progress when I started lifting
 **Content angles:**
@@ -596,7 +596,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 38
-**Hook:** This is what I actually eat. **No performance.**
+**Hook:** This is what I actually eat. **No protein ad. No meal plan to buy.**
 **Sub-text:** Training for strength while building on the side.
 **Stat slide:** [fill in: your actual protein target, e.g. 160g / protein per day, every day]
 **Content angles:**
@@ -611,7 +611,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 39
-**Hook:** Gym culture online is **mostly noise.** Here is what I actually use.
+**Hook:** I wasted a year on gym advice that did not work. **Here is the short list that actually does.**
 **Sub-text:** After 3 years lifting, the list got short.
 **Stat slide:** 4 / things that actually matter vs everything else people argue about online
 **Content angles:**
@@ -627,7 +627,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 40
-**Hook:** The days I do not feel like going. **I go anyway.**
+**Hook:** On the days I do not feel like training, **I go anyway.** Here is the system that makes that automatic.
 **Sub-text:** Here is the system behind that.
 **Stat slide:** 3 / rules I follow on bad days that make the decision for me
 **Content angles:**
@@ -642,7 +642,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 41
-**Hook:** What **discipline** actually looks like day to day.
+**Hook:** This is what discipline actually looks like. **Not what the accounts with 1M followers show you.**
 **Sub-text:** Not what the motivational accounts show you.
 **Stat slide:** [fill in: average sleep hours, e.g. 6.5 / average hours of sleep per night]
 **Content angles:**
@@ -657,7 +657,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 42
-**Hook:** I train for **strength, not aesthetics.** Here is why it changed everything.
+**Hook:** I stopped training for aesthetics. **My body changed more after I did.**
 **Sub-text:** And what shifted in my thinking when I made the switch.
 **Stat slide:** [fill in: a strength milestone, e.g. 120kg / deadlift when I stopped caring about looking good]
 **Content angles:**
@@ -672,7 +672,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 43
-**Hook:** Fitness is the **one thing** I do not cut when everything else is chaos.
+**Hook:** When everything is chaos, the gym is **the one hour nothing can touch.** Here is why I protect it.
 **Sub-text:** Here is why it stays when other things go.
 **Stat slide:** [fill in: weeks of high stress this year, e.g. 20 / weeks this year I would call genuinely stressful]
 **Content angles:**
@@ -687,7 +687,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 44
-**Hook:** What I learned from training that I apply to **building every day.**
+**Hook:** Training and building a startup have **more in common than I expected.** Here is the list.
 **Sub-text:** More parallels than I expected.
 **Stat slide:** 3 / direct parallels between training and building a startup
 **Content angles:**
@@ -702,7 +702,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 45
-**Hook:** The honest relationship between **fitness and mental health.**
+**Hook:** Fitness and mental health. **I am not going to oversell it.** Here is just what is true for me.
 **Sub-text:** Not overselling it. Just what is true for me.
 **Stat slide:** [fill in: e.g. 4 / times per week I need to train to feel like a functional person]
 **Content angles:**
@@ -717,7 +717,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 46
-**Hook:** The thing nobody says about **balancing ambition and health.**
+**Hook:** I do not have balance. I have **a short list of things I refuse to compromise on.** Everything else negotiates.
 **Sub-text:** You do not balance them. You choose the order.
 **Stat slide:** 2 / non-negotiables in my life regardless of workload
 **Content angles:**
@@ -732,7 +732,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 47
-**Hook:** I tried **every productivity system.** Here is what I actually use.
+**Hook:** I tried every productivity system. **Here is what I actually use.** The list is embarrassingly short.
 **Sub-text:** The list got shorter every year.
 **Stat slide:** 2 / tools in my actual productivity system right now
 **Content angles:**
@@ -747,7 +747,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 48
-**Hook:** What **3 years of consistent training** actually does to you.
+**Hook:** **3 years of consistent training.** Here is what it does beyond the physical part.
 **Sub-text:** Not just the physical part.
 **Stat slide:** [fill in: your key strength milestones over 3 years]
 **Content angles:**
@@ -762,7 +762,7 @@ Overline label: **Fitness and discipline**
 ---
 
 ### Day 49
-**Hook:** 2 weeks of fitness content. Here is what **you actually responded to.**
+**Hook:** Two weeks of fitness content done. **The post that hit hardest was not the one I expected.**
 **Sub-text:** And the question I get asked most — answered.
 **Stat slide:** [fill in: most saved post, engagement rate from days 36-48]
 **Content angles:**
@@ -781,7 +781,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 50
-**Hook:** I thought I was **investing.** I was just buying things I could explain at parties.
+**Hook:** I thought I was investing. **I was just buying companies I could explain at dinner parties.**
 **Sub-text:** Three years and average returns to figure out the difference.
 **Stat slide:** 3 / years investing before I understood what an edge actually is
 **Content angles:**
@@ -796,7 +796,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 51
-**Hook:** The **consulting salary** is a trap. Here is why.
+**Hook:** The consulting salary is **designed to make you comfortable enough to stay.** Here is the trap.
 **Sub-text:** Designed to make you comfortable enough to stay.
 **Stat slide:** [fill in: % of consulting income that went to lifestyle, e.g. 60% / of my MBB income that disappeared into lifestyle]
 **Content angles:**
@@ -811,7 +811,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 52
-**Hook:** The one investing principle I actually **follow.**
+**Hook:** After trying everything, I use **one investing principle.** It is boring. It works.
 **Sub-text:** After trying everything else.
 **Stat slide:** [fill in: years of consistent monthly investing, e.g. 3 / years of consistent DCA]
 **Content angles:**
@@ -826,7 +826,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 53
-**Hook:** What EPF and ASNB taught me about **investing in Malaysia.**
+**Hook:** EPF and ASNB are **better than most investors think.** Most people are ignoring free money.
 **Sub-text:** The default options are better than most people think.
 **Stat slide:** [fill in: EPF dividend rate, e.g. 5.5% / EPF dividend last year — risk-free]
 **Content angles:**
@@ -841,7 +841,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 54
-**Hook:** An investing mistake that **cost me real money.**
+**Hook:** I made an investing mistake that **cost me real money.** Here are the specific numbers.
 **Sub-text:** Specific. Honest. Not a humblebrag.
 **Stat slide:** [fill in: the loss, e.g. RM [X] / lost on [type of investment]]
 **Content angles:**
@@ -856,7 +856,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 55
-**Hook:** What would I tell my **22-year-old self** about money?
+**Hook:** What I would tell my **22-year-old self** about money. Four things. None of them generic.
 **Sub-text:** Four things. No generic advice.
 **Stat slide:** [fill in: age now vs 22, e.g. X / years since I was 22 and had no idea what I was doing]
 **Content angles:**
@@ -871,7 +871,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 56
-**Hook:** The cost of your **lifestyle** vs the cost of your **freedom.**
+**Hook:** Most people have never done **this one calculation.** It will change how you think about spending.
 **Sub-text:** Most people have never done this calculation.
 **Stat slide:** [fill in: your monthly expenses, e.g. RM [X] / per month my life currently costs to run]
 **Content angles:**
@@ -886,7 +886,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 57
-**Hook:** How I think about money as someone who might **quit their job** one day.
+**Hook:** How I think about money as someone who might **quit their job** one day. It is different from how I used to.
 **Sub-text:** Different from how I thought about it in consulting.
 **Stat slide:** [fill in: months of runway, e.g. X / months I could survive without a salary right now]
 **Content angles:**
@@ -901,7 +901,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 58
-**Hook:** I stopped trying to **pick stocks.** Here is what I do instead.
+**Hook:** I stopped trying to pick stocks. **My returns improved after I did.** Here is what I do instead.
 **Sub-text:** Boring. Working.
 **Stat slide:** [fill in: % portfolio in index funds, e.g. 80% / of my portfolio in index funds now]
 **Content angles:**
@@ -916,7 +916,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 59
-**Hook:** Crypto. What I actually **think.**
+**Hook:** Crypto. What I actually think. **No coin to shill. No agenda.**
 **Sub-text:** No agenda. Just honest.
 **Stat slide:** [fill in: your actual crypto allocation, e.g. X% / of my portfolio in crypto — could be 0]
 **Content angles:**
@@ -931,7 +931,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 60
-**Hook:** The money habit that **actually changed** my financial life.
+**Hook:** I set this up once and **never thought about money the same way again.** Takes 20 minutes.
 **Sub-text:** Set up once. Runs itself.
 **Stat slide:** [fill in: months since you automated, e.g. X / months since I automated my savings and stopped thinking about it]
 **Content angles:**
@@ -946,7 +946,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 61
-**Hook:** What **building kakisewa** taught me about money I did not expect.
+**Hook:** Building kakisewa taught me something about money **I did not expect.** Here is what.
 **Sub-text:** The relationship between spending and conviction.
 **Stat slide:** [fill in: total out-of-pocket spent on kakisewa, e.g. RM [X] / invested in kakisewa from my own pocket]
 **Content angles:**
@@ -961,7 +961,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 62
-**Hook:** The **financial safety net** you need before taking any real risk.
+**Hook:** Do not take any real risk until you have **this financial safety net** in place. What I built first.
 **Sub-text:** What I built before starting kakisewa.
 **Stat slide:** [fill in: emergency fund size, e.g. 6 / months of expenses saved before I started building]
 **Content angles:**
@@ -976,7 +976,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 63
-**Hook:** What **financial freedom** actually means to me.
+**Hook:** What financial freedom actually means to me. **Not the FIRE movement definition.**
 **Sub-text:** Not what the FIRE movement says.
 **Stat slide:** [fill in: your personal freedom number or target]
 **Content angles:**
@@ -993,7 +993,7 @@ Overline label: **Building my finances**
 ## Days 64–67 — Retrospective and open
 
 ### Day 64
-**Hook:** Two months of posting **every day.** Here is the honest report.
+**Hook:** Two months of posting every day. **Here is the honest report.** Not what I expected.
 **Sub-text:** What I got right, what flopped, and what surprised me.
 **Stat slide:** [fill in: follower count, avg engagement rate, most saved post]
 **Content angles:** Raw recap — what performed, what did not, what the audience actually wanted
@@ -1004,7 +1004,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 65
-**Hook:** kakisewa update. Here is where things **actually stand.**
+**Hook:** kakisewa update. **Real numbers. No spin.** Here is where things actually stand.
 **Sub-text:** Real numbers. No spin.
 **Stat slide:** [fill in: current MRR, users, emails sent total, key milestone]
 **Content angles:** Full kakisewa update — what changed since day 1, what is next, what is still broken
@@ -1014,7 +1014,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 66
-**Hook:** The question I get asked most. **Answered properly.**
+**Hook:** The question I get asked most. **Answered properly this time.**
 **Sub-text:** [fill in: the actual most common question you get by day 66]
 **Content angles:** Answer it directly, without hedging
 **Bubble:** "I get this more than I expected."
@@ -1023,7 +1023,7 @@ Overline label: **Building my finances**
 ---
 
 ### Day 67
-**Hook:** 67 days. Here is what I know now that I did not know on day 1.
+**Hook:** **67 days.** Here is what I know now that I had no idea about on day 1.
 **Sub-text:** The real update. Not the polished version.
 **Stat slide:** [fill in: day 1 stats vs day 67 side by side]
 **Content angles:** Honest retrospective across all four themes — what changed, what is next 90 days
