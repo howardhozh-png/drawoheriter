@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Building in public — 2026-06-30</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F2F2F7;
+  padding: 32px 24px 48px;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+}
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8E8E93;
+  margin-bottom: 6px;
+}
+.theme {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1D1D1F;
+  margin-bottom: 4px;
+}
+.date { font-size: 14px; color: #8E8E93; }
+
+/* Text cards */
+.text-cards {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 700px) { .text-cards { grid-template-columns: 1fr; } }
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 22px;
+}
+.card .label { margin-bottom: 8px; }
+.card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1D1D1F;
+  white-space: pre-wrap;
+}
+
+/* Slides row */
+.slides-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+.slides-row {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+/* Individual slide — 1080x1080 scaled to 340x340 */
+.slide {
+  width: 340px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  background: #fff;
+}
+.slide-inner {
+  width: 1080px;
+  height: 1080px;
+  transform: scale(0.3148);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 80px;
+  background: #FFFFFF;
+}
+.top-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-bottom: 52px;
+}
+.overline {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+}
+.page { font-size: 22px; font-weight: 500; color: #BBB; letter-spacing: 0.05em; }
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  overflow: hidden;
+  min-height: 0;
+}
+.main {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #0A0A0A;
+  letter-spacing: -0.03em;
+  flex-shrink: 0;
+}
+.hl { color: #3333FF; }
+.sub {
+  font-size: 30px;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+.stat-num {
+  font-size: 160px;
+  font-weight: 900;
+  color: #3333FF;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.stat-lbl {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0A0A0A;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+.cta { font-size: 28px; font-weight: 700; color: #3333FF; flex-shrink: 0; }
+.bubble-wrap { flex-shrink: 0; margin-top: auto; padding-top: 28px; }
+.divider { width: 56px; height: 2px; background: #E0E0E0; margin-bottom: 18px; }
+.bubble {
+  display: inline-block;
+  background: #F0F0F0;
+  border-radius: 36px 36px 36px 8px;
+  padding: 20px 32px;
+  font-size: 24px;
+  color: #444;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 100%;
+}
+.bottom-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-top: 36px;
+}
+.handle { font-size: 22px; font-weight: 600; color: #AAA; }
+.swipe { font-size: 22px; font-weight: 600; color: #AAA; letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="label">Draft preview — 2026-06-30</div>
+    <div class="theme">Building in public</div>
+  </div>
+
+  <div class="text-cards">
+    <div class="card">
+      <div class="label">Threads text post</div>
+      <p>Working at a US startup from Malaysia sounds cool until you're on a 10pm Zoom call while your friends are at mamak. The pay is decent. The timezone is not. You're always half a day behind everyone who matters. Still beats a lot of alternatives though, not gonna lie.</p>
+    </div>
+    <div class="card">
+      <div class="label">Instagram caption</div>
+      <p>Everyone romanticises working at a US startup. Here's what it actually looks like from Malaysia.</p>
+    </div>
+  </div>
+
+  <div class="slides-wrap">
+    <div class="slides-row">
+      
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">01 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">Working at a <span class="hl">US startup</span> from Malaysia sounds like the dream.</div>
+      <div class="sub">Here's what nobody tells you about it.</div>
+      
+      
+    
+          
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe">swipe →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">02 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="sub">Average time difference between KL and US West Coast</div>
+      <div class="stat-num">15 hrs</div>
+      <div class="stat-lbl">behind San Francisco. Every single day.</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">My most productive hours are when my boss is asleep. Make of that what you will.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">03 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">Your <span class="hl">mornings are free</span>. Your evenings are not.</div>
+      <div class="sub">All the real meetings happen after 9pm KL time.</div>
+      <div class="sub">You learn to eat dinner early and keep your laptop charged.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">I have perfected the art of looking alert on camera at 11pm.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">04 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">The <span class="hl">pay gap</span> is real and it works in your favour.</div>
+      <div class="sub">US salary, Malaysian cost of living. The math is genuinely good.</div>
+      <div class="sub">This is the one part that lives up to the hype.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Not going to pretend this isn't the reason most of us do it.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">05 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">But you are always <span class="hl">half a day behind</span> everyone who matters.</div>
+      <div class="sub">Decisions get made while you sleep. You catch up in the morning.</div>
+      <div class="sub">You get used to it. Doesn't mean it stops being annoying.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Nothing like waking up to 47 Slack messages and a decision that affects your whole week.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">06 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">So I started building <span class="hl">kakisewa.com</span> in the pockets of time I actually own.</div>
+      <div class="sub">8,471 cold emails out to rental agents. 100 a day, automated.</div>
+      <div class="sub">Zero paying customers so far. But the mornings are mine.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Running a cold email campaign while my day job sleeps. Very normal behaviour.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Building in public</span>
+          <span class="page">07 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">The <span class="hl">timezone gap</span> is the tax. The free mornings are the opportunity.</div>
+      <div class="sub">Still figuring out if I'm playing it right.</div>
+      
+      <div class="cta">Follow to know what happens next.</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Ask me again once someone actually pays for kakisewa.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

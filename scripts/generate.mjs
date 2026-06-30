@@ -11,6 +11,7 @@ import fs from "fs";
 import Anthropic from "@anthropic-ai/sdk";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
+import { generatePreview } from "./preview.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 process.chdir(ROOT);
@@ -146,6 +147,8 @@ Live context to use if relevant:
   queue.push(entry);
   saveJSON(QUEUE_FILE, queue);
 
+  const previewPath = generatePreview(entry);
+
   console.log("\n=== Generated ===");
   console.log(`Theme: ${entry.theme}`);
   console.log(`Caption: ${entry.caption}`);
@@ -156,8 +159,7 @@ Live context to use if relevant:
     if (s.bubble) console.log(`       bubble: "${s.bubble}"`);
   });
   console.log(`\nSaved to queue (id: ${entry.id})`);
-  console.log(`Next: node scripts/render.mjs ${entry.id}   — generate images`);
-  console.log(`Then: node scripts/review.mjs               — approve and post`);
+  console.log(`Preview: ${previewPath}`);
 }
 
 generate().catch(err => { console.error("FATAL:", err.message); process.exit(1); });
