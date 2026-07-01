@@ -24,148 +24,205 @@ function saveJSON(p, data) {
   fs.writeFileSync(p, JSON.stringify(data, null, 2), "utf8");
 }
 
+// Theme → color palette
+const THEMES = {
+  "building in public": {
+    band: "#2563EB", rule: "#BFDBFE", margin: "#DBEAFE", marginLine: "#93C5FD",
+    bubbleBg: "#EFF6FF", bubbleBorder: "#BFDBFE",
+  },
+  "managing finances": {
+    band: "#16A34A", rule: "#A7F3D0", margin: "#D1FAE5", marginLine: "#6EE7B7",
+    bubbleBg: "#ECFDF5", bubbleBorder: "#A7F3D0",
+  },
+  "navigating career": {
+    band: "#7C3AED", rule: "#DDD6FE", margin: "#EDE9FE", marginLine: "#C4B5FD",
+    bubbleBg: "#F5F3FF", bubbleBorder: "#DDD6FE",
+  },
+  "growing in relationship": {
+    band: "#DB2777", rule: "#FBCFE8", margin: "#FCE7F3", marginLine: "#F9A8D4",
+    bubbleBg: "#FDF2F8", bubbleBorder: "#FBCFE8",
+  },
+  "random others": {
+    band: "#D97706", rule: "#FDE68A", margin: "#FEF3C7", marginLine: "#FCD34D",
+    bubbleBg: "#FFFBEB", bubbleBorder: "#FDE68A",
+  },
+};
+
+function getThemeColors(themeName) {
+  const key = (themeName || "").toLowerCase().trim();
+  for (const [k, v] of Object.entries(THEMES)) {
+    if (key.includes(k)) return v;
+  }
+  return THEMES["building in public"];
+}
+
 // Render ** markers as <span class="highlight">
-function renderHighlights(text) {
+function renderHighlights(text, accentColor) {
   if (!text) return "";
-  return text.replace(/\*\*(.+?)\*\*/g, '<span class="highlight">$1</span>');
+  return text.replace(/\*\*(.+?)\*\*/g,
+    `<span style="color:${accentColor};text-decoration:underline;text-decoration-color:${accentColor}40;text-underline-offset:8px;">$1</span>`
+  );
 }
 
 function buildSlideHTML(slide, idx, total, theme) {
+  const c = getThemeColors(theme);
   const pageNum = String(idx + 1).padStart(2, "0");
   const totalNum = String(total).padStart(2, "0");
-  const isLast = idx === total - 1;
   const isFirst = idx === 0;
+  const isLast = idx === total - 1;
 
   let contentHTML = "";
 
   if (slide.type === "stat") {
     contentHTML = `
-      ${slide.sub_text ? `<div class="sub-text">${renderHighlights(slide.sub_text)}</div>` : ""}
-      <div class="stat-number">${slide.stat_number || ""}</div>
-      ${slide.stat_label ? `<div class="stat-label">${renderHighlights(slide.stat_label)}</div>` : ""}
+      ${slide.sub_text ? `<div class="sub-text">${renderHighlights(slide.sub_text, c.band)}</div>` : ""}
+      <div class="stat-number" style="color:${c.band};">${slide.stat_number || ""}</div>
+      ${slide.stat_label ? `<div class="stat-label">${renderHighlights(slide.stat_label, c.band)}</div>` : ""}
     `;
   } else {
     contentHTML = `
-      ${slide.main_text ? `<div class="main-text">${renderHighlights(slide.main_text)}</div>` : ""}
-      ${slide.sub_text ? `<div class="sub-text">${renderHighlights(slide.sub_text)}</div>` : ""}
-      ${slide.sub_text_2 ? `<div class="sub-text">${renderHighlights(slide.sub_text_2)}</div>` : ""}
-      ${slide.type === "conclusion" ? `<div class="follow-cta">Follow to know what happens next or save this for later.</div>` : ""}
+      ${slide.main_text ? `<div class="main-text">${renderHighlights(slide.main_text, c.band)}</div>` : ""}
+      ${slide.sub_text ? `<div class="sub-text">${renderHighlights(slide.sub_text, c.band)}</div>` : ""}
+      ${slide.sub_text_2 ? `<div class="sub-text">${renderHighlights(slide.sub_text_2, c.band)}</div>` : ""}
+      ${slide.type === "conclusion" ? `<div class="follow-cta" style="color:${c.band};">Save this for later or follow for what happens next.</div>` : ""}
     `;
   }
 
   const bubbleHTML = slide.bubble ? `
     <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">${slide.bubble}</div>
+      <div class="divider" style="background:${c.rule};"></div>
+      <div class="bubble" style="background:${c.bubbleBg};border-color:${c.bubbleBorder};">${slide.bubble}</div>
     </div>
   ` : "";
 
-  const rightBottomText = isFirst ? "swipe →" : (isLast ? "" : "");
+  const swipeText = isFirst ? "swipe →" : "";
+
+  // Notebook ruled-line background: repeat horizontal lines every 72px, offset to start below the band (90px band + 60px padding top)
+  const ruledBg = `repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 71px,
+    ${c.rule} 71px,
+    ${c.rule} 73px
+  )`;
 
   return `<!DOCTYPE html>
 <html><head>
 <meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html, body { width: 1080px; height: 1080px; overflow: hidden; }
 body {
-  font-family: 'Inter', sans-serif;
-  background: #FFFFFF;
+  font-family: 'Patrick Hand', cursive;
+  background-color: #FFFDF5;
+  background-image: ${ruledBg};
+  background-position: 0 150px;
   width: 1080px;
   height: 1080px;
   display: flex;
   flex-direction: column;
-  padding: 70px 80px;
+  position: relative;
 }
-.top-bar {
-  flex-shrink: 0;
+/* left margin */
+.margin-bg {
+  position: absolute; top: 0; left: 0; bottom: 0; width: 14px;
+  background: ${c.margin};
+  z-index: 1;
+}
+.margin-line {
+  position: absolute; top: 0; left: 5px; bottom: 0; width: 2.5px;
+  background: ${c.marginLine};
+  z-index: 2;
+}
+/* color band */
+.band {
+  height: 90px;
+  background: ${c.band};
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 44px;
-  margin-bottom: 52px;
+  padding: 0 80px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 3;
 }
-.overline {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+.band-theme {
+  font-size: 28px;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #999999;
+  color: rgba(255,255,255,0.9);
 }
-.page-num {
-  font-size: 22px;
-  font-weight: 500;
-  color: #BBBBBB;
-  letter-spacing: 0.05em;
+.band-page {
+  margin-left: auto;
+  font-size: 28px;
+  color: rgba(255,255,255,0.5);
+}
+/* body */
+.body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 80px 52px;
+  position: relative;
+  z-index: 3;
+  min-height: 0;
 }
 .content {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 24px;
+  gap: 28px;
   overflow: hidden;
   min-height: 0;
 }
 .main-text {
-  font-size: 72px;
-  font-weight: 800;
-  line-height: 1.15;
-  color: #0A0A0A;
-  letter-spacing: -0.03em;
+  font-size: 80px;
+  line-height: 1.2;
+  color: #1A1208;
   flex-shrink: 0;
 }
-.highlight { color: #3333FF; }
 .sub-text {
-  font-size: 30px;
-  font-weight: 500;
-  color: #555555;
-  line-height: 1.5;
+  font-size: 33px;
+  color: #9A8878;
+  line-height: 1.65;
   flex-shrink: 0;
 }
 .stat-number {
-  font-size: 160px;
-  font-weight: 900;
-  color: #3333FF;
-  letter-spacing: -0.04em;
+  font-size: 180px;
   line-height: 1;
+  letter-spacing: -0.02em;
   flex-shrink: 0;
 }
 .stat-label {
-  font-size: 30px;
-  font-weight: 600;
-  color: #0A0A0A;
-  line-height: 1.4;
+  font-size: 33px;
+  color: #9A8878;
+  line-height: 1.5;
   flex-shrink: 0;
 }
 .follow-cta {
-  font-size: 28px;
-  font-weight: 700;
-  color: #3333FF;
+  font-size: 34px;
   flex-shrink: 0;
 }
 .bubble-wrap {
   flex-shrink: 0;
   margin-top: auto;
-  padding-top: 28px;
+  padding-top: 24px;
 }
 .divider {
   width: 56px;
   height: 2px;
-  background: #E0E0E0;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .bubble {
   display: inline-block;
-  background: #F0F0F0;
   border-radius: 36px 36px 36px 8px;
-  padding: 20px 32px;
-  font-size: 24px;
-  color: #444444;
+  border: 1.5px solid;
+  padding: 22px 34px;
+  font-size: 28px;
+  color: #9A8878;
   font-style: italic;
-  font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.55;
   max-width: 100%;
 }
 .bottom-bar {
@@ -173,35 +230,28 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 44px;
-  margin-top: 36px;
+  padding-top: 28px;
 }
-.handle {
-  font-size: 22px;
-  font-weight: 600;
-  color: #AAAAAA;
-  letter-spacing: 0.02em;
-}
-.swipe {
-  font-size: 22px;
-  font-weight: 600;
-  color: #AAAAAA;
-  letter-spacing: 0.04em;
-}
+.handle { font-size: 22px; color: #C8B8A8; }
+.swipe  { font-size: 22px; color: #C8B8A8; }
 </style>
 </head>
 <body>
-  <div class="top-bar">
-    <span class="overline">${theme}</span>
-    <span class="page-num">${pageNum} / ${totalNum}</span>
+  <div class="margin-bg"></div>
+  <div class="margin-line"></div>
+  <div class="band">
+    <span class="band-theme">${theme}</span>
+    <span class="band-page">${pageNum} / ${totalNum}</span>
   </div>
-  <div class="content">
-    ${contentHTML}
-    ${bubbleHTML}
-  </div>
-  <div class="bottom-bar">
-    <span class="handle">@drawoheriter</span>
-    <span class="swipe">${rightBottomText}</span>
+  <div class="body">
+    <div class="content">
+      ${contentHTML}
+      ${bubbleHTML}
+    </div>
+    <div class="bottom-bar">
+      <span class="handle">@drawoheriter</span>
+      <span class="swipe">${swipeText}</span>
+    </div>
   </div>
 </body></html>`;
 }

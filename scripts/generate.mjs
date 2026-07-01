@@ -158,7 +158,7 @@ Respond in this exact JSON format with no extra text:
       "type": "conclusion",
       "main_text": "Lesson with **highlight**",
       "sub_text": "one closing line",
-      "follow_cta": "Follow to know what happens next or save this for later.",
+      "follow_cta": "Save this for later or follow for what happens next.",
       "bubble": "honest final thought"
     }
   ]

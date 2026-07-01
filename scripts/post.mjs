@@ -53,6 +53,17 @@ function get(hostname, path) {
   });
 }
 
+async function waitThreadsContainerFinished(containerId) {
+  for (let i = 0; i < 15; i++) {
+    await new Promise(r => setTimeout(r, 5000));
+    const r = await get("graph.threads.net",
+      `/v1.0/${containerId}?fields=status,error_message&access_token=${META_ACCESS_TOKEN}`);
+    if (r.status === "FINISHED") return;
+    if (r.status === "ERROR") throw new Error("Threads container error: " + r.error_message);
+  }
+  throw new Error(`Threads container ${containerId} never reached FINISHED`);
+}
+
 function post(hostname, path, body) {
   return new Promise((resolve, reject) => {
     const payload = JSON.stringify(body ?? {});
@@ -143,13 +154,13 @@ async function postThreadsCarouselReply(imageUrls, replyToId) {
       `/v1.0/${META_USER_ID}/threads?media_type=IMAGE&image_url=${encodeURIComponent(imageUrls[i])}&is_carousel_item=true&access_token=${META_ACCESS_TOKEN}`,
       null
     );
+    await waitThreadsContainerFinished(r.id);
     childIds.push(r.id);
   }
 
-  const children = childIds.join(",");
   const carousel = await post(
     "graph.threads.net",
-    `/v1.0/${META_USER_ID}/threads?media_type=CAROUSEL&children=${encodeURIComponent(children)}&reply_to_id=${replyToId}&access_token=${META_ACCESS_TOKEN}`,
+    `/v1.0/${META_USER_ID}/threads?media_type=CAROUSEL&children=${childIds.join(",")}&reply_to_id=${replyToId}&access_token=${META_ACCESS_TOKEN}`,
     null
   );
 

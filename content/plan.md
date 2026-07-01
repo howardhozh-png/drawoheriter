@@ -9,7 +9,7 @@ Edit any field freely. When you're done, tell Claude "read plan.md and lock it i
 - Edit the CTA → this goes in the caption AND as the last line on slide 1
 - Add a note under any day for a specific angle
 
-**Every last slide always says:** "Follow to know what happens next or save this for later."
+**Every last slide always says:** "Save this for later or follow for what happens next."
 
 ---
 
