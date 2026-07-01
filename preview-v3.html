@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design v3 Preview — drawoheriter</title>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Patrick Hand', cursive; background: #111; padding: 40px 24px 80px; color: #555; }
+h1 { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #333; margin-bottom: 6px; }
+.desc { font-size: 12px; color: #2A2A2A; margin-bottom: 36px; line-height: 1.6; }
+.row { display: flex; gap: 16px; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 12px; margin-bottom: 48px; }
+.col { flex-shrink: 0; }
+.cap { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #2A2A2A; margin-bottom: 7px; }
+
+/* slide shell */
+.shell { width: 320px; height: 320px; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 30px rgba(0,0,0,.5); }
+.inner {
+  width: 1080px; height: 1080px;
+  transform: scale(0.2963); transform-origin: top left;
+  display: flex; flex-direction: column;
+  background: #FAF6F0;
+  position: relative;
+  font-family: 'Patrick Hand', cursive;
+}
+
+/* band */
+.band {
+  height: 90px; flex-shrink: 0;
+  display: flex; align-items: center;
+  padding: 0 160px;
+  position: relative; z-index: 2;
+}
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg   { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+
+/* body */
+.body {
+  flex: 1; display: flex; flex-direction: column;
+  padding: 0 160px 52px;
+  position: relative; z-index: 2; min-height: 0;
+}
+
+/* hook slide — text centered, footer pinned to bottom */
+.body.center { justify-content: flex-start; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+
+/* other slides — top aligned with breathing room */
+.body.top { justify-content: flex-start; padding-top: 64px; }
+
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; margin-top: 0; padding-top: 32px; flex-shrink: 0; }
+
+/* typography */
+.title {
+  font-size: 26px; color: #B0A090; line-height: 1.2; letter-spacing: 0.1em; text-transform: uppercase;
+}
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub  { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe  { font-size: 24px; color: #C8B8A8; }
+
+/* conversation bubble */
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; margin-bottom: 24px; }
+.bubble {
+  display: block;
+  border-radius: 24px 24px 24px 6px;
+  padding: 26px 40px;
+  font-size: 34px; line-height: 1.55;
+  font-style: italic;
+  max-width: 100%;
+  border: 2px solid;
+}
+.bubble-tail {
+  width: 0; height: 0;
+  border-top-width: 22px;
+  border-top-style: solid;
+  border-top-color: transparent; /* overridden inline per theme */
+  border-right: 22px solid transparent;
+  margin-left: 42px;
+}
+
+.sep { border: none; border-top: 1px solid #1C1C1C; margin: 0 0 40px; }
+.section { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #2A2A2A; margin-bottom: 20px; }
+</style>
+</head>
+<body>
+
+<h1>Design v3 — preview before posting</h1>
+<p class="desc">
+  Warm background · No ruled lines · Hook centered · Bigger band text · Speech bubble · Clickbait hooks · Country-agnostic copy
+</p>
+
+<!-- ═══════════════════════════════════
+     BUILDING IN PUBLIC — all 6 slides
+═══════════════════════════════════ -->
+<div class="section">Building in public — all 6 slides</div>
+<div class="row">
+
+  <!-- 1: Hook -->
+  <div class="col"><div class="cap">1 — Hook</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#2563EB;">
+      <span class="band-name">Building in public</span><span class="band-pg">01 / 06</span>
+    </div>
+    <div class="body center">
+      <div class="center-content">
+        <div class="main">I spent <span style="color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;">240 hours</span> building a SaaS and have zero paying customers.</div>
+        <div class="sub">Here is what that week actually looked like.</div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span><span class="swipe">swipe →</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 2: Stat -->
+  <div class="col"><div class="cap">2 — Stat</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#2563EB;">
+      <span class="band-name">Building in public</span><span class="band-pg">02 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">Week 1 results</div>
+        <div class="sub">After 7 days live, with real people signed up and able to pay.</div>
+        <div class="stat-num" style="color:#2563EB;">0</div>
+        <div class="stat-lbl">paying customers</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#BFDBFE;"></div>
+        <div class="bubble" style="background:#EBF2FF;border-color:#93C5FD;color:#1A3A8A;">I kept refreshing Stripe expecting something to happen. Nothing happened.</div>
+        <div class="bubble-tail" style="border-top-color:#EBF2FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 3: Content -->
+  <div class="col"><div class="cap">3 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#2563EB;">
+      <span class="band-name">Building in public</span><span class="band-pg">03 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The build</div>
+        <div class="main">I built it in <span style="color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;">evenings and weekends,</span></div>
+        <div class="sub">working around a full-time job, with no co-founder, investors, or any announcement to the world.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#BFDBFE;"></div>
+        <div class="bubble" style="background:#EBF2FF;border-color:#93C5FD;color:#1A3A8A;">My colleagues think I just go to bed early.</div>
+        <div class="bubble-tail" style="border-top-color:#EBF2FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 4: Content -->
+  <div class="col"><div class="cap">4 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#2563EB;">
+      <span class="band-name">Building in public</span><span class="band-pg">04 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The launch</div>
+        <div class="main">I launched <span style="color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;">quietly.</span></div>
+        <div class="sub">No big announcement, no fanfare. I just pushed it live one night and waited to see if anyone noticed.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#BFDBFE;"></div>
+        <div class="bubble" style="background:#EBF2FF;border-color:#93C5FD;color:#1A3A8A;">The scariest part was not the launch. It was nobody noticing.</div>
+        <div class="bubble-tail" style="border-top-color:#EBF2FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 5: Content -->
+  <div class="col"><div class="cap">5 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#2563EB;">
+      <span class="band-name">Building in public</span><span class="band-pg">05 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The lesson</div>
+        <div class="main">The gap between <span style="color:#2563EB;">"it is ready"</span> and anyone caring.</div>
+        <div class="sub">Nobody is waiting for your product, so you have to go find them.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#BFDBFE;"></div>
+        <div class="bubble" style="background:#EBF2FF;border-color:#93C5FD;color:#1A3A8A;">Week 1 taught me: building is the easy part. Distribution is the job.</div>
+        <div class="bubble-tail" style="border-top-color:#EBF2FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 6: Conclusion -->
+  <div class="col"><div class="cap">6 — Conclusion</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#2563EB;">
+      <span class="band-name">Building in public</span><span class="band-pg">06 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The takeaway</div>
+        <div class="main">Zero customers does not mean <span style="color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;">zero progress.</span></div>
+        <div class="sub">It means you are still early enough to get it right.</div>
+        <div class="cta" style="color:#2563EB;">Save this for later or follow for what happens next.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#BFDBFE;"></div>
+        <div class="bubble" style="background:#EBF2FF;border-color:#93C5FD;color:#1A3A8A;">Month 2 starts tomorrow. Let's see if the numbers change.</div>
+        <div class="bubble-tail" style="border-top-color:#EBF2FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+</div>
+<hr class="sep">
+
+<!-- ═══════════════════════════════════
+     MANAGING FINANCES — all 6 slides
+═══════════════════════════════════ -->
+<div class="section">Managing finances — all 6 slides</div>
+<div class="row">
+
+  <!-- 1: Hook -->
+  <div class="col"><div class="cap">1 — Hook</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#16A34A;">
+      <span class="band-name">Managing finances</span><span class="band-pg">01 / 06</span>
+    </div>
+    <div class="body center">
+      <div class="center-content">
+        <div class="main">I tracked every dollar I spent and found I was <span style="color:#16A34A;text-decoration:underline;text-decoration-color:#6EE7B7;text-underline-offset:10px;">silently losing $800</span> a month.</div>
+        <div class="sub">Here is what I did when I finally saw the numbers.</div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span><span class="swipe">swipe →</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 2: Stat -->
+  <div class="col"><div class="cap">2 — Stat</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#16A34A;">
+      <span class="band-name">Managing finances</span><span class="band-pg">02 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The number that hurt</div>
+        <div class="sub">How much I was losing monthly on subscriptions I forgot I ever signed up for.</div>
+        <div class="stat-num" style="color:#16A34A;">$800</div>
+        <div class="stat-lbl">a month. Without noticing.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#A7F3D0;"></div>
+        <div class="bubble" style="background:#ECFDF5;border-color:#6EE7B7;color:#14532D;">I was paying for a gym membership from two years ago. The gym had shut down.</div>
+        <div class="bubble-tail" style="border-top-color:#ECFDF5;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 3: Content -->
+  <div class="col"><div class="cap">3 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#16A34A;">
+      <span class="band-name">Managing finances</span><span class="band-pg">03 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">Lifestyle creep</div>
+        <div class="main">My income went up <span style="color:#16A34A;text-decoration:underline;text-decoration-color:#6EE7B7;text-underline-offset:10px;">40%</span> last year.</div>
+        <div class="sub">My savings rate stayed exactly the same, because my spending found a way to keep pace with every raise.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#A7F3D0;"></div>
+        <div class="bubble" style="background:#ECFDF5;border-color:#6EE7B7;color:#14532D;">A raise feels like progress until you realise your lifestyle just upgraded to match it.</div>
+        <div class="bubble-tail" style="border-top-color:#ECFDF5;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 4: Content -->
+  <div class="col"><div class="cap">4 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#16A34A;">
+      <span class="band-name">Managing finances</span><span class="band-pg">04 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The real discovery</div>
+        <div class="main">The money I was losing was not <span style="color:#16A34A;text-decoration:underline;text-decoration-color:#6EE7B7;text-underline-offset:10px;">gone.</span> It was sitting still.</div>
+        <div class="sub">Parked in a savings account earning nothing, while everything around it kept growing without me.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#A7F3D0;"></div>
+        <div class="bubble" style="background:#ECFDF5;border-color:#6EE7B7;color:#14532D;">I did not lose my savings. I just had not done anything with them for years.</div>
+        <div class="bubble-tail" style="border-top-color:#ECFDF5;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 5: Content -->
+  <div class="col"><div class="cap">5 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#16A34A;">
+      <span class="band-name">Managing finances</span><span class="band-pg">05 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The fix</div>
+        <div class="main">Tracking did not make me <span style="color:#16A34A;text-decoration:underline;text-decoration-color:#6EE7B7;text-underline-offset:10px;">careful with money.</span></div>
+        <div class="sub">It made me intentional. I still spend on what I enjoy, just not on what I forgot I signed up for.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#A7F3D0;"></div>
+        <div class="bubble" style="background:#ECFDF5;border-color:#6EE7B7;color:#14532D;">The goal was not to spend less. It was to spend on purpose.</div>
+        <div class="bubble-tail" style="border-top-color:#ECFDF5;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 6: Conclusion -->
+  <div class="col"><div class="cap">6 — Conclusion</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#16A34A;">
+      <span class="band-name">Managing finances</span><span class="band-pg">06 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The takeaway</div>
+        <div class="main">I stopped losing $800 a month and <span style="color:#16A34A;text-decoration:underline;text-decoration-color:#6EE7B7;text-underline-offset:10px;">started investing it.</span></div>
+        <div class="sub">Not because I got smarter. Because I finally looked at the numbers.</div>
+        <div class="cta" style="color:#16A34A;">Save this for later or follow for what happens next.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#A7F3D0;"></div>
+        <div class="bubble" style="background:#ECFDF5;border-color:#6EE7B7;color:#14532D;">Tracking your spending is not about being cheap. It is about knowing what you are choosing.</div>
+        <div class="bubble-tail" style="border-top-color:#ECFDF5;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+</div>
+<hr class="sep">
+
+<!-- ═══════════════════════════════════
+     NAVIGATING CAREER — all 6 slides
+═══════════════════════════════════ -->
+<div class="section">Navigating career — all 6 slides</div>
+<div class="row">
+
+  <!-- 1: Hook -->
+  <div class="col"><div class="cap">1 — Hook</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#7C3AED;">
+      <span class="band-name">Navigating career</span><span class="band-pg">01 / 06</span>
+    </div>
+    <div class="body center">
+      <div class="center-content">
+        <div class="main">They offered me a 30% raise and I was <span style="color:#7C3AED;text-decoration:underline;text-decoration-color:#C4B5FD;text-underline-offset:10px;">stupid enough to say no.</span></div>
+        <div class="sub">Here is whether I regret it.</div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span><span class="swipe">swipe →</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 2: Stat -->
+  <div class="col"><div class="cap">2 — Stat</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#7C3AED;">
+      <span class="band-name">Navigating career</span><span class="band-pg">02 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The offer</div>
+        <div class="sub">What they were willing to give me to stay in the same role, doing the same things.</div>
+        <div class="stat-num" style="color:#7C3AED;">30%</div>
+        <div class="stat-lbl">more money. Same ceiling.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#DDD6FE;"></div>
+        <div class="bubble" style="background:#F5F3FF;border-color:#C4B5FD;color:#4C1D95;">On paper it looked obvious. But I had been there long enough to know what the ceiling felt like.</div>
+        <div class="bubble-tail" style="border-top-color:#F5F3FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 3: Content -->
+  <div class="col"><div class="cap">3 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#7C3AED;">
+      <span class="band-name">Navigating career</span><span class="band-pg">03 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The real cost</div>
+        <div class="main">More money at the <span style="color:#7C3AED;text-decoration:underline;text-decoration-color:#C4B5FD;text-underline-offset:10px;">wrong place</span> is still the wrong place.</div>
+        <div class="sub">I was being paid to stay comfortable, not to grow, and after a while you can feel the difference.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#DDD6FE;"></div>
+        <div class="bubble" style="background:#F5F3FF;border-color:#C4B5FD;color:#4C1D95;">A raise is a retention tool. It is not a development plan.</div>
+        <div class="bubble-tail" style="border-top-color:#F5F3FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 4: Content -->
+  <div class="col"><div class="cap">4 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#7C3AED;">
+      <span class="band-name">Navigating career</span><span class="band-pg">04 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The trade</div>
+        <div class="main">I took a role that paid <span style="color:#7C3AED;text-decoration:underline;text-decoration-color:#C4B5FD;text-underline-offset:10px;">less</span> and taught me more.</div>
+        <div class="sub">The skill gap between where I was and where I needed to be was worth more than any salary gap, just harder to see.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#DDD6FE;"></div>
+        <div class="bubble" style="background:#F5F3FF;border-color:#C4B5FD;color:#4C1D95;">In 2 years, the compounding on skills beats the compounding on salary. At least, that is the bet I made.</div>
+        <div class="bubble-tail" style="border-top-color:#F5F3FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 5: Content -->
+  <div class="col"><div class="cap">5 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#7C3AED;">
+      <span class="band-name">Navigating career</span><span class="band-pg">05 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The right question</div>
+        <div class="main">Not how much do they pay but <span style="color:#7C3AED;text-decoration:underline;text-decoration-color:#C4B5FD;text-underline-offset:10px;">who will I become.</span></div>
+        <div class="sub">After 2 years in this role, what doors does that open, and can I afford to live on what they are paying me to get there.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#DDD6FE;"></div>
+        <div class="bubble" style="background:#F5F3FF;border-color:#C4B5FD;color:#4C1D95;">Your early years are for buying optionality. You can optimise for money later.</div>
+        <div class="bubble-tail" style="border-top-color:#F5F3FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 6: Conclusion -->
+  <div class="col"><div class="cap">6 — Conclusion</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#7C3AED;">
+      <span class="band-name">Navigating career</span><span class="band-pg">06 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The takeaway</div>
+        <div class="main">Not every raise is a <span style="color:#7C3AED;text-decoration:underline;text-decoration-color:#C4B5FD;text-underline-offset:10px;">step forward.</span></div>
+        <div class="sub">Sometimes the most expensive thing you can do is stay.</div>
+        <div class="cta" style="color:#7C3AED;">Save this for later or follow for what happens next.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#DDD6FE;"></div>
+        <div class="bubble" style="background:#F5F3FF;border-color:#C4B5FD;color:#4C1D95;">12 months in. I would make the same call again.</div>
+        <div class="bubble-tail" style="border-top-color:#F5F3FF;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+</div>
+<hr class="sep">
+
+<!-- ═══════════════════════════════════
+     GROWING IN RELATIONSHIP — all 6 slides
+═══════════════════════════════════ -->
+<div class="section">Growing in relationship — all 6 slides</div>
+<div class="row">
+
+  <!-- 1: Hook -->
+  <div class="col"><div class="cap">1 — Hook</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#DB2777;">
+      <span class="band-name">Growing in relationship</span><span class="band-pg">01 / 06</span>
+    </div>
+    <div class="body center">
+      <div class="center-content">
+        <div class="main">A relationship at 22 <span style="color:#DB2777;text-decoration:underline;text-decoration-color:#F9A8D4;text-underline-offset:10px;">broke me</span> more than any job I have ever had.</div>
+        <div class="sub">And taught me more too. Here is what actually stuck.</div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span><span class="swipe">swipe →</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 2: Stat -->
+  <div class="col"><div class="cap">2 — Stat</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#DB2777;">
+      <span class="band-name">Growing in relationship</span><span class="band-pg">02 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The pattern I kept missing</div>
+        <div class="sub">Of our arguments that were really just one thing underneath.</div>
+        <div class="stat-num" style="color:#DB2777;">~80%</div>
+        <div class="stat-lbl">were really about feeling unheard.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FBCFE8;"></div>
+        <div class="bubble" style="background:#FDF2F8;border-color:#F9A8D4;color:#831843;">We were not fighting about the dishes. We were fighting about feeling invisible.</div>
+        <div class="bubble-tail" style="border-top-color:#FDF2F8;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 3: Content -->
+  <div class="col"><div class="cap">3 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#DB2777;">
+      <span class="band-name">Growing in relationship</span><span class="band-pg">03 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The gap</div>
+        <div class="main">I was good at <span style="color:#DB2777;text-decoration:underline;text-decoration-color:#F9A8D4;text-underline-offset:10px;">talking.</span> I was bad at listening.</div>
+        <div class="sub">I thought being heard meant the other person agreed with me, but those two things have nothing to do with each other.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FBCFE8;"></div>
+        <div class="bubble" style="background:#FDF2F8;border-color:#F9A8D4;color:#831843;">You can win every argument and still lose the relationship.</div>
+        <div class="bubble-tail" style="border-top-color:#FDF2F8;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 4: Content -->
+  <div class="col"><div class="cap">4 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#DB2777;">
+      <span class="band-name">Growing in relationship</span><span class="band-pg">04 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">What actually matters</div>
+        <div class="main">The most useful skill I learned was <span style="color:#DB2777;text-decoration:underline;text-decoration-color:#F9A8D4;text-underline-offset:10px;">how to repair,</span> not how to avoid conflict.</div>
+        <div class="sub">How to come back from a hard conversation without making things worse than before you started.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FBCFE8;"></div>
+        <div class="bubble" style="background:#FDF2F8;border-color:#F9A8D4;color:#831843;">Healthy relationships are not conflict-free. They are repair-capable.</div>
+        <div class="bubble-tail" style="border-top-color:#FDF2F8;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 5: Content -->
+  <div class="col"><div class="cap">5 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#DB2777;">
+      <span class="band-name">Growing in relationship</span><span class="band-pg">05 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The long game</div>
+        <div class="main">Growing together means <span style="color:#DB2777;text-decoration:underline;text-decoration-color:#F9A8D4;text-underline-offset:10px;">both people change,</span> not just one.</div>
+        <div class="sub">If only one person is evolving, you eventually end up in different places without realising it happened.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FBCFE8;"></div>
+        <div class="bubble" style="background:#FDF2F8;border-color:#F9A8D4;color:#831843;">The question is not are we compatible now. It is are we growing in the same direction.</div>
+        <div class="bubble-tail" style="border-top-color:#FDF2F8;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 6: Conclusion -->
+  <div class="col"><div class="cap">6 — Conclusion</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#DB2777;">
+      <span class="band-name">Growing in relationship</span><span class="band-pg">06 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The takeaway</div>
+        <div class="main">Good relationships are not <span style="color:#DB2777;text-decoration:underline;text-decoration-color:#F9A8D4;text-underline-offset:10px;">found.</span> They are built.</div>
+        <div class="sub">And built again, over and over, as both of you keep changing into different versions of yourselves.</div>
+        <div class="cta" style="color:#DB2777;">Save this for later or follow for what happens next.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FBCFE8;"></div>
+        <div class="bubble" style="background:#FDF2F8;border-color:#F9A8D4;color:#831843;">Still learning. Still building. Still think it is worth it.</div>
+        <div class="bubble-tail" style="border-top-color:#FDF2F8;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+</div>
+<hr class="sep">
+
+<!-- ═══════════════════════════════════
+     RANDOM OTHERS — all 6 slides
+═══════════════════════════════════ -->
+<div class="section">Random others — all 6 slides</div>
+<div class="row">
+
+  <!-- 1: Hook -->
+  <div class="col"><div class="cap">1 — Hook</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#D97706;">
+      <span class="band-name">Random others</span><span class="band-pg">01 / 06</span>
+    </div>
+    <div class="body center">
+      <div class="center-content">
+        <div class="main">I deleted Instagram for 30 days and my <span style="color:#D97706;text-decoration:underline;text-decoration-color:#FCD34D;text-underline-offset:10px;">anxiety got worse</span> before it got better.</div>
+        <div class="sub">Here is what nobody tells you about taking a break.</div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span><span class="swipe">swipe →</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 2: Stat -->
+  <div class="col"><div class="cap">2 — Stat</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#D97706;">
+      <span class="band-name">Random others</span><span class="band-pg">02 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">What the phone knew</div>
+        <div class="sub">Hours I was spending on it every day before I ever thought to check.</div>
+        <div class="stat-num" style="color:#D97706;">3.5 hrs</div>
+        <div class="stat-lbl">a day. Every single day.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FDE68A;"></div>
+        <div class="bubble" style="background:#FFFBEB;border-color:#FCD34D;color:#78350F;">I had no idea. The phone had been keeping score the whole time.</div>
+        <div class="bubble-tail" style="border-top-color:#FFFBEB;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 3: Content -->
+  <div class="col"><div class="cap">3 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#D97706;">
+      <span class="band-name">Random others</span><span class="band-pg">03 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The first week</div>
+        <div class="main">The first 3 days I kept <span style="color:#D97706;text-decoration:underline;text-decoration-color:#FCD34D;text-underline-offset:10px;">reaching for my phone</span> and finding nothing.</div>
+        <div class="sub">The habit was so automatic I had to consciously retrain myself, and that discomfort was the whole point.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FDE68A;"></div>
+        <div class="bubble" style="background:#FFFBEB;border-color:#FCD34D;color:#78350F;">My thumb had its own agenda and nobody asked me about it.</div>
+        <div class="bubble-tail" style="border-top-color:#FFFBEB;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 4: Content -->
+  <div class="col"><div class="cap">4 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#D97706;">
+      <span class="band-name">Random others</span><span class="band-pg">04 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">What I noticed</div>
+        <div class="main">I got <span style="color:#D97706;text-decoration:underline;text-decoration-color:#FCD34D;text-underline-offset:10px;">bored</span> more often, and that turned out to be a feature, not a bug.</div>
+        <div class="sub">Boredom is where actual thinking happens, and I had been filling every gap with someone else's content for years.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FDE68A;"></div>
+        <div class="bubble" style="background:#FFFBEB;border-color:#FCD34D;color:#78350F;">Week 2: I started writing things down again. Funny how that works.</div>
+        <div class="bubble-tail" style="border-top-color:#FFFBEB;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 5: Content -->
+  <div class="col"><div class="cap">5 — Content</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#D97706;">
+      <span class="band-name">Random others</span><span class="band-pg">05 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">Coming back</div>
+        <div class="main">Returning felt <span style="color:#D97706;text-decoration:underline;text-decoration-color:#FCD34D;text-underline-offset:10px;">different</span> because I was different.</div>
+        <div class="sub">I had a reason to be here now, not just a habit pulling me back, and that distinction turns out to matter a lot.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FDE68A;"></div>
+        <div class="bubble" style="background:#FFFBEB;border-color:#FCD34D;color:#78350F;">You can use social media intentionally. Most people just never try.</div>
+        <div class="bubble-tail" style="border-top-color:#FFFBEB;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+  <!-- 6: Conclusion -->
+  <div class="col"><div class="cap">6 — Conclusion</div>
+  <div class="shell"><div class="inner">
+    <div class="band" style="background:#D97706;">
+      <span class="band-name">Random others</span><span class="band-pg">06 / 06</span>
+    </div>
+    <div class="body top">
+      <div class="content">
+        <div class="title">The takeaway</div>
+        <div class="main">The tool is fine. Your <span style="color:#D97706;text-decoration:underline;text-decoration-color:#FCD34D;text-underline-offset:10px;">relationship with it</span> is the problem.</div>
+        <div class="sub">A 30-day break does not fix everything, but it shows you clearly what was actually going on.</div>
+        <div class="cta" style="color:#D97706;">Save this for later or follow for what happens next.</div>
+      </div>
+      <div class="bubble-wrap">
+        <div class="divider" style="background:#FDE68A;"></div>
+        <div class="bubble" style="background:#FFFBEB;border-color:#FCD34D;color:#78350F;">Now I post instead of scroll. Feels better. Ask me in a year.</div>
+        <div class="bubble-tail" style="border-top-color:#FFFBEB;"></div>
+      </div>
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>
+  </div></div></div>
+
+</div>
+<hr class="sep">
+
+<!-- ═══════════════════════════════════
+     IG PROFILE GRID — thumbnail view
+═══════════════════════════════════ -->
+<div class="section">IG profile grid — thumbnail simulation</div>
+<div style="display:grid;grid-template-columns:repeat(3,106px);gap:3px;margin-bottom:12px;">
+
+  <!-- BIP hook -->
+  <div style="width:106px;height:106px;border-radius:4px;overflow:hidden;">
+    <div style="width:1080px;height:1080px;transform:scale(0.0981);transform-origin:top left;background:#FAF6F0;display:flex;flex-direction:column;font-family:'Patrick Hand',cursive;">
+      <div style="height:90px;background:#2563EB;display:flex;align-items:center;padding:0 160px;flex-shrink:0;">
+        <span style="font-size:36px;letter-spacing:0.06em;text-transform:uppercase;color:rgba(255,255,255,0.92);">Building in public</span>
+        <span style="margin-left:auto;font-size:28px;color:rgba(255,255,255,0.5);">01/06</span>
+      </div>
+      <div style="flex:1;display:flex;align-items:center;padding:0 160px;">
+        <div style="font-size:88px;line-height:1.2;color:#1A1208;">I spent <span style="color:#2563EB;">240 hours</span> building a SaaS and have zero paying customers.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Finances hook -->
+  <div style="width:106px;height:106px;border-radius:4px;overflow:hidden;">
+    <div style="width:1080px;height:1080px;transform:scale(0.0981);transform-origin:top left;background:#FAF6F0;display:flex;flex-direction:column;font-family:'Patrick Hand',cursive;">
+      <div style="height:90px;background:#16A34A;display:flex;align-items:center;padding:0 160px;flex-shrink:0;">
+        <span style="font-size:36px;letter-spacing:0.06em;text-transform:uppercase;color:rgba(255,255,255,0.92);">Managing finances</span>
+        <span style="margin-left:auto;font-size:28px;color:rgba(255,255,255,0.5);">01/06</span>
+      </div>
+      <div style="flex:1;display:flex;align-items:center;padding:0 160px;">
+        <div style="font-size:88px;line-height:1.2;color:#1A1208;">I tracked every dollar I spent and found I was <span style="color:#16A34A;">silently losing $800</span> a month.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BIP stat -->
+  <div style="width:106px;height:106px;border-radius:4px;overflow:hidden;">
+    <div style="width:1080px;height:1080px;transform:scale(0.0981);transform-origin:top left;background:#FAF6F0;display:flex;flex-direction:column;font-family:'Patrick Hand',cursive;">
+      <div style="height:90px;background:#2563EB;display:flex;align-items:center;padding:0 160px;flex-shrink:0;">
+        <span style="font-size:36px;letter-spacing:0.06em;text-transform:uppercase;color:rgba(255,255,255,0.92);">Building in public</span>
+        <span style="margin-left:auto;font-size:28px;color:rgba(255,255,255,0.5);">02/06</span>
+      </div>
+      <div style="flex:1;display:flex;align-items:flex-start;padding:64px 130px 0;">
+        <div style="font-size:190px;line-height:1;color:#2563EB;">0</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Career hook -->
+  <div style="width:106px;height:106px;border-radius:4px;overflow:hidden;">
+    <div style="width:1080px;height:1080px;transform:scale(0.0981);transform-origin:top left;background:#FAF6F0;display:flex;flex-direction:column;font-family:'Patrick Hand',cursive;">
+      <div style="height:90px;background:#7C3AED;display:flex;align-items:center;padding:0 160px;flex-shrink:0;">
+        <span style="font-size:36px;letter-spacing:0.06em;text-transform:uppercase;color:rgba(255,255,255,0.92);">Navigating career</span>
+        <span style="margin-left:auto;font-size:28px;color:rgba(255,255,255,0.5);">01/06</span>
+      </div>
+      <div style="flex:1;display:flex;align-items:center;padding:0 160px;">
+        <div style="font-size:88px;line-height:1.2;color:#1A1208;">They offered me a 30% raise and I was <span style="color:#7C3AED;">stupid enough to say no.</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Relationship hook -->
+  <div style="width:106px;height:106px;border-radius:4px;overflow:hidden;">
+    <div style="width:1080px;height:1080px;transform:scale(0.0981);transform-origin:top left;background:#FAF6F0;display:flex;flex-direction:column;font-family:'Patrick Hand',cursive;">
+      <div style="height:90px;background:#DB2777;display:flex;align-items:center;padding:0 160px;flex-shrink:0;">
+        <span style="font-size:36px;letter-spacing:0.06em;text-transform:uppercase;color:rgba(255,255,255,0.92);">Growing in relationship</span>
+        <span style="margin-left:auto;font-size:28px;color:rgba(255,255,255,0.5);">01/06</span>
+      </div>
+      <div style="flex:1;display:flex;align-items:center;padding:0 160px;">
+        <div style="font-size:88px;line-height:1.2;color:#1A1208;">A relationship at 22 <span style="color:#DB2777;">broke me</span> more than any job I have ever had.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Random hook -->
+  <div style="width:106px;height:106px;border-radius:4px;overflow:hidden;">
+    <div style="width:1080px;height:1080px;transform:scale(0.0981);transform-origin:top left;background:#FAF6F0;display:flex;flex-direction:column;font-family:'Patrick Hand',cursive;">
+      <div style="height:90px;background:#D97706;display:flex;align-items:center;padding:0 160px;flex-shrink:0;">
+        <span style="font-size:36px;letter-spacing:0.06em;text-transform:uppercase;color:rgba(255,255,255,0.92);">Random others</span>
+        <span style="margin-left:auto;font-size:28px;color:rgba(255,255,255,0.5);">01/06</span>
+      </div>
+      <div style="flex:1;display:flex;align-items:center;padding:0 160px;">
+        <div style="font-size:88px;line-height:1.2;color:#1A1208;">I deleted Instagram for 30 days and my <span style="color:#D97706;">anxiety got worse</span> before it got better.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<p style="font-size:10px;color:#2A2A2A;">↑ 130px left padding = ~13px from thumbnail left edge. Text starts clearly inside frame.</p>
+
+</body>
+</html>

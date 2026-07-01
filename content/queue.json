@@ -93,60 +93,61 @@
   {
     "id": "1782824417955",
     "date": "2026-06-30",
-    "topic": "malaysia-startup",
-    "angle": "What working at a US startup from Malaysia is actually like",
+    "topic": "remote-startup",
+    "angle": "What working remotely for an overseas startup is actually like",
     "status": "skipped",
     "theme": "Building in public",
-    "caption": "Everyone romanticises working at a US startup. Here's what it actually looks like from Malaysia.",
-    "threads_text": "Working at a US startup from Malaysia sounds cool until you're on a 10pm Zoom call while your friends are at mamak. The pay is decent. The timezone is not. You're always half a day behind everyone who matters. Still beats a lot of alternatives though, not gonna lie.",
+    "caption": "Everyone romanticises working remotely for an overseas startup. Here is what it actually looks like.",
+    "threads_text": "Working remotely for an overseas startup sounds cool until you are on a late-night Zoom while your friends are out. The pay is decent. The timezone is not. You are always half a day behind everyone who matters. Still beats a lot of alternatives though.",
     "slides": [
       {
         "type": "hook",
-        "main_text": "Working at a **US startup** from Malaysia sounds like the dream.",
-        "sub_text": "Here's what nobody tells you about it.",
+        "main_text": "Working remotely for an **overseas startup** sounds like the dream.",
+        "sub_text": "Here is what nobody tells you about it.",
         "bubble": null
       },
       {
         "type": "stat",
-        "sub_text": "Average time difference between KL and US West Coast",
-        "stat_number": "15 hrs",
-        "stat_label": "behind San Francisco. Every single day.",
+        "title": "The time tax",
+        "sub_text": "Hours between me and the rest of the team, every single day.",
+        "stat_number": "12 hrs",
+        "stat_label": "behind headquarters. Every single day.",
         "bubble": "My most productive hours are when my boss is asleep. Make of that what you will."
       },
       {
         "type": "content",
-        "main_text": "Your **mornings are free**. Your evenings are not.",
-        "sub_text": "All the real meetings happen after 9pm KL time.",
-        "sub_text_2": "You learn to eat dinner early and keep your laptop charged.",
-        "bubble": "I have perfected the art of looking alert on camera at 11pm."
+        "title": "The schedule",
+        "main_text": "Your **mornings are free.** Your evenings are not.",
+        "sub_text": "All the real meetings happen at the end of your day, so you learn to protect your mornings like they are the only hours you actually own.",
+        "bubble": "I have perfected the art of looking alert on camera late at night."
       },
       {
         "type": "content",
+        "title": "The math",
         "main_text": "The **pay gap** is real and it works in your favour.",
-        "sub_text": "US salary, Malaysian cost of living. The math is genuinely good.",
-        "sub_text_2": "This is the one part that lives up to the hype.",
-        "bubble": "Not going to pretend this isn't the reason most of us do it."
+        "sub_text": "Headquarters salary, local cost of living. The math is genuinely good, and this is the one part that lives up to the hype.",
+        "bubble": "Not going to pretend this is not a big part of why most people do it."
       },
       {
         "type": "content",
+        "title": "The downside",
         "main_text": "But you are always **half a day behind** everyone who matters.",
-        "sub_text": "Decisions get made while you sleep. You catch up in the morning.",
-        "sub_text_2": "You get used to it. Doesn't mean it stops being annoying.",
+        "sub_text": "Decisions get made while you sleep, and you catch up in the morning to find the landscape has already shifted.",
         "bubble": "Nothing like waking up to 47 Slack messages and a decision that affects your whole week."
       },
       {
         "type": "content",
-        "main_text": "So I started building **kakisewa.com** in the pockets of time I actually own.",
-        "sub_text": "8,471 cold emails out to rental agents. 100 a day, automated.",
-        "sub_text_2": "Zero paying customers so far. But the mornings are mine.",
-        "bubble": "Running a cold email campaign while my day job sleeps. Very normal behaviour."
+        "title": "The opportunity",
+        "main_text": "So I started building in the **pockets of time I actually own.**",
+        "sub_text": "8,471 cold emails out to potential customers. 100 a day, automated. Zero paying customers so far. But the mornings are mine.",
+        "bubble": "Running a side project while the day job sleeps. Very normal behaviour."
       },
       {
         "type": "conclusion",
+        "title": "The takeaway",
         "main_text": "The **timezone gap** is the tax. The free mornings are the opportunity.",
-        "sub_text": "Still figuring out if I'm playing it right.",
-        "follow_cta": "Follow to know what happens next.",
-        "bubble": "Ask me again once someone actually pays for kakisewa."
+        "sub_text": "Still figuring out if I am playing it right.",
+        "bubble": "Ask me again once the side project actually makes money."
       }
     ],
     "images": [],
@@ -155,61 +156,62 @@
   {
     "id": "1782833680140",
     "plan_day": 2,
-    "date": "2026-06-30",
+    "date": "2026-07-01",
     "topic": "building-in-public",
     "angle": "I picked the most unsexy market possible.",
     "status": "pending",
     "theme": "Building in public",
-    "caption": "Day 2. Still zero customers. But I picked this market on purpose.\n\nMost people told me rental agents in Malaysia weren't exciting enough to build for. I thought: good, fewer people will try to compete with me.\n\nSwipe to see why I chose boring over cool — and whether it's actually smart or just cope.\n\nUnsexy market or cool idea — which would you build? Vote in comments: U or C",
-    "threads_text": "Day 2 of building kakisewa. I picked Malaysian rental agents as my market. Still tracking contracts in WhatsApp. Nobody thinks it's exciting. I think that's the point.\n\nPoll: which would you build?\nU = Unsexy market with real pain\nC = Cool idea with hype",
+    "caption": "Day 2. Still zero customers. But I picked this market on purpose.\n\nMost people said it was not exciting enough to build for. I thought: good, fewer people will try to compete.\n\nSwipe to see why I chose boring over cool, and whether it is actually smart or just cope.\n\nUnsexy market or cool idea, which would you build? Vote in comments: U or C",
+    "threads_text": "Day 2 of building in public. I picked property agents as my market. They still track contracts in WhatsApp. Nobody thinks it is exciting. I think that is the point.\n\nPoll: which would you build?\nU = Unsexy market with real pain\nC = Cool idea with hype",
     "slides": [
       {
         "type": "hook",
         "main_text": "I picked the most **unsexy market** possible.",
-        "sub_text": "Malaysian rental agents who still track contracts in WhatsApp.",
+        "sub_text": "Property agents who still track contracts in WhatsApp. And I think that is the point.",
         "bubble": null
       },
       {
         "type": "stat",
-        "sub_text": "Rental agents in Malaysia with no digital contract system",
+        "title": "The market",
+        "sub_text": "Property agents with no digital contract system, tracking everything in WhatsApp and sticky notes.",
         "stat_number": "8,471",
-        "stat_label": "agents scraped. 100 cold emails going out every day.",
+        "stat_label": "agents found. 100 cold emails going out every day.",
         "bubble": "I have their emails. I do not have their money. Yet."
       },
       {
         "type": "content",
+        "title": "The gap",
         "main_text": "**Nobody is building for this market.**",
-        "sub_text": "Which either means it's a wide open opportunity.",
-        "sub_text_2": "Or everyone already tried and left. I'm choosing to believe the first one.",
+        "sub_text": "Which either means it is a wide open opportunity, or everyone already tried and left. I am choosing to believe the first one.",
         "bubble": "This is the part where I find out which."
       },
       {
         "type": "content",
+        "title": "The validation",
         "main_text": "The problem is **obvious once you talk to one agent.**",
-        "sub_text": "Contracts in WhatsApp. Renewals tracked in their head. Chasing landlords over text.",
-        "sub_text_2": "Nobody built a tool because nobody thought it was worth building.",
-        "bubble": "First agent I talked to said 'aiya, I just use notes lor.' That was my product validation."
+        "sub_text": "Contracts in WhatsApp, renewals tracked in their head, and nobody built a tool because nobody thought it was worth building.",
+        "bubble": "First agent I talked to just uses notes on their phone. That was my product validation."
       },
       {
         "type": "content",
+        "title": "The advantage",
         "main_text": "**Unsexy markets have real paying customers** and fewer competitors.",
-        "sub_text": "The pain is specific, the buyers exist, and nobody's pitching them at TechCrunch.",
-        "sub_text_2": null,
+        "sub_text": "The pain is specific, the buyers exist, and nobody is pitching them at TechCrunch.",
         "bubble": "My friends thought I was building something boring. I think boring pays rent."
       },
       {
         "type": "content",
+        "title": "The pitch",
         "main_text": "I chose this over a **'cool' idea** because the pain is specific.",
-        "sub_text": "Specific pain means the customer knows they have a problem before you explain it.",
-        "sub_text_2": "That's a much easier sales conversation.",
+        "sub_text": "Specific pain means the customer already knows they have a problem before you explain it, which makes the sales conversation much easier.",
         "bubble": "Cool ideas need you to convince people they have a problem. Hard pass."
       },
       {
         "type": "conclusion",
+        "title": "The takeaway",
         "main_text": "**Boring problems, real customers,** less noise.",
-        "sub_text": "Still zero paying customers — but I know exactly who I'm building for.",
-        "follow_cta": "Follow to know what happens next or save this for later.",
-        "bubble": "Unsexy market or cool idea — which would you build? Drop U or C in the comments."
+        "sub_text": "Still zero paying customers, but I know exactly who I am building for.",
+        "bubble": "Unsexy market or cool idea, which would you build? Drop U or C in the comments."
       }
     ],
     "images": [],

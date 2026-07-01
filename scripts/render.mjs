@@ -24,27 +24,26 @@ function saveJSON(p, data) {
   fs.writeFileSync(p, JSON.stringify(data, null, 2), "utf8");
 }
 
-// Theme → color palette
 const THEMES = {
   "building in public": {
-    band: "#2563EB", rule: "#BFDBFE", margin: "#DBEAFE", marginLine: "#93C5FD",
-    bubbleBg: "#EFF6FF", bubbleBorder: "#BFDBFE",
+    band: "#2563EB", rule: "#BFDBFE", accent: "#93C5FD",
+    bubbleBg: "#EBF2FF", bubbleBorder: "#93C5FD", bubbleText: "#1A3A8A",
   },
   "managing finances": {
-    band: "#16A34A", rule: "#A7F3D0", margin: "#D1FAE5", marginLine: "#6EE7B7",
-    bubbleBg: "#ECFDF5", bubbleBorder: "#A7F3D0",
+    band: "#16A34A", rule: "#A7F3D0", accent: "#6EE7B7",
+    bubbleBg: "#ECFDF5", bubbleBorder: "#6EE7B7", bubbleText: "#14532D",
   },
   "navigating career": {
-    band: "#7C3AED", rule: "#DDD6FE", margin: "#EDE9FE", marginLine: "#C4B5FD",
-    bubbleBg: "#F5F3FF", bubbleBorder: "#DDD6FE",
+    band: "#7C3AED", rule: "#DDD6FE", accent: "#C4B5FD",
+    bubbleBg: "#F5F3FF", bubbleBorder: "#C4B5FD", bubbleText: "#4C1D95",
   },
   "growing in relationship": {
-    band: "#DB2777", rule: "#FBCFE8", margin: "#FCE7F3", marginLine: "#F9A8D4",
-    bubbleBg: "#FDF2F8", bubbleBorder: "#FBCFE8",
+    band: "#DB2777", rule: "#FBCFE8", accent: "#F9A8D4",
+    bubbleBg: "#FDF2F8", bubbleBorder: "#F9A8D4", bubbleText: "#831843",
   },
   "random others": {
-    band: "#D97706", rule: "#FDE68A", margin: "#FEF3C7", marginLine: "#FCD34D",
-    bubbleBg: "#FFFBEB", bubbleBorder: "#FDE68A",
+    band: "#D97706", rule: "#FDE68A", accent: "#FCD34D",
+    bubbleBg: "#FFFBEB", bubbleBorder: "#FCD34D", bubbleText: "#78350F",
   },
 };
 
@@ -56,55 +55,63 @@ function getThemeColors(themeName) {
   return THEMES["building in public"];
 }
 
-// Render ** markers as <span class="highlight">
-function renderHighlights(text, accentColor) {
+function renderHighlights(text, bandColor, accentColor) {
   if (!text) return "";
   return text.replace(/\*\*(.+?)\*\*/g,
-    `<span style="color:${accentColor};text-decoration:underline;text-decoration-color:${accentColor}40;text-underline-offset:8px;">$1</span>`
+    `<span style="color:${bandColor};text-decoration:underline;text-decoration-color:${accentColor};text-underline-offset:10px;">$1</span>`
   );
 }
 
 function buildSlideHTML(slide, idx, total, theme) {
   const c = getThemeColors(theme);
-  const pageNum = String(idx + 1).padStart(2, "0");
+  const pageNum  = String(idx + 1).padStart(2, "0");
   const totalNum = String(total).padStart(2, "0");
-  const isFirst = idx === 0;
-  const isLast = idx === total - 1;
-
-  let contentHTML = "";
-
-  if (slide.type === "stat") {
-    contentHTML = `
-      ${slide.sub_text ? `<div class="sub-text">${renderHighlights(slide.sub_text, c.band)}</div>` : ""}
-      <div class="stat-number" style="color:${c.band};">${slide.stat_number || ""}</div>
-      ${slide.stat_label ? `<div class="stat-label">${renderHighlights(slide.stat_label, c.band)}</div>` : ""}
-    `;
-  } else {
-    contentHTML = `
-      ${slide.main_text ? `<div class="main-text">${renderHighlights(slide.main_text, c.band)}</div>` : ""}
-      ${slide.sub_text ? `<div class="sub-text">${renderHighlights(slide.sub_text, c.band)}</div>` : ""}
-      ${slide.sub_text_2 ? `<div class="sub-text">${renderHighlights(slide.sub_text_2, c.band)}</div>` : ""}
-      ${slide.type === "conclusion" ? `<div class="follow-cta" style="color:${c.band};">Save this for later or follow for what happens next.</div>` : ""}
-    `;
-  }
+  const isFirst  = idx === 0;
 
   const bubbleHTML = slide.bubble ? `
     <div class="bubble-wrap">
-      <div class="divider" style="background:${c.rule};"></div>
-      <div class="bubble" style="background:${c.bubbleBg};border-color:${c.bubbleBorder};">${slide.bubble}</div>
-    </div>
-  ` : "";
+      <div class="divider"></div>
+      <div class="bubble">${slide.bubble}</div>
+      <div class="bubble-tail"></div>
+    </div>` : "";
 
-  const swipeText = isFirst ? "swipe →" : "";
+  let bodyHTML = "";
 
-  // Notebook ruled-line background: repeat horizontal lines every 72px, offset to start below the band (90px band + 60px padding top)
-  const ruledBg = `repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 71px,
-    ${c.rule} 71px,
-    ${c.rule} 73px
-  )`;
+  if (isFirst) {
+    bodyHTML = `
+    <div class="body center">
+      <div class="center-content">
+        ${slide.main_text ? `<div class="main">${renderHighlights(slide.main_text, c.band, c.accent)}</div>` : ""}
+        ${slide.sub_text  ? `<div class="sub">${slide.sub_text}</div>` : ""}
+      </div>
+      <div class="foot">
+        <span class="handle">@drawoheriter</span>
+        <span class="swipe">swipe →</span>
+      </div>
+    </div>`;
+  } else {
+    let contentHTML = "";
+    if (slide.type === "stat") {
+      contentHTML = `
+        ${slide.title      ? `<div class="title">${slide.title}</div>` : ""}
+        ${slide.sub_text   ? `<div class="sub">${renderHighlights(slide.sub_text, c.band, c.accent)}</div>` : ""}
+        <div class="stat-num">${slide.stat_number || ""}</div>
+        ${slide.stat_label ? `<div class="stat-lbl">${renderHighlights(slide.stat_label, c.band, c.accent)}</div>` : ""}`;
+    } else {
+      contentHTML = `
+        ${slide.title      ? `<div class="title">${slide.title}</div>` : ""}
+        ${slide.main_text  ? `<div class="main">${renderHighlights(slide.main_text, c.band, c.accent)}</div>` : ""}
+        ${slide.sub_text   ? `<div class="sub">${renderHighlights(slide.sub_text, c.band, c.accent)}</div>` : ""}
+        ${slide.type === "conclusion" ? `<div class="cta">Save this for later or follow for what happens next.</div>` : ""}`;
+    }
+
+    bodyHTML = `
+    <div class="body top">
+      <div class="content">${contentHTML}</div>
+      ${bubbleHTML}
+      <div class="foot"><span class="handle">@drawoheriter</span></div>
+    </div>`;
+  }
 
   return `<!DOCTYPE html>
 <html><head>
@@ -115,145 +122,62 @@ function buildSlideHTML(slide, idx, total, theme) {
 html, body { width: 1080px; height: 1080px; overflow: hidden; }
 body {
   font-family: 'Patrick Hand', cursive;
-  background-color: #FFFDF5;
-  background-image: ${ruledBg};
-  background-position: 0 150px;
-  width: 1080px;
-  height: 1080px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  background: #FAF6F0;
+  width: 1080px; height: 1080px;
+  display: flex; flex-direction: column;
 }
-/* left margin */
-.margin-bg {
-  position: absolute; top: 0; left: 0; bottom: 0; width: 14px;
-  background: ${c.margin};
-  z-index: 1;
-}
-.margin-line {
-  position: absolute; top: 0; left: 5px; bottom: 0; width: 2.5px;
-  background: ${c.marginLine};
-  z-index: 2;
-}
-/* color band */
 .band {
-  height: 90px;
-  background: ${c.band};
-  display: flex;
-  align-items: center;
-  padding: 0 150px;
-  flex-shrink: 0;
-  position: relative;
-  z-index: 3;
+  height: 90px; background: ${c.band};
+  display: flex; align-items: center;
+  padding: 0 160px; flex-shrink: 0;
 }
-.band-theme {
-  font-size: 28px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.9);
-}
-.band-page {
-  margin-left: auto;
-  font-size: 28px;
-  color: rgba(255,255,255,0.5);
-}
-/* body */
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg   { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
 .body {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 60px 150px 52px;
-  position: relative;
-  z-index: 3;
-  min-height: 0;
+  flex: 1; display: flex; flex-direction: column;
+  padding: 0 160px 52px; min-height: 0;
 }
-.content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-top: 60px;
-  gap: 28px;
-  overflow: hidden;
-  min-height: 0;
+.body.center { justify-content: flex-start; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.body.top { justify-content: flex-start; padding-top: 64px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot {
+  display: flex; justify-content: space-between; align-items: center;
+  padding-top: 32px; flex-shrink: 0;
 }
-.main-text {
-  font-size: 80px;
-  line-height: 1.2;
-  color: #1A1208;
-  flex-shrink: 0;
-}
-.sub-text {
-  font-size: 33px;
-  color: #9A8878;
-  line-height: 1.65;
-  flex-shrink: 0;
-}
-.stat-number {
-  font-size: 180px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  flex-shrink: 0;
-}
-.stat-label {
-  font-size: 33px;
-  color: #9A8878;
-  line-height: 1.5;
-  flex-shrink: 0;
-}
-.follow-cta {
-  font-size: 34px;
-  flex-shrink: 0;
-}
-.bubble-wrap {
-  flex-shrink: 0;
-  margin-top: auto;
-  padding-top: 24px;
-}
-.divider {
-  width: 56px;
-  height: 2px;
-  margin-bottom: 20px;
-}
+.title  { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main   { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub    { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: ${c.band}; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta    { font-size: 40px; line-height: 1.4; color: ${c.band}; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe  { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: ${c.rule}; margin-bottom: 24px; }
 .bubble {
-  display: inline-block;
-  border-radius: 36px 36px 36px 8px;
-  border: 1.5px solid;
-  padding: 22px 34px;
-  font-size: 28px;
-  color: #9A8878;
-  font-style: italic;
-  line-height: 1.55;
-  max-width: 100%;
+  display: block;
+  border-radius: 24px 24px 24px 6px;
+  border: 2px solid ${c.bubbleBorder};
+  background: ${c.bubbleBg};
+  padding: 26px 40px;
+  font-size: 34px; line-height: 1.55; font-style: italic;
+  color: ${c.bubbleText}; max-width: 100%;
 }
-.bottom-bar {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 28px;
+.bubble-tail {
+  width: 0; height: 0;
+  border-top: 22px solid ${c.bubbleBg};
+  border-right: 22px solid transparent;
+  margin-left: 42px;
 }
-.handle { font-size: 22px; color: #C8B8A8; }
-.swipe  { font-size: 22px; color: #C8B8A8; }
 </style>
 </head>
 <body>
-  <div class="margin-bg"></div>
-  <div class="margin-line"></div>
   <div class="band">
-    <span class="band-theme">${theme}</span>
-    <span class="band-page">${pageNum} / ${totalNum}</span>
+    <span class="band-name">${theme}</span>
+    <span class="band-pg">${pageNum} / ${totalNum}</span>
   </div>
-  <div class="body">
-    <div class="content">
-      ${contentHTML}
-      ${bubbleHTML}
-    </div>
-    <div class="bottom-bar">
-      <span class="handle">@drawoheriter</span>
-      <span class="swipe">${swipeText}</span>
-    </div>
-  </div>
+  ${bodyHTML}
 </body></html>`;
 }
 
@@ -271,7 +195,6 @@ async function renderEntry(entry, browser) {
     const html = buildSlideHTML(slide, i, entry.slides.length, entry.theme);
 
     await page.setContent(html, { waitUntil: "networkidle" });
-    // Extra wait for font load
     await page.waitForTimeout(800);
 
     const filePath = join(dir, `slide-${String(i + 1).padStart(2, "0")}.png`);
@@ -294,7 +217,6 @@ async function main() {
     return;
   }
 
-  // --next: render the first approved entry (used by CI post workflow)
   const nextMode = process.argv[2] === "--next";
   const targets = nextMode
     ? queue.filter(e => e.status === "approved").slice(0, 1)
