@@ -86,11 +86,11 @@ body {
 }
 .margin-bg { position:absolute;top:0;left:0;bottom:0;width:14px;background:${c.margin};z-index:1; }
 .margin-line { position:absolute;top:0;left:5px;bottom:0;width:2.5px;background:${c.marginLine};z-index:2; }
-.band { height:90px;background:${c.band};display:flex;align-items:center;padding:0 80px;flex-shrink:0;position:relative;z-index:3; }
+.band { height:90px;background:${c.band};display:flex;align-items:center;padding:0 150px;flex-shrink:0;position:relative;z-index:3; }
 .band-theme { font-size:28px;letter-spacing:0.06em;text-transform:uppercase;color:rgba(255,255,255,0.9); }
 .band-page { margin-left:auto;font-size:28px;color:rgba(255,255,255,0.5); }
-.body { flex:1;display:flex;flex-direction:column;padding:60px 80px 52px;position:relative;z-index:3;min-height:0; }
-.content { flex:1;display:flex;flex-direction:column;justify-content:center;gap:28px;overflow:hidden;min-height:0; }
+.body { flex:1;display:flex;flex-direction:column;padding:60px 150px 52px;position:relative;z-index:3;min-height:0; }
+.content { flex:1;display:flex;flex-direction:column;justify-content:flex-start;padding-top:60px;gap:28px;overflow:hidden;min-height:0; }
 .main-text { font-size:80px;line-height:1.2;color:#1A1208;flex-shrink:0; }
 .sub-text { font-size:33px;color:#9A8878;line-height:1.65;flex-shrink:0; }
 .stat-number { font-size:180px;line-height:1;letter-spacing:-0.02em;flex-shrink:0; }

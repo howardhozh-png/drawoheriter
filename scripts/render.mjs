@@ -141,7 +141,7 @@ body {
   background: ${c.band};
   display: flex;
   align-items: center;
-  padding: 0 80px;
+  padding: 0 150px;
   flex-shrink: 0;
   position: relative;
   z-index: 3;
@@ -162,7 +162,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 60px 80px 52px;
+  padding: 60px 150px 52px;
   position: relative;
   z-index: 3;
   min-height: 0;
@@ -171,7 +171,8 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 60px;
   gap: 28px;
   overflow: hidden;
   min-height: 0;
