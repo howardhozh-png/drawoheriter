@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Navigating career — 2026-07-02</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F2F2F7;
+  padding: 32px 24px 48px;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+}
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8E8E93;
+  margin-bottom: 6px;
+}
+.theme {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1D1D1F;
+  margin-bottom: 4px;
+}
+.date { font-size: 14px; color: #8E8E93; }
+
+/* Text cards */
+.text-cards {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 700px) { .text-cards { grid-template-columns: 1fr; } }
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 22px;
+}
+.card .label { margin-bottom: 8px; }
+.card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1D1D1F;
+  white-space: pre-wrap;
+}
+
+/* Slides row */
+.slides-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+.slides-row {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+/* Individual slide — 1080x1080 scaled to 340x340 */
+.slide {
+  width: 340px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  background: #fff;
+}
+.slide-inner {
+  width: 1080px;
+  height: 1080px;
+  transform: scale(0.3148);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 80px;
+  background: #FFFFFF;
+}
+.top-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-bottom: 52px;
+}
+.overline {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+}
+.page { font-size: 22px; font-weight: 500; color: #BBB; letter-spacing: 0.05em; }
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  overflow: hidden;
+  min-height: 0;
+}
+.main {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #0A0A0A;
+  letter-spacing: -0.03em;
+  flex-shrink: 0;
+}
+.hl { color: #3333FF; }
+.sub {
+  font-size: 30px;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+.stat-num {
+  font-size: 160px;
+  font-weight: 900;
+  color: #3333FF;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.stat-lbl {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0A0A0A;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+.cta { font-size: 28px; font-weight: 700; color: #3333FF; flex-shrink: 0; }
+.bubble-wrap { flex-shrink: 0; margin-top: auto; padding-top: 28px; }
+.divider { width: 56px; height: 2px; background: #E0E0E0; margin-bottom: 18px; }
+.bubble {
+  display: inline-block;
+  background: #F0F0F0;
+  border-radius: 36px 36px 36px 8px;
+  padding: 20px 32px;
+  font-size: 24px;
+  color: #444;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 100%;
+}
+.bottom-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-top: 36px;
+}
+.handle { font-size: 22px; font-weight: 600; color: #AAA; }
+.swipe { font-size: 22px; font-weight: 600; color: #AAA; letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="label">Draft preview — 2026-07-02</div>
+    <div class="theme">Navigating career</div>
+  </div>
+
+  <div class="text-cards">
+    <div class="card">
+      <div class="label">Threads text post</div>
+      <p>Consulting trains you to be a terrible founder. Here is the proof.
+
+You get wired to reduce risk, not take it. You let clients define the problem. You optimise for looking right over being right.
+
+I am building kakisewa.com with zero paying customers and all three of these showing up constantly.
+
+What does your current job train you to do that would wreck you as a founder?</p>
+    </div>
+    <div class="card">
+      <div class="label">Instagram caption</div>
+      <p>Consulting gives you a great salary and a terrible founder brain.
+
+I have three reasons why. I have lived all three.
+
+The scariest part is I did not notice any of them until I was already building kakisewa and making all the mistakes in real time.
+
+What is the biggest habit your current job has given you that would hurt you as a founder? Comment below.</p>
+    </div>
+  </div>
+
+  <div class="slides-wrap">
+    <div class="slides-row">
+      
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">01 / 06</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">Consulting actively trains you to be <span class="hl">a terrible founder.</span></div>
+      <div class="sub">Three reasons why, and I have lived all of them.</div>
+      
+      
+    
+          
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe">swipe →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">02 / 06</span>
+        </div>
+        <div class="content">
+          
+      <div class="sub">Founder habits that consulting actively trains out of you</div>
+      <div class="stat-num">3</div>
+      <div class="stat-lbl">and I am currently 0 for 3</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">I spent a week researching whether to use Notion or Obsidian for notes. A real founder would have picked one in 5 minutes.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">03 / 06</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">Reason 1: You are <span class="hl">wired to reduce risk,</span> not take it.</div>
+      <div class="sub">Consulting rewards you for spotting what can go wrong and building a slide about it.</div>
+      <div class="sub">Founding rewards you for shipping anyway. These are opposite instincts.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">I have a 3-tab spreadsheet analysing cold email risk. I should have just sent the emails two weeks earlier.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">04 / 06</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">Reason 2: You are used to <span class="hl">clients defining the problem.</span></div>
+      <div class="sub">In consulting, someone hands you the question. Your job is to answer it well.</div>
+      <div class="sub">As a founder, choosing the right problem to solve is the whole job. Nobody hands you that.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">I kept waiting for my users to tell me exactly what to build. They do not know either. That was a surprise.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">05 / 06</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">Reason 3: Optimised for <span class="hl">looking right,</span> not being right.</div>
+      <div class="sub">MBB trains you to never walk into a room without the answer already locked.</div>
+      <div class="sub">Founding means being publicly wrong, repeatedly, and updating fast. The deck is never done.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">kakisewa.com is live. Zero paying customers. This post exists. Make of that what you will.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">06 / 06</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">The caveat: <span class="hl">some of us recover.</span></div>
+      <div class="sub">I am trying. Slowly. With 8,471 scraped agents and 100 cold emails going out per day as proof I eventually moved.</div>
+      
+      <div class="cta">Follow to know what happens next.</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">What is the biggest habit your current job has given you that would hurt you as a founder? Comment below.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

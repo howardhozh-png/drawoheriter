@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Navigating career — 2026-07-02</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F2F2F7;
+  padding: 32px 24px 48px;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+}
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8E8E93;
+  margin-bottom: 6px;
+}
+.theme {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1D1D1F;
+  margin-bottom: 4px;
+}
+.date { font-size: 14px; color: #8E8E93; }
+
+/* Text cards */
+.text-cards {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 700px) { .text-cards { grid-template-columns: 1fr; } }
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 22px;
+}
+.card .label { margin-bottom: 8px; }
+.card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1D1D1F;
+  white-space: pre-wrap;
+}
+
+/* Slides row */
+.slides-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+.slides-row {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+/* Individual slide — 1080x1080 scaled to 340x340 */
+.slide {
+  width: 340px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  background: #fff;
+}
+.slide-inner {
+  width: 1080px;
+  height: 1080px;
+  transform: scale(0.3148);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 80px;
+  background: #FFFFFF;
+}
+.top-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-bottom: 52px;
+}
+.overline {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+}
+.page { font-size: 22px; font-weight: 500; color: #BBB; letter-spacing: 0.05em; }
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  overflow: hidden;
+  min-height: 0;
+}
+.main {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #0A0A0A;
+  letter-spacing: -0.03em;
+  flex-shrink: 0;
+}
+.hl { color: #3333FF; }
+.sub {
+  font-size: 30px;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+.stat-num {
+  font-size: 160px;
+  font-weight: 900;
+  color: #3333FF;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.stat-lbl {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0A0A0A;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+.cta { font-size: 28px; font-weight: 700; color: #3333FF; flex-shrink: 0; }
+.bubble-wrap { flex-shrink: 0; margin-top: auto; padding-top: 28px; }
+.divider { width: 56px; height: 2px; background: #E0E0E0; margin-bottom: 18px; }
+.bubble {
+  display: inline-block;
+  background: #F0F0F0;
+  border-radius: 36px 36px 36px 8px;
+  padding: 20px 32px;
+  font-size: 24px;
+  color: #444;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 100%;
+}
+.bottom-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-top: 36px;
+}
+.handle { font-size: 22px; font-weight: 600; color: #AAA; }
+.swipe { font-size: 22px; font-weight: 600; color: #AAA; letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="label">Draft preview — 2026-07-02</div>
+    <div class="theme">Navigating career</div>
+  </div>
+
+  <div class="text-cards">
+    <div class="card">
+      <div class="label">Threads text post</div>
+      <p>I left the best job title I will probably ever have.
+
+Everyone warned me about the pay cut. Nobody warned me that half my personality was just... the firm name.
+
+Now I'm building kakisewa.com. Zero paying customers. Nobody's heard of it.
+
+Honestly the hardest part isn't the uncertainty. It's that nobody asks "where do you work?" the same way anymore.
+
+Have you ever left a prestigious job for something unknown? What pushed you?</p>
+    </div>
+    <div class="card">
+      <div class="label">Instagram caption</div>
+      <p>I left the best job title I will probably ever have.
+
+Most people warned me about the pay cut. Nobody warned me about the identity part.
+
+What happens when your entire personality was "consultant at [firm]" and then suddenly... it isn't?
+
+This is what that actually felt like.
+
+Have you ever left a prestigious job for something uncertain? What pushed you? Comment below.</p>
+    </div>
+  </div>
+
+  <div class="slides-wrap">
+    <div class="slides-row">
+      
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">01 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">I left the best <span class="hl">job title</span> I will probably ever have.</div>
+      <div class="sub">The identity crisis nobody warns you about when you leave a prestigious job for something unknown.</div>
+      
+      
+    
+          
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe">swipe →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">02 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="sub">Years I spent in consulting before I walked away from it</div>
+      <div class="stat-num">2+</div>
+      <div class="stat-lbl">years in MBB consulting</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Long enough for it to become who I was. Short enough that people still ask why I left.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">03 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">The <span class="hl">prestige was real.</span> So was the trap.</div>
+      <div class="sub">The brand opened doors. It also became a crutch.</div>
+      <div class="sub">At some point I stopped knowing if I was good or just well-labeled.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">The firm name was doing a lot of heavy lifting in conversations I didn't notice.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">04 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">Nobody outside consulting <span class="hl">cares what tier your firm was.</span></div>
+      <div class="sub">Inside the bubble it's everything. Outside it's a blank stare.</div>
+      
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">First time I said the firm name to a non-corporate person and got nothing back. Humbling.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">05 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">Going from <span class="hl">"consultant at X"</span> to "I'm building something you haven't heard of" is a full identity reset.</div>
+      <div class="sub">The old answer to "what do you do" was a conversation starter.</div>
+      <div class="sub">The new answer is a conversation ender.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Now I say kakisewa.com and watch people nod politely. Zero paying customers doesn't help the pitch.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">06 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">What I thought life after consulting would look like: <span class="hl">freedom, clarity, momentum.</span></div>
+      <div class="sub">What it actually is: a full-time job at Tarro, a side project with no customers yet, and a lot of quiet.</div>
+      <div class="sub">The clarity comes eventually. It just doesn't arrive with the resignation letter.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">I genuinely thought leaving would feel like a movie moment. It felt more like a Sunday with no plans.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">07 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">The title was never the thing. But you only learn that <span class="hl">after you give it up.</span></div>
+      <div class="sub">I still have my old business cards somewhere. I keep them as a reminder, not a trophy.</div>
+      
+      <div class="cta">Follow to know what happens next.</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Building kakisewa with zero customers is humbling in ways no consulting project ever was. That's probably the point.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Navigating career — 2026-07-02</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F2F2F7;
+  padding: 32px 24px 48px;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+}
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8E8E93;
+  margin-bottom: 6px;
+}
+.theme {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1D1D1F;
+  margin-bottom: 4px;
+}
+.date { font-size: 14px; color: #8E8E93; }
+
+/* Text cards */
+.text-cards {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 700px) { .text-cards { grid-template-columns: 1fr; } }
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 22px;
+}
+.card .label { margin-bottom: 8px; }
+.card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1D1D1F;
+  white-space: pre-wrap;
+}
+
+/* Slides row */
+.slides-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+.slides-row {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+/* Individual slide — 1080x1080 scaled to 340x340 */
+.slide {
+  width: 340px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  background: #fff;
+}
+.slide-inner {
+  width: 1080px;
+  height: 1080px;
+  transform: scale(0.3148);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 80px;
+  background: #FFFFFF;
+}
+.top-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-bottom: 52px;
+}
+.overline {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+}
+.page { font-size: 22px; font-weight: 500; color: #BBB; letter-spacing: 0.05em; }
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  overflow: hidden;
+  min-height: 0;
+}
+.main {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #0A0A0A;
+  letter-spacing: -0.03em;
+  flex-shrink: 0;
+}
+.hl { color: #3333FF; }
+.sub {
+  font-size: 30px;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+.stat-num {
+  font-size: 160px;
+  font-weight: 900;
+  color: #3333FF;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.stat-lbl {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0A0A0A;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+.cta { font-size: 28px; font-weight: 700; color: #3333FF; flex-shrink: 0; }
+.bubble-wrap { flex-shrink: 0; margin-top: auto; padding-top: 28px; }
+.divider { width: 56px; height: 2px; background: #E0E0E0; margin-bottom: 18px; }
+.bubble {
+  display: inline-block;
+  background: #F0F0F0;
+  border-radius: 36px 36px 36px 8px;
+  padding: 20px 32px;
+  font-size: 24px;
+  color: #444;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 100%;
+}
+.bottom-bar {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  margin-top: 36px;
+}
+.handle { font-size: 22px; font-weight: 600; color: #AAA; }
+.swipe { font-size: 22px; font-weight: 600; color: #AAA; letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="label">Draft preview — 2026-07-02</div>
+    <div class="theme">Navigating career</div>
+  </div>
+
+  <div class="text-cards">
+    <div class="card">
+      <div class="label">Threads text post</div>
+      <p>The alumni network sounds powerful. Here is what it is actually useful for when you are building.
+
+I asked a former McKinsey colleague for cold email strategy advice. He had never sent a cold email in his life.
+
+Credibility? Yes. Warm intros to property agents in Malaysia? Absolutely not.
+
+What network has actually moved the needle for you — alumni, industry, or something else?</p>
+    </div>
+    <div class="card">
+      <div class="label">Instagram caption</div>
+      <p>Everyone says the alumni network is your biggest asset when you start something.
+
+Here is what mine has actually been useful for — and where it completely fell flat.
+
+Honest answer: 2 meaningful intros from my entire consulting network. That is it.
+
+The network is real. The problems I am solving just do not match who is in it.
+
+What network has actually been useful for your work — alumni, industry, or online? Comment below.</p>
+    </div>
+  </div>
+
+  <div class="slides-wrap">
+    <div class="slides-row">
+      
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">01 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">The alumni network sounds powerful. Here is what it is <span class="hl">actually useful for</span> when you are building.</div>
+      <div class="sub">Honest answer: yes and no, and the split is not where you expect it.</div>
+      
+      
+    
+          
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe">swipe →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">02 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="sub">Meaningful introductions from my entire consulting network that actually moved things forward</div>
+      <div class="stat-num">2</div>
+      <div class="stat-lbl">out of years of MBB connections</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">I am not bitter. I am just counting.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">03 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">It does help with <span class="hl">credibility signals</span> and warm intros to people who will take your call</div>
+      <div class="sub">If you need someone to reply to a cold LinkedIn message, the MBB brand still works.</div>
+      <div class="sub">Getting a first meeting is easier. That part is real.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Useful for doors. Less useful for what happens after you walk through them.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">04 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">The problem: <span class="hl">nobody in my consulting network is a property agent</span></div>
+      <div class="sub">kakisewa.com is built for Malaysian rental agents. My network is bankers, consultants, and ex-consultants.</div>
+      <div class="sub">That is why I scraped 8,471 agents and set up cold email. The warm intro path does not exist here.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">I asked a former McKinsey colleague for cold email strategy advice. He had never sent a cold email in his life.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">05 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">The alumni network is <span class="hl">built for corporate problems</span>, not startup problems</div>
+      <div class="sub">Corporate problems: navigating org politics, landing a role, getting a reference.</div>
+      <div class="sub">Startup problems: finding your first 10 customers, pricing a product nobody has heard of.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Different game. The playbook does not transfer the way everyone implies it does.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">06 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main"><span class="hl">Build the right network</span> for what you are actually doing</div>
+      <div class="sub">For kakisewa, the useful people are property agents, PropTech founders, and people who have done B2B sales to fragmented markets.</div>
+      <div class="sub">Most of them are not in any alumni directory I have access to.</div>
+      
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">Currently finding more useful people on X and Reddit than anywhere else. Make of that what you will.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <div class="top-bar">
+          <span class="overline">Navigating career</span>
+          <span class="page">07 / 07</span>
+        </div>
+        <div class="content">
+          
+      <div class="main">Your alumni network is an <span class="hl">asset with a specific use case</span> — know what it is and is not</div>
+      <div class="sub">Mine is useful for credibility and corporate doors. For selling to property agents in Malaysia, I am on my own.</div>
+      
+      <div class="cta">Follow to know what happens next.</div>
+    
+          
+    <div class="bubble-wrap">
+      <div class="divider"></div>
+      <div class="bubble">What network has actually been useful for your work — alumni, industry, or online? Comment below.</div>
+    </div>
+        </div>
+        <div class="bottom-bar">
+          <span class="handle">@drawoheriter</span>
+          <span class="swipe"></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

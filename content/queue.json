@@ -154,12 +154,692 @@
     "engagement": null
   },
   {
+    "id": "day1-career",
+    "plan_day": 1,
+    "date": "2026-07-01",
+    "topic": "mbb-exit",
+    "angle": "Day 1 — Navigating career: left MBB after 5 years",
+    "status": "posted",
+    "theme": "navigating career",
+    "caption": "I left a $60k/month job at MBB after 5 years. Probably one of the dumbest decisions I have ever made. Here is everything I did not expect.\n\nHave you ever left a job that looked great from the outside? Drop it in the comments.",
+    "threads_text": "I left a $60k/month job at MBB. Nobody told me what comes next.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I left a **$60k/month job** at MBB after 5 years.",
+        "sub_text": "Probably one of the dumbest decisions I have ever made in my life.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "The Exit",
+        "sub_text": "Everyone asked why I was leaving. Two years more and I'll get promoted to leadership. It's a stupid decision.",
+        "stat_number": "5",
+        "stat_label": "years at MBB before I walked away",
+        "bubble": "Everyone asked why I was leaving but I kept asking myself why I was staying."
+      },
+      {
+        "type": "content",
+        "title": "The Identity",
+        "main_text": "I used to be **very proud** of my business cards.",
+        "sub_text": "Now they make me question my identity.",
+        "bubble": "I still have my old business cards. I keep them as a reminder, not a trophy."
+      },
+      {
+        "type": "content",
+        "title": "The Reality",
+        "main_text": "The meetings you **complained about** was also routine comfort.",
+        "sub_text": "The structure, the meetings, the drill, everything was so organized.",
+        "bubble": "Week one. No meetings, no deliverables, no one to report to. I did not know what to do with myself."
+      },
+      {
+        "type": "content",
+        "title": "The Loss",
+        "main_text": "Here is what nobody **puts on the list.**",
+        "sub_text": "The title. The peers. The salary. And knowing exactly what you were supposed to do every day.",
+        "bubble": "I feel disconnected. I feel like I lost a part of my identity. I don't know who I am."
+      },
+      {
+        "type": "conclusion",
+        "title": "The Takeaway",
+        "main_text": "Leaving is not the **brave part.** Figuring out who you are after is.",
+        "sub_text": "Still working on it. I want to share to the world as it happens.",
+        "bubble": null
+      }
+    ],
+    "images": [
+      "content/images/day1-career/slide-01.png",
+      "content/images/day1-career/slide-02.png",
+      "content/images/day1-career/slide-03.png",
+      "content/images/day1-career/slide-04.png",
+      "content/images/day1-career/slide-05.png",
+      "content/images/day1-career/slide-06.png"
+    ],
+    "engagement": null,
+    "instagram_story_id": null,
+    "posted_at": "2026-07-01T07:31:16.684Z",
+    "threads_id": "18093795329343108",
+    "threads_carousel_id": null,
+    "instagram_id": "17976359154025843"
+  },
+  {
+    "id": "day11-career",
+    "plan_day": 11,
+    "date": "2026-07-02",
+    "scheduled_at": "2026-07-02T13:00:00.000Z",
+    "topic": "mbb-exit",
+    "angle": "Things I genuinely miss about consulting",
+    "status": "approved",
+    "theme": "navigating career",
+    "caption": "Things I genuinely miss about consulting. Shorter list than I expected. More honest than most people admit.\n\nWhat do you miss most about a job you left? Comment below.",
+    "threads_text": "Things I genuinely miss about consulting. Shorter list than I expected.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Things I genuinely miss about **consulting.**",
+        "sub_text": "Shorter list than I expected. More honest than most people admit.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "The Count",
+        "sub_text": "Things I actually miss. Not things I am supposed to say I miss.",
+        "stat_number": "3",
+        "stat_label": "things on the honest list. One of them is embarrassing.",
+        "bubble": "I miss the salary. Including that. Not going to pretend otherwise."
+      },
+      {
+        "type": "content",
+        "title": "The Variety",
+        "main_text": "A new **problem every 3 months.** That part, I miss.",
+        "sub_text": "Different industry every few months. No way to stay slow.",
+        "bubble": "I complained about the pace then. I would not now."
+      },
+      {
+        "type": "content",
+        "title": "The People",
+        "main_text": "The colleagues who **made you sharper.**",
+        "sub_text": "Being the least sharp person in the room every day does something to you. I did not expect to miss that pressure.",
+        "bubble": "I have not had a peer group like that since. That surprised me."
+      },
+      {
+        "type": "content",
+        "title": "The Salary",
+        "main_text": "I miss the **pay. A lot.** That is the embarrassing one.",
+        "sub_text": "Not just the pay but the lifestyle, meal budget, business travel, and 5 star hotels.",
+        "bubble": "I knew the number before I left. I still underestimated how much I would feel it."
+      },
+      {
+        "type": "conclusion",
+        "title": "The Takeaway",
+        "main_text": "Missing something does not mean you were **wrong to leave.**",
+        "sub_text": "It means it was real. And real things leave a mark.",
+        "bubble": null
+      }
+    ],
+    "images": [
+      "content/images/day11-career/slide-01.png",
+      "content/images/day11-career/slide-02.png",
+      "content/images/day11-career/slide-03.png",
+      "content/images/day11-career/slide-04.png",
+      "content/images/day11-career/slide-05.png",
+      "content/images/day11-career/slide-06.png"
+    ],
+    "engagement": null
+  },
+  {
+    "id": "day2-career",
+    "plan_day": 2,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "I left the best job title I will probably ever have. Here is what nobody tells you comes next.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "I left the best job title I will probably ever have.\n\nMost people warned me about the pay cut. Nobody warned me about the identity part.\n\nWhat happens when your entire personality was \"consultant at [firm]\" and then suddenly... it isn't?\n\nThis is what that actually felt like.\n\nHave you ever left a prestigious job for something uncertain? What pushed you? Comment below.",
+    "threads_text": "I left the best job title I will probably ever have.\n\nEveryone warned me about the pay cut. Nobody warned me that half my personality was just... the firm name.\n\nNow I'm building kakisewa.com. Zero paying customers. Nobody's heard of it.\n\nHonestly the hardest part isn't the uncertainty. It's that nobody asks \"where do you work?\" the same way anymore.\n\nHave you ever left a prestigious job for something unknown? What pushed you?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I left the best **job title** I will probably ever have.",
+        "sub_text": "The identity crisis nobody warns you about when you leave a prestigious job for something unknown.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Years I spent in consulting before I walked away from it",
+        "stat_number": "2+",
+        "stat_label": "years in MBB consulting",
+        "bubble": "Long enough for it to become who I was. Short enough that people still ask why I left."
+      },
+      {
+        "type": "content",
+        "main_text": "The **prestige was real.** So was the trap.",
+        "sub_text": "The brand opened doors. It also became a crutch.",
+        "sub_text_2": "At some point I stopped knowing if I was good or just well-labeled.",
+        "bubble": "The firm name was doing a lot of heavy lifting in conversations I didn't notice."
+      },
+      {
+        "type": "content",
+        "main_text": "Nobody outside consulting **cares what tier your firm was.**",
+        "sub_text": "Inside the bubble it's everything. Outside it's a blank stare.",
+        "sub_text_2": null,
+        "bubble": "First time I said the firm name to a non-corporate person and got nothing back. Humbling."
+      },
+      {
+        "type": "content",
+        "main_text": "Going from **\"consultant at X\"** to \"I'm building something you haven't heard of\" is a full identity reset.",
+        "sub_text": "The old answer to \"what do you do\" was a conversation starter.",
+        "sub_text_2": "The new answer is a conversation ender.",
+        "bubble": "Now I say kakisewa.com and watch people nod politely. Zero paying customers doesn't help the pitch."
+      },
+      {
+        "type": "content",
+        "main_text": "What I thought life after consulting would look like: **freedom, clarity, momentum.**",
+        "sub_text": "What it actually is: a full-time job at Tarro, a side project with no customers yet, and a lot of quiet.",
+        "sub_text_2": "The clarity comes eventually. It just doesn't arrive with the resignation letter.",
+        "bubble": "I genuinely thought leaving would feel like a movie moment. It felt more like a Sunday with no plans."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The title was never the thing. But you only learn that **after you give it up.**",
+        "sub_text": "I still have my old business cards somewhere. I keep them as a reminder, not a trophy.",
+        "follow_cta": "Have you ever left a prestigious job for something uncertain? What pushed you? Comment below.",
+        "bubble": "Building kakisewa with zero customers is humbling in ways no consulting project ever was. That's probably the point."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1782911115672",
+    "plan_day": 3,
+    "date": "2026-07-01",
+    "topic": "navigating-career",
+    "angle": "MBB taught me one skill that transfers to startups. Everything else I had to unlearn.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "MBB taught me one skill that actually transfers to startups. The rest I had to unlearn, and some of it took embarrassingly long.\n\nSwipe to see what stuck and what didn't.\n\nWhat's the one skill from your current job that would help in a startup? Comment below.",
+    "threads_text": "One skill from consulting transfers to startups. Everything else I had to unlearn.\n\nThe dangerous one: mistaking analysis for action. I was very good at being thorough. Startups don't reward thorough. They reward moving.\n\nWhat's the one skill from your job that would actually help in a startup?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "MBB taught me **one skill** that transfers to startups.",
+        "sub_text": "Everything else I had to unlearn, and some of it took longer than I expected.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Number of skills from 3 years of consulting I use every single day building kakisewa",
+        "stat_number": "1",
+        "stat_label": "just one skill made the cut",
+        "bubble": "I thought it would be more. It is not more."
+      },
+      {
+        "type": "content",
+        "main_text": "The one thing: **structure the problem before jumping to solutions**",
+        "sub_text": "Founders waste weeks building the wrong thing because they never defined what problem they were actually solving.",
+        "sub_text_2": "This habit from consulting genuinely saves me from myself.",
+        "bubble": "It also means I spend 10 minutes writing the problem statement before I open my laptop. Worth it."
+      },
+      {
+        "type": "content",
+        "main_text": "What does **not** transfer: slides, frameworks, consensus",
+        "sub_text": "Nobody is waiting for your 12-slide deck. There is no steering committee. There is no billable hour.",
+        "sub_text_2": "Consensus-building is how you die slowly in a startup.",
+        "bubble": "I made a beautiful framework for my kakisewa email strategy. A founder friend said: just send the emails. He was right."
+      },
+      {
+        "type": "content",
+        "main_text": "The dangerous habit: **mistaking analysis for action**",
+        "sub_text": "Consulting rewards thoroughness. You get paid to be right, not fast.",
+        "sub_text_2": "Startups reward people who move. Being thorough while the runway burns is just expensive thinking.",
+        "bubble": "I have 8,471 agents scraped and zero paying customers. Analysis did not cause that. But it did not help either."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**One skill transfers. The rest is dead weight.**",
+        "sub_text": "Figure out which habits your current job is rewarding that a startup would punish.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still working on this myself. kakisewa is live and free right now. Sending 100 cold emails a day and hoping structure beats inertia."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "day4-career",
+    "plan_day": 4,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "Consulting trained me to be excellent at things that do not matter. Startups cured me of this. Slowly.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.\n\nI spent years getting very, very good at the wrong things. The transition was humbling.\n\nWhat is something you optimised perfectly that turned out not to matter? Comment below.",
+    "threads_text": "Consulting trained me to be excellent at things that do not matter.\n\nI made pixel-perfect decks. I nailed the narrative arc. I colour-coded the appendix.\n\nThe client decided in the first 10 minutes of the meeting.\n\nStartups have a brutal way of showing you the difference between effort and impact. Still learning it honestly.\n\nWhat did you over-engineer that turned out not to matter?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Consulting trained me to be **excellent at things that do not matter.**",
+        "sub_text": "Startups cured me of this. Slower than I expected.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Hours I spent on slide decks that changed nothing at the client",
+        "stat_number": "200",
+        "stat_label": "hours on slides that moved nothing",
+        "bubble": "Conservative estimate. I am being kind to myself."
+      },
+      {
+        "type": "content",
+        "main_text": "The client **decided in 10 minutes.** The deck took 3 weeks.",
+        "sub_text": "Pixel-perfect transitions. Consistent font hierarchy. A appendix nobody opened.",
+        "sub_text_2": "The decision was made before we walked in the room.",
+        "bubble": "I once spent two days aligning boxes on a slide. Two days."
+      },
+      {
+        "type": "content",
+        "main_text": "The **consultant trap:** effort feels like impact because it looks like impact.",
+        "sub_text": "Hours in, polished output, rigorous process. But output is not outcome.",
+        "sub_text_2": "Consulting rewards the performance of work. Startups punish it.",
+        "bubble": "Nobody claps for your framework if the thing does not ship."
+      },
+      {
+        "type": "content",
+        "main_text": "A **working feature** beats a perfect plan. Every single time.",
+        "sub_text": "kakisewa.com is live. Zero paying customers. Two working features.",
+        "sub_text_2": "That is more real than any deck I ever made.",
+        "bubble": "My first pitch deck had 14 slides. The product had 2 working features. I had the order wrong."
+      },
+      {
+        "type": "content",
+        "main_text": "The moment I realised I was **optimising for the wrong thing.**",
+        "sub_text": "I caught myself rewriting copy on a landing page nobody had visited yet.",
+        "sub_text_2": "Classic consultant move. Polish the thing. Avoid the scary thing.",
+        "bubble": "The scary thing was sending the cold email. The copy was fine."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Excellent execution** on the wrong thing is still the wrong thing.",
+        "sub_text": "The skill is not doing things well. It is picking the right things to do at all.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What is something you optimised perfectly that turned out not to matter? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "day5-career",
+    "plan_day": 5,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "I took a significant pay cut to join a startup. Here are the honest numbers.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "I took a pay cut to join a startup. Here are the honest numbers — the MBB salary, the startup salary, what the gap actually feels like month to month, and the one thing money genuinely cannot buy.\n\nWhat is the biggest financial risk you have taken for work you actually wanted to do? Comment below.",
+    "threads_text": "I took a pay cut to join a startup. Real numbers: MBB was comfortable. Tarro was not. The gap shows up every time I open my banking app.\n\nStill don't regret it. Mostly.\n\nWhat's the biggest financial risk you've taken for work you actually wanted to do?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I took a significant **pay cut** to join a startup.",
+        "sub_text": "The honest numbers, and whether it was worth it.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "My MBB base salary in Malaysia versus what I make now at Tarro",
+        "stat_number": "~40%",
+        "stat_label": "roughly how much less I earn now",
+        "bubble": "I told my parents the new number. They went quiet. Then they asked if the company had medical benefits."
+      },
+      {
+        "type": "content",
+        "main_text": "**MBB consulting** paid well. Genuinely well.",
+        "sub_text": "Good base, structured bonus, brand name that opened doors before you said a word.",
+        "sub_text_2": "It is a real number that solves real problems.",
+        "bubble": "I also worked until midnight most nights but that part gets left out of the LinkedIn posts."
+      },
+      {
+        "type": "content",
+        "main_text": "The **startup salary** is lower. That is just the fact.",
+        "sub_text": "Tarro is a US company, I am based in Malaysia, and the number reflects that.",
+        "sub_text_2": "It covers life. It does not cover much excess.",
+        "bubble": "I have started noticing when restaurants have a lunch set versus dinner pricing. This is new behaviour for me."
+      },
+      {
+        "type": "content",
+        "main_text": "The gap shows up in **small, consistent ways**.",
+        "sub_text": "Fewer dinners out. Longer pause before buying anything that is not a necessity.",
+        "sub_text_2": "Not dramatic. Just present. Every single month.",
+        "bubble": "I have a side project with zero paying customers and a cold email list of 8,471 agents. The ROI math is not mathing yet."
+      },
+      {
+        "type": "content",
+        "main_text": "What money **cannot buy**: working on something that might actually matter.",
+        "sub_text": "At MBB I was good at solving other people's problems. Now the problem is mine.",
+        "sub_text_2": "That feeling is worth something. I am still figuring out exactly how much.",
+        "bubble": "Kakisewa has zero paying customers right now. So I am technically betting on a feeling. Very normal and rational behaviour."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The **pay cut** was real. The regret is not — at least not yet.",
+        "sub_text": "Ask me again once I know if kakisewa works.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What is the biggest financial risk you have taken for work you actually wanted to do? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "day6-career",
+    "plan_day": 6,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "Consulting actively trains you to be a terrible founder. I am proving this in real time.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "Consulting gives you a great salary and a terrible founder brain.\n\nI have three reasons why. I have lived all three.\n\nThe scariest part is I did not notice any of them until I was already building kakisewa and making all the mistakes in real time.\n\nWhat is the biggest habit your current job has given you that would hurt you as a founder? Comment below.",
+    "threads_text": "Consulting trains you to be a terrible founder. Here is the proof.\n\nYou get wired to reduce risk, not take it. You let clients define the problem. You optimise for looking right over being right.\n\nI am building kakisewa.com with zero paying customers and all three of these showing up constantly.\n\nWhat does your current job train you to do that would wreck you as a founder?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Consulting actively trains you to be **a terrible founder.**",
+        "sub_text": "Three reasons why, and I have lived all of them.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Founder habits that consulting actively trains out of you",
+        "stat_number": "3",
+        "stat_label": "and I am currently 0 for 3",
+        "bubble": "I spent a week researching whether to use Notion or Obsidian for notes. A real founder would have picked one in 5 minutes."
+      },
+      {
+        "type": "content",
+        "main_text": "Reason 1: You are **wired to reduce risk,** not take it.",
+        "sub_text": "Consulting rewards you for spotting what can go wrong and building a slide about it.",
+        "sub_text_2": "Founding rewards you for shipping anyway. These are opposite instincts.",
+        "bubble": "I have a 3-tab spreadsheet analysing cold email risk. I should have just sent the emails two weeks earlier."
+      },
+      {
+        "type": "content",
+        "main_text": "Reason 2: You are used to **clients defining the problem.**",
+        "sub_text": "In consulting, someone hands you the question. Your job is to answer it well.",
+        "sub_text_2": "As a founder, choosing the right problem to solve is the whole job. Nobody hands you that.",
+        "bubble": "I kept waiting for my users to tell me exactly what to build. They do not know either. That was a surprise."
+      },
+      {
+        "type": "content",
+        "main_text": "Reason 3: Optimised for **looking right,** not being right.",
+        "sub_text": "MBB trains you to never walk into a room without the answer already locked.",
+        "sub_text_2": "Founding means being publicly wrong, repeatedly, and updating fast. The deck is never done.",
+        "bubble": "kakisewa.com is live. Zero paying customers. This post exists. Make of that what you will."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The caveat: **some of us recover.**",
+        "sub_text": "I am trying. Slowly. With 8,471 scraped agents and 100 cold emails going out per day as proof I eventually moved.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What is the biggest habit your current job has given you that would hurt you as a founder? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "day7-career",
+    "plan_day": 7,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "I spent 3 years making slides for clients. Not one of them shipped anything people could use.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "3 years of slides. Zero of them shipped anything real.\n\nConsulting teaches you to think clearly and communicate well. It does not teach you to build. Those are different skills and I had to learn the second set from scratch.\n\nThe first time I pushed something to production, nobody saw it. I was still happier than any client presentation I ever gave.\n\nWhat have you shipped that you are proud of — even if nobody saw it? Comment below.",
+    "threads_text": "I spent 3 years making slides. Not one client shipped anything I could actually use.\n\nNow I'm building kakisewa.com at midnight after my day job. It's live. Zero paying customers.\n\nThe first time I pushed to production, nobody saw it. Still felt better than any deck I ever presented.\n\nWhat's the last thing you actually shipped?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I spent 3 years making **slides** for clients. Not one of them shipped anything people could use.",
+        "sub_text": "The skills do not transfer the way you think.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Years in consulting before I shipped anything people could actually use",
+        "stat_number": "3",
+        "stat_label": "years making slides, zero products",
+        "bubble": "And I was considered good at my job."
+      },
+      {
+        "type": "content",
+        "main_text": "Making slides teaches you to **communicate**. It does not teach you to build.",
+        "sub_text": "Two different muscles. Consulting trains one of them very well.",
+        "sub_text_2": "The other one you learn by doing embarrassing first versions.",
+        "bubble": "My first version of kakisewa looked like a school project."
+      },
+      {
+        "type": "content",
+        "main_text": "The **product** reveals whether your thinking was right. The slide never does.",
+        "sub_text": "A client can nod at a deck. Real users just leave.",
+        "sub_text_2": null,
+        "bubble": "Zero paying customers so far. The product is being very honest with me."
+      },
+      {
+        "type": "content",
+        "main_text": "What I had to learn from scratch: **shipping ugly things** and being okay with it.",
+        "sub_text": "In consulting, you polish until the slide looks confident.",
+        "sub_text_2": "In building, you ship before it feels ready. Every time.",
+        "bubble": "kakisewa is live. It is not pretty. It is there."
+      },
+      {
+        "type": "content",
+        "main_text": "A **shipped product** hits different from a delivered deck.",
+        "sub_text": "The first time I pushed to production, nobody saw it.",
+        "sub_text_2": "I was still happier than any client presentation I ever gave.",
+        "bubble": "That was the moment I understood what I had been missing."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Consulting made me sharper. Building made me **honest**.",
+        "sub_text": "The slide tells you what you want to hear. The product does not.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "What have you shipped that you are proud of — even if nobody saw it? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "day8-career",
+    "plan_day": 8,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "A startup taught me something consulting never did. It was not what I expected.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "A startup taught me something consulting never did.\n\nI spent years in MBB learning how to move fast. Tight deadlines, late nights, decks submitted at 11:59pm.\n\nTurns out that was not fast.\n\nAt a startup, fast means something completely different. And the first time I saw it up close, I felt like I had been lied to my whole career.\n\nWhat is the biggest speed difference you have noticed between big company and small company? Comment below.",
+    "threads_text": "A startup taught me something consulting never did. It was not what I expected.\n\nIn consulting, moving fast meant finishing the deck before the client walked in.\n\nAt a startup, moving fast means shipping before someone else does.\n\nVery different stakes. Very different clock.\n\nBig company vs small company — what is the biggest speed gap you have noticed?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "A startup taught me something **consulting never did.**",
+        "sub_text": "Speed. Real speed.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Hours from idea to shipped at a startup vs weeks in consulting",
+        "stat_number": "48",
+        "stat_label": "hours",
+        "bubble": "I once spent 3 weeks on a deliverable a startup would have shipped, iterated, and shipped again."
+      },
+      {
+        "type": "content",
+        "main_text": "In consulting, **moving fast** means finishing the deck before the client meeting.",
+        "sub_text": "The urgency is real. The output is a PowerPoint.",
+        "sub_text_2": "Nobody is shipping anything.",
+        "bubble": "Slides do not go live. Code does."
+      },
+      {
+        "type": "content",
+        "main_text": "At a startup, **moving fast** means shipping before someone else does.",
+        "sub_text": "The competitor is not in the room. They are already building.",
+        "sub_text_2": null,
+        "bubble": "The clock is always running. You just cannot see it."
+      },
+      {
+        "type": "content",
+        "main_text": "First time I saw a feature go from **Slack message to live** in two days.",
+        "sub_text": "I genuinely did not know that was possible.",
+        "sub_text_2": null,
+        "bubble": "I asked if that was normal. Everyone looked at me like I was slow."
+      },
+      {
+        "type": "content",
+        "main_text": "**Speed is a competitive advantage.** Slowness is a silent killer.",
+        "sub_text": "You do not feel it until someone else is already three versions ahead of you.",
+        "sub_text_2": null,
+        "bubble": "kakisewa is live. Zero paying customers. But it is live. That part matters."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The best thing consulting taught me was **structure.** The best thing a startup taught me was to ship the thing.",
+        "sub_text": "Both matter. But only one of them compounds.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "What is the biggest speed difference you have noticed between big company and small company? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "day9-career",
+    "plan_day": 9,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "I shipped my first product and felt like a fraud the whole time. Nobody warned me about this part.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "I shipped kakisewa and told exactly zero people about it for two weeks.\n\nNot because I was doing a quiet launch strategy. Because I was terrified.\n\nImposter syndrome when you're a founder hits different from when you're a consultant. In consulting, someone above you signs off. Someone validates the work. The deck gets approved. You're protected by the process.\n\nWhen it's your product, there's no one to approve it. It's just you and whatever you built and the very real possibility that it reflects exactly how you think — and your thinking is wrong.\n\nI pushed through it the only way I knew how. Shipped anyway. Waited for the market to tell me I was an idiot.\n\nStill waiting, honestly. But at least the thing exists now.\n\nHave you ever felt like a fraud doing something you were actually capable of? Comment below.",
+    "threads_text": "I shipped my first product and felt like a fraud the whole time.\n\nNot imposter syndrome in the vague motivational poster sense. The specific kind where you've built something that is a direct reflection of how you think, and you're not sure your thinking is good.\n\nTold zero people for two weeks after launch.\n\nHave you ever felt like a fraud doing something you were actually capable of?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I shipped my first product and felt like a **fraud** the whole time.",
+        "sub_text": "Nobody warned me this part was coming.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Number of people I told about the product for the first two weeks after launch",
+        "stat_number": "0",
+        "stat_label": "people who knew kakisewa existed",
+        "bubble": "Not a strategy. Just fear with a good excuse."
+      },
+      {
+        "type": "content",
+        "main_text": "Imposter syndrome hits **differently** when you're the founder.",
+        "sub_text": "In consulting, someone above you validated the work. The deck got approved. You were covered.",
+        "sub_text_2": "Here, no one signs off. It's just you.",
+        "bubble": "I genuinely missed having a senior partner to blame."
+      },
+      {
+        "type": "content",
+        "main_text": "The product is a **direct reflection of your thinking.**",
+        "sub_text": "That's what makes it terrifying. If the product is wrong, you're wrong.",
+        "sub_text_2": null,
+        "bubble": "Years of MBB training and I still wasn't ready for this specific feeling."
+      },
+      {
+        "type": "content",
+        "main_text": "So I did the only thing that made sense: **shipped anyway.**",
+        "sub_text": "Decided I'd wait for the market to tell me I was an idiot instead of telling myself first.",
+        "sub_text_2": null,
+        "bubble": "Market hasn't said much yet. Zero paying customers. The silence is its own kind of feedback."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The fraud feeling doesn't mean you're **wrong. It means you care.**",
+        "sub_text": "The people who say they never feel it are either lying or not paying close enough attention.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "I still feel it sometimes. Shipped 8,471 cold emails anyway."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "day10-career",
+    "plan_day": 10,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "The alumni network sounds powerful. Here is what it is actually useful for when you are building.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "Everyone says the alumni network is your biggest asset when you start something.\n\nHere is what mine has actually been useful for — and where it completely fell flat.\n\nHonest answer: 2 meaningful intros from my entire consulting network. That is it.\n\nThe network is real. The problems I am solving just do not match who is in it.\n\nWhat network has actually been useful for your work — alumni, industry, or online? Comment below.",
+    "threads_text": "The alumni network sounds powerful. Here is what it is actually useful for when you are building.\n\nI asked a former McKinsey colleague for cold email strategy advice. He had never sent a cold email in his life.\n\nCredibility? Yes. Warm intros to property agents in Malaysia? Absolutely not.\n\nWhat network has actually moved the needle for you — alumni, industry, or something else?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "The alumni network sounds powerful. Here is what it is **actually useful for** when you are building.",
+        "sub_text": "Honest answer: yes and no, and the split is not where you expect it.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Meaningful introductions from my entire consulting network that actually moved things forward",
+        "stat_number": "2",
+        "stat_label": "out of years of MBB connections",
+        "bubble": "I am not bitter. I am just counting."
+      },
+      {
+        "type": "content",
+        "main_text": "It does help with **credibility signals** and warm intros to people who will take your call",
+        "sub_text": "If you need someone to reply to a cold LinkedIn message, the MBB brand still works.",
+        "sub_text_2": "Getting a first meeting is easier. That part is real.",
+        "bubble": "Useful for doors. Less useful for what happens after you walk through them."
+      },
+      {
+        "type": "content",
+        "main_text": "The problem: **nobody in my consulting network is a property agent**",
+        "sub_text": "kakisewa.com is built for Malaysian rental agents. My network is bankers, consultants, and ex-consultants.",
+        "sub_text_2": "That is why I scraped 8,471 agents and set up cold email. The warm intro path does not exist here.",
+        "bubble": "I asked a former McKinsey colleague for cold email strategy advice. He had never sent a cold email in his life."
+      },
+      {
+        "type": "content",
+        "main_text": "The alumni network is **built for corporate problems**, not startup problems",
+        "sub_text": "Corporate problems: navigating org politics, landing a role, getting a reference.",
+        "sub_text_2": "Startup problems: finding your first 10 customers, pricing a product nobody has heard of.",
+        "bubble": "Different game. The playbook does not transfer the way everyone implies it does."
+      },
+      {
+        "type": "content",
+        "main_text": "**Build the right network** for what you are actually doing",
+        "sub_text": "For kakisewa, the useful people are property agents, PropTech founders, and people who have done B2B sales to fragmented markets.",
+        "sub_text_2": "Most of them are not in any alumni directory I have access to.",
+        "bubble": "Currently finding more useful people on X and Reddit than anywhere else. Make of that what you will."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Your alumni network is an **asset with a specific use case** — know what it is and is not",
+        "sub_text": "Mine is useful for credibility and corporate doors. For selling to property agents in Malaysia, I am on my own.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What network has actually been useful for your work — alumni, industry, or online? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
     "id": "1782833680140",
     "plan_day": 2,
     "date": "2026-07-01",
     "topic": "building-in-public",
     "angle": "I picked the most unsexy market possible.",
-    "status": "pending",
+    "status": "skipped",
     "theme": "Building in public",
     "caption": "Day 2. Still zero customers. But I picked this market on purpose.\n\nMost people said it was not exciting enough to build for. I thought: good, fewer people will try to compete.\n\nSwipe to see why I chose boring over cool, and whether it is actually smart or just cope.\n\nUnsexy market or cool idea, which would you build? Vote in comments: U or C",
     "threads_text": "Day 2 of building in public. I picked property agents as my market. They still track contracts in WhatsApp. Nobody thinks it is exciting. I think that is the point.\n\nPoll: which would you build?\nU = Unsexy market with real pain\nC = Cool idea with hype",
