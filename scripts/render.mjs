@@ -26,16 +26,16 @@ function saveJSON(p, data) {
 
 const THEMES = {
   "building in public": {
-    band: "#2563EB", rule: "#BFDBFE", accent: "#93C5FD",
-    bubbleBg: "#EBF2FF", bubbleBorder: "#93C5FD", bubbleText: "#1A3A8A",
+    band: "#7C3AED", rule: "#DDD6FE", accent: "#C4B5FD",
+    bubbleBg: "#F5F3FF", bubbleBorder: "#C4B5FD", bubbleText: "#4C1D95",
   },
   "managing finances": {
     band: "#16A34A", rule: "#A7F3D0", accent: "#6EE7B7",
     bubbleBg: "#ECFDF5", bubbleBorder: "#6EE7B7", bubbleText: "#14532D",
   },
   "navigating career": {
-    band: "#7C3AED", rule: "#DDD6FE", accent: "#C4B5FD",
-    bubbleBg: "#F5F3FF", bubbleBorder: "#C4B5FD", bubbleText: "#4C1D95",
+    band: "#2563EB", rule: "#BFDBFE", accent: "#93C5FD",
+    bubbleBg: "#EBF2FF", bubbleBorder: "#93C5FD", bubbleText: "#1A3A8A",
   },
   "growing in relationship": {
     band: "#DB2777", rule: "#FBCFE8", accent: "#F9A8D4",
@@ -72,7 +72,10 @@ function buildSlideHTML(slide, idx, total, theme) {
     <div class="bubble-wrap">
       <div class="divider"></div>
       <div class="bubble">${slide.bubble}</div>
-      <div class="bubble-tail"></div>
+      <svg class="bubble-tail" width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0,0 26,0 0,26" fill="${c.bubbleBg}"/>
+        <polyline points="26,0 0,26 0,0" fill="none" stroke="${c.bubbleBorder}" stroke-width="2.5" stroke-linejoin="round"/>
+      </svg>
     </div>` : "";
 
   let bodyHTML = "";
@@ -80,9 +83,11 @@ function buildSlideHTML(slide, idx, total, theme) {
   if (isFirst) {
     bodyHTML = `
     <div class="body center">
-      <div class="center-content">
-        ${slide.main_text ? `<div class="main">${renderHighlights(slide.main_text, c.band, c.accent)}</div>` : ""}
-        ${slide.sub_text  ? `<div class="sub">${slide.sub_text}</div>` : ""}
+      <div class="slide-content">
+        <div class="center-content">
+          ${slide.main_text ? `<div class="main">${renderHighlights(slide.main_text, c.band, c.accent)}</div>` : ""}
+          ${slide.sub_text  ? `<div class="sub">${slide.sub_text}</div>` : ""}
+        </div>
       </div>
       <div class="foot">
         <span class="handle">@drawoheriter</span>
@@ -107,7 +112,9 @@ function buildSlideHTML(slide, idx, total, theme) {
 
     bodyHTML = `
     <div class="body top">
-      <div class="content">${contentHTML}</div>
+      <div class="slide-content">
+        <div class="content">${contentHTML}</div>
+      </div>
       ${bubbleHTML}
       <div class="foot"><span class="handle">@drawoheriter</span></div>
     </div>`;
@@ -135,15 +142,15 @@ body {
 .band-pg   { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
 .body {
   flex: 1; display: flex; flex-direction: column;
-  padding: 0 160px 52px; min-height: 0;
+  padding: 0 160px; min-height: 0;
 }
-.body.center { justify-content: flex-start; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
 .center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
-.body.top { justify-content: flex-start; padding-top: 64px; }
 .content { display: flex; flex-direction: column; gap: 28px; }
 .foot {
   display: flex; justify-content: space-between; align-items: center;
-  padding-top: 32px; flex-shrink: 0;
+  padding-top: 24px; padding-bottom: 52px; flex-shrink: 0;
 }
 .title  { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
 .main   { font-size: 88px; line-height: 1.2; color: #1A1208; }
@@ -164,12 +171,7 @@ body {
   font-size: 34px; line-height: 1.55; font-style: italic;
   color: ${c.bubbleText}; max-width: 100%;
 }
-.bubble-tail {
-  width: 0; height: 0;
-  border-top: 22px solid ${c.bubbleBg};
-  border-right: 22px solid transparent;
-  margin-left: 42px;
-}
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
 </style>
 </head>
 <body>

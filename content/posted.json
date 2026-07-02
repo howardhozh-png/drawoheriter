@@ -18,7 +18,10 @@
       ],
       "caption": "kakisewa is getting built in the gaps. Sharing the whole thing as it happens."
     },
-    "engagement": null,
+    "engagement": {
+      "score": 0,
+      "tracked_at": "2026-07-01T14:00:01.254Z"
+    },
     "posted_at": "2026-06-29T13:32:30.902Z",
     "threads_id": "17862260145639660"
   },
@@ -82,11 +85,232 @@
       "content/images/day1-mockup/slide-05.png",
       "content/images/day1-mockup/slide-06.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "score": 0,
+      "tracked_at": "2026-07-01T14:00:01.578Z"
+    },
     "posted_at": "2026-06-30T14:51:39.599Z",
     "threads_id": "18009060179873823",
     "threads_carousel_id": null,
     "instagram_id": null,
+    "instagram_story_id": null
+  },
+  {
+    "id": "day1-career",
+    "plan_day": 1,
+    "date": "2026-07-01",
+    "topic": "mbb-exit",
+    "angle": "Day 1 — Navigating career: left MBB after 5 years",
+    "status": "posted",
+    "theme": "navigating career",
+    "caption": "I left a $60k/month job at MBB after 5 years. Probably one of the dumbest decisions I have ever made. Here is everything I did not expect.\n\nHave you ever left a job that looked great from the outside? Drop it in the comments.",
+    "threads_text": "I left a $60k/month job at MBB. Nobody told me what comes next.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I left a **$60k/month job** at MBB after 5 years.",
+        "sub_text": "Probably one of the dumbest decisions I have ever made in my life.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "The Exit",
+        "sub_text": "Everyone asked why I was leaving. Two years more and I'll get promoted to leadership. It's a stupid decision.",
+        "stat_number": "5",
+        "stat_label": "years at MBB before I walked away",
+        "bubble": "Everyone asked why I was leaving but I kept asking myself why I was staying."
+      },
+      {
+        "type": "content",
+        "title": "The Identity",
+        "main_text": "I used to be **very proud** of my business cards.",
+        "sub_text": "Now they make me question my identity.",
+        "bubble": "I still have my old business cards. I keep them as a reminder, not a trophy."
+      },
+      {
+        "type": "content",
+        "title": "The Reality",
+        "main_text": "The meetings you **complained about** was also routine comfort.",
+        "sub_text": "The structure, the meetings, the drill, everything was so organized.",
+        "bubble": "Week one. No meetings, no deliverables, no one to report to. I did not know what to do with myself."
+      },
+      {
+        "type": "content",
+        "title": "The Loss",
+        "main_text": "Here is what nobody **puts on the list.**",
+        "sub_text": "The title. The peers. The salary. And knowing exactly what you were supposed to do every day.",
+        "bubble": "I feel disconnected. I feel like I lost a part of my identity. I don't know who I am."
+      },
+      {
+        "type": "conclusion",
+        "title": "The Takeaway",
+        "main_text": "Leaving is not the **brave part.** Figuring out who you are after is.",
+        "sub_text": "Still working on it. I want to share to the world as it happens.",
+        "bubble": null
+      }
+    ],
+    "images": [
+      "content/images/day1-career/slide-01.png",
+      "content/images/day1-career/slide-02.png",
+      "content/images/day1-career/slide-03.png",
+      "content/images/day1-career/slide-04.png",
+      "content/images/day1-career/slide-05.png",
+      "content/images/day1-career/slide-06.png"
+    ],
+    "engagement": {
+      "threads": {
+        "views": 52,
+        "likes": 0,
+        "replies": 7,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 19,
+      "tracked_at": "2026-07-01T14:00:03.250Z"
+    },
+    "posted_at": "2026-07-01T07:24:17.694Z",
+    "threads_id": "17895978171475242",
+    "threads_carousel_id": "17932900845096997",
+    "instagram_id": "18176061409417183",
+    "instagram_story_id": null
+  },
+  {
+    "id": "day1-career",
+    "plan_day": 1,
+    "date": "2026-07-01",
+    "topic": "mbb-exit",
+    "angle": "Day 1 — Navigating career: left MBB after 5 years",
+    "status": "posted",
+    "theme": "navigating career",
+    "caption": "I left a $60k/month job at MBB after 5 years. Probably one of the dumbest decisions I have ever made. Here is everything I did not expect.\n\nHave you ever left a job that looked great from the outside? Drop it in the comments.",
+    "threads_text": "I left a $60k/month job at MBB. Nobody told me what comes next.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I left a **$60k/month job** at MBB after 5 years.",
+        "sub_text": "Probably one of the dumbest decisions I have ever made in my life.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "The Exit",
+        "sub_text": "Everyone asked why I was leaving. Two years more and I'll get promoted to leadership. It's a stupid decision.",
+        "stat_number": "5",
+        "stat_label": "years at MBB before I walked away",
+        "bubble": "Everyone asked why I was leaving but I kept asking myself why I was staying."
+      },
+      {
+        "type": "content",
+        "title": "The Identity",
+        "main_text": "I used to be **very proud** of my business cards.",
+        "sub_text": "Now they make me question my identity.",
+        "bubble": "I still have my old business cards. I keep them as a reminder, not a trophy."
+      },
+      {
+        "type": "content",
+        "title": "The Reality",
+        "main_text": "The meetings you **complained about** was also routine comfort.",
+        "sub_text": "The structure, the meetings, the drill, everything was so organized.",
+        "bubble": "Week one. No meetings, no deliverables, no one to report to. I did not know what to do with myself."
+      },
+      {
+        "type": "content",
+        "title": "The Loss",
+        "main_text": "Here is what nobody **puts on the list.**",
+        "sub_text": "The title. The peers. The salary. And knowing exactly what you were supposed to do every day.",
+        "bubble": "I feel disconnected. I feel like I lost a part of my identity. I don't know who I am."
+      },
+      {
+        "type": "conclusion",
+        "title": "The Takeaway",
+        "main_text": "Leaving is not the **brave part.** Figuring out who you are after is.",
+        "sub_text": "Still working on it. I want to share to the world as it happens.",
+        "bubble": null
+      }
+    ],
+    "images": [
+      "content/images/day1-career/slide-01.png",
+      "content/images/day1-career/slide-02.png",
+      "content/images/day1-career/slide-03.png",
+      "content/images/day1-career/slide-04.png",
+      "content/images/day1-career/slide-05.png",
+      "content/images/day1-career/slide-06.png"
+    ],
+    "engagement": null,
+    "instagram_story_id": null,
+    "posted_at": "2026-07-01T07:31:16.684Z",
+    "threads_id": "18093795329343108",
+    "threads_carousel_id": null,
+    "instagram_id": "17976359154025843"
+  },
+  {
+    "id": "day11-career",
+    "plan_day": 11,
+    "date": "2026-07-02",
+    "scheduled_at": "2026-07-02T13:00:00.000Z",
+    "topic": "mbb-exit",
+    "angle": "Things I genuinely miss about consulting",
+    "status": "posted",
+    "theme": "navigating career",
+    "caption": "Things I genuinely miss about consulting. Shorter list than I expected. More honest than most people admit.\n\nWhat do you miss most about a job you left? Comment below.",
+    "threads_text": "Things I genuinely miss about consulting. Shorter list than I expected.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Things I genuinely miss about **consulting.**",
+        "sub_text": "Shorter list than I expected. More honest than most people admit.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "The Count",
+        "sub_text": "Things I actually miss. Not things I am supposed to say I miss.",
+        "stat_number": "3",
+        "stat_label": "things on the honest list. One of them is embarrassing.",
+        "bubble": "I miss the salary. Including that. Not going to pretend otherwise."
+      },
+      {
+        "type": "content",
+        "title": "The Variety",
+        "main_text": "A new **problem every 3 months.** That part, I miss.",
+        "sub_text": "Different industry every few months. No way to stay slow.",
+        "bubble": "I complained about the pace then. I would not now."
+      },
+      {
+        "type": "content",
+        "title": "The People",
+        "main_text": "The colleagues who **made you sharper.**",
+        "sub_text": "Being the least sharp person in the room every day does something to you. I did not expect to miss that pressure.",
+        "bubble": "I have not had a peer group like that since. That surprised me."
+      },
+      {
+        "type": "content",
+        "title": "The Salary",
+        "main_text": "I miss the **pay. A lot.** That is the embarrassing one.",
+        "sub_text": "Not just the pay but the lifestyle, meal budget, business travel, and 5 star hotels.",
+        "bubble": "I knew the number before I left. I still underestimated how much I would feel it."
+      },
+      {
+        "type": "conclusion",
+        "title": "The Takeaway",
+        "main_text": "Missing something does not mean you were **wrong to leave.**",
+        "sub_text": "It means it was real. And real things leave a mark.",
+        "bubble": null
+      }
+    ],
+    "images": [
+      "content/images/day11-career/slide-01.png",
+      "content/images/day11-career/slide-02.png",
+      "content/images/day11-career/slide-03.png",
+      "content/images/day11-career/slide-04.png",
+      "content/images/day11-career/slide-05.png",
+      "content/images/day11-career/slide-06.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-02T13:03:48.187Z",
+    "threads_id": "17997374477966589",
+    "threads_carousel_id": null,
+    "instagram_id": "18605531458029730",
     "instagram_story_id": null
   }
 ]

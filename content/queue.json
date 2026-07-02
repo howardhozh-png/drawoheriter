@@ -229,7 +229,7 @@
     "scheduled_at": "2026-07-02T13:00:00.000Z",
     "topic": "mbb-exit",
     "angle": "Things I genuinely miss about consulting",
-    "status": "approved",
+    "status": "posted",
     "theme": "navigating career",
     "caption": "Things I genuinely miss about consulting. Shorter list than I expected. More honest than most people admit.\n\nWhat do you miss most about a job you left? Comment below.",
     "threads_text": "Things I genuinely miss about consulting. Shorter list than I expected.",
@@ -285,7 +285,12 @@
       "content/images/day11-career/slide-05.png",
       "content/images/day11-career/slide-06.png"
     ],
-    "engagement": null
+    "engagement": null,
+    "posted_at": "2026-07-02T13:03:48.187Z",
+    "threads_id": "17997374477966589",
+    "threads_carousel_id": null,
+    "instagram_id": "18605531458029730",
+    "instagram_story_id": null
   },
   {
     "id": "day2-career",
@@ -892,6 +897,76 @@
         "main_text": "**Boring problems, real customers,** less noise.",
         "sub_text": "Still zero paying customers, but I know exactly who I am building for.",
         "bubble": "Unsexy market or cool idea, which would you build? Drop U or C in the comments."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1782997518396",
+    "plan_day": 12,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "Things I do not miss about consulting. This list is much longer.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "Six things I do not miss about consulting. The list is longer but I had to stop somewhere.\n\nWhat is the one thing you would never go back to from a previous job? Comment below.",
+    "threads_text": "Things I do not miss about consulting:\n\n- performing busyness for the client\n- solving problems that felt urgent and irrelevant a year later\n- managing up instead of building anything\n- travelling for a meeting that was definitely an email\n- the firm name doing more work than I did\n- timesheets\n\nThis list is longer. What would you never go back to?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Things I do not miss about consulting.\n**This list is much longer.**",
+        "sub_text": "Six things, including one that sounds petty but is not.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "I counted. Stopped at six because I have a day job.",
+        "stat_number": "6",
+        "stat_label": "things I do not miss. Honest count.",
+        "bubble": "The first week I did not have to submit a timesheet, I felt like I had been released from something."
+      },
+      {
+        "type": "content",
+        "main_text": "**Performing busyness** for the client",
+        "sub_text": "Looking occupied in a room is not the same as doing anything useful.",
+        "sub_text_2": "We were very good at looking occupied.",
+        "bubble": "Slide decks at 11pm that nobody asked for."
+      },
+      {
+        "type": "content",
+        "main_text": "Solving problems that felt **urgent in the room**",
+        "sub_text": "Revisit the recommendations a year later. Half of it did not matter.",
+        "sub_text_2": "The other half was already decided before we walked in.",
+        "bubble": "We called it impact. I'm not sure what it was."
+      },
+      {
+        "type": "content",
+        "main_text": "**Managing up** more than building anything",
+        "sub_text": "A lot of energy went into keeping stakeholders comfortable.",
+        "sub_text_2": "Very little went into making something that worked.",
+        "bubble": "I got good at it. That is the part that worries me."
+      },
+      {
+        "type": "content",
+        "main_text": "Travelling for work that was **an email**",
+        "sub_text": "Fly in Monday. Fly out Thursday. Repeat until your loyalty tier means something.",
+        "sub_text_2": null,
+        "bubble": "The meeting could have been a Slack. The Slack could have been nothing."
+      },
+      {
+        "type": "content",
+        "main_text": "The **firm name** carrying your identity",
+        "sub_text": "You introduce yourself and people react to the logo, not to you.",
+        "sub_text_2": "Leaving tells you which one they were actually impressed by.",
+        "bubble": "Built kakisewa. Zero customers. That one is mine though."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The petty one: **timesheets**",
+        "sub_text": "Fifteen-minute increments. For knowledge work. I will never do that again.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What is the one thing you would never go back to from a previous job? Comment below."
       }
     ],
     "images": [],

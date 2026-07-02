@@ -148,21 +148,29 @@ async function postToThreads(text) {
 async function postThreadsCarouselReply(imageUrls, replyToId) {
   const childIds = [];
   for (let i = 0; i < imageUrls.length; i++) {
-    console.log(`    [${i + 1}/${imageUrls.length}] creating Threads image container...`);
+    console.log(`    [${i + 1}/${imageUrls.length}] creating carousel item container...`);
     const r = await post(
       "graph.threads.net",
       `/v1.0/${META_USER_ID}/threads?media_type=IMAGE&image_url=${encodeURIComponent(imageUrls[i])}&is_carousel_item=true&access_token=${META_ACCESS_TOKEN}`,
       null
     );
-    await waitThreadsContainerFinished(r.id);
+    // Child containers don't reach FINISHED on their own — only wait on the parent carousel
     childIds.push(r.id);
+    console.log(`      container ${r.id} queued`);
   }
 
+  // Give Meta a moment to register all child containers before creating the parent
+  await new Promise(r => setTimeout(r, 15000));
+
+  console.log("    Creating parent carousel container...");
   const carousel = await post(
     "graph.threads.net",
     `/v1.0/${META_USER_ID}/threads?media_type=CAROUSEL&children=${childIds.join(",")}&reply_to_id=${replyToId}&access_token=${META_ACCESS_TOKEN}`,
     null
   );
+
+  console.log("    Waiting for parent carousel container to be ready...");
+  await waitThreadsContainerFinished(carousel.id);
 
   const result = await post(
     "graph.threads.net",
@@ -296,10 +304,10 @@ async function main() {
     console.log("\n  Instagram: no images rendered — run `node scripts/render.mjs` first.");
   }
 
-  // Step 4: Threads carousel reply — short wait so the text post is indexed first
+  // Step 4: Threads carousel reply — wait so the text post is indexed first
   if (result.threads_id && entry.images?.length > 0) {
-    console.log("\n  Waiting 2 min before posting Threads carousel reply...");
-    await new Promise(r => setTimeout(r, 2 * 60 * 1000));
+    console.log("\n  Waiting 3 min before posting Threads carousel reply...");
+    await new Promise(r => setTimeout(r, 3 * 60 * 1000));
     try {
       console.log("  Threads (carousel reply)...");
       const urls = hostedImageUrls.length > 0
