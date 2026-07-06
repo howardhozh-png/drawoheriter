@@ -52,17 +52,18 @@ function slideTextWeight(slide) {
   return (slide.title?.length || 0) * 0.3
     + (slide.main_text?.length || 0) * 1.3
     + (slide.sub_text?.length || 0)
-    + (slide.sub_text_2?.length || 0)
+    + (slide.sub_text_2 ? slide.sub_text_2.length + 100 : 0)
     + (slide.stat_label?.length || 0)
     + (slide.bubble?.length || 0) * 0.8;
 }
 
+// Same calibration as render.mjs — must stay in sync (see comment there)
 function slideFontSizes(slide) {
   const w = slideTextWeight(slide);
   return {
-    main:   tierSize(w, [[80, 88], [140, 76], [200, 64], [280, 54], [999, 46]]),
-    sub:    tierSize(w, [[80, 42], [140, 38], [200, 34], [280, 30], [999, 26]]),
-    bubble: tierSize(w, [[80, 34], [140, 32], [200, 28], [280, 25], [999, 22]]),
+    main:   tierSize(w, [[260, 88], [320, 76], [380, 64], [440, 54], [999, 46]]),
+    sub:    tierSize(w, [[260, 42], [320, 38], [380, 34], [440, 30], [999, 26]]),
+    bubble: tierSize(w, [[260, 34], [320, 32], [380, 30], [440, 27], [999, 24]]),
   };
 }
 
