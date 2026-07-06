@@ -359,60 +359,60 @@
     "id": "bip1-unsexy-market",
     "date": "2026-07-06",
     "topic": "building-in-public",
-    "angle": "Why I picked an unsexy, unnamed market on purpose",
+    "angle": "First tool I have ever built, started because of my cousins pain point, not to make money",
     "status": "pending",
     "theme": "Building in public",
-    "caption": "Still zero customers. But I picked this market on purpose.\n\nMost people said it was not exciting enough to build for. I thought: good, fewer people will try to compete.\n\nSwipe to see why I chose boring over cool, and whether it is actually smart or just cope.\n\nUnsexy market or cool idea, which would you build? Vote in comments: U or C",
-    "threads_text": "Building in public: I picked an old-school industry as my market. Everything still runs on spreadsheets and group chats. Nobody thinks it is exciting. I think that is the point.\n\nPoll, which would you build?\nU = Unsexy market with real pain\nC = Cool idea with hype",
+    "caption": "Still zero customers. But I did not start this to make money.\n\nMy cousin would not stop complaining about the same problem every time I saw him. I had never built a tool before in my life. I just wanted to see if I could.\n\nThe more I use it, the more holes I find. It is never going to be perfect. I am still glad I started.\n\nHas someone else's pain point ever pushed you to build something? Tell me below.",
+    "threads_text": "Building in public: this is the first tool I have ever built. Not for the money, my cousin would not stop complaining about the same problem every time I saw him.\n\nThe more I use it, the more holes I find. It will never be perfect. Still glad I started.",
     "slides": [
       {
         "type": "hook",
-        "main_text": "I picked the most **unsexy market** possible.",
-        "sub_text": "An old-school industry that still runs on spreadsheets, sticky notes, and group chats. I think that is the point.",
+        "main_text": "I am building a tool for the most **unsexy market** I could find.",
+        "sub_text": "Not because it makes money. Because my cousin would not stop complaining about the same problem.",
         "bubble": null
       },
       {
         "type": "stat",
-        "title": "The market",
-        "sub_text": "Real pain, real buyers, and almost no modern tooling built for it yet.",
-        "stat_number": "Thousands",
-        "stat_label": "of contacts found. Outreach going out every single day.",
-        "bubble": "I have their contact info. I do not have their money. Yet."
+        "title": "The starting point",
+        "sub_text": "No market research. No spreadsheet of competitors. Just one conversation that stuck with me.",
+        "stat_number": "0",
+        "stat_label": "tools I had built before this one. This is my first.",
+        "bubble": "This is tool number one. I am learning as I go."
       },
       {
         "type": "content",
-        "title": "The gap",
-        "main_text": "**Nobody is building for this market.**",
-        "sub_text": "Which either means it is wide open, or everyone already tried and left. I am choosing to believe the first one.",
-        "bubble": "This is the part where I find out which."
+        "title": "The real reason",
+        "main_text": "My cousin's **day to day pain point** is the whole reason this exists.",
+        "sub_text": "He was not pitching me an idea. He was just venting about the same thing, over and over, every time I saw him.",
+        "bubble": "He was not asking me to build anything. I could not stop thinking about it anyway."
       },
       {
         "type": "content",
-        "title": "The validation",
-        "main_text": "The problem is **obvious once you talk to one person in the industry.**",
-        "sub_text": "Manual tracking, things falling through the cracks, and nobody built a proper tool because nobody thought it was worth building.",
-        "bubble": "The first person I talked to just uses notes on their phone. That was my product validation."
+        "title": "Why I am actually doing this",
+        "main_text": "**Not for the money.** I just wanted to try building something real.",
+        "sub_text": "I wanted to see if I could take an idea all the way to something someone could actually use, and learn everything in between.",
+        "bubble": "If this never makes a cent, I will still have learned how to build."
       },
       {
         "type": "content",
-        "title": "The advantage",
-        "main_text": "**Unsexy markets have real paying customers** and fewer competitors.",
-        "sub_text": "The pain is specific, the buyers exist, and nobody is pitching them at TechCrunch.",
-        "bubble": "My friends thought I was building something boring. I think boring pays rent."
+        "title": "The holes",
+        "main_text": "The more I use it myself, **the more holes I find.**",
+        "sub_text": "I was sure it was done. Then I opened it again and found three things wrong before breakfast.",
+        "bubble": "I keep finding rough edges I swore were not there yesterday."
       },
       {
         "type": "content",
-        "title": "The pitch",
-        "main_text": "I chose this over a **cool idea** because the pain is specific.",
-        "sub_text": "Specific pain means the customer already knows they have a problem before you explain it, which makes the sales conversation much easier.",
-        "bubble": "Cool ideas need you to convince people they have a problem. Hard pass."
+        "title": "The truth",
+        "main_text": "It will **never be perfect.**",
+        "sub_text": "I used to think I would ship once it was finished. Turns out finished was never going to happen.",
+        "bubble": "Perfect was always just an excuse to keep it to myself a little longer."
       },
       {
         "type": "conclusion",
         "title": "The takeaway",
-        "main_text": "**Boring problems, real customers,** less noise.",
-        "sub_text": "Still zero paying customers, but I know exactly who I am building for.",
-        "bubble": "Unsexy market or cool idea, which would you build? Drop U or C in the comments."
+        "main_text": "**I am just glad I started.**",
+        "sub_text": "Zero customers, a dozen rough edges, and I would still do it again.",
+        "bubble": "Ask me again in six months. For now, I started. That is the whole win."
       }
     ],
     "images": [],
