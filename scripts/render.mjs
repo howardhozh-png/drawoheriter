@@ -62,16 +62,46 @@ function renderHighlights(text, bandColor, accentColor) {
   );
 }
 
+// The 1080x1080 canvas has a fixed height and `overflow: hidden` — with no
+// auto-sizing, a long main_text/sub_text/bubble combo silently gets clipped
+// by the canvas edge instead of shrinking (found on day2-career slide 5: the
+// sub_text and bubble were sliced off entirely). main_text is weighted higher
+// since its font is ~2x the size of sub/bubble text per character.
+function tierSize(len, tiers) {
+  for (const [maxLen, size] of tiers) if (len <= maxLen) return size;
+  return tiers[tiers.length - 1][1];
+}
+
+function slideTextWeight(slide) {
+  return (slide.title?.length || 0) * 0.3
+    + (slide.main_text?.length || 0) * 1.3
+    + (slide.sub_text?.length || 0)
+    + (slide.sub_text_2?.length || 0)
+    + (slide.stat_label?.length || 0)
+    + (slide.bubble?.length || 0) * 0.8;
+}
+
+function slideFontSizes(slide) {
+  const w = slideTextWeight(slide);
+  return {
+    main:   tierSize(w, [[80, 88], [140, 76], [200, 64], [280, 54], [999, 46]]),
+    sub:    tierSize(w, [[80, 42], [140, 38], [200, 34], [280, 30], [999, 26]]),
+    bubble: tierSize(w, [[80, 34], [140, 32], [200, 28], [280, 25], [999, 22]]),
+  };
+}
+
 function buildSlideHTML(slide, idx, total, theme) {
   const c = getThemeColors(theme);
   const pageNum  = String(idx + 1).padStart(2, "0");
   const totalNum = String(total).padStart(2, "0");
   const isFirst  = idx === 0;
 
+  const fs_ = slideFontSizes(slide);
+
   const bubbleHTML = slide.bubble ? `
     <div class="bubble-wrap">
       <div class="divider"></div>
-      <div class="bubble">${slide.bubble}</div>
+      <div class="bubble" style="font-size:${fs_.bubble}px">${slide.bubble}</div>
       <svg class="bubble-tail" width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
         <polygon points="0,0 26,0 0,26" fill="${c.bubbleBg}"/>
         <polyline points="26,0 0,26 0,0" fill="none" stroke="${c.bubbleBorder}" stroke-width="2.5" stroke-linejoin="round"/>
@@ -85,8 +115,8 @@ function buildSlideHTML(slide, idx, total, theme) {
     <div class="body center">
       <div class="slide-content">
         <div class="center-content">
-          ${slide.main_text ? `<div class="main">${renderHighlights(slide.main_text, c.band, c.accent)}</div>` : ""}
-          ${slide.sub_text  ? `<div class="sub">${slide.sub_text}</div>` : ""}
+          ${slide.main_text ? `<div class="main" style="font-size:${fs_.main}px">${renderHighlights(slide.main_text, c.band, c.accent)}</div>` : ""}
+          ${slide.sub_text  ? `<div class="sub" style="font-size:${fs_.sub}px">${slide.sub_text}</div>` : ""}
         </div>
       </div>
       <div class="foot">
@@ -99,15 +129,16 @@ function buildSlideHTML(slide, idx, total, theme) {
     if (slide.type === "stat") {
       contentHTML = `
         ${slide.title      ? `<div class="title">${slide.title}</div>` : ""}
-        ${slide.sub_text   ? `<div class="sub">${renderHighlights(slide.sub_text, c.band, c.accent)}</div>` : ""}
+        ${slide.sub_text   ? `<div class="sub" style="font-size:${fs_.sub}px">${renderHighlights(slide.sub_text, c.band, c.accent)}</div>` : ""}
         <div class="stat-num">${slide.stat_number || ""}</div>
-        ${slide.stat_label ? `<div class="stat-lbl">${renderHighlights(slide.stat_label, c.band, c.accent)}</div>` : ""}`;
+        ${slide.stat_label ? `<div class="stat-lbl" style="font-size:${fs_.sub}px">${renderHighlights(slide.stat_label, c.band, c.accent)}</div>` : ""}`;
     } else {
       contentHTML = `
         ${slide.title      ? `<div class="title">${slide.title}</div>` : ""}
-        ${slide.main_text  ? `<div class="main">${renderHighlights(slide.main_text, c.band, c.accent)}</div>` : ""}
-        ${slide.sub_text   ? `<div class="sub">${renderHighlights(slide.sub_text, c.band, c.accent)}</div>` : ""}
-        ${slide.type === "conclusion" ? `<div class="cta">Save this for later or follow for what happens next.</div>` : ""}`;
+        ${slide.main_text  ? `<div class="main" style="font-size:${fs_.main}px">${renderHighlights(slide.main_text, c.band, c.accent)}</div>` : ""}
+        ${slide.sub_text   ? `<div class="sub" style="font-size:${fs_.sub}px">${renderHighlights(slide.sub_text, c.band, c.accent)}</div>` : ""}
+        ${slide.sub_text_2 ? `<div class="sub" style="font-size:${fs_.sub}px;margin-top:12px">${renderHighlights(slide.sub_text_2, c.band, c.accent)}</div>` : ""}
+        ${slide.type === "conclusion" ? `<div class="cta">Save this post and follow my journey.</div>` : ""}`;
     }
 
     bodyHTML = `

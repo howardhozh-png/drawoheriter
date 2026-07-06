@@ -4,172 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Navigating career — 2026-07-02</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: 'Inter', sans-serif;
-  background: #F2F2F7;
-  padding: 32px 24px 48px;
-  min-height: 100vh;
-}
-
-/* Header */
-.header {
-  max-width: 1100px;
-  margin: 0 auto 28px;
-}
-.label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #8E8E93;
-  margin-bottom: 6px;
-}
-.theme {
-  font-size: 28px;
-  font-weight: 800;
-  color: #1D1D1F;
-  margin-bottom: 4px;
-}
-.date { font-size: 14px; color: #8E8E93; }
-
-/* Text cards */
-.text-cards {
-  max-width: 1100px;
-  margin: 0 auto 28px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
+body { font-family: -apple-system, sans-serif; background: #F2F2F7; padding: 32px 24px 48px; min-height: 100vh; }
+.header { max-width: 1200px; margin: 0 auto 20px; }
+.label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #8E8E93; margin-bottom: 4px; }
+.theme { font-size: 24px; font-weight: 800; color: #1D1D1F; margin-bottom: 2px; }
+.date { font-size: 13px; color: #8E8E93; }
+.text-cards { max-width: 1200px; margin: 0 auto 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 @media (max-width: 700px) { .text-cards { grid-template-columns: 1fr; } }
-.card {
-  background: #fff;
-  border-radius: 16px;
-  padding: 20px 22px;
-}
+.card { background: #fff; border-radius: 14px; padding: 18px 20px; }
 .card .label { margin-bottom: 8px; }
-.card p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: #1D1D1F;
-  white-space: pre-wrap;
-}
-
-/* Slides row */
-.slides-wrap {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow-x: auto;
-  padding-bottom: 8px;
-}
-.slides-row {
-  display: flex;
-  gap: 16px;
-  width: max-content;
-}
-
-/* Individual slide — 1080x1080 scaled to 340x340 */
-.slide {
-  width: 340px;
-  height: 340px;
-  flex-shrink: 0;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
-  background: #fff;
-}
-.slide-inner {
-  width: 1080px;
-  height: 1080px;
-  transform: scale(0.3148);
-  transform-origin: top left;
-  display: flex;
-  flex-direction: column;
-  padding: 70px 80px;
-  background: #FFFFFF;
-}
-.top-bar {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 44px;
-  margin-bottom: 52px;
-}
-.overline {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #999;
-}
-.page { font-size: 22px; font-weight: 500; color: #BBB; letter-spacing: 0.05em; }
-.content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 24px;
-  overflow: hidden;
-  min-height: 0;
-}
-.main {
-  font-size: 72px;
-  font-weight: 800;
-  line-height: 1.15;
-  color: #0A0A0A;
-  letter-spacing: -0.03em;
-  flex-shrink: 0;
-}
-.hl { color: #3333FF; }
-.sub {
-  font-size: 30px;
-  font-weight: 500;
-  color: #555;
-  line-height: 1.5;
-  flex-shrink: 0;
-}
-.stat-num {
-  font-size: 160px;
-  font-weight: 900;
-  color: #3333FF;
-  letter-spacing: -0.04em;
-  line-height: 1;
-  flex-shrink: 0;
-}
-.stat-lbl {
-  font-size: 30px;
-  font-weight: 600;
-  color: #0A0A0A;
-  line-height: 1.4;
-  flex-shrink: 0;
-}
-.cta { font-size: 28px; font-weight: 700; color: #3333FF; flex-shrink: 0; }
-.bubble-wrap { flex-shrink: 0; margin-top: auto; padding-top: 28px; }
-.divider { width: 56px; height: 2px; background: #E0E0E0; margin-bottom: 18px; }
-.bubble {
-  display: inline-block;
-  background: #F0F0F0;
-  border-radius: 36px 36px 36px 8px;
-  padding: 20px 32px;
-  font-size: 24px;
-  color: #444;
-  font-style: italic;
-  line-height: 1.5;
-  max-width: 100%;
-}
-.bottom-bar {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 44px;
-  margin-top: 36px;
-}
-.handle { font-size: 22px; font-weight: 600; color: #AAA; }
-.swipe { font-size: 22px; font-weight: 600; color: #AAA; letter-spacing: 0.04em; }
+.card p { font-size: 14px; line-height: 1.6; color: #1D1D1F; white-space: pre-wrap; }
+.slides-wrap { max-width: 1200px; margin: 0 auto; overflow-x: auto; padding-bottom: 8px; }
+.slides-row { display: flex; gap: 14px; width: max-content; }
+.slide-outer { width: 340px; height: 340px; flex-shrink: 0; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 14px rgba(0,0,0,0.12); }
 </style>
 </head>
 <body>
@@ -180,7 +29,7 @@ body {
 
   <div class="text-cards">
     <div class="card">
-      <div class="label">Threads text post</div>
+      <div class="label">Threads</div>
       <p>Consulting trained me to be excellent at things that do not matter.
 
 I made pixel-perfect decks. I nailed the narrative arc. I colour-coded the appendix.
@@ -192,7 +41,7 @@ Startups have a brutal way of showing you the difference between effort and impa
 What did you over-engineer that turned out not to matter?</p>
     </div>
     <div class="card">
-      <div class="label">Instagram caption</div>
+      <div class="label">Caption</div>
       <p>MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.
 
 I spent years getting very, very good at the wrong things. The transition was humbling.
@@ -204,181 +53,394 @@ What is something you optimised perfectly that turned out not to matter? Comment
   <div class="slides-wrap">
     <div class="slides-row">
       
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">01 / 07</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">Consulting trained me to be <span class="hl">excellent at things that do not matter.</span></div>
-      <div class="sub">Startups cured me of this. Slower than I expected.</div>
-      
-      
-    
-          
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe">swipe →</span>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>01 / 07</span></div>
+  
+    <div class=&quot;body center&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;center-content&quot;>
+          <div class=&quot;main&quot; style=&quot;font-size:64px&quot;>Consulting trained me to be <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>excellent at things that do not matter.</span></div>
+          <div class=&quot;sub&quot; style=&quot;font-size:34px&quot;>Startups cured me of this. Slower than I expected.</div>
         </div>
       </div>
+      <div class=&quot;foot&quot;>
+        <span class=&quot;handle&quot;>@drawoheriter</span>
+        <span class=&quot;swipe&quot;>swipe →</span>
+      </div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">02 / 07</span>
-        </div>
-        <div class="content">
-          
-      <div class="sub">Hours I spent on slide decks that changed nothing at the client</div>
-      <div class="stat-num">200</div>
-      <div class="stat-lbl">hours on slides that moved nothing</div>
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">Conservative estimate. I am being kind to myself.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
-        </div>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>02 / 07</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;sub&quot; style=&quot;font-size:38px&quot;>Hours I spent on slide decks that changed nothing at the client</div>
+        <div class=&quot;stat-num&quot;>200</div>
+        <div class=&quot;stat-lbl&quot; style=&quot;font-size:38px&quot;>hours on slides that moved nothing</div></div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:32px&quot;>Conservative estimate. I am being kind to myself.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">03 / 07</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">The client <span class="hl">decided in 10 minutes.</span> The deck took 3 weeks.</div>
-      <div class="sub">Pixel-perfect transitions. Consistent font hierarchy. A appendix nobody opened.</div>
-      <div class="sub">The decision was made before we walked in the room.</div>
-      
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">I once spent two days aligning boxes on a slide. Two days.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>03 / 07</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;main&quot; style=&quot;font-size:54px&quot;>The client <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>decided in 10 minutes.</span> The deck took 3 weeks.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px&quot;>Pixel-perfect transitions. Consistent font hierarchy. A appendix nobody opened.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px;margin-top:12px&quot;>The decision was made before we walked in the room.</div>
         </div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:25px&quot;>I once spent two days aligning boxes on a slide. Two days.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">04 / 07</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">The <span class="hl">consultant trap:</span> effort feels like impact because it looks like impact.</div>
-      <div class="sub">Hours in, polished output, rigorous process. But output is not outcome.</div>
-      <div class="sub">Consulting rewards the performance of work. Startups punish it.</div>
-      
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">Nobody claps for your framework if the thing does not ship.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>04 / 07</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;main&quot; style=&quot;font-size:46px&quot;>The <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>consultant trap:</span> effort feels like impact because it looks like impact.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:26px&quot;>Hours in, polished output, rigorous process. But output is not outcome.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:26px;margin-top:12px&quot;>Consulting rewards the performance of work. Startups punish it.</div>
         </div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:22px&quot;>Nobody claps for your framework if the thing does not ship.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">05 / 07</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">A <span class="hl">working feature</span> beats a perfect plan. Every single time.</div>
-      <div class="sub">kakisewa.com is live. Zero paying customers. Two working features.</div>
-      <div class="sub">That is more real than any deck I ever made.</div>
-      
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">My first pitch deck had 14 slides. The product had 2 working features. I had the order wrong.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>05 / 07</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;main&quot; style=&quot;font-size:54px&quot;>A <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>working feature</span> beats a perfect plan. Every single time.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px&quot;>kakisewa.com is live. Zero paying customers. Two working features.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px;margin-top:12px&quot;>That is more real than any deck I ever made.</div>
         </div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:25px&quot;>My first pitch deck had 14 slides. The product had 2 working features. I had the order wrong.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">06 / 07</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">The moment I realised I was <span class="hl">optimising for the wrong thing.</span></div>
-      <div class="sub">I caught myself rewriting copy on a landing page nobody had visited yet.</div>
-      <div class="sub">Classic consultant move. Polish the thing. Avoid the scary thing.</div>
-      
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">The scary thing was sending the cold email. The copy was fine.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>06 / 07</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;main&quot; style=&quot;font-size:54px&quot;>The moment I realised I was <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>optimising for the wrong thing.</span></div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px&quot;>I caught myself rewriting copy on a landing page nobody had visited yet.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px;margin-top:12px&quot;>Classic consultant move. Polish the thing. Avoid the scary thing.</div>
         </div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:25px&quot;>The scary thing was sending the cold email. The copy was fine.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">07 / 07</span>
-        </div>
-        <div class="content">
-          
-      <div class="main"><span class="hl">Excellent execution</span> on the wrong thing is still the wrong thing.</div>
-      <div class="sub">The skill is not doing things well. It is picking the right things to do at all.</div>
-      
-      <div class="cta">Follow to know what happens next.</div>
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">What is something you optimised perfectly that turned out not to matter? Comment below.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
-        </div>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>07 / 07</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;main&quot; style=&quot;font-size:54px&quot;><span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>Excellent execution</span> on the wrong thing is still the wrong thing.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px&quot;>The skill is not doing things well. It is picking the right things to do at all.</div>
+        
+        <div class=&quot;cta&quot;>Save this post and follow my journey.</div></div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:25px&quot;>What is something you optimised perfectly that turned out not to matter? Comment below.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
     </div>
   </div>

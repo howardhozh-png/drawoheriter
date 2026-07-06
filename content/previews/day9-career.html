@@ -4,172 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Navigating career — 2026-07-02</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: 'Inter', sans-serif;
-  background: #F2F2F7;
-  padding: 32px 24px 48px;
-  min-height: 100vh;
-}
-
-/* Header */
-.header {
-  max-width: 1100px;
-  margin: 0 auto 28px;
-}
-.label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #8E8E93;
-  margin-bottom: 6px;
-}
-.theme {
-  font-size: 28px;
-  font-weight: 800;
-  color: #1D1D1F;
-  margin-bottom: 4px;
-}
-.date { font-size: 14px; color: #8E8E93; }
-
-/* Text cards */
-.text-cards {
-  max-width: 1100px;
-  margin: 0 auto 28px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
+body { font-family: -apple-system, sans-serif; background: #F2F2F7; padding: 32px 24px 48px; min-height: 100vh; }
+.header { max-width: 1200px; margin: 0 auto 20px; }
+.label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #8E8E93; margin-bottom: 4px; }
+.theme { font-size: 24px; font-weight: 800; color: #1D1D1F; margin-bottom: 2px; }
+.date { font-size: 13px; color: #8E8E93; }
+.text-cards { max-width: 1200px; margin: 0 auto 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 @media (max-width: 700px) { .text-cards { grid-template-columns: 1fr; } }
-.card {
-  background: #fff;
-  border-radius: 16px;
-  padding: 20px 22px;
-}
+.card { background: #fff; border-radius: 14px; padding: 18px 20px; }
 .card .label { margin-bottom: 8px; }
-.card p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: #1D1D1F;
-  white-space: pre-wrap;
-}
-
-/* Slides row */
-.slides-wrap {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow-x: auto;
-  padding-bottom: 8px;
-}
-.slides-row {
-  display: flex;
-  gap: 16px;
-  width: max-content;
-}
-
-/* Individual slide — 1080x1080 scaled to 340x340 */
-.slide {
-  width: 340px;
-  height: 340px;
-  flex-shrink: 0;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
-  background: #fff;
-}
-.slide-inner {
-  width: 1080px;
-  height: 1080px;
-  transform: scale(0.3148);
-  transform-origin: top left;
-  display: flex;
-  flex-direction: column;
-  padding: 70px 80px;
-  background: #FFFFFF;
-}
-.top-bar {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 44px;
-  margin-bottom: 52px;
-}
-.overline {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #999;
-}
-.page { font-size: 22px; font-weight: 500; color: #BBB; letter-spacing: 0.05em; }
-.content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 24px;
-  overflow: hidden;
-  min-height: 0;
-}
-.main {
-  font-size: 72px;
-  font-weight: 800;
-  line-height: 1.15;
-  color: #0A0A0A;
-  letter-spacing: -0.03em;
-  flex-shrink: 0;
-}
-.hl { color: #3333FF; }
-.sub {
-  font-size: 30px;
-  font-weight: 500;
-  color: #555;
-  line-height: 1.5;
-  flex-shrink: 0;
-}
-.stat-num {
-  font-size: 160px;
-  font-weight: 900;
-  color: #3333FF;
-  letter-spacing: -0.04em;
-  line-height: 1;
-  flex-shrink: 0;
-}
-.stat-lbl {
-  font-size: 30px;
-  font-weight: 600;
-  color: #0A0A0A;
-  line-height: 1.4;
-  flex-shrink: 0;
-}
-.cta { font-size: 28px; font-weight: 700; color: #3333FF; flex-shrink: 0; }
-.bubble-wrap { flex-shrink: 0; margin-top: auto; padding-top: 28px; }
-.divider { width: 56px; height: 2px; background: #E0E0E0; margin-bottom: 18px; }
-.bubble {
-  display: inline-block;
-  background: #F0F0F0;
-  border-radius: 36px 36px 36px 8px;
-  padding: 20px 32px;
-  font-size: 24px;
-  color: #444;
-  font-style: italic;
-  line-height: 1.5;
-  max-width: 100%;
-}
-.bottom-bar {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 44px;
-  margin-top: 36px;
-}
-.handle { font-size: 22px; font-weight: 600; color: #AAA; }
-.swipe { font-size: 22px; font-weight: 600; color: #AAA; letter-spacing: 0.04em; }
+.card p { font-size: 14px; line-height: 1.6; color: #1D1D1F; white-space: pre-wrap; }
+.slides-wrap { max-width: 1200px; margin: 0 auto; overflow-x: auto; padding-bottom: 8px; }
+.slides-row { display: flex; gap: 14px; width: max-content; }
+.slide-outer { width: 340px; height: 340px; flex-shrink: 0; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 14px rgba(0,0,0,0.12); }
 </style>
 </head>
 <body>
@@ -180,7 +29,7 @@ body {
 
   <div class="text-cards">
     <div class="card">
-      <div class="label">Threads text post</div>
+      <div class="label">Threads</div>
       <p>I shipped my first product and felt like a fraud the whole time.
 
 Not imposter syndrome in the vague motivational poster sense. The specific kind where you've built something that is a direct reflection of how you think, and you're not sure your thinking is good.
@@ -190,7 +39,7 @@ Told zero people for two weeks after launch.
 Have you ever felt like a fraud doing something you were actually capable of?</p>
     </div>
     <div class="card">
-      <div class="label">Instagram caption</div>
+      <div class="label">Caption</div>
       <p>I shipped kakisewa and told exactly zero people about it for two weeks.
 
 Not because I was doing a quiet launch strategy. Because I was terrified.
@@ -210,155 +59,337 @@ Have you ever felt like a fraud doing something you were actually capable of? Co
   <div class="slides-wrap">
     <div class="slides-row">
       
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">01 / 06</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">I shipped my first product and felt like a <span class="hl">fraud</span> the whole time.</div>
-      <div class="sub">Nobody warned me this part was coming.</div>
-      
-      
-    
-          
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe">swipe →</span>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>01 / 06</span></div>
+  
+    <div class=&quot;body center&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;center-content&quot;>
+          <div class=&quot;main&quot; style=&quot;font-size:76px&quot;>I shipped my first product and felt like a <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>fraud</span> the whole time.</div>
+          <div class=&quot;sub&quot; style=&quot;font-size:38px&quot;>Nobody warned me this part was coming.</div>
         </div>
       </div>
+      <div class=&quot;foot&quot;>
+        <span class=&quot;handle&quot;>@drawoheriter</span>
+        <span class=&quot;swipe&quot;>swipe →</span>
+      </div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">02 / 06</span>
-        </div>
-        <div class="content">
-          
-      <div class="sub">Number of people I told about the product for the first two weeks after launch</div>
-      <div class="stat-num">0</div>
-      <div class="stat-lbl">people who knew kakisewa existed</div>
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">Not a strategy. Just fear with a good excuse.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
-        </div>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>02 / 06</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;sub&quot; style=&quot;font-size:34px&quot;>Number of people I told about the product for the first two weeks after launch</div>
+        <div class=&quot;stat-num&quot;>0</div>
+        <div class=&quot;stat-lbl&quot; style=&quot;font-size:34px&quot;>people who knew kakisewa existed</div></div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:28px&quot;>Not a strategy. Just fear with a good excuse.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">03 / 06</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">Imposter syndrome hits <span class="hl">differently</span> when you're the founder.</div>
-      <div class="sub">In consulting, someone above you validated the work. The deck got approved. You were covered.</div>
-      <div class="sub">Here, no one signs off. It's just you.</div>
-      
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">I genuinely missed having a senior partner to blame.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>03 / 06</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;main&quot; style=&quot;font-size:54px&quot;>Imposter syndrome hits <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>differently</span> when you're the founder.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px&quot;>In consulting, someone above you validated the work. The deck got approved. You were covered.</div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px;margin-top:12px&quot;>Here, no one signs off. It's just you.</div>
         </div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:25px&quot;>I genuinely missed having a senior partner to blame.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">04 / 06</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">The product is a <span class="hl">direct reflection of your thinking.</span></div>
-      <div class="sub">That's what makes it terrifying. If the product is wrong, you're wrong.</div>
-      
-      
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">Years of MBB training and I still wasn't ready for this specific feeling.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>04 / 06</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;main&quot; style=&quot;font-size:54px&quot;>The product is a <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>direct reflection of your thinking.</span></div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px&quot;>That's what makes it terrifying. If the product is wrong, you're wrong.</div>
+        
         </div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:25px&quot;>Years of MBB training and I still wasn't ready for this specific feeling.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">05 / 06</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">So I did the only thing that made sense: <span class="hl">shipped anyway.</span></div>
-      <div class="sub">Decided I'd wait for the market to tell me I was an idiot instead of telling myself first.</div>
-      
-      
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">Market hasn't said much yet. Zero paying customers. The silence is its own kind of feedback.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>05 / 06</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;main&quot; style=&quot;font-size:54px&quot;>So I did the only thing that made sense: <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>shipped anyway.</span></div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px&quot;>Decided I'd wait for the market to tell me I was an idiot instead of telling myself first.</div>
+        
         </div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:25px&quot;>Market hasn't said much yet. Zero paying customers. The silence is its own kind of feedback.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
 
-    <div class="slide">
-      <div class="slide-inner">
-        <div class="top-bar">
-          <span class="overline">Navigating career</span>
-          <span class="page">06 / 06</span>
-        </div>
-        <div class="content">
-          
-      <div class="main">The fraud feeling doesn't mean you're <span class="hl">wrong. It means you care.</span></div>
-      <div class="sub">The people who say they never feel it are either lying or not paying close enough attention.</div>
-      
-      <div class="cta">Follow to know what happens next.</div>
-    
-          
-    <div class="bubble-wrap">
-      <div class="divider"></div>
-      <div class="bubble">I still feel it sometimes. Shipped 8,471 cold emails anyway.</div>
-    </div>
-        </div>
-        <div class="bottom-bar">
-          <span class="handle">@drawoheriter</span>
-          <span class="swipe"></span>
-        </div>
+    <div class="slide-outer">
+      <iframe srcdoc="<!DOCTYPE html>
+<html><head>
+<meta charset=&quot;UTF-8&quot;>
+<link href=&quot;https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;display=swap&quot; rel=&quot;stylesheet&quot;>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1080px; overflow: hidden; }
+body { font-family: 'Patrick Hand', cursive; background: #FAF6F0; width: 1080px; height: 1080px; display: flex; flex-direction: column; }
+.band { height: 90px; background: #2563EB; display: flex; align-items: center; padding: 0 160px; flex-shrink: 0; }
+.band-name { font-size: 36px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.92); }
+.band-pg { margin-left: auto; font-size: 28px; color: rgba(255,255,255,0.5); }
+.body { flex: 1; display: flex; flex-direction: column; padding: 0 160px; min-height: 0; }
+.body.top { padding-top: 64px; }
+.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.content { display: flex; flex-direction: column; gap: 28px; }
+.foot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; padding-bottom: 52px; flex-shrink: 0; }
+.title { font-size: 26px; color: #B0A090; letter-spacing: 0.1em; text-transform: uppercase; }
+.main { font-size: 88px; line-height: 1.2; color: #1A1208; }
+.sub { font-size: 42px; color: #7A6858; line-height: 1.6; }
+.stat-num { font-size: 190px; line-height: 1; letter-spacing: -0.02em; color: #2563EB; }
+.stat-lbl { font-size: 42px; color: #7A6858; line-height: 1.5; }
+.cta { font-size: 40px; line-height: 1.4; color: #2563EB; }
+.handle { font-size: 24px; color: #C8B8A8; }
+.swipe { font-size: 24px; color: #C8B8A8; }
+.bubble-wrap { margin-top: auto; padding-top: 28px; flex-shrink: 0; }
+.divider { width: 56px; height: 3px; background: #BFDBFE; margin-bottom: 24px; }
+.bubble { display: block; border-radius: 24px 24px 24px 6px; border: 2px solid #93C5FD; background: #EBF2FF; padding: 26px 40px; font-size: 34px; line-height: 1.55; font-style: italic; color: #1A3A8A; max-width: 100%; }
+.bubble-tail { display: block; margin-left: 42px; margin-top: -1px; }
+</style></head>
+<body>
+  <div class=&quot;band&quot;><span class=&quot;band-name&quot;>Navigating career</span><span class=&quot;band-pg&quot;>06 / 06</span></div>
+  
+    <div class=&quot;body top&quot;>
+      <div class=&quot;slide-content&quot;>
+        <div class=&quot;content&quot;>
+        
+        <div class=&quot;main&quot; style=&quot;font-size:54px&quot;>The fraud feeling doesn't mean you're <span style=&quot;color:#2563EB;text-decoration:underline;text-decoration-color:#93C5FD;text-underline-offset:10px;&quot;>wrong. It means you care.</span></div>
+        <div class=&quot;sub&quot; style=&quot;font-size:30px&quot;>The people who say they never feel it are either lying or not paying close enough attention.</div>
+        
+        <div class=&quot;cta&quot;>Save this post and follow my journey.</div></div>
       </div>
+      
+    <div class=&quot;bubble-wrap&quot;>
+      <div class=&quot;divider&quot;></div>
+      <div class=&quot;bubble&quot; style=&quot;font-size:25px&quot;>I still feel it sometimes. Shipped 8,471 cold emails anyway.</div>
+      <svg class=&quot;bubble-tail&quot; width=&quot;26&quot; height=&quot;26&quot; viewBox=&quot;0 0 26 26&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;>
+        <polygon points=&quot;0,0 26,0 0,26&quot; fill=&quot;#EBF2FF&quot;/>
+        <polyline points=&quot;26,0 0,26 0,0&quot; fill=&quot;none&quot; stroke=&quot;#93C5FD&quot; stroke-width=&quot;2.5&quot; stroke-linejoin=&quot;round&quot;/>
+      </svg>
+    </div>
+      <div class=&quot;foot&quot;><span class=&quot;handle&quot;>@drawoheriter</span></div>
+    </div>
+</body></html>" width="1080" height="1080" style="border:none;transform:scale(0.3148);transform-origin:top left;display:block;"></iframe>
     </div>
     </div>
   </div>
