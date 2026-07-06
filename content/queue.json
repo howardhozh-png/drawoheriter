@@ -360,7 +360,7 @@
     "date": "2026-07-06",
     "topic": "building-in-public",
     "angle": "First tool I have ever built, started because of my cousins pain point, not to make money",
-    "status": "pending",
+    "status": "posted",
     "theme": "Building in public",
     "caption": "Still zero customers. But I did not start this to make money.\n\nMy cousin would not stop complaining about the same problem every time I saw him. I had never built a tool before in my life. I just wanted to see if I could.\n\nThe more I use it, the more holes I find. It is never going to be perfect. I am still glad I started.\n\nHas someone else's pain point ever pushed you to build something? Tell me below.",
     "threads_text": "Building in public: this is the first tool I have ever built. Not for the money, my cousin would not stop complaining about the same problem every time I saw him.\n\nThe more I use it, the more holes I find. It will never be perfect. Still glad I started.",
@@ -415,8 +415,21 @@
         "bubble": "Ask me again in six months. For now, I started. That is the whole win."
       }
     ],
-    "images": [],
-    "engagement": null
+    "images": [
+      "content/images/bip1-unsexy-market/slide-01.png",
+      "content/images/bip1-unsexy-market/slide-02.png",
+      "content/images/bip1-unsexy-market/slide-03.png",
+      "content/images/bip1-unsexy-market/slide-04.png",
+      "content/images/bip1-unsexy-market/slide-05.png",
+      "content/images/bip1-unsexy-market/slide-06.png",
+      "content/images/bip1-unsexy-market/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-06T12:35:49.895Z",
+    "threads_id": "18097598354124832",
+    "threads_carousel_id": "18141887569533537",
+    "instagram_id": "18086528228643390",
+    "instagram_story_id": null
   },
   {
     "id": "1782911115672",
