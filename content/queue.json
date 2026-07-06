@@ -356,6 +356,69 @@
     "engagement": null
   },
   {
+    "id": "bip1-unsexy-market",
+    "date": "2026-07-06",
+    "topic": "building-in-public",
+    "angle": "Why I picked an unsexy, unnamed market on purpose",
+    "status": "pending",
+    "theme": "Building in public",
+    "caption": "Still zero customers. But I picked this market on purpose.\n\nMost people said it was not exciting enough to build for. I thought: good, fewer people will try to compete.\n\nSwipe to see why I chose boring over cool, and whether it is actually smart or just cope.\n\nUnsexy market or cool idea, which would you build? Vote in comments: U or C",
+    "threads_text": "Building in public: I picked an old-school industry as my market. Everything still runs on spreadsheets and group chats. Nobody thinks it is exciting. I think that is the point.\n\nPoll, which would you build?\nU = Unsexy market with real pain\nC = Cool idea with hype",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I picked the most **unsexy market** possible.",
+        "sub_text": "An old-school industry that still runs on spreadsheets, sticky notes, and group chats. I think that is the point.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "The market",
+        "sub_text": "Real pain, real buyers, and almost no modern tooling built for it yet.",
+        "stat_number": "Thousands",
+        "stat_label": "of contacts found. Outreach going out every single day.",
+        "bubble": "I have their contact info. I do not have their money. Yet."
+      },
+      {
+        "type": "content",
+        "title": "The gap",
+        "main_text": "**Nobody is building for this market.**",
+        "sub_text": "Which either means it is wide open, or everyone already tried and left. I am choosing to believe the first one.",
+        "bubble": "This is the part where I find out which."
+      },
+      {
+        "type": "content",
+        "title": "The validation",
+        "main_text": "The problem is **obvious once you talk to one person in the industry.**",
+        "sub_text": "Manual tracking, things falling through the cracks, and nobody built a proper tool because nobody thought it was worth building.",
+        "bubble": "The first person I talked to just uses notes on their phone. That was my product validation."
+      },
+      {
+        "type": "content",
+        "title": "The advantage",
+        "main_text": "**Unsexy markets have real paying customers** and fewer competitors.",
+        "sub_text": "The pain is specific, the buyers exist, and nobody is pitching them at TechCrunch.",
+        "bubble": "My friends thought I was building something boring. I think boring pays rent."
+      },
+      {
+        "type": "content",
+        "title": "The pitch",
+        "main_text": "I chose this over a **cool idea** because the pain is specific.",
+        "sub_text": "Specific pain means the customer already knows they have a problem before you explain it, which makes the sales conversation much easier.",
+        "bubble": "Cool ideas need you to convince people they have a problem. Hard pass."
+      },
+      {
+        "type": "conclusion",
+        "title": "The takeaway",
+        "main_text": "**Boring problems, real customers,** less noise.",
+        "sub_text": "Still zero paying customers, but I know exactly who I am building for.",
+        "bubble": "Unsexy market or cool idea, which would you build? Drop U or C in the comments."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
     "id": "1782911115672",
     "plan_day": 3,
     "date": "2026-07-01",
@@ -480,62 +543,78 @@
     "date": "2026-07-02",
     "topic": "navigating-career",
     "angle": "I took a significant pay cut to join a startup. Here are the honest numbers.",
-    "status": "pending",
+    "status": "posted",
     "theme": "Navigating career",
-    "caption": "I took a pay cut to join a startup. Here are the honest numbers — the MBB salary, the startup salary, what the gap actually feels like month to month, and the one thing money genuinely cannot buy.\n\nWhat is the biggest financial risk you have taken for work you actually wanted to do? Comment below.",
-    "threads_text": "I took a pay cut to join a startup. Real numbers: MBB was comfortable. Tarro was not. The gap shows up every time I open my banking app.\n\nStill don't regret it. Mostly.\n\nWhat's the biggest financial risk you've taken for work you actually wanted to do?",
+    "caption": "I left a job that pays RM55k/month to take a 40% pay cut and join a startup.\n\nMy fiancee never signed up for it. She started covering lunches, doing the groceries, swapping date nights out for staying in. Never once complained.\n\nThe upside is not in ringgit yet. It is the people around me now, and how much I am learning from them.\n\nIs it worth it? I do not know. Do I regret it? At least not yet.\n\nWhat is the biggest risk you have taken for work you actually wanted to do? Tell me below.",
+    "threads_text": "I left a job that pays RM55k/month. Took a 40% cut to join a startup.\n\nThe hours did not get lighter. The guilt (watching my fiancee quietly start covering lunches and groceries) got heavier.\n\nBut I am learning more from the founders around me than I ever did from consulting frameworks.\n\nIs it worth it? I do not know. Do I regret it? At least not yet.",
     "slides": [
       {
         "type": "hook",
-        "main_text": "I took a significant **pay cut** to join a startup.",
+        "main_text": "I left a job that pays **RM55k/month**.",
         "sub_text": "The honest numbers, and whether it was worth it.",
         "bubble": null
       },
       {
         "type": "stat",
         "sub_text": "My MBB base salary in Malaysia versus what I make now at Tarro",
-        "stat_number": "~40%",
-        "stat_label": "roughly how much less I earn now",
+        "stat_number": "40%",
+        "stat_label": "less than I made at MBB",
         "bubble": "I told my parents the new number. They went quiet. Then they asked if the company had medical benefits."
       },
       {
         "type": "content",
-        "main_text": "**MBB consulting** paid well. Genuinely well.",
-        "sub_text": "Good base, structured bonus, brand name that opened doors before you said a word.",
-        "sub_text_2": "It is a real number that solves real problems.",
-        "bubble": "I also worked until midnight most nights but that part gets left out of the LinkedIn posts."
+        "main_text": "The **lifestyle change** hit me first.",
+        "sub_text": "Fewer dinners out. A longer pause before every non-essential purchase. Not dramatic on any single day. Just constant.",
+        "bubble": "I have started noticing when a restaurant has a cheaper lunch set. That is new behaviour for me."
       },
       {
         "type": "content",
-        "main_text": "The **startup salary** is lower. That is just the fact.",
-        "sub_text": "Tarro is a US company, I am based in Malaysia, and the number reflects that.",
-        "sub_text_2": "It covers life. It does not cover much excess.",
-        "bubble": "I have started noticing when restaurants have a lunch set versus dinner pricing. This is new behaviour for me."
+        "main_text": "Then it hit **someone else too.**",
+        "sub_text": "My fiancee did not sign up for a pay cut. I did. She started paying for lunches, doing the groceries, swapping date nights out for staying in.",
+        "bubble": "She has never once complained about it. That somehow makes the guilt worse, not better."
       },
       {
         "type": "content",
-        "main_text": "The gap shows up in **small, consistent ways**.",
-        "sub_text": "Fewer dinners out. Longer pause before buying anything that is not a necessity.",
-        "sub_text_2": "Not dramatic. Just present. Every single month.",
-        "bubble": "I have a side project with zero paying customers and a cold email list of 8,471 agents. The ROI math is not mathing yet."
+        "main_text": "The **hours** did not get lighter.",
+        "sub_text": "Tarro by day, kakisewa by night. Same late finishes as MBB, just a different reason for them. I did not trade hard work for less hard work. I traded it for different work.",
+        "bubble": "Nobody tells you 'follow what you actually want' still means working past midnight. It just feels different at midnight."
       },
       {
         "type": "content",
-        "main_text": "What money **cannot buy**: working on something that might actually matter.",
-        "sub_text": "At MBB I was good at solving other people's problems. Now the problem is mine.",
-        "sub_text_2": "That feeling is worth something. I am still figuring out exactly how much.",
-        "bubble": "Kakisewa has zero paying customers right now. So I am technically betting on a feeling. Very normal and rational behaviour."
+        "main_text": "So why do it? **The people.**",
+        "sub_text": "I am surrounded by founders and operators who think completely differently from consultants. I learn something new almost every week just from being near them.",
+        "bubble": "At MBB I learned frameworks. Here I am learning how people actually build things from zero."
+      },
+      {
+        "type": "content",
+        "main_text": "It is **not paying off** yet. Not in ringgit.",
+        "sub_text": "Kakisewa has zero paying customers and a cold email list of 30,000 agents. The ROI is not mathing yet. I am still showing up anyway.",
+        "bubble": "30,000 cold emails and zero replies that convert into paying customers. Humbling in a very specific way."
       },
       {
         "type": "conclusion",
-        "main_text": "The **pay cut** was real. The regret is not — at least not yet.",
-        "sub_text": "Ask me again once I know if kakisewa works.",
-        "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "What is the biggest financial risk you have taken for work you actually wanted to do? Comment below."
+        "main_text": "**Is it worth it?** I do not know.",
+        "sub_text": "Do I regret it? At least not yet.",
+        "follow_cta": "Follow my journey.",
+        "bubble": null
       }
     ],
-    "images": [],
-    "engagement": null
+    "images": [
+      "content/images/day5-career/slide-01.png",
+      "content/images/day5-career/slide-02.png",
+      "content/images/day5-career/slide-03.png",
+      "content/images/day5-career/slide-04.png",
+      "content/images/day5-career/slide-05.png",
+      "content/images/day5-career/slide-06.png",
+      "content/images/day5-career/slide-07.png",
+      "content/images/day5-career/slide-08.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-05T14:13:07.177Z",
+    "threads_id": "17930570442347389",
+    "threads_carousel_id": "17938383897270707",
+    "instagram_id": "18097007297214638",
+    "instagram_story_id": null
   },
   {
     "id": "day6-career",
@@ -908,9 +987,9 @@
     "date": "2026-07-02",
     "topic": "navigating-career",
     "angle": "Things I do not miss about consulting. This list is much longer.",
-    "status": "pending",
+    "status": "posted",
     "theme": "Navigating career",
-    "caption": "Six things I do not miss about consulting. The list is longer but I had to stop somewhere.\n\nWhat is the one thing you would never go back to from a previous job? Comment below.",
+    "caption": "Six things I do not miss about consulting. The list is longer but I had to stop somewhere.\n\n(SOD = start of day, EOD = end of day alignment meetings. Daily check-ins to align on priorities and wrap up. Standard in consulting.)\n\nWhat is the one thing you would never go back to from a previous job? Comment below.",
     "threads_text": "Things I do not miss about consulting:\n\n- performing busyness for the client\n- solving problems that felt urgent and irrelevant a year later\n- managing up instead of building anything\n- travelling for a meeting that was definitely an email\n- the firm name doing more work than I did\n- timesheets\n\nThis list is longer. What would you never go back to?",
     "slides": [
       {
@@ -963,10 +1042,143 @@
       },
       {
         "type": "conclusion",
-        "main_text": "The petty one: **timesheets**",
-        "sub_text": "Fifteen-minute increments. For knowledge work. I will never do that again.",
+        "main_text": "The petty one: **SOD and EOD alignment.**",
+        "sub_text": "We called it the manufacturing process. Makes you focus but also creates a false sense of urgency.",
         "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "What is the one thing you would never go back to from a previous job? Comment below."
+        "bubble": "For those who do not know: SOD = Start of Day, EOD = End of Day alignment. Daily check-ins every consultant has sat through."
+      }
+    ],
+    "images": [
+      "content/images/1782997518396/slide-01.png",
+      "content/images/1782997518396/slide-02.png",
+      "content/images/1782997518396/slide-03.png",
+      "content/images/1782997518396/slide-04.png",
+      "content/images/1782997518396/slide-05.png",
+      "content/images/1782997518396/slide-06.png",
+      "content/images/1782997518396/slide-07.png",
+      "content/images/1782997518396/slide-08.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-05T07:06:55.870Z",
+    "threads_id": "18138479773508940",
+    "threads_carousel_id": "18092164352244451",
+    "instagram_id": "18110401696759463",
+    "instagram_story_id": null
+  },
+  {
+    "id": "1783083915594",
+    "plan_day": 13,
+    "date": "2026-07-03",
+    "topic": "navigating-career",
+    "angle": "Everyone says quit and go all in. Here is why I have not. It is not fear.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "Everyone says quit your job and go all in. I have not. And it is not fear — it is math.\n\nI ran the numbers. The job funds the experiment. The experiment might make the job optional one day.\n\nHave you ever gone all in on something? What made you pull the trigger? Comment below.",
+    "threads_text": "Everyone says go all in and quit your job. I have not, and it is not fear. I have 8,471 agents scraped, 100 cold emails going out daily, zero paying customers, and a full-time job that keeps the lights on while I find out if this works. Going all in is romantic. Going broke is not. Have you ever quit something stable to bet on yourself?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Everyone says quit and **go all in.**\nI have not.\nIt is not fear.",
+        "sub_text": "It is math.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Months of runway if I quit my job tomorrow",
+        "stat_number": "8",
+        "stat_label": "months runway — then zero",
+        "bubble": "8 months sounds okay until month 3 when you are still at zero customers."
+      },
+      {
+        "type": "content",
+        "main_text": "**Runway is not a vibe.** It is a number.",
+        "sub_text": "Savings divided by monthly burn. That is it.",
+        "sub_text_2": "Mine does not survive long enough to wait out a slow B2B sales cycle.",
+        "bubble": "I did the spreadsheet. It was not encouraging."
+      },
+      {
+        "type": "content",
+        "main_text": "**Going all in** is romantic. Going broke is not.",
+        "sub_text": "Every founder who says 'just commit' had savings, a partner's income, or a safety net they are not mentioning.",
+        "sub_text_2": null,
+        "bubble": "I have seen the LinkedIn posts. Nobody mentions the safety net."
+      },
+      {
+        "type": "content",
+        "main_text": "The job **funds the experiment.**",
+        "sub_text": "The experiment might one day make the job optional.",
+        "sub_text_2": "Right now kakisewa.com is live, 8,471 agents are in the pipeline, and I have zero paying customers. The job stays.",
+        "bubble": "This is not settling. This is not running out of money before getting an answer."
+      },
+      {
+        "type": "content",
+        "main_text": "I will quit when I hit a **specific revenue number.** Not a feeling.",
+        "sub_text": "Not when it feels right. Not when I feel confident enough.",
+        "sub_text_2": "A milestone. A real one. Written down.",
+        "bubble": "Feelings are not a financial plan."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Going all in** only makes sense when the math says you can survive being wrong.",
+        "sub_text": "Until then, the job is not the enemy. It is the bet hedge.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Have you ever gone all in on something? What made you pull the trigger? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1783256717961",
+    "plan_day": 14,
+    "date": "2026-07-05",
+    "topic": "navigating-career",
+    "angle": "If I could go back, would I take the consulting job again? The honest answer surprised me.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "If I could go back, would I take the consulting job again?\n\nHonest answer: yes. And also I would leave it sooner.\n\nBoth things are true.\n\nSwipe for the full breakdown — what MBB actually gave me, and the one thing I wish I had done differently.\n\nIs there a job or decision you would go back and do again — just differently? Comment below.",
+    "threads_text": "If I could go back, would I take the consulting job again?\n\nI thought the answer was obvious. It wasn't.\n\nYes — but I would leave one year earlier. The credential opens doors. The experience builds a pattern library. But staying too long is its own tax.\n\nWould you take your last big career decision again, just differently?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "If I could go back, would I take the **consulting job** again?",
+        "sub_text": "What I would do the same — and what I would change.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "The year I started in consulting.",
+        "stat_number": "2017",
+        "stat_label": "when this whole thing began",
+        "bubble": "Which means I have had about seven years to think about whether it was worth it. Still not fully sure. Ask me again in seven more."
+      },
+      {
+        "type": "content",
+        "main_text": "I would take it again — for what it taught me to **see**, not what it taught me to **do**",
+        "sub_text": "Frameworks are fine. But the real output is pattern recognition.",
+        "sub_text_2": "You stop seeing problems as new. You start seeing them as variations of something you have already solved.",
+        "bubble": "This is the thing nobody tells you before you join. The decks are not the point."
+      },
+      {
+        "type": "content",
+        "main_text": "The **credential** opened doors. The **experience** built the library.",
+        "sub_text": "MBB on a CV gets you in the room. What you did inside the work is what you actually keep.",
+        "sub_text_2": "I use that pattern library every time I scope kakisewa — what is the real problem, who owns it, what does a good enough solution look like.",
+        "bubble": "Genuinely did not expect consulting to be useful when I am cold emailing 8,471 rental agents. And yet."
+      },
+      {
+        "type": "content",
+        "main_text": "What I would change: **leave one year earlier**",
+        "sub_text": "The last year was mostly repetition with a better title.",
+        "sub_text_2": "You know when you have learned everything the environment has to offer. Most people stay anyway. I did.",
+        "bubble": "One year does not sound like much until you are building something at 11pm after a full day at Tarro and you think — okay, that year mattered."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The question is not \"was it worth it\" — it is \"**what did you do with what you learned**\"",
+        "sub_text": "The job is an input. What you build after is the output.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Is there a job or decision you would go back and do again — just differently? Comment below."
       }
     ],
     "images": [],
