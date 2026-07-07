@@ -1259,5 +1259,126 @@
     ],
     "images": [],
     "engagement": null
+  },
+  {
+    "id": "1783343116074",
+    "plan_day": 15,
+    "date": "2026-07-06",
+    "topic": "navigating-career",
+    "angle": "I almost did not apply to MBB. My GPA was not good enough. Here is what I did instead.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "I almost did not apply to MBB. My GPA was not good enough — or so I thought.\n\nHere is how I actually got in anyway.\n\nHave you ever applied for something you thought you were not qualified for? Comment below.",
+    "threads_text": "I almost did not apply to MBB because my GPA was not good enough.\n\nThen someone told me the online portal is basically a filter — and referrals skip the filter.\n\nSpent 8 weeks doing cases with a stranger from LinkedIn. He got in too. We have never met in person.\n\nHave you ever applied for something you thought you were not qualified for?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I almost did not apply to MBB. **My GPA was not good enough.** Here is what I did instead.",
+        "sub_text": "The application nobody told me I could still make, and how I actually got in.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "How many rounds of case interviews I went through before I got the offer",
+        "stat_number": "3",
+        "stat_label": "rounds of case interviews before the offer",
+        "bubble": "Each one felt like a different way to find out I was not smart enough."
+      },
+      {
+        "type": "content",
+        "main_text": "The **GPA filter** is real. But it is not the only door.",
+        "sub_text": "The online portal is where average applications go to die.",
+        "sub_text_2": "The actual move is getting someone inside to submit your name before you apply.",
+        "bubble": "Nobody tells you this in university. I found out from a senior at a mamak."
+      },
+      {
+        "type": "content",
+        "main_text": "**Referrals** skip the filter entirely.",
+        "sub_text": "I cold messaged consultants on LinkedIn until one agreed to refer me.",
+        "sub_text_2": "It took maybe 15 messages to get one yes.",
+        "bubble": "Most people do not ask because they assume the answer is no. The answer is sometimes yes."
+      },
+      {
+        "type": "content",
+        "main_text": "Case prep was **8 weeks of my life.** Some of it was useful.",
+        "sub_text": "Case in Point: read it once, never again. Victor Cheng videos: actually good.",
+        "sub_text_2": "The thing that actually worked was practising out loud with a real person every day.",
+        "bubble": "I practised cases with a stranger from LinkedIn for 6 weeks. He got in too. We have never met in person."
+      },
+      {
+        "type": "content",
+        "main_text": "When the call came, I did not know if I was **relieved or terrified.**",
+        "sub_text": "Both, probably. Mostly terrified.",
+        "bubble": "I said thank you, hung up, and sat very still for about five minutes."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The application process rewards **people who refuse to disqualify themselves.**",
+        "sub_text": "Your GPA is a filter. It is not a verdict.",
+        "bubble": "Have you ever applied for something you thought you were not qualified for? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1783429514845",
+    "plan_day": 16,
+    "date": "2026-07-07",
+    "topic": "navigating-career",
+    "angle": "Inside MBB, your first year looks like this. Nobody puts this in the brochure.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "Nobody puts year one at MBB in the brochure. Here's what it actually looked like.\n\nWhat was the biggest gap between what you expected from a job and what it actually was? Comment below.",
+    "threads_text": "Year one at MBB. Nobody puts this part in the brochure.\n\nI expensed room service at midnight for the third time that week and felt nothing. That was the sign.\n\nWhat was the biggest gap between what you expected from a job and what it actually was?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Inside MBB, your first year looks like **this.**",
+        "sub_text": "The hours, the travel, the pressure, and the one thing that actually surprised me.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Average hours per week in year one. And that was a quiet week.",
+        "stat_number": "70",
+        "stat_label": "hours per week, year one at MBB",
+        "bubble": "The prestige hits different at 1am in a hotel room eating cold fries."
+      },
+      {
+        "type": "content",
+        "main_text": "Day one: **thrown in with zero context,** expected to contribute immediately.",
+        "sub_text": "No ramp-up. No hand-holding. The deck is due Friday.",
+        "sub_text_2": "You figure it out or you figure it out.",
+        "bubble": "I Googled 'what is a waterfall chart' on my first project. True story."
+      },
+      {
+        "type": "content",
+        "main_text": "Travel sounds **glamorous** until it is every single week.",
+        "sub_text": "At some point you stop knowing what city you are in before checking your calendar.",
+        "bubble": "I expensed room service at midnight for the third time that week and felt nothing. That was the sign."
+      },
+      {
+        "type": "content",
+        "main_text": "The unspoken rule: **you are always on,** even when you are off.",
+        "sub_text": "Nobody says it out loud. Everyone just knows.",
+        "sub_text_2": "Your phone is not a phone. It is a leash with a good data plan.",
+        "bubble": "I replied to a Slack message from the pool on a Saturday and called it a win."
+      },
+      {
+        "type": "content",
+        "main_text": "What I got fast: **how to structure anything.** What took longer: when to push back.",
+        "sub_text": "The frameworks click quickly. The judgment takes years.",
+        "bubble": "Saying 'I think that hypothesis is wrong' to a partner is a skill nobody teaches you."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "MBB trains you hard. It just does not train you for **everything.**",
+        "sub_text": "The gap between the brochure and the reality is where you actually learn.",
+        "bubble": "What was the biggest gap between what you expected from a job and what it actually was? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
   }
 ]

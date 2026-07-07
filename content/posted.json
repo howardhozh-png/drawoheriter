@@ -20,7 +20,7 @@
     },
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-05T14:00:01.072Z"
+      "tracked_at": "2026-07-06T14:00:01.635Z"
     },
     "posted_at": "2026-06-29T13:32:30.902Z",
     "threads_id": "17862260145639660"
@@ -87,7 +87,7 @@
     ],
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-05T14:00:01.708Z"
+      "tracked_at": "2026-07-06T14:00:01.853Z"
     },
     "posted_at": "2026-06-30T14:51:39.599Z",
     "threads_id": "18009060179873823",
@@ -159,14 +159,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 60,
+        "views": 353,
         "likes": 0,
         "replies": 7,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 20,
-      "tracked_at": "2026-07-05T14:00:03.640Z"
+      "score": 49,
+      "tracked_at": "2026-07-06T14:00:03.690Z"
     },
     "posted_at": "2026-07-01T07:24:17.694Z",
     "threads_id": "17895978171475242",
@@ -308,14 +308,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 183,
+        "views": 537,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 20,
-      "tracked_at": "2026-07-05T14:00:04.518Z"
+      "score": 56,
+      "tracked_at": "2026-07-06T14:00:04.663Z"
     },
     "posted_at": "2026-07-02T13:03:48.187Z",
     "threads_id": "17997374477966589",
@@ -402,14 +402,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 1,
+        "views": 492,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 2,
-      "tracked_at": "2026-07-05T14:00:05.337Z"
+      "score": 51,
+      "tracked_at": "2026-07-06T14:00:05.382Z"
     },
     "posted_at": "2026-07-05T07:06:55.870Z",
     "threads_id": "18138479773508940",
@@ -489,7 +489,17 @@
       "content/images/day5-career/slide-07.png",
       "content/images/day5-career/slide-08.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "threads": {
+        "views": 8086,
+        "likes": 45,
+        "replies": 26,
+        "reposts": 2,
+        "quotes": 0
+      },
+      "score": 914,
+      "tracked_at": "2026-07-06T14:00:06.075Z"
+    },
     "posted_at": "2026-07-05T14:13:07.177Z",
     "threads_id": "17930570442347389",
     "threads_carousel_id": "17938383897270707",
@@ -565,7 +575,17 @@
       "content/images/bip1-unsexy-market/slide-06.png",
       "content/images/bip1-unsexy-market/slide-07.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "threads": {
+        "views": 41,
+        "likes": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 6,
+      "tracked_at": "2026-07-06T14:00:06.724Z"
+    },
     "posted_at": "2026-07-06T12:35:49.895Z",
     "threads_id": "18097598354124832",
     "threads_carousel_id": "18141887569533537",
