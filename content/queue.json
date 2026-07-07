@@ -293,6 +293,69 @@
     "instagram_story_id": null
   },
   {
+    "id": "consulting-pay-explained",
+    "date": "2026-07-07",
+    "topic": "navigating-career",
+    "angle": "Why consulting pays fresh grads RM22k a month, and why almost nobody gets in",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "Which job pays RM22,000 a month straight out of university?\n\nOnly 1 to 3 people get this offer per firm, per year. Some years, none.\n\nIt is MBB, McKinsey, BCG, and Bain. The big 3 in consulting.\n\nSwipe to see why it pays this much, and why almost nobody gets in.\n\nWhat do you want to know more about? Comment 1, 2, or 3.",
+    "threads_text": "Which job pays RM22,000 a month straight out of university?\n\nMBB, McKinsey, BCG, Bain, hand out 1 to 3 offers a year per firm. Some years, none.\n\nStudents start prepping in year 1 of college. Offer rate: about 0.05%.\n\nReply 1, 2, or 3: how to get in, what the work is like, or why I left anyway.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Which job pays **RM22,000/month** straight out of university?",
+        "sub_text": "Most people have never heard of it. That is exactly the point.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "The odds",
+        "sub_text": "Thousands apply. Almost nobody gets in.",
+        "stat_number": "1 to 3",
+        "stat_label": "offers handed out per firm, per year. Some years, none.",
+        "bubble": "Not 1 to 3 percent. 1 to 3 people. Total."
+      },
+      {
+        "type": "content",
+        "title": "The firms",
+        "main_text": "They are the **Big 3** in consulting, MBB.",
+        "sub_text": "McKinsey, BCG, and Bain. If you have not heard of them, that is the point, they do not need to advertise.",
+        "bubble": "Everyone inside consulting knows these three names. Almost nobody outside does."
+      },
+      {
+        "type": "content",
+        "title": "Why it pays so much",
+        "main_text": "They work on **regional projects**, billed in USD and SGD.",
+        "sub_text": "That is the premium you are actually paying for, not local Malaysian rates.",
+        "bubble": "Same associate, same hours. Different currency, different paycheck."
+      },
+      {
+        "type": "content",
+        "title": "The prep",
+        "main_text": "Some students start prepping **in year one** of university.",
+        "sub_text": "Even then, about 0.05% of applicants get an offer.",
+        "bubble": "Three years of prep for a 45 minute interview."
+      },
+      {
+        "type": "content",
+        "title": "About that skepticism",
+        "main_text": "You do not have to believe the pay is real.",
+        "sub_text": "But once you see the odds of getting the job at all, it starts to make sense.",
+        "bubble": "A few of you did not believe RM55,000 a month either. Fair. Now you know why it is possible."
+      },
+      {
+        "type": "conclusion",
+        "title": "Tell me",
+        "main_text": "**What do you want to know more about?**",
+        "sub_text": "1. How to actually get into consulting. 2. What consulting work is really like. 3. Why I left despite the pay.",
+        "bubble": "Reply with a number. I will write about whichever one wins."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
     "id": "day2-career",
     "plan_day": 2,
     "date": "2026-07-02",
