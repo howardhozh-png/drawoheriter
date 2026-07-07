@@ -297,7 +297,7 @@
     "date": "2026-07-07",
     "topic": "navigating-career",
     "angle": "Why consulting pays fresh grads RM22k a month, and why almost nobody gets in",
-    "status": "pending",
+    "status": "posted",
     "theme": "Navigating career",
     "caption": "Which job pays RM22,000 a month straight out of university?\n\nOnly 1 to 3 people get this offer per firm, per year. Some years, none.\n\nAlmost nobody has heard of the actual firms. That is exactly the point.\n\nSwipe to see why it pays this much, and why almost nobody gets in.\n\nComment below what you want to know more about.",
     "threads_text": "Which job pays RM22,000 a month straight out of university?\n\nOnly 1 to 3 people get this offer per firm, per year. Some years, none.\n\nAlmost nobody has heard of the actual firms. That is exactly the point.\n\nComment below what you want to know more about.",
@@ -352,8 +352,21 @@
         "bubble": "Reply with a number. I will write about whichever one wins."
       }
     ],
-    "images": [],
-    "engagement": null
+    "images": [
+      "content/images/consulting-pay-explained/slide-01.png",
+      "content/images/consulting-pay-explained/slide-02.png",
+      "content/images/consulting-pay-explained/slide-03.png",
+      "content/images/consulting-pay-explained/slide-04.png",
+      "content/images/consulting-pay-explained/slide-05.png",
+      "content/images/consulting-pay-explained/slide-06.png",
+      "content/images/consulting-pay-explained/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-07T13:29:40.427Z",
+    "threads_id": "18031614380818784",
+    "threads_carousel_id": "18156367312487513",
+    "instagram_id": "18176629699412030",
+    "instagram_story_id": null
   },
   {
     "id": "day2-career",

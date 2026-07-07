@@ -591,5 +591,81 @@
     "threads_carousel_id": "18141887569533537",
     "instagram_id": "18086528228643390",
     "instagram_story_id": null
+  },
+  {
+    "id": "consulting-pay-explained",
+    "date": "2026-07-07",
+    "topic": "navigating-career",
+    "angle": "Why consulting pays fresh grads RM22k a month, and why almost nobody gets in",
+    "status": "posted",
+    "theme": "Navigating career",
+    "caption": "Which job pays RM22,000 a month straight out of university?\n\nOnly 1 to 3 people get this offer per firm, per year. Some years, none.\n\nAlmost nobody has heard of the actual firms. That is exactly the point.\n\nSwipe to see why it pays this much, and why almost nobody gets in.\n\nComment below what you want to know more about.",
+    "threads_text": "Which job pays RM22,000 a month straight out of university?\n\nOnly 1 to 3 people get this offer per firm, per year. Some years, none.\n\nAlmost nobody has heard of the actual firms. That is exactly the point.\n\nComment below what you want to know more about.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Which job pays **RM22,000/month** straight out of university?",
+        "sub_text": "Most people have never heard of it. That is exactly the point.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "The odds",
+        "sub_text": "Thousands apply. Almost nobody gets in.",
+        "stat_number": "1 to 3",
+        "stat_label": "offers handed out per firm, per year. Some years, none.",
+        "bubble": "Not 1 to 3 percent. 1 to 3 people. Total."
+      },
+      {
+        "type": "content",
+        "title": "The firms",
+        "main_text": "They are the **Big 3** in consulting, MBB.",
+        "sub_text": "McKinsey, BCG, and Bain. If you have not heard of them, that is the point, they do not need to advertise.",
+        "bubble": "Everyone inside consulting knows these three names. Almost nobody outside does."
+      },
+      {
+        "type": "content",
+        "title": "Why it pays so much",
+        "main_text": "They work on **regional projects**, billed in USD and SGD.",
+        "sub_text": "That is the premium you are actually paying for, not local Malaysian rates.",
+        "bubble": "Same associate, same hours. Different currency, different paycheck."
+      },
+      {
+        "type": "content",
+        "title": "The prep",
+        "main_text": "Some students start prepping **in year one** of university.",
+        "sub_text": "Even then, about 0.05% of applicants get an offer.",
+        "bubble": "Three years of prep for a 45 minute interview."
+      },
+      {
+        "type": "content",
+        "title": "About that skepticism",
+        "main_text": "You do not have to believe the pay is real.",
+        "sub_text": "But once you see the odds of getting the job at all, it starts to make sense.",
+        "bubble": "A few of you did not believe RM55,000 a month either. Fair. Now you know why it is possible."
+      },
+      {
+        "type": "conclusion",
+        "title": "Tell me",
+        "main_text": "**What do you want to know more about?**",
+        "sub_text": "1. How to actually get into consulting. 2. What consulting work is really like. 3. Why I left despite the pay.",
+        "bubble": "Reply with a number. I will write about whichever one wins."
+      }
+    ],
+    "images": [
+      "content/images/consulting-pay-explained/slide-01.png",
+      "content/images/consulting-pay-explained/slide-02.png",
+      "content/images/consulting-pay-explained/slide-03.png",
+      "content/images/consulting-pay-explained/slide-04.png",
+      "content/images/consulting-pay-explained/slide-05.png",
+      "content/images/consulting-pay-explained/slide-06.png",
+      "content/images/consulting-pay-explained/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-07T13:29:40.427Z",
+    "threads_id": "18031614380818784",
+    "threads_carousel_id": "18156367312487513",
+    "instagram_id": "18176629699412030",
+    "instagram_story_id": null
   }
 ]
