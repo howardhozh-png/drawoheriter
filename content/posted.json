@@ -20,7 +20,7 @@
     },
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-06T14:00:01.635Z"
+      "tracked_at": "2026-07-08T14:00:01.919Z"
     },
     "posted_at": "2026-06-29T13:32:30.902Z",
     "threads_id": "17862260145639660"
@@ -87,7 +87,7 @@
     ],
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-06T14:00:01.853Z"
+      "tracked_at": "2026-07-08T14:00:02.887Z"
     },
     "posted_at": "2026-06-30T14:51:39.599Z",
     "threads_id": "18009060179873823",
@@ -159,14 +159,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 353,
+        "views": 374,
         "likes": 0,
         "replies": 7,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 49,
-      "tracked_at": "2026-07-06T14:00:03.690Z"
+      "score": 51,
+      "tracked_at": "2026-07-08T14:00:05.523Z"
     },
     "posted_at": "2026-07-01T07:24:17.694Z",
     "threads_id": "17895978171475242",
@@ -308,14 +308,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 537,
+        "views": 563,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 56,
-      "tracked_at": "2026-07-06T14:00:04.663Z"
+      "score": 58,
+      "tracked_at": "2026-07-08T14:00:06.430Z"
     },
     "posted_at": "2026-07-02T13:03:48.187Z",
     "threads_id": "17997374477966589",
@@ -402,14 +402,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 492,
-        "likes": 0,
+        "views": 538,
+        "likes": 1,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 51,
-      "tracked_at": "2026-07-06T14:00:05.382Z"
+      "score": 57,
+      "tracked_at": "2026-07-08T14:00:07.168Z"
     },
     "posted_at": "2026-07-05T07:06:55.870Z",
     "threads_id": "18138479773508940",
@@ -491,14 +491,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 8086,
-        "likes": 45,
+        "views": 8815,
+        "likes": 53,
         "replies": 26,
         "reposts": 2,
         "quotes": 0
       },
-      "score": 914,
-      "tracked_at": "2026-07-06T14:00:06.075Z"
+      "score": 995,
+      "tracked_at": "2026-07-08T14:00:07.954Z"
     },
     "posted_at": "2026-07-05T14:13:07.177Z",
     "threads_id": "17930570442347389",
@@ -577,14 +577,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 41,
-        "likes": 0,
+        "views": 127,
+        "likes": 1,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 6,
-      "tracked_at": "2026-07-06T14:00:06.724Z"
+      "score": 16,
+      "tracked_at": "2026-07-08T14:00:09.667Z"
     },
     "posted_at": "2026-07-06T12:35:49.895Z",
     "threads_id": "18097598354124832",
@@ -661,11 +661,92 @@
       "content/images/consulting-pay-explained/slide-06.png",
       "content/images/consulting-pay-explained/slide-07.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "threads": {
+        "views": 61,
+        "likes": 1,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 9,
+      "tracked_at": "2026-07-08T14:00:10.696Z"
+    },
     "posted_at": "2026-07-07T13:29:40.427Z",
     "threads_id": "18031614380818784",
     "threads_carousel_id": "18156367312487513",
     "instagram_id": "18176629699412030",
+    "instagram_story_id": null
+  },
+  {
+    "id": "market-drop-reaction",
+    "date": "2026-07-08",
+    "topic": "managing-finances",
+    "angle": "AI infra stocks just dropped hard. My actual reaction, not a hot take.",
+    "status": "posted",
+    "theme": "Managing finances",
+    "caption": "Investors lost 20% to 30% in the stock market this past week. Here's why.\n\nLed by AI infrastructure. Intel down 21%, Micron down 22%.\n\nWhat I'm actually doing about it, including the two tickers I'm DCA-ing into right now.\n\nWhat do you want to know more about?\n(1) How I actually DCA into this\n(2) Why supply constraints matter more than sentiment\n(3) What I'm watching before TSMC earnings\n\nComment a number below.",
+    "threads_text": "Investors lost 20% to 30% in the stock market this past week. Here's why.\n\nLed by AI infrastructure. Intel down 21%, Micron down 22%.\n\nWhat I'm doing: DCA-ing into NVDA and TSM.\n\nWant to know more?\n(1) How I actually DCA\n(2) Why supply constraints matter more than sentiment\n(3) What I'm watching before TSMC earnings\n\nReply with a number.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Investors lost **20% to 30%** in the stock market this past week.",
+        "sub_text": "Here's why.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "Led by AI infrastructure",
+        "sub_text": "Intel led the slide",
+        "stat_number": "-21%",
+        "stat_label": "Intel. Micron dropped 22%, AMD 8%, Samsung 7%.",
+        "bubble": "This is not one bad earnings report. This is a whole sector repricing at once."
+      },
+      {
+        "type": "content",
+        "title": "What is going on",
+        "main_text": "It started with **Samsung earnings**, then spread fast.",
+        "sub_text": "SK Hynix slowing HBM expansion. A China AI chip. A hawkish Fed.",
+        "sub_text_2": "The S&P 500 and Nasdaq are down from last month's highs too.",
+        "bubble": "When the whole market wobbles, not just one sector, that changes how I read it."
+      },
+      {
+        "type": "content",
+        "title": "My actual move",
+        "main_text": "What I am doing: **dollar cost averaging into NVDA and TSM.**",
+        "sub_text": "Not because I know where the bottom is. I do not, and I am not pretending to.",
+        "sub_text_2": null,
+        "bubble": "TSMC reports earnings July 16. That is the next real signal I am watching, not another hot take on Threads."
+      },
+      {
+        "type": "content",
+        "title": "The 1 to 2 year view",
+        "main_text": "Zoom out **1 to 2 years** and the picture changes.",
+        "sub_text": "The chips this boom depends on are still supply constrained. That does not change in a week.",
+        "sub_text_2": null,
+        "bubble": "Short term, this can move either way. That constraint is the part I actually have conviction on."
+      },
+      {
+        "type": "conclusion",
+        "title": "Tell me",
+        "main_text": "**What do you want to know more about?**",
+        "sub_text": "1. How I actually DCA into this. 2. Why supply constraints matter more than sentiment. 3. What I am watching before TSMC earnings.",
+        "bubble": "Reply with a number. I will write about whichever one wins."
+      }
+    ],
+    "images": [
+      "content/images/market-drop-reaction/slide-01.png",
+      "content/images/market-drop-reaction/slide-02.png",
+      "content/images/market-drop-reaction/slide-03.png",
+      "content/images/market-drop-reaction/slide-04.png",
+      "content/images/market-drop-reaction/slide-05.png",
+      "content/images/market-drop-reaction/slide-06.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-08T14:39:01.076Z",
+    "threads_id": "18101972450138631",
+    "threads_carousel_id": "18107825549070831",
+    "instagram_id": "18543543079077896",
     "instagram_story_id": null
   }
 ]

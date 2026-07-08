@@ -373,7 +373,7 @@
     "date": "2026-07-08",
     "topic": "managing-finances",
     "angle": "AI infra stocks just dropped hard. My actual reaction, not a hot take.",
-    "status": "pending",
+    "status": "posted",
     "theme": "Managing finances",
     "caption": "Investors lost 20% to 30% in the stock market this past week. Here's why.\n\nLed by AI infrastructure. Intel down 21%, Micron down 22%.\n\nWhat I'm actually doing about it, including the two tickers I'm DCA-ing into right now.\n\nWhat do you want to know more about?\n(1) How I actually DCA into this\n(2) Why supply constraints matter more than sentiment\n(3) What I'm watching before TSMC earnings\n\nComment a number below.",
     "threads_text": "Investors lost 20% to 30% in the stock market this past week. Here's why.\n\nLed by AI infrastructure. Intel down 21%, Micron down 22%.\n\nWhat I'm doing: DCA-ing into NVDA and TSM.\n\nWant to know more?\n(1) How I actually DCA\n(2) Why supply constraints matter more than sentiment\n(3) What I'm watching before TSMC earnings\n\nReply with a number.",
@@ -424,8 +424,20 @@
         "bubble": "Reply with a number. I will write about whichever one wins."
       }
     ],
-    "images": [],
-    "engagement": null
+    "images": [
+      "content/images/market-drop-reaction/slide-01.png",
+      "content/images/market-drop-reaction/slide-02.png",
+      "content/images/market-drop-reaction/slide-03.png",
+      "content/images/market-drop-reaction/slide-04.png",
+      "content/images/market-drop-reaction/slide-05.png",
+      "content/images/market-drop-reaction/slide-06.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-08T14:39:01.076Z",
+    "threads_id": "18101972450138631",
+    "threads_carousel_id": "18107825549070831",
+    "instagram_id": "18543543079077896",
+    "instagram_story_id": null
   },
   {
     "id": "day2-career",
