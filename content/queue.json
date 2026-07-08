@@ -375,13 +375,13 @@
     "angle": "AI infra stocks just dropped hard. My actual reaction, not a hot take.",
     "status": "pending",
     "theme": "Managing finances",
-    "caption": "AI infrastructure stocks just had a rough week. Intel down 21%. Micron, AMD, the whole semiconductor sector took a hit.\n\nHere's what I'm actually doing about it, not a hot take.\n\nWhat do you want to know more about? Comment 1, 2, or 3.",
-    "threads_text": "AI infrastructure stocks just had a rough week. Intel down 21%. Micron, AMD, the whole sector took a hit.\n\nThe S&P 500 and Nasdaq are both down from last month's highs too, not just AI names.\n\nMy actual move: keep dollar cost averaging. TSMC reports earnings July 16, that's the next real signal.\n\nReply 1, 2, or 3: how I actually DCA, why supply constraints matter more than sentiment, or what I'm watching before TSMC earnings.",
+    "caption": "AI infrastructure stocks are down 7% to 21% this past week. Intel, Micron, AMD, the whole semiconductor sector took a hit.\n\nHere's what I'm actually doing about it.\n\nWhat do you want to know more about? Comment 1, 2, or 3.",
+    "threads_text": "AI infrastructure stocks are down 7% to 21% this past week. Intel, Micron, AMD, the whole sector took a hit.\n\nThe S&P 500 and Nasdaq are both down from last month's highs too, not just AI names.\n\nWhat I'm actually doing: keep dollar cost averaging. TSMC reports earnings July 16, that's the next real signal.\n\nReply 1, 2, or 3: how I actually DCA, why supply constraints matter more than sentiment, or what I'm watching before TSMC earnings.",
     "slides": [
       {
         "type": "hook",
-        "main_text": "AI infrastructure stocks just had their **worst week in months.**",
-        "sub_text": "Here is what I am actually doing about it, not another hot take.",
+        "main_text": "AI infrastructure stocks are down **7% to 21%** this past week.",
+        "sub_text": "Here is what I am actually doing about it.",
         "bubble": null
       },
       {
@@ -412,7 +412,7 @@
         "type": "content",
         "title": "My actual move",
         "main_text": "What I am doing: **keep dollar cost averaging.**",
-        "sub_text": "Not because I know where the bottom is. Nobody calling that confidently actually knows either.",
+        "sub_text": "Not because I know where the bottom is. I do not, and I am not pretending to.",
         "sub_text_2": null,
         "bubble": "TSMC reports earnings July 16. That is the next real signal I am watching, not another hot take on Threads."
       },
