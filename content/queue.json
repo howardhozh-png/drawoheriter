@@ -369,6 +369,73 @@
     "instagram_story_id": null
   },
   {
+    "id": "market-drop-reaction",
+    "date": "2026-07-08",
+    "topic": "managing-finances",
+    "angle": "AI infra stocks just dropped hard. My actual reaction, not a hot take.",
+    "status": "pending",
+    "theme": "Managing finances",
+    "caption": "AI infrastructure stocks just had a rough week. Intel down 21%. Micron, AMD, the whole semiconductor sector took a hit.\n\nHere's what I'm actually doing about it, not a hot take.\n\nWhat do you want to know more about? Comment 1, 2, or 3.",
+    "threads_text": "AI infrastructure stocks just had a rough week. Intel down 21%. Micron, AMD, the whole sector took a hit.\n\nThe S&P 500 and Nasdaq are both down from last month's highs too, not just AI names.\n\nMy actual move: keep dollar cost averaging. TSMC reports earnings July 16, that's the next real signal.\n\nReply 1, 2, or 3: how I actually DCA, why supply constraints matter more than sentiment, or what I'm watching before TSMC earnings.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "AI infrastructure stocks just had their **worst week in months.**",
+        "sub_text": "Here is what I am actually doing about it, not another hot take.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "The damage",
+        "sub_text": "Intel led the slide in the recent AI chip selloff",
+        "stat_number": "-21%",
+        "stat_label": "Intel. Micron, AMD, and the broader semiconductor sector dropped hard too.",
+        "bubble": "This is not one bad earnings report. This is a whole sector repricing at once."
+      },
+      {
+        "type": "content",
+        "title": "What triggered it",
+        "main_text": "It started with **Samsung earnings**, then spread fast.",
+        "sub_text": "SK Hynix slowing its HBM memory expansion. Reports that China is building its own AI chip. A more hawkish Fed.",
+        "sub_text_2": "Three separate worries landed in the same week.",
+        "bubble": "That combination is what turns a dip into a rout."
+      },
+      {
+        "type": "content",
+        "title": "Bigger than AI stocks",
+        "main_text": "This is **not just an AI stock problem.**",
+        "sub_text": "The S&P 500 and Nasdaq are both down from last month's all time highs too, not only semiconductor names.",
+        "sub_text_2": null,
+        "bubble": "When the whole market wobbles, not just one sector, that changes how I read it."
+      },
+      {
+        "type": "content",
+        "title": "My actual move",
+        "main_text": "What I am doing: **keep dollar cost averaging.**",
+        "sub_text": "Not because I know where the bottom is. Nobody calling that confidently actually knows either.",
+        "sub_text_2": null,
+        "bubble": "TSMC reports earnings July 16. That is the next real signal I am watching, not another hot take on Threads."
+      },
+      {
+        "type": "content",
+        "title": "The 1 to 2 year view",
+        "main_text": "Zoom out **1 to 2 years** and the picture changes.",
+        "sub_text": "The chips this boom depends on are still supply constrained. That does not change in a week.",
+        "sub_text_2": null,
+        "bubble": "Short term, this can move either way. That constraint is the part I actually have conviction on."
+      },
+      {
+        "type": "conclusion",
+        "title": "Tell me",
+        "main_text": "**What do you want to know more about?**",
+        "sub_text": "1. How I actually DCA into this. 2. Why supply constraints matter more than sentiment. 3. What I am watching before TSMC earnings.",
+        "bubble": "Reply with a number. I will write about whichever one wins."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
     "id": "day2-career",
     "plan_day": 2,
     "date": "2026-07-02",
@@ -1389,6 +1456,69 @@
         "main_text": "MBB trains you hard. It just does not train you for **everything.**",
         "sub_text": "The gap between the brochure and the reality is where you actually learn.",
         "bubble": "What was the biggest gap between what you expected from a job and what it actually was? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1783515923291",
+    "plan_day": 17,
+    "date": "2026-07-08",
+    "topic": "navigating-career",
+    "angle": "The anxiety inside MBB is not what you think. It is quieter. And harder to shake.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "The anxiety inside MBB is not what people imagine from the outside.\n\nIt is not the 80-hour weeks. It is not the decks. It is something quieter and harder to name.\n\nAnd nobody in the building is going to bring it up first.\n\nHave you ever felt like you did not belong somewhere everyone else seemed fine? Comment below.",
+    "threads_text": "The anxiety inside MBB is not what you think. It is not the work. It is sitting in a room full of people who all seem completely fine, wondering if you are the only one who is not. Nobody says anything. So you assume you are the problem. Have you ever felt like that somewhere?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "The anxiety inside MBB is **not what you think.**",
+        "sub_text": "Not the kind of stress people imagine from the outside. The kind nobody admits to.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Times I seriously considered leaving in year one",
+        "stat_number": "2",
+        "stat_label": "and both times I stayed because I was too scared to admit it was not working",
+        "bubble": "I googled 'is it normal to feel like you do not belong at MBB' at 1am. The results were not comforting."
+      },
+      {
+        "type": "content",
+        "main_text": "Everyone around you is **exceptional.** That becomes the baseline.",
+        "sub_text": "When exceptional is average, you are not competing with a bar. You are competing with a room.",
+        "sub_text_2": "It does not feel inspiring. It feels like a slow drip of not enough.",
+        "bubble": "You stop celebrating your own wins because someone next to you did it faster."
+      },
+      {
+        "type": "content",
+        "main_text": "The fear is not **failing the work.** It is failing in front of them.",
+        "sub_text": "You can redo a slide. You cannot undo the moment a partner watched you not know the answer.",
+        "sub_text_2": null,
+        "bubble": "I rehearsed answers to questions nobody asked just so I would never look blank."
+      },
+      {
+        "type": "content",
+        "main_text": "**Sunday nights** had a specific texture.",
+        "sub_text": "Not dread about Monday. Dread starting sometime around 4pm Sunday that you could not explain to anyone outside the firm.",
+        "sub_text_2": null,
+        "bubble": "My friends thought I was being dramatic. I was not being dramatic."
+      },
+      {
+        "type": "content",
+        "main_text": "The culture of **not showing weakness** makes all of it worse.",
+        "sub_text": "Nobody talks about this out loud. So you assume everyone else is fine and you are the exception.",
+        "sub_text_2": "You are not the exception. But you will not find that out until years later.",
+        "bubble": "The irony is everyone is doing the same performance and nobody is breaking first."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The hardest part was not the work. It was **pretending the work was the hardest part.**",
+        "sub_text": "If you felt out of place somewhere everyone else looked fine, it probably was not just you.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "Have you ever felt like you did not belong somewhere everyone else seemed fine? Comment below."
       }
     ],
     "images": [],
