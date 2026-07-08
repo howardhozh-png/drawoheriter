@@ -395,10 +395,10 @@
       {
         "type": "content",
         "title": "What is going on",
-        "main_text": "It started with **Samsung earnings**, then spread across the whole market.",
-        "sub_text": "SK Hynix slowing its HBM memory expansion. Reports of a China AI chip. A more hawkish Fed.",
-        "sub_text_2": "The S&P 500 and Nasdaq are both down from last month's highs too, not just chip stocks.",
-        "bubble": "Three separate worries hit different parts of the market in the same week."
+        "main_text": "It started with **Samsung earnings**, then spread fast.",
+        "sub_text": "SK Hynix slowing HBM expansion. A China AI chip. A hawkish Fed.",
+        "sub_text_2": "The S&P 500 and Nasdaq are down from last month's highs too.",
+        "bubble": "When the whole market wobbles, not just one sector, that changes how I read it."
       },
       {
         "type": "content",
