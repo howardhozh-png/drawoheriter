@@ -73,6 +73,17 @@ original seven don't apply here and are intentionally skipped (see below).
   should admit what was hard, what Howard got wrong, or what he still doesn't
   have figured out — not just state a lesson cleanly in retrospect. A polished
   takeaway with no visible cost to it reads as generic advice, not a real story.
+- **Every slide in a post (except the hook) renders at the same font size.**
+  `render.mjs`/`preview.mjs` size text per-slide based on how much content it
+  has, which used to mean two slides in the same carousel could render at
+  visibly different sizes just because one had less text — technically safe
+  from clipping, but it makes a single post look inconsistent swiping through
+  it. `postFontSizes()` fixes this by sizing every non-hook slide off the
+  heaviest slide in that post, not its own content. **Don't reintroduce
+  per-slide sizing** (e.g. by calling `slideFontSizes()` directly again
+  outside the hook-slide case) — always go through `postFontSizes()` so a
+  post's slides stay visually matched, even if it means a short slide has
+  more breathing room than it strictly needs.
 - **Caption and threads_text must stay under 60 words each.** This is a hard
   check, not a vibe — before showing any caption/threads_text to Howard,
   count the actual words and cut it if it's over. Don't write one paragraph

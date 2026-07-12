@@ -73,14 +73,27 @@ function slideFontSizes(slide) {
   };
 }
 
+// Same as render.mjs — must stay in sync (see comment there). One post, one
+// font size (excluding the hook slide), sized for the heaviest non-hook slide.
+function postFontSizes(slides) {
+  const nonHook = slides.slice(1);
+  if (nonHook.length === 0) return slideFontSizes(slides[0]);
+  const maxWeight = Math.max(...nonHook.map(slideTextWeight));
+  return {
+    main:   tierSize(maxWeight, [[260, 88], [320, 76], [380, 64], [440, 54], [999, 46]]),
+    sub:    tierSize(maxWeight, [[260, 42], [320, 38], [380, 34], [440, 30], [999, 26]]),
+    bubble: tierSize(maxWeight, [[260, 34], [320, 32], [380, 30], [440, 27], [999, 24]]),
+  };
+}
+
 // Identical to render.mjs — produces the 1080x1080 slide HTML
-function buildSlideHTML(slide, idx, total, theme) {
+function buildSlideHTML(slide, idx, total, theme, sharedFs) {
   const c = getThemeColors(theme);
   const pageNum  = String(idx + 1).padStart(2, "0");
   const totalNum = String(total).padStart(2, "0");
   const isFirst  = idx === 0;
 
-  const fs_ = slideFontSizes(slide);
+  const fs_ = isFirst ? slideFontSizes(slide) : sharedFs;
 
   const bubbleHTML = slide.bubble ? `
     <div class="bubble-wrap">
@@ -182,8 +195,9 @@ function escapeAttr(str) {
 export function generatePreview(entry) {
   fs.mkdirSync(join(ROOT, PREVIEWS_DIR), { recursive: true });
 
+  const sharedFs = postFontSizes(entry.slides);
   const slidesHTML = entry.slides
-    .map((s, i) => buildSlideHTML(s, i, entry.slides.length, entry.theme))
+    .map((s, i) => buildSlideHTML(s, i, entry.slides.length, entry.theme, sharedFs))
     .join("\n");
 
   const html = `<!DOCTYPE html>

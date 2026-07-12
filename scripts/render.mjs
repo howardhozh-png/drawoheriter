@@ -104,13 +104,33 @@ function slideFontSizes(slide) {
   };
 }
 
-function buildSlideHTML(slide, idx, total, theme) {
+// One post, one font size (excluding the hook slide, which is visually
+// distinct and only ever appears once). Sizing each slide independently
+// meant slide 3 could render noticeably larger than slide 6 in the same
+// carousel just because it had less text -- technically safe from clipping,
+// but it makes a single post look inconsistent/sloppy swiping through it.
+// Take the heaviest non-hook slide's tier and apply it to all of them, so
+// nothing clips (still sized for the worst case) and everything matches.
+function postFontSizes(slides) {
+  const nonHook = slides.slice(1);
+  if (nonHook.length === 0) return slideFontSizes(slides[0]);
+  const maxWeight = Math.max(...nonHook.map(slideTextWeight));
+  return {
+    main:   tierSize(maxWeight, [[260, 88], [320, 76], [380, 64], [440, 54], [999, 46]]),
+    sub:    tierSize(maxWeight, [[260, 42], [320, 38], [380, 34], [440, 30], [999, 26]]),
+    bubble: tierSize(maxWeight, [[260, 34], [320, 32], [380, 30], [440, 27], [999, 24]]),
+  };
+}
+
+function buildSlideHTML(slide, idx, total, theme, sharedFs) {
   const c = getThemeColors(theme);
   const pageNum  = String(idx + 1).padStart(2, "0");
   const totalNum = String(total).padStart(2, "0");
   const isFirst  = idx === 0;
 
-  const fs_ = slideFontSizes(slide);
+  // Hook slide keeps its own sizing (distinct layout, only appears once).
+  // Every other slide shares one size across the whole post -- see postFontSizes.
+  const fs_ = isFirst ? slideFontSizes(slide) : sharedFs;
 
   const bubbleHTML = slide.bubble ? `
     <div class="bubble-wrap">
@@ -236,10 +256,11 @@ async function renderEntry(entry, browser) {
   await page.setViewportSize({ width: 1080, height: 1080 });
 
   const imagePaths = [];
+  const sharedFs = postFontSizes(entry.slides);
 
   for (let i = 0; i < entry.slides.length; i++) {
     const slide = entry.slides[i];
-    const html = buildSlideHTML(slide, i, entry.slides.length, entry.theme);
+    const html = buildSlideHTML(slide, i, entry.slides.length, entry.theme, sharedFs);
 
     await page.setContent(html, { waitUntil: "networkidle" });
     await page.waitForTimeout(800);
