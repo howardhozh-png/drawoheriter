@@ -82,7 +82,13 @@ function slideTextWeight(slide) {
     // after the first calibration pass; this pushes it into a smaller tier.
     + (slide.sub_text_2 ? slide.sub_text_2.length + 100 : 0)
     + (slide.stat_label?.length || 0)
-    + (slide.bubble?.length || 0) * 0.8;
+    + (slide.bubble?.length || 0) * 0.8
+    // Every conclusion slide renders a hardcoded "Follow along for more like
+    // this." CTA line that this weight formula never saw, so conclusion
+    // slides were systematically under-weighted for their true footprint --
+    // invisible with top-aligned content, but exposed as a real overlap with
+    // the bubble once slide-content centers vertically (see .slide-content CSS).
+    + (slide.type === "conclusion" ? 70 : 0);
 }
 
 // Calibrated empirically against real 1080x1080 renders at the original fixed
@@ -184,7 +190,7 @@ body {
   padding: 0 160px; min-height: 0;
 }
 .body.top { padding-top: 64px; }
-.slide-content { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.slide-content { flex: 1; display: flex; flex-direction: column; justify-content: center; min-height: 0; overflow: hidden; }
 .center-content { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
 .content { display: flex; flex-direction: column; gap: 28px; }
 .foot {

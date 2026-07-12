@@ -65,6 +65,14 @@ original seven don't apply here and are intentionally skipped (see below).
   happening structurally (caption / threads_text / slides all derive from one
   day's plan entry) — keep doing this rather than writing each format from
   scratch.
+- **One post, one thing.** Don't let a post pivot mid-story to tease the next
+  topic or the thing being built — that dilutes the actual point and reads as
+  a pitch. If a post is about leaving consulting, stay on leaving consulting;
+  save the "building something new" angle for its own post.
+- **Lean into vulnerability, not just analysis.** Bubbles and closing lines
+  should admit what was hard, what Howard got wrong, or what he still doesn't
+  have figured out — not just state a lesson cleanly in retrospect. A polished
+  takeaway with no visible cost to it reads as generic advice, not a real story.
 - **Caption and threads_text must stay under 60 words each.** This is a hard
   check, not a vibe — before showing any caption/threads_text to Howard,
   count the actual words and cut it if it's over. Don't write one paragraph

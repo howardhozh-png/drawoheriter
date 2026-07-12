@@ -448,7 +448,7 @@
     "status": "pending",
     "theme": "Navigating career",
     "caption": "I walked away from a job title that used to speak for me.\n\nMost people warned me about the pay cut. Nobody warned me about the identity part.\n\nWhat happens when your entire personality was \"consultant at [firm]\" and then suddenly it isn't?\n\nHave you ever left a prestigious job for something uncertain? What pushed you?",
-    "threads_text": "I walked away from a job title that used to speak for me.\n\nEveryone warned me about the pay cut. Nobody warned me that half my personality was just the firm name.\n\nNow I am building something new. Zero paying customers, nobody has heard of it.\n\nHave you ever left a prestigious job for something unknown? What pushed you?",
+    "threads_text": "I walked away from a job title that used to speak for me.\n\nEveryone warned me about the pay cut. Nobody warned me half my personality was just the firm name.\n\nNow when people ask what I do, I have no clean answer. Nobody prepares you for that.\n\nEver left a prestigious job for something unknown? What pushed you?",
     "slides": [
       {
         "type": "hook",
@@ -479,10 +479,10 @@
       },
       {
         "type": "content",
-        "main_text": "Going from **\"consultant at X\"** to \"I'm building something you haven't heard of\" is a full identity reset.",
+        "main_text": "Going from **\"consultant at X\"** to not having a title at all is a full identity reset.",
         "sub_text": "The old answer to \"what do you do\" was a conversation starter.",
         "sub_text_2": "The new answer is a conversation ender.",
-        "bubble": "Now I say I'm building something and watch people nod politely. Zero paying customers doesn't help the pitch."
+        "bubble": "I still fumble the answer when people ask what I do now. There isn't a clean one anymore."
       },
       {
         "type": "content",
@@ -496,10 +496,18 @@
         "main_text": "The title was never the thing. But you only learn that **after you give it up.**",
         "sub_text": "I still have my old business cards somewhere. I keep them as a reminder, not a trophy.",
         "follow_cta": "Have you ever left a prestigious job for something uncertain? What pushed you?",
-        "bubble": "Building something with zero customers is humbling in ways no consulting project ever was. That's probably the point."
+        "bubble": "Not having an answer for \"what do you do\" is humbling in ways no consulting project ever was. That's probably the point."
       }
     ],
-    "images": [],
+    "images": [
+      "content/images/day2-career/slide-01.png",
+      "content/images/day2-career/slide-02.png",
+      "content/images/day2-career/slide-03.png",
+      "content/images/day2-career/slide-04.png",
+      "content/images/day2-career/slide-05.png",
+      "content/images/day2-career/slide-06.png",
+      "content/images/day2-career/slide-07.png"
+    ],
     "engagement": null
   },
   {
@@ -528,17 +536,27 @@
       },
       {
         "type": "content",
-        "main_text": "The one thing: **structure the problem before jumping to solutions**",
-        "sub_text": "Founders waste weeks building the wrong thing because they never defined what problem they were actually solving.",
-        "sub_text_2": "This habit from consulting genuinely saves me from myself.",
-        "bubble": "It also means I spend 10 minutes writing the problem statement before I open my laptop. Worth it."
+        "main_text": "**Structuring the problem** breaks into three things.",
+        "sub_text": "Ask the right question. Set the right goal. Get the right capability. I used to skip straight to solving.",
+        "bubble": "I spent years being the person with the smart-sounding answer. Still unlearning that."
       },
       {
         "type": "content",
-        "main_text": "What does **not** transfer: slides, frameworks, consensus",
-        "sub_text": "Nobody is waiting for your 12-slide deck. There is no steering committee. There is no billable hour.",
-        "sub_text_2": "Consensus-building is how you die slowly in a startup.",
-        "bubble": "I made a beautiful framework for my email strategy. A founder friend said: just send the emails. He was right."
+        "main_text": "First: **asking the right question.**",
+        "sub_text": "A right question is specific enough to be wrong. Not \"how do we grow,\" but \"why did the last 10 people say no.\"",
+        "bubble": "I used to ask questions that sounded smart in a room and meant nothing once I sat down alone to actually build."
+      },
+      {
+        "type": "content",
+        "main_text": "Second: **setting the right goal.**",
+        "sub_text": "A right goal is a number you can hit or miss by Friday, not a five-year vision. Consulting trained me to set goals that sound good in a deck.",
+        "bubble": "My first goal for this was \"grow steadily.\" That is not a goal. That is a wish."
+      },
+      {
+        "type": "content",
+        "main_text": "Third: **getting the right capability.**",
+        "sub_text": "In plain terms: do you actually have someone who can do the thing, not someone who can explain why it's hard.",
+        "bubble": "I cannot design, cannot really code, cannot sell yet. Some days that gap feels bigger than the idea itself."
       },
       {
         "type": "content",
@@ -555,7 +573,16 @@
         "bubble": "Still working on this myself. Sending 100 cold emails a day right now and hoping structure beats inertia."
       }
     ],
-    "images": [],
+    "images": [
+      "content/images/1782911115672/slide-01.png",
+      "content/images/1782911115672/slide-02.png",
+      "content/images/1782911115672/slide-03.png",
+      "content/images/1782911115672/slide-04.png",
+      "content/images/1782911115672/slide-05.png",
+      "content/images/1782911115672/slide-06.png",
+      "content/images/1782911115672/slide-07.png",
+      "content/images/1782911115672/slide-08.png"
+    ],
     "engagement": null
   },
   {
@@ -618,7 +645,15 @@
         "bubble": "What is something you optimised perfectly that turned out not to matter?"
       }
     ],
-    "images": [],
+    "images": [
+      "content/images/day4-career/slide-01.png",
+      "content/images/day4-career/slide-02.png",
+      "content/images/day4-career/slide-03.png",
+      "content/images/day4-career/slide-04.png",
+      "content/images/day4-career/slide-05.png",
+      "content/images/day4-career/slide-06.png",
+      "content/images/day4-career/slide-07.png"
+    ],
     "engagement": null
   },
   {
@@ -681,7 +716,15 @@
         "bubble": "What is the biggest speed difference you have noticed between big company and small company?"
       }
     ],
-    "images": [],
+    "images": [
+      "content/images/day8-career/slide-01.png",
+      "content/images/day8-career/slide-02.png",
+      "content/images/day8-career/slide-03.png",
+      "content/images/day8-career/slide-04.png",
+      "content/images/day8-career/slide-05.png",
+      "content/images/day8-career/slide-06.png",
+      "content/images/day8-career/slide-07.png"
+    ],
     "engagement": null
   },
   {
@@ -744,7 +787,15 @@
         "bubble": "What have you shipped that you are proud of, even if nobody saw it?"
       }
     ],
-    "images": [],
+    "images": [
+      "content/images/day7-career/slide-01.png",
+      "content/images/day7-career/slide-02.png",
+      "content/images/day7-career/slide-03.png",
+      "content/images/day7-career/slide-04.png",
+      "content/images/day7-career/slide-05.png",
+      "content/images/day7-career/slide-06.png",
+      "content/images/day7-career/slide-07.png"
+    ],
     "engagement": null
   },
   {
@@ -955,7 +1006,14 @@
         "bubble": "What is the biggest habit your current job has given you that would hurt you as a founder?"
       }
     ],
-    "images": [],
+    "images": [
+      "content/images/day6-career/slide-01.png",
+      "content/images/day6-career/slide-02.png",
+      "content/images/day6-career/slide-03.png",
+      "content/images/day6-career/slide-04.png",
+      "content/images/day6-career/slide-05.png",
+      "content/images/day6-career/slide-06.png"
+    ],
     "engagement": null
   },
   {
