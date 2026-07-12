@@ -1527,5 +1527,356 @@
     ],
     "images": [],
     "engagement": null
+  },
+  {
+    "id": "vibe-coding-mistakes",
+    "date": "2026-07-09",
+    "topic": "building-in-public",
+    "angle": "I wasted my first month building with Claude Code. Every mistake, honestly.",
+    "status": "posted",
+    "theme": "Building in public",
+    "caption": "I wasted my first month building with Claude Code. Prompts like 'build me a $1M MRR tool' and wondering why nothing worked.\n\nTurns out the tool was never the problem. I was.\n\nSharing the actual fixes next, taught to me by my friend Ethan.",
+    "threads_text": "I wasted my first month building with Claude Code. Every mistake, honestly.\n\n\"Build me a $1M MRR tool.\" My all time favorite prompt. Never worked.\n\nSpent 50% of my tokens on one UI bug. For weeks.\n\nThen I saw what my friend built with it. Turns out it was never Claude. It was me.\n\nNext post: 2 things that made Claude Code my best friend, taught to me by my friend Ethan.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I wasted my **first month** building with Claude Code. Every mistake, honestly.",
+        "sub_text": "Vibe coding sounds easy until you actually try it.",
+        "bubble": null
+      },
+      {
+        "type": "content",
+        "title": "The most honest prompt I ever wrote",
+        "main_text": "\"Why is this so **ugly**. Fix it. idk what is wrong but **fix it.**\"",
+        "sub_text": "An actual prompt I sent. More than once.",
+        "bubble": "Nothing worked. Because I never told it what was actually wrong."
+      },
+      {
+        "type": "content",
+        "title": "Claude is not invincible",
+        "main_text": "If you do not understand what you are building, **Claude does not either.**",
+        "sub_text": "I kept nodding along at code I did not understand.",
+        "bubble": "Asking Claude to build the best UI doesn't help, unfortunately."
+      },
+      {
+        "type": "content",
+        "title": "Guilty as charged",
+        "main_text": "\"**Build me a $1M MRR tool.**\"",
+        "sub_text": "My all time favorite prompt. Except it never worked.",
+        "bubble": "I am sure I am not the only one who has tried this."
+      },
+      {
+        "type": "content",
+        "title": "The bug that ate weeks",
+        "main_text": "I spent **50% of my tokens** in month one on one UI bug.",
+        "sub_text": "Prompted over and over again. For weeks.",
+        "bubble": "\"Please make sure the cardboard doesn't move with other components.\" Times 26."
+      },
+      {
+        "type": "content",
+        "title": "It was never Claude",
+        "main_text": "I thought **Claude Code was bad.**",
+        "sub_text": "Then I saw what my friend built with it. Awesome UI. Fully functional. Something I would actually pay for.",
+        "bubble": "It clearly was not Claude. It was me."
+      },
+      {
+        "type": "conclusion",
+        "title": "What comes next",
+        "main_text": "I will share **2 things** that made Claude Code my best friend.",
+        "sub_text": "Both taught to me by my friend, Ethan.",
+        "follow_cta": "Follow along for more like this.",
+        "bubble": "Wish I had known these on day one."
+      }
+    ],
+    "images": [
+      "content/images/vibe-coding-mistakes/slide-01.png",
+      "content/images/vibe-coding-mistakes/slide-02.png",
+      "content/images/vibe-coding-mistakes/slide-03.png",
+      "content/images/vibe-coding-mistakes/slide-04.png",
+      "content/images/vibe-coding-mistakes/slide-05.png",
+      "content/images/vibe-coding-mistakes/slide-06.png",
+      "content/images/vibe-coding-mistakes/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-09T09:21:34.247Z",
+    "threads_id": "17881077951672061",
+    "threads_carousel_id": "17959163403169446",
+    "instagram_id": "17998497863967239",
+    "instagram_story_id": null
+  },
+  {
+    "id": "vibe-coding-tips-explore-plan",
+    "date": "2026-07-09",
+    "topic": "building-in-public",
+    "angle": "Building as a non-technical person is hell mode. Here is what makes it easier.",
+    "status": "pending",
+    "theme": "Building in public",
+    "caption": "Building as a non-technical person is hell mode. But there are real ways to make it easier.\n\nIf you do not understand it, Claude does not either. Ask Claude what it understands first, then refine from there.\n\nNever start with build. Explore first (real references, best practices). Then Plan (let Claude lay it all out). Then Execute.\n\nStop repeating yourself. A skill.md is just a saved instruction file. Type one word, Claude runs the whole process, every time.\n\nMCP is basically a cheat code. It is what lets Claude actually reach your database, browser, or docs, not just chat.\n\nNext post: the exact skills and MCPs I use to make sure the product actually ships.",
+    "threads_text": "Building as a non-technical person is hell mode. But there are real ways to make it easier.\n\nIf you do not understand it, Claude does not either. Ask what it understands first, refine from there.\n\nNever start with build. Explore, then Plan, then Execute.\n\nTurn repeated instructions into a skill.md. Type one word, Claude runs the whole process.\n\nMCP is basically a cheat code, it lets Claude actually reach your tools, not just chat.\n\nNext post: the exact skills and MCPs I use.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Building as a **non-technical person** is hell mode.",
+        "sub_text": "But there are real ways to make it easier.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "Three steps",
+        "sub_text": "The steps that changed how I build with AI.",
+        "stat_number": "3",
+        "stat_label": "steps that changed how I build with AI",
+        "bubble": "I wish someone had told me this before I burned a month figuring it out myself."
+      },
+      {
+        "type": "content",
+        "title": "Check understanding first",
+        "main_text": "If **you** do not understand it, Claude does not either.",
+        "sub_text": "Ask Claude what it understands first. Refine from there.",
+        "bubble": "I used to just paste an idea and hope. Now I check its understanding before it writes a line."
+      },
+      {
+        "type": "content",
+        "title": "Never start with build",
+        "main_text": "Explore. Then Plan. **Then Execute.**",
+        "sub_text": "Explore finds real references and best practices. Plan lets Claude lay it all out before touching anything.",
+        "bubble": "Skipping straight to build was my biggest month one mistake. Not an exaggeration."
+      },
+      {
+        "type": "content",
+        "title": "Stop repeating yourself",
+        "main_text": "Turn it into a **skill.md.**",
+        "sub_text": "A skill.md is just a saved instruction file. Type one word, Claude runs the whole process for you.",
+        "bubble": "I used to type the same three step instructions daily. Now I type one word."
+      },
+      {
+        "type": "content",
+        "title": "MCP is a cheat code",
+        "main_text": "**MCP** lets Claude actually reach your tools.",
+        "sub_text": "Your database, your browser, live docs, not just what you paste into chat.",
+        "bubble": "The day Claude checked my actual database and fixed a bug itself, I just sat back and watched."
+      },
+      {
+        "type": "conclusion",
+        "title": "What comes next",
+        "main_text": "Next up: **the exact skills and MCPs I use.**",
+        "sub_text": "So your product actually ships.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "This is the toolkit I wish I had on day one."
+      }
+    ],
+    "images": [
+      "content/images/vibe-coding-tips-explore-plan/slide-01.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-02.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-03.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-04.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-05.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-06.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-07.png"
+    ],
+    "engagement": null
+  },
+  {
+    "id": "vibe-coding-mcp-tools",
+    "date": "2026-07-12",
+    "topic": "building-in-public",
+    "angle": "The real setup behind Claude Code: MCP, Playwright, shadcn, 21st.dev, and Context7, explained in plain terms.",
+    "status": "posted",
+    "theme": "Building in public",
+    "caption": "I spent too much time prompting a bad tool.\n\nMCP is the plug that lets Claude reach real tools, like a USB port for AI. Playwright clicks through a real browser like a person. Shadcn and 21st.dev build the interface. Context7 keeps the docs current.\n\n4 skills later, grateful for all of them.\n\nWhich one would you use first?",
+    "threads_text": "I spent too much time prompting a bad tool.\n\nMCP is the plug that lets Claude reach real tools, like a USB port for AI. Playwright clicks through a real browser like a person. Shadcn and 21st.dev build the interface. Context7 keeps the docs current.\n\n4 skills later, grateful for all of them.\n\nWhich one would you use first?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I spent **too much time** prompting a bad tool.",
+        "sub_text": "Here is the setup that actually changed how I build.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "Four",
+        "sub_text": "The tools covered in this post.",
+        "stat_number": "4",
+        "stat_label": "skills that changed how I build",
+        "bubble": "Each one replaces hours of prompting a tool that was not built for this."
+      },
+      {
+        "type": "content",
+        "title": "What MCP actually is",
+        "main_text": "**MCP** is the plug that lets Claude reach real tools.",
+        "sub_text": "Think of it like a USB port for AI. One standard plug, any tool on the other end, instead of a custom setup for every single one.",
+        "bubble": "This is the difference between an assistant that talks and one that actually does the work."
+      },
+      {
+        "type": "content",
+        "title": "What Playwright does",
+        "main_text": "**Playwright** lets Claude open a real browser.",
+        "sub_text": "It clicks buttons, fills forms, resizes the screen, and takes screenshots, exactly like a real visitor would.",
+        "bubble": "It once caught a button rendering invisible behind another element. I would never have found that just reading code."
+      },
+      {
+        "type": "content",
+        "title": "Where the UI comes from",
+        "main_text": "**Shadcn** and **21st.dev** build the interface.",
+        "sub_text": "Shadcn gives Claude ready made, accessible components it can copy straight into the project, not install as a dependency. 21st.dev generates new ones from a plain text description.",
+        "bubble": "I do not design a single button myself anymore."
+      },
+      {
+        "type": "content",
+        "title": "Context7 keeps Claude current",
+        "main_text": "**Context7** stops Claude from guessing outdated docs.",
+        "sub_text": "It pulls the real, current documentation for whatever tool I am using, instead of relying on what Claude was trained on months ago.",
+        "bubble": "AI tools change every week. This is how Claude keeps up instead of falling behind."
+      },
+      {
+        "type": "conclusion",
+        "title": "More coming",
+        "main_text": "There are **more skills** I have not covered yet.",
+        "sub_text": "I will go through the rest next.",
+        "follow_cta": "Follow along for the rest of the toolkit.",
+        "bubble": "Still building the list as I go."
+      }
+    ],
+    "images": [
+      "content/images/vibe-coding-mcp-tools/slide-01.png",
+      "content/images/vibe-coding-mcp-tools/slide-02.png",
+      "content/images/vibe-coding-mcp-tools/slide-03.png",
+      "content/images/vibe-coding-mcp-tools/slide-04.png",
+      "content/images/vibe-coding-mcp-tools/slide-05.png",
+      "content/images/vibe-coding-mcp-tools/slide-06.png",
+      "content/images/vibe-coding-mcp-tools/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-12T06:19:59.424Z",
+    "threads_id": "18273039499290125",
+    "threads_carousel_id": "18117912784845469",
+    "instagram_id": "17925544143144488",
+    "instagram_story_id": null
+  },
+  {
+    "id": "1783602318943",
+    "plan_day": 18,
+    "date": "2026-07-09",
+    "topic": "navigating-career",
+    "angle": "I knew I was going to leave MBB six months before I did. Here is what kept me.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "I knew I wanted to leave MBB six months before I actually did.\n\nThe resignation letter existed. I just kept deleting it.\n\nHere are the four things that kept me longer than they should have.\n\nHave you ever stayed somewhere longer than you should have? What kept you? Comment below.",
+    "threads_text": "I knew I was leaving MBB six months before I did.\n\nWrote the resignation letter three times. Deleted it twice. Went back to work.\n\nThe things that kept me had nothing to do with the job itself.\n\nHave you ever stayed somewhere longer than you should have? What actually kept you?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I knew I was going to leave MBB **six months before I did.**",
+        "sub_text": "The exact things that made leaving harder than it should have been.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "How long I stayed after I already knew the answer",
+        "stat_number": "6",
+        "stat_label": "months between knowing and leaving",
+        "bubble": "I wrote a resignation letter three times before I sent it. Deleted the first two and went back to work."
+      },
+      {
+        "type": "content",
+        "main_text": "The **sunk cost** sat on my chest every morning.",
+        "sub_text": "Years of grinding to get in. Harder years grinding to stay in.",
+        "sub_text_2": "Leaving felt like admitting it was all for nothing. It was not. But it felt like it.",
+        "bubble": "Sunk cost fallacy is easy to explain. Much harder to logic your way out of when it is your own life."
+      },
+      {
+        "type": "content",
+        "main_text": "Nobody said anything. That was the problem. **The peer pressure was completely silent.**",
+        "sub_text": "Everyone around you seems fine. Energised, even.",
+        "sub_text_2": "So you start wondering if the problem is just you.",
+        "bubble": "Turns out everyone was having the same internal conversation. Nobody mentioned it at the time."
+      },
+      {
+        "type": "content",
+        "main_text": "The **salary** bought a lifestyle I had not planned to give up.",
+        "sub_text": "It is not even about being greedy. You just quietly restructure your life around the number.",
+        "sub_text_2": "Then leaving means dismantling things you have gotten used to. That is its own kind of friction.",
+        "bubble": "I told myself I would leave once I had saved enough. The number kept moving."
+      },
+      {
+        "type": "content",
+        "main_text": "I was scared **nothing outside would match the people inside.**",
+        "sub_text": "The calibre of colleagues at MBB is genuinely unusual.",
+        "sub_text_2": "I did not know if I would find that again. I was not sure I deserved to assume I would.",
+        "bubble": "For what it is worth, I have found sharp people everywhere since. But the fear felt very real at the time."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Staying too long is not weakness. It is just **what happens when the costs are invisible and the fear is loud.**",
+        "sub_text": "Most of what kept me was not logical. It was just heavy.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Have you ever stayed somewhere longer than you should have? What kept you? Comment below."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1783688718693",
+    "plan_day": 19,
+    "date": "2026-07-10",
+    "topic": "navigating-career",
+    "angle": "The day I handed in my resignation at MBB. I expected relief. I got something else.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "I handed in my MBB resignation on a Tuesday. Wednesday was the worst day of the month.\n\nNobody tells you about the 48 hours after. The part where you're technically free but your brain is running a full audit on every decision you've ever made.\n\nThis is what actually happened.\n\nHave you ever made a big decision and immediately questioned it? Comment below.",
+    "threads_text": "I resigned from MBB on a Tuesday. Wednesday was the worst day of the month.\n\nI was free. I had wanted this. I had planned for this.\n\nThen I googled 'can I take back a resignation letter' four times before lunch.\n\nAnyone else do something they 100% wanted to do and immediately panic? What was it?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "The day I handed in my **MBB resignation**. I expected relief. I got **something else**.",
+        "sub_text": "The exact feeling nobody tells you about when you finally do the thing you've been building up to.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Hours of second-guessing after I submitted my resignation letter",
+        "stat_number": "48",
+        "stat_label": "hours of second-guessing",
+        "bubble": "I handed it in on a Tuesday. By Wednesday I had googled 'can I take back a resignation letter' at least four times."
+      },
+      {
+        "type": "content",
+        "main_text": "My manager said something I **did not expect**.",
+        "sub_text": "Not 'don't go.' Not a counter-offer. Just: 'I could tell you'd been thinking about this for a while.'",
+        "sub_text_2": "That one sentence made it feel more real than anything I had prepared for.",
+        "bubble": "I had a whole speech ready. Didn't need any of it."
+      },
+      {
+        "type": "content",
+        "main_text": "The team **didn't try to talk me out of it**. That was the strangest part.",
+        "sub_text": "No drama. No 'are you sure?' Just genuine good wishes.",
+        "sub_text_2": "I think I wanted someone to push back so I'd have a reason to feel certain.",
+        "bubble": "When nobody argues with you, you have to sit alone with the decision. Uncomfortable."
+      },
+      {
+        "type": "content",
+        "main_text": "The two days after were **equal parts free and terrified**.",
+        "sub_text": "No morning calls. No deliverables. No reason to open PowerPoint.",
+        "sub_text_2": "Also no structure, no team, no one checking in. Freedom and freefall feel identical at first.",
+        "bubble": "I cleaned my apartment twice. That's how I knew I was spiralling."
+      },
+      {
+        "type": "content",
+        "main_text": "What I thought I'd feel: **clarity**. What I actually felt: loud silence.",
+        "sub_text": "I had imagined this moment for months. In my head it felt like exhaling.",
+        "sub_text_2": "The reality was a very quiet Tuesday afternoon and a lot of browser tabs I didn't need to open.",
+        "bubble": "The build-up is always more cinematic than the actual moment."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Big decisions don't feel like **big decisions** when they're actually happening.",
+        "sub_text": "They feel like a Tuesday. And then 48 hours of quietly questioning yourself before you adjust.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still building kakisewa. Still at Tarro full-time. The decision stuck. Mostly."
+      }
+    ],
+    "images": [],
+    "engagement": null
   }
 ]

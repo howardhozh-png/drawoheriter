@@ -1,7 +1,9 @@
 name: Generate Post
 
 on:
-  workflow_dispatch:    # manual only — run from GitHub UI when you want to top up the queue
+  schedule:
+    - cron: "0 1 * * *"   # 9am MYT (01:00 UTC) — gives Howard the day to review/approve before the 9pm post run
+  workflow_dispatch:      # also allow manual trigger from GitHub UI
 
 jobs:
   generate:

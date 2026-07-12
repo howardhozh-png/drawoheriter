@@ -116,7 +116,7 @@ function buildSlideHTML(slide, idx, total, theme) {
         ${slide.main_text  ? `<div class="main" style="font-size:${fs_.main}px">${renderHighlights(slide.main_text, c.band, c.accent)}</div>` : ""}
         ${slide.sub_text   ? `<div class="sub" style="font-size:${fs_.sub}px">${renderHighlights(slide.sub_text, c.band, c.accent)}</div>` : ""}
         ${slide.sub_text_2 ? `<div class="sub" style="font-size:${fs_.sub}px;margin-top:12px">${renderHighlights(slide.sub_text_2, c.band, c.accent)}</div>` : ""}
-        ${slide.type === "conclusion" ? `<div class="cta">Save this post and follow my journey.</div>` : ""}`;
+        ${slide.type === "conclusion" ? `<div class="cta">Follow along for more like this.</div>` : ""}`;
     }
 
     bodyHTML = `

@@ -20,7 +20,7 @@
     },
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-08T14:00:01.919Z"
+      "tracked_at": "2026-07-10T14:00:01.645Z"
     },
     "posted_at": "2026-06-29T13:32:30.902Z",
     "threads_id": "17862260145639660"
@@ -87,7 +87,7 @@
     ],
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-08T14:00:02.887Z"
+      "tracked_at": "2026-07-10T14:00:01.966Z"
     },
     "posted_at": "2026-06-30T14:51:39.599Z",
     "threads_id": "18009060179873823",
@@ -160,13 +160,13 @@
     "engagement": {
       "threads": {
         "views": 374,
-        "likes": 0,
-        "replies": 7,
+        "likes": 1,
+        "replies": 8,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 51,
-      "tracked_at": "2026-07-08T14:00:05.523Z"
+      "score": 54,
+      "tracked_at": "2026-07-10T14:00:04.434Z"
     },
     "posted_at": "2026-07-01T07:24:17.694Z",
     "threads_id": "17895978171475242",
@@ -315,7 +315,7 @@
         "quotes": 0
       },
       "score": 58,
-      "tracked_at": "2026-07-08T14:00:06.430Z"
+      "tracked_at": "2026-07-10T14:00:05.756Z"
     },
     "posted_at": "2026-07-02T13:03:48.187Z",
     "threads_id": "17997374477966589",
@@ -402,14 +402,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 538,
-        "likes": 1,
+        "views": 541,
+        "likes": 2,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 57,
-      "tracked_at": "2026-07-08T14:00:07.168Z"
+      "score": 58,
+      "tracked_at": "2026-07-10T14:00:06.506Z"
     },
     "posted_at": "2026-07-05T07:06:55.870Z",
     "threads_id": "18138479773508940",
@@ -498,7 +498,7 @@
         "quotes": 0
       },
       "score": 995,
-      "tracked_at": "2026-07-08T14:00:07.954Z"
+      "tracked_at": "2026-07-10T14:00:07.006Z"
     },
     "posted_at": "2026-07-05T14:13:07.177Z",
     "threads_id": "17930570442347389",
@@ -577,14 +577,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 127,
+        "views": 134,
         "likes": 1,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
       "score": 16,
-      "tracked_at": "2026-07-08T14:00:09.667Z"
+      "tracked_at": "2026-07-10T14:00:07.753Z"
     },
     "posted_at": "2026-07-06T12:35:49.895Z",
     "threads_id": "18097598354124832",
@@ -663,14 +663,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 61,
-        "likes": 1,
+        "views": 77,
+        "likes": 2,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 9,
-      "tracked_at": "2026-07-08T14:00:10.696Z"
+      "score": 12,
+      "tracked_at": "2026-07-10T14:00:08.604Z"
     },
     "posted_at": "2026-07-07T13:29:40.427Z",
     "threads_id": "18031614380818784",
@@ -742,11 +742,184 @@
       "content/images/market-drop-reaction/slide-05.png",
       "content/images/market-drop-reaction/slide-06.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "threads": {
+        "views": 35,
+        "likes": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 6,
+      "tracked_at": "2026-07-10T14:00:09.245Z"
+    },
     "posted_at": "2026-07-08T14:39:01.076Z",
     "threads_id": "18101972450138631",
     "threads_carousel_id": "18107825549070831",
     "instagram_id": "18543543079077896",
+    "instagram_story_id": null
+  },
+  {
+    "id": "vibe-coding-mistakes",
+    "date": "2026-07-09",
+    "topic": "building-in-public",
+    "angle": "I wasted my first month building with Claude Code. Every mistake, honestly.",
+    "status": "posted",
+    "theme": "Building in public",
+    "caption": "I wasted my first month building with Claude Code. Prompts like 'build me a $1M MRR tool' and wondering why nothing worked.\n\nTurns out the tool was never the problem. I was.\n\nSharing the actual fixes next, taught to me by my friend Ethan.",
+    "threads_text": "I wasted my first month building with Claude Code. Every mistake, honestly.\n\n\"Build me a $1M MRR tool.\" My all time favorite prompt. Never worked.\n\nSpent 50% of my tokens on one UI bug. For weeks.\n\nThen I saw what my friend built with it. Turns out it was never Claude. It was me.\n\nNext post: 2 things that made Claude Code my best friend, taught to me by my friend Ethan.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I wasted my **first month** building with Claude Code. Every mistake, honestly.",
+        "sub_text": "Vibe coding sounds easy until you actually try it.",
+        "bubble": null
+      },
+      {
+        "type": "content",
+        "title": "The most honest prompt I ever wrote",
+        "main_text": "\"Why is this so **ugly**. Fix it. idk what is wrong but **fix it.**\"",
+        "sub_text": "An actual prompt I sent. More than once.",
+        "bubble": "Nothing worked. Because I never told it what was actually wrong."
+      },
+      {
+        "type": "content",
+        "title": "Claude is not invincible",
+        "main_text": "If you do not understand what you are building, **Claude does not either.**",
+        "sub_text": "I kept nodding along at code I did not understand.",
+        "bubble": "Asking Claude to build the best UI doesn't help, unfortunately."
+      },
+      {
+        "type": "content",
+        "title": "Guilty as charged",
+        "main_text": "\"**Build me a $1M MRR tool.**\"",
+        "sub_text": "My all time favorite prompt. Except it never worked.",
+        "bubble": "I am sure I am not the only one who has tried this."
+      },
+      {
+        "type": "content",
+        "title": "The bug that ate weeks",
+        "main_text": "I spent **50% of my tokens** in month one on one UI bug.",
+        "sub_text": "Prompted over and over again. For weeks.",
+        "bubble": "\"Please make sure the cardboard doesn't move with other components.\" Times 26."
+      },
+      {
+        "type": "content",
+        "title": "It was never Claude",
+        "main_text": "I thought **Claude Code was bad.**",
+        "sub_text": "Then I saw what my friend built with it. Awesome UI. Fully functional. Something I would actually pay for.",
+        "bubble": "It clearly was not Claude. It was me."
+      },
+      {
+        "type": "conclusion",
+        "title": "What comes next",
+        "main_text": "I will share **2 things** that made Claude Code my best friend.",
+        "sub_text": "Both taught to me by my friend, Ethan.",
+        "follow_cta": "Follow along for more like this.",
+        "bubble": "Wish I had known these on day one."
+      }
+    ],
+    "images": [
+      "content/images/vibe-coding-mistakes/slide-01.png",
+      "content/images/vibe-coding-mistakes/slide-02.png",
+      "content/images/vibe-coding-mistakes/slide-03.png",
+      "content/images/vibe-coding-mistakes/slide-04.png",
+      "content/images/vibe-coding-mistakes/slide-05.png",
+      "content/images/vibe-coding-mistakes/slide-06.png",
+      "content/images/vibe-coding-mistakes/slide-07.png"
+    ],
+    "engagement": {
+      "threads": {
+        "views": 675,
+        "likes": 2,
+        "replies": 3,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 76,
+      "tracked_at": "2026-07-10T14:00:09.735Z"
+    },
+    "posted_at": "2026-07-09T09:21:34.247Z",
+    "threads_id": "17881077951672061",
+    "threads_carousel_id": "17959163403169446",
+    "instagram_id": "17998497863967239",
+    "instagram_story_id": null
+  },
+  {
+    "id": "vibe-coding-mcp-tools",
+    "date": "2026-07-12",
+    "topic": "building-in-public",
+    "angle": "The real setup behind Claude Code: MCP, Playwright, shadcn, 21st.dev, and Context7, explained in plain terms.",
+    "status": "posted",
+    "theme": "Building in public",
+    "caption": "I spent too much time prompting a bad tool.\n\nMCP is the plug that lets Claude reach real tools, like a USB port for AI. Playwright clicks through a real browser like a person. Shadcn and 21st.dev build the interface. Context7 keeps the docs current.\n\n4 skills later, grateful for all of them.\n\nWhich one would you use first?",
+    "threads_text": "I spent too much time prompting a bad tool.\n\nMCP is the plug that lets Claude reach real tools, like a USB port for AI. Playwright clicks through a real browser like a person. Shadcn and 21st.dev build the interface. Context7 keeps the docs current.\n\n4 skills later, grateful for all of them.\n\nWhich one would you use first?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I spent **too much time** prompting a bad tool.",
+        "sub_text": "Here is the setup that actually changed how I build.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "title": "Four",
+        "sub_text": "The tools covered in this post.",
+        "stat_number": "4",
+        "stat_label": "skills that changed how I build",
+        "bubble": "Each one replaces hours of prompting a tool that was not built for this."
+      },
+      {
+        "type": "content",
+        "title": "What MCP actually is",
+        "main_text": "**MCP** is the plug that lets Claude reach real tools.",
+        "sub_text": "Think of it like a USB port for AI. One standard plug, any tool on the other end, instead of a custom setup for every single one.",
+        "bubble": "This is the difference between an assistant that talks and one that actually does the work."
+      },
+      {
+        "type": "content",
+        "title": "What Playwright does",
+        "main_text": "**Playwright** lets Claude open a real browser.",
+        "sub_text": "It clicks buttons, fills forms, resizes the screen, and takes screenshots, exactly like a real visitor would.",
+        "bubble": "It once caught a button rendering invisible behind another element. I would never have found that just reading code."
+      },
+      {
+        "type": "content",
+        "title": "Where the UI comes from",
+        "main_text": "**Shadcn** and **21st.dev** build the interface.",
+        "sub_text": "Shadcn gives Claude ready made, accessible components it can copy straight into the project, not install as a dependency. 21st.dev generates new ones from a plain text description.",
+        "bubble": "I do not design a single button myself anymore."
+      },
+      {
+        "type": "content",
+        "title": "Context7 keeps Claude current",
+        "main_text": "**Context7** stops Claude from guessing outdated docs.",
+        "sub_text": "It pulls the real, current documentation for whatever tool I am using, instead of relying on what Claude was trained on months ago.",
+        "bubble": "AI tools change every week. This is how Claude keeps up instead of falling behind."
+      },
+      {
+        "type": "conclusion",
+        "title": "More coming",
+        "main_text": "There are **more skills** I have not covered yet.",
+        "sub_text": "I will go through the rest next.",
+        "follow_cta": "Follow along for the rest of the toolkit.",
+        "bubble": "Still building the list as I go."
+      }
+    ],
+    "images": [
+      "content/images/vibe-coding-mcp-tools/slide-01.png",
+      "content/images/vibe-coding-mcp-tools/slide-02.png",
+      "content/images/vibe-coding-mcp-tools/slide-03.png",
+      "content/images/vibe-coding-mcp-tools/slide-04.png",
+      "content/images/vibe-coding-mcp-tools/slide-05.png",
+      "content/images/vibe-coding-mcp-tools/slide-06.png",
+      "content/images/vibe-coding-mcp-tools/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-12T06:19:59.424Z",
+    "threads_id": "18273039499290125",
+    "threads_carousel_id": "18117912784845469",
+    "instagram_id": "17925544143144488",
     "instagram_story_id": null
   }
 ]

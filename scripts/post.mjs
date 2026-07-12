@@ -3,12 +3,12 @@
  *
  * Flow:
  *  1. Threads — text post (hook + copy)
- *  2. Instagram — carousel (images uploaded to litterbox once, URLs reused below)
+ *  2. Instagram — carousel (images uploaded to Supabase Storage once, URLs reused below)
  *  3. Instagram — Story (slide 1 posted as image story)
- *  4. Threads — carousel reply to step 1 (same litterbox URLs, no re-upload)
+ *  4. Threads — carousel reply to step 1 (same hosted URLs, no re-upload)
  *
  * Run:  node scripts/post.mjs
- * Cron: daily at 9am MYT
+ * Cron: daily at 9pm MYT
  */
 
 import fs from "fs";
@@ -32,6 +32,9 @@ const META_ACCESS_TOKEN     = process.env.META_ACCESS_TOKEN ?? env.META_ACCESS_T
 const META_USER_ID          = process.env.META_USER_ID ?? env.META_USER_ID?.trim();
 const INSTAGRAM_ACCESS_TOKEN = process.env.INSTAGRAM_ACCESS_TOKEN ?? env.INSTAGRAM_ACCESS_TOKEN?.trim();
 const INSTAGRAM_USER_ID     = process.env.INSTAGRAM_USER_ID ?? env.INSTAGRAM_USER_ID?.trim();
+const SUPABASE_URL              = process.env.SUPABASE_URL ?? env.SUPABASE_URL?.trim();
+const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY ?? env.SUPABASE_SERVICE_ROLE_KEY?.trim();
+const SUPABASE_BUCKET = "temp-social-images";
 
 const QUEUE_FILE  = "content/queue.json";
 const POSTED_FILE = "content/posted.json";
@@ -84,46 +87,53 @@ function post(hostname, path, body) {
   });
 }
 
-// Upload image to litterbox.catbox.moe (anonymous, 24h URL — long enough for Meta's servers to crawl it)
-// Instagram Media API requires a public URL reachable from Facebook's servers.
+// Upload image to a public Supabase Storage bucket. Instagram/Threads Media
+// API requires a URL reachable from Meta's servers, so this can't just be a
+// local file path.
+//
+// Previously used litterbox.catbox.moe (anonymous temp host) — replaced
+// 2026-07-12 after it started throwing a real 500 on every file upload
+// (confirmed via direct testing: the server itself responds fine, but its
+// upload handler is broken, no ETA from them to fix it). This bucket lives
+// in the kakisewa Supabase project since that's Howard's existing,
+// already-controlled infra — not drawoheriter's own project, worth knowing
+// if that project ever changes. Object path is scoped by entry id so
+// different days' posts never collide, and x-upsert overwrites cleanly on
+// a retry instead of erroring.
 async function uploadImage(filePath) {
+  if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
+    throw new Error("SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY required in .env.local");
+  }
   const fileData = fs.readFileSync(filePath);
-  const filename = filePath.split("/").pop();
-  const boundary = "----LitterboxBoundary" + Date.now();
-
-  const CRLF = "\r\n";
-  const preamble = Buffer.from(
-    `--${boundary}${CRLF}` +
-    `Content-Disposition: form-data; name="reqtype"${CRLF}${CRLF}fileupload${CRLF}` +
-    `--${boundary}${CRLF}` +
-    `Content-Disposition: form-data; name="time"${CRLF}${CRLF}24h${CRLF}` +
-    `--${boundary}${CRLF}` +
-    `Content-Disposition: form-data; name="fileToUpload"; filename="${filename}"${CRLF}` +
-    `Content-Type: image/png${CRLF}${CRLF}`,
-    "utf8"
-  );
-  const epilogue = Buffer.from(`${CRLF}--${boundary}--${CRLF}`, "utf8");
-  const body = Buffer.concat([preamble, fileData, epilogue]);
+  const parts = filePath.split("/");
+  const filename = parts.pop();
+  const entryId = parts.pop(); // content/images/{entryId}/{filename}
+  const objectPath = `${entryId}/${filename}`;
 
   return new Promise((resolve, reject) => {
     const req = https.request({
-      hostname: "litterbox.catbox.moe",
-      path: "/resources/internals/api.php",
+      hostname: new URL(SUPABASE_URL).hostname,
+      path: `/storage/v1/object/${SUPABASE_BUCKET}/${objectPath}`,
       method: "POST",
       headers: {
-        "Content-Type": `multipart/form-data; boundary=${boundary}`,
-        "Content-Length": body.length,
+        "Content-Type": "image/png",
+        "Content-Length": fileData.length,
+        "Authorization": `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
+        "apikey": SUPABASE_SERVICE_ROLE_KEY,
+        "x-upsert": "true",
       },
     }, res => {
       let d = ""; res.on("data", c => d += c);
       res.on("end", () => {
-        const url = d.trim();
-        if (url.startsWith("https://")) resolve(url);
-        else reject(new Error("litterbox upload failed: " + url.slice(0, 200)));
+        if (res.statusCode >= 200 && res.statusCode < 300) {
+          resolve(`${SUPABASE_URL}/storage/v1/object/public/${SUPABASE_BUCKET}/${objectPath}`);
+        } else {
+          reject(new Error(`Supabase upload failed (${res.statusCode}): ${d.slice(0, 200)}`));
+        }
       });
     });
     req.on("error", reject);
-    req.write(body);
+    req.write(fileData);
     req.end();
   });
 }
