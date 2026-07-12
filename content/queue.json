@@ -466,8 +466,7 @@
       {
         "type": "content",
         "main_text": "The **prestige was real.** So was the trap.",
-        "sub_text": "The brand opened doors. It also became a crutch.",
-        "sub_text_2": "At some point I stopped knowing if I was good or just well-labeled.",
+        "sub_text": "The brand opened doors. It also became a crutch, until I stopped knowing if I was good or just well-labeled.",
         "bubble": "The firm name was doing a lot of heavy lifting in conversations I didn't notice."
       },
       {
@@ -480,23 +479,21 @@
       {
         "type": "content",
         "main_text": "Going from **\"consultant at X\"** to not having a title at all is a full identity reset.",
-        "sub_text": "The old answer to \"what do you do\" was a conversation starter.",
-        "sub_text_2": "The new answer is a conversation ender.",
+        "sub_text": "The old answer to \"what do you do\" was a conversation starter. The new one is a conversation ender.",
         "bubble": "I still fumble the answer when people ask what I do now. There isn't a clean one anymore."
       },
       {
         "type": "content",
-        "main_text": "What I thought life after consulting would look like: **freedom, clarity, momentum.**",
-        "sub_text": "What it actually is: a full-time job at Tarro, a side project with no customers yet, and a lot of quiet.",
-        "sub_text_2": "The clarity comes eventually. It just doesn't arrive with the resignation letter.",
+        "main_text": "I expected **freedom, clarity, momentum.**",
+        "sub_text": "It's a job, a side project with no customers yet, and a lot of quiet. Clarity comes eventually, just not with the resignation letter.",
         "bubble": "I genuinely thought leaving would feel like a movie moment. It felt more like a Sunday with no plans."
       },
       {
         "type": "conclusion",
-        "main_text": "The title was never the thing. But you only learn that **after you give it up.**",
-        "sub_text": "I still have my old business cards somewhere. I keep them as a reminder, not a trophy.",
+        "main_text": "The title was never the thing. **You learn that after you give it up.**",
+        "sub_text": "I still have my old business cards. I keep them as a reminder, not a trophy.",
         "follow_cta": "Have you ever left a prestigious job for something uncertain? What pushed you?",
-        "bubble": "Not having an answer for \"what do you do\" is humbling in ways no consulting project ever was. That's probably the point."
+        "bubble": "Not having an answer for \"what do you do\" is humbling in ways no consulting project ever was."
       }
     ],
     "images": [
@@ -561,8 +558,7 @@
       {
         "type": "content",
         "main_text": "The dangerous habit: **mistaking analysis for action**",
-        "sub_text": "Consulting rewards thoroughness. You get paid to be right, not fast.",
-        "sub_text_2": "Startups reward people who move. Being thorough while the runway burns is just expensive thinking.",
+        "sub_text": "Consulting pays you to be right, not fast. Startups reward people who move; being thorough while the runway burns is just expensive thinking.",
         "bubble": "I have 8,471 agents scraped and zero paying customers. Analysis did not cause that. But it did not help either."
       },
       {
@@ -570,7 +566,7 @@
         "main_text": "**One skill transfers. The rest is dead weight.**",
         "sub_text": "Figure out which habits your current job is rewarding that a startup would punish.",
         "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "Still working on this myself. Sending 100 cold emails a day right now and hoping structure beats inertia."
+        "bubble": "Still working on this myself. 100 cold emails a day right now, hoping structure beats inertia."
       }
     ],
     "images": [
@@ -612,29 +608,25 @@
       {
         "type": "content",
         "main_text": "The client **decided in 10 minutes.** The deck took 3 weeks.",
-        "sub_text": "Pixel-perfect transitions. Consistent font hierarchy. A appendix nobody opened.",
-        "sub_text_2": "The decision was made before we walked in the room.",
+        "sub_text": "Pixel-perfect transitions, consistent font hierarchy, an appendix nobody opened. The decision was made before we even walked in.",
         "bubble": "I once spent two days aligning boxes on a slide. Two days."
       },
       {
         "type": "content",
         "main_text": "The **consultant trap:** effort feels like impact because it looks like impact.",
-        "sub_text": "Hours in, polished output, rigorous process. But output is not outcome.",
-        "sub_text_2": "Consulting rewards the performance of work. Startups punish it.",
+        "sub_text": "Hours in, polished output, rigorous process. But output is not outcome. Consulting rewards performing work; startups punish it.",
         "bubble": "Nobody claps for your framework if the thing does not ship."
       },
       {
         "type": "content",
         "main_text": "A **working feature** beats a perfect plan. Every single time.",
-        "sub_text": "It is live. Zero paying customers. Two working features.",
-        "sub_text_2": "That is more real than any deck I ever made.",
+        "sub_text": "It is live. Zero paying customers, two working features. More real than any deck I ever made.",
         "bubble": "My first pitch deck had 14 slides. The product had 2 working features. I had the order wrong."
       },
       {
         "type": "content",
         "main_text": "The moment I realised I was **optimising for the wrong thing.**",
-        "sub_text": "I caught myself rewriting copy on a landing page nobody had visited yet.",
-        "sub_text_2": "Classic consultant move. Polish the thing. Avoid the scary thing.",
+        "sub_text": "I caught myself rewriting copy on a landing page nobody had visited. Classic consultant move: polish the thing, avoid the scary one.",
         "bubble": "The scary thing was sending the cold email. The copy was fine."
       },
       {
@@ -642,7 +634,7 @@
         "main_text": "**Excellent execution** on the wrong thing is still the wrong thing.",
         "sub_text": "The skill is not doing things well. It is picking the right things to do at all.",
         "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "What is something you optimised perfectly that turned out not to matter?"
+        "bubble": "What did you optimise perfectly that turned out not to matter?"
       }
     ],
     "images": [
@@ -683,8 +675,7 @@
       {
         "type": "content",
         "main_text": "In consulting, **moving fast** means finishing the deck before the client meeting.",
-        "sub_text": "The urgency is real. The output is a PowerPoint.",
-        "sub_text_2": "Nobody is shipping anything.",
+        "sub_text": "The urgency is real. The output is a PowerPoint, and nobody is shipping anything.",
         "bubble": "Slides do not go live. Code does."
       },
       {
@@ -710,7 +701,7 @@
       },
       {
         "type": "conclusion",
-        "main_text": "The best thing consulting taught me was **structure.** The best thing a startup taught me was to ship the thing.",
+        "main_text": "Consulting taught me **structure.** A startup taught me to **ship the thing.**",
         "sub_text": "Both matter. But only one of them compounds.",
         "follow_cta": "Follow to know what happens next or save this for later.",
         "bubble": "What is the biggest speed difference you have noticed between big company and small company?"
@@ -754,8 +745,7 @@
       {
         "type": "content",
         "main_text": "Making slides teaches you to **communicate**. It does not teach you to build.",
-        "sub_text": "Two different muscles. Consulting trains one of them very well.",
-        "sub_text_2": "The other one you learn by doing embarrassing first versions.",
+        "sub_text": "Two different muscles. Consulting trains one well. You learn the other by doing embarrassing first versions.",
         "bubble": "My first version of it looked like a school project."
       },
       {
@@ -768,15 +758,13 @@
       {
         "type": "content",
         "main_text": "What I had to learn from scratch: **shipping ugly things** and being okay with it.",
-        "sub_text": "In consulting, you polish until the slide looks confident.",
-        "sub_text_2": "In building, you ship before it feels ready. Every time.",
+        "sub_text": "In consulting, you polish until it looks confident. In building, you ship before it feels ready.",
         "bubble": "It is live. It is not pretty. It is there."
       },
       {
         "type": "content",
         "main_text": "A **shipped product** hits different from a delivered deck.",
-        "sub_text": "The first time I pushed to production, nobody saw it.",
-        "sub_text_2": "I was still happier than any client presentation I ever gave.",
+        "sub_text": "The first time I pushed to production, nobody saw it. I was still happier than any client presentation I gave.",
         "bubble": "That was the moment I understood what I had been missing."
       },
       {

@@ -84,6 +84,21 @@ original seven don't apply here and are intentionally skipped (see below).
   outside the hook-slide case) — always go through `postFontSizes()` so a
   post's slides stay visually matched, even if it means a short slide has
   more breathing room than it strictly needs.
+- **Keep every slide's text light — `postFontSizes()` sizes off the
+  heaviest slide, so one bloated slide shrinks the whole post.** Confirmed
+  2026-07-12: `vibe-coding-mcp-tools` (the size Howard wants as the
+  standard) has a heaviest-slide weight of ~287, landing at 76px main text.
+  A batch of 5 posts wasn't trimmed for length and hit weights up to 476,
+  collapsing the whole post to 46px — "everything is tiny" was a direct
+  report of this. `sub_text_2` is the single biggest lever: it adds a flat
+  +100 to that slide's weight on top of its own length, which is why nearly
+  every over-280-weight slide had one. Before finishing a post: check each
+  slide's weight (`title*0.3 + main*1.3 + sub + (sub_text_2 ? len+100 : 0) +
+  bubble*0.8 + (conclusion ? 70 : 0)`), and if the heaviest slide is over
+  ~290, cut it — merge sub_text_2 into sub_text as one tighter sentence (or
+  drop it) and trim main_text/bubble, rather than accepting a smaller
+  shared size for the whole post. Target: every post's heaviest slide
+  should land at 76px or better, matching the reference post.
 - **Caption and threads_text must stay under 60 words each.** This is a hard
   check, not a vibe — before showing any caption/threads_text to Howard,
   count the actual words and cut it if it's over. Don't write one paragraph
