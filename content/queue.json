@@ -1,5 +1,685 @@
 [
   {
+    "id": "1784098438861",
+    "plan_day": 23,
+    "date": "2026-07-15",
+    "topic": "managing-finances",
+    "angle": "I thought I was investing. I was just buying companies I could explain at dinner parties.",
+    "status": "posted",
+    "theme": "Managing finances",
+    "caption": "Three years of investing before I realised I was just buying companies I could explain at dinner parties. What was the first thing you ever invested in? Drop it below — genuinely curious, zero judgment.",
+    "threads_text": "I thought I was investing. I was just buying companies I could explain at dinner parties. Knew exactly what they did. Had no idea if they were mispriced. Three years and average returns to learn the difference. What was the first stock or asset you ever bought?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I thought I was investing. **I was just buying companies I could explain at dinner parties.**",
+        "sub_text": "Three years and average returns to figure out the difference.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "How long it took me to understand what an edge actually is",
+        "stat_number": "3",
+        "stat_label": "years investing before I got this",
+        "bubble": "My portfolio looked like a TED Talk watchlist. Great companies. Average returns."
+      },
+      {
+        "type": "content",
+        "main_text": "**Knowing what a company does** is not the same as knowing it is mispriced.",
+        "sub_text": "I could explain the business model in two sentences. That felt like research. It was not research.",
+        "sub_text_2": null,
+        "bubble": "Turns out everyone at the dinner party already knew too."
+      },
+      {
+        "type": "content",
+        "main_text": "The **clarity trap**: understanding a company does not equal conviction it will outperform.",
+        "sub_text": "A good business and a good investment are different questions. I kept confusing the first for the second.",
+        "sub_text_2": null,
+        "bubble": "Bought Apple at a price that made complete sense and still underperformed the index."
+      },
+      {
+        "type": "content",
+        "main_text": "I was buying **stories**, not bets.",
+        "sub_text": "Stories feel safe. Bets require you to be specifically right about something the market is specifically wrong about.",
+        "sub_text_2": null,
+        "bubble": "Much easier to say 'I believe in this company' than to say exactly what you think the market is missing."
+      },
+      {
+        "type": "content",
+        "main_text": "The question I should have been asking: **what do I believe that the market does not?**",
+        "sub_text": "If the answer is nothing, you are not making a bet. You are just paying market price for market returns.",
+        "sub_text_2": null,
+        "bubble": "Still working on having a real answer to this. Most days I don't."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Liking a company and **having an edge on a company** are not the same thing.",
+        "sub_text": "What was the first thing you ever invested in? Drop it below.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Mine was a Malaysian bank stock I bought because I had an account there. True story."
+      }
+    ],
+    "images": [
+      "content/images/1784098438861/slide-01.png",
+      "content/images/1784098438861/slide-02.png",
+      "content/images/1784098438861/slide-03.png",
+      "content/images/1784098438861/slide-04.png",
+      "content/images/1784098438861/slide-05.png",
+      "content/images/1784098438861/slide-06.png",
+      "content/images/1784098438861/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-15T13:05:29.719Z",
+    "threads_id": "18218131654328683",
+    "threads_carousel_id": "17997438500795206",
+    "instagram_id": "18055882271770872",
+    "instagram_story_id": null
+  },
+  {
+    "id": "vibe-coding-tips-explore-plan",
+    "date": "2026-07-09",
+    "topic": "building-in-public",
+    "angle": "Building as a non-technical person is hell mode. Here is what makes it easier.",
+    "status": "posted",
+    "theme": "Building in public",
+    "caption": "Building as a non-technical person is hell mode. Here's the one habit that helps.\n\nNever start with build. Explore first, real references and best practices. Then Plan, let Claude lay it out. Then Execute.\n\nSkipping straight to build is how you end up debugging code you don't understand.\n\nDo you plan before you build? Vote: always / sometimes / never",
+    "threads_text": "Building as a non-technical person is hell mode. One habit made it easier: never start with build.\n\nExplore first, then Plan, then Execute. Skipping straight to code is how you end up debugging something you don't understand.\n\nDo you plan before you build, or just wing it?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Building as a non-technical person is hell mode. **One habit** made it survivable.",
+        "sub_text": "Not a tool. A sequence.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Steps, every single time, no matter how small the task",
+        "stat_number": "3",
+        "stat_label": "steps I never skip anymore",
+        "bubble": "Skipping straight to build is how I've wasted the most hours, by far."
+      },
+      {
+        "type": "content",
+        "main_text": "**Explore first.** Real references, real best practices.",
+        "sub_text": "If I do not understand it, Claude does not either. I ask it to explain the codebase back to me before anything gets touched.",
+        "sub_text_2": null,
+        "bubble": "Feels slow. Saves hours later."
+      },
+      {
+        "type": "content",
+        "main_text": "**Then Plan.** Let Claude lay it all out first.",
+        "sub_text": "I read the plan like a spec, not a suggestion.",
+        "sub_text_2": null,
+        "bubble": "Half my edits happen here, before a single line is written."
+      },
+      {
+        "type": "content",
+        "main_text": "**Then Execute.** Only after the first two.",
+        "sub_text": "By the time we get here, there are barely any surprises left.",
+        "sub_text_2": null,
+        "bubble": "This is the boring part now. That is the whole point."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Explore. Plan. Execute.** In that order, every time.",
+        "sub_text": "Skipping straight to build is still the mistake I have to actively resist.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Do you plan before you build, or just wing it?"
+      }
+    ],
+    "images": [
+      "content/images/vibe-coding-tips-explore-plan/slide-01.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-02.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-03.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-04.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-05.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-06.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-16T13:05:08.103Z",
+    "threads_id": "18099475435957347",
+    "threads_carousel_id": "18081901544657145",
+    "instagram_id": "18359218201209462",
+    "instagram_story_id": null
+  },
+  {
+    "id": "1782911115672",
+    "plan_day": 3,
+    "date": "2026-07-01",
+    "topic": "navigating-career",
+    "angle": "MBB taught me one skill that transfers to startups. Everything else I had to unlearn.",
+    "status": "posted",
+    "theme": "Navigating career",
+    "caption": "MBB taught me one skill that actually transfers to startups. The rest I had to unlearn, and some of it took embarrassingly long.\n\nSwipe to see what stuck and what didn't.\n\nWhat's the one skill from your current job that would help in a startup?",
+    "threads_text": "One skill from consulting transfers to startups. Everything else I had to unlearn.\n\nThe dangerous one: mistaking analysis for action. I was very good at being thorough. Startups don't reward thorough. They reward moving.\n\nWhat's the one skill from your job that would actually help in a startup?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "MBB taught me **one skill** that transfers to startups.",
+        "sub_text": "Everything else I had to unlearn, and some of it took longer than I expected.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Number of skills from 5 years of consulting I use every single day building this",
+        "stat_number": "1",
+        "stat_label": "just one skill made the cut",
+        "bubble": "I thought it would be more. It is not more."
+      },
+      {
+        "type": "content",
+        "main_text": "**Structuring the problem** breaks into three things.",
+        "sub_text": "Ask the right question. Set the right goal. Get the right capability. I used to skip straight to solving.",
+        "bubble": "I spent years being the person with the smart-sounding answer. Still unlearning that."
+      },
+      {
+        "type": "content",
+        "main_text": "First: **asking the right question.**",
+        "sub_text": "A right question is specific enough to be wrong. Not \"how do we grow,\" but \"why did the last 10 people say no.\"",
+        "bubble": "I used to ask questions that sounded smart in a room and meant nothing once I sat down alone to actually build."
+      },
+      {
+        "type": "content",
+        "main_text": "Second: **setting the right goal.**",
+        "sub_text": "A right goal is a number you can hit or miss by Friday, not a five-year vision. Consulting trained me to set goals that sound good in a deck.",
+        "bubble": "My first goal for this was \"grow steadily.\" That is not a goal. That is a wish."
+      },
+      {
+        "type": "content",
+        "main_text": "Third: **getting the right capability.**",
+        "sub_text": "In plain terms: do you actually have someone who can do the thing, not someone who can explain why it's hard.",
+        "bubble": "I cannot design, cannot really code, cannot sell yet. Some days that gap feels bigger than the idea itself."
+      },
+      {
+        "type": "content",
+        "main_text": "The dangerous habit: **mistaking analysis for action**",
+        "sub_text": "Consulting pays you to be right, not fast. Startups reward people who move; being thorough while the runway burns is just expensive thinking.",
+        "bubble": "I have 8,471 agents scraped and zero paying customers. Analysis did not cause that. But it did not help either."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**One skill transfers. The rest is dead weight.**",
+        "sub_text": "Figure out which habits your current job is rewarding that a startup would punish.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still working on this myself. 100 cold emails a day right now, hoping structure beats inertia."
+      }
+    ],
+    "images": [
+      "content/images/1782911115672/slide-01.png",
+      "content/images/1782911115672/slide-02.png",
+      "content/images/1782911115672/slide-03.png",
+      "content/images/1782911115672/slide-04.png",
+      "content/images/1782911115672/slide-05.png",
+      "content/images/1782911115672/slide-06.png",
+      "content/images/1782911115672/slide-07.png",
+      "content/images/1782911115672/slide-08.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-17T13:05:29.750Z",
+    "threads_id": "18144247342542972",
+    "threads_carousel_id": "18098582461970138",
+    "instagram_id": "18113278076484094",
+    "instagram_story_id": null
+  },
+  {
+    "id": "1784098689030",
+    "plan_day": 31,
+    "date": "2026-07-15",
+    "topic": "managing-finances",
+    "angle": "After trying everything, I use one investing principle. It is boring. It works.",
+    "status": "posted",
+    "theme": "Managing finances",
+    "caption": "I don't DCA into an index fund — I bet on sectors right before they bottleneck: space, AI infra, semiconductors, biomed. Concentrated, not diversified, and I don't always time it right. What's your actual investing style? Vote: index funds / sector bets / individual stocks / not investing yet",
+    "threads_text": "I don't dollar-cost-average into an index fund. I bet on sectors right before they bottleneck — space, AI infrastructure, semiconductors, biomed. Concentrated, not diversified. Higher risk, and I don't always get the timing right. What's your actual investing style?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I don't dollar-cost-average into an index fund. **I bet on sectors right before they bottleneck.**",
+        "sub_text": "Space, AI infrastructure, semiconductors, biomed. Concentrated, not diversified.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Sectors I actually invest in, not the whole market",
+        "stat_number": "4",
+        "stat_label": "high-growth sectors, concentrated not diversified",
+        "bubble": "I have strong opinions about supply chains most people have never thought about once."
+      },
+      {
+        "type": "content",
+        "main_text": "The thesis: **find the bottleneck before everyone else does.**",
+        "sub_text": "Every high-growth sector eventually hits a capacity constraint. That is usually where the value sits.",
+        "sub_text_2": null,
+        "bubble": "Sounds smart until you are three months early and the position is just red."
+      },
+      {
+        "type": "content",
+        "main_text": "**Concentrated,** not diversified.",
+        "sub_text": "Four sectors, not four hundred stocks. I would rather be wrong with conviction than right by accident.",
+        "sub_text_2": null,
+        "bubble": "My portfolio would give a financial advisor a small heart attack."
+      },
+      {
+        "type": "content",
+        "main_text": "This is **not** the boring, safe version of investing.",
+        "sub_text": "Higher risk, higher variance, and I do not always get the timing right.",
+        "sub_text_2": null,
+        "bubble": "I have eaten some real losses being early. That part does not make it into the highlight reel."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Conviction, not comfort.** That is the actual strategy.",
+        "sub_text": "It will not work for everyone. It is the only version of investing I have ever been able to stick with.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Ask me again in ten years whether this was smart or just lucky."
+      }
+    ],
+    "images": [
+      "content/images/1784098689030/slide-01.png",
+      "content/images/1784098689030/slide-02.png",
+      "content/images/1784098689030/slide-03.png",
+      "content/images/1784098689030/slide-04.png",
+      "content/images/1784098689030/slide-05.png",
+      "content/images/1784098689030/slide-06.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-18T14:30:46.646Z",
+    "threads_id": "18103238983889449",
+    "threads_carousel_id": "18139263823492950",
+    "instagram_id": "18121233748697397",
+    "instagram_story_id": null
+  },
+  {
+    "id": "1784098418704",
+    "plan_day": 22,
+    "date": "2026-07-15",
+    "topic": "building-in-public",
+    "angle": "I have been building alone for months and nobody warned me about this part.",
+    "status": "approved",
+    "theme": "Building in public",
+    "caption": "Building alone is fine until it isn't. Solo founders — what is the one thing nobody warned you about? Drop it below.",
+    "threads_text": "Nobody talks about this part of building alone. Not the workload. The silence. You make a call, sit with it, and there is literally no one to tell you if you got it wrong. Shipping solo with a full-time job and zero paying customers is a very specific kind of quiet. What is the hardest part nobody mentions?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I have been building alone for months and **nobody warned me about this part.**",
+        "sub_text": "It is not the work. It is the silence.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "People on the team who can tell you if you are making the right call.",
+        "stat_number": "0",
+        "stat_label": "that is the whole team",
+        "bubble": "I texted my friend about a product decision at 11pm. He replied 'sounds good bro.' That was my feedback loop."
+      },
+      {
+        "type": "content",
+        "main_text": "There is **no standup. No Slack. No one to share a small win with.**",
+        "sub_text": "You hit a milestone and just close the laptop. The win still happened, it just evaporated.",
+        "bubble": "I told a friend. He said 'sounds good bro' and moved on."
+      },
+      {
+        "type": "content",
+        "main_text": "I made a **decision I am still not sure about.** Had to live with it alone.",
+        "sub_text": "No one to stress-test it. No one to talk me out of it or into it.",
+        "sub_text_2": null,
+        "bubble": "I did eventually make a call. It might be wrong. I will probably find out in six weeks when the numbers tell me."
+      },
+      {
+        "type": "content",
+        "main_text": "Loneliness is not really about **people.** It is about **no one catching your blind spots.**",
+        "sub_text": "You can be surrounded and still building in a fog.",
+        "sub_text_2": null,
+        "bubble": "A co-founder would push back. A friend replies 'sounds good bro.' These are not the same thing and I keep pretending they are."
+      },
+      {
+        "type": "content",
+        "main_text": "**Therapy is cheaper than a co-founder.** Barely.",
+        "sub_text": "At least someone is professionally obligated to engage with your decisions.",
+        "sub_text_2": null,
+        "bubble": "Half joking. Maybe less than half."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Building alone does not cost you work. It costs you **blind spots.**",
+        "sub_text": "Fill in the blank: nobody warned me building alone would ___.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still figuring this one out. No clean lesson here."
+      }
+    ],
+    "images": [
+      "content/images/1784098418704/slide-01.png",
+      "content/images/1784098418704/slide-02.png",
+      "content/images/1784098418704/slide-03.png",
+      "content/images/1784098418704/slide-04.png",
+      "content/images/1784098418704/slide-05.png",
+      "content/images/1784098418704/slide-06.png",
+      "content/images/1784098418704/slide-07.png"
+    ],
+    "engagement": null
+  },
+  {
+    "id": "day4-career",
+    "plan_day": 4,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "Consulting trained me to be excellent at things that do not matter. Startups cured me of this. Slowly.",
+    "status": "approved",
+    "theme": "Navigating career",
+    "caption": "MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.\n\nI spent years getting very good at the wrong things. The transition was humbling.\n\nWhat is something you optimised perfectly that turned out not to matter?",
+    "threads_text": "MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.\n\nI spent years getting good at the wrong things.\n\nWhat is something you optimised perfectly that turned out not to matter?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Consulting trained me to be **excellent at things that do not matter.**",
+        "sub_text": "Startups cured me of this. Slower than I expected.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Hours I spent on slide decks that changed nothing at the client",
+        "stat_number": "11,520",
+        "stat_label": "hours on slides, 80% of everything I did for 5 years",
+        "bubble": "That is not an exaggeration. I did the math and immediately regretted it."
+      },
+      {
+        "type": "content",
+        "main_text": "The client decided in **10 minutes.** The deck took 3 weeks.",
+        "sub_text": "Pixel-perfect transitions, consistent font hierarchy, an appendix nobody opened. The decision was made before we even walked in.",
+        "bubble": "I once spent two days aligning boxes on a slide. Two days."
+      },
+      {
+        "type": "content",
+        "main_text": "The **consultant trap:** effort feels like impact because it looks like impact.",
+        "sub_text": "Hours in, polished output, rigorous process. But output is not outcome. Consulting rewards performing work; startups punish it.",
+        "bubble": "Nobody claps for your framework if the thing does not ship."
+      },
+      {
+        "type": "content",
+        "main_text": "A **working feature** beats a perfect plan. Every single time.",
+        "sub_text": "It is live. Zero paying customers, two working features. More real than any deck I ever made.",
+        "bubble": "My first pitch deck had 14 slides. what I built had 2 working features. I had the order wrong."
+      },
+      {
+        "type": "content",
+        "main_text": "The moment I realised I was **optimising for the wrong thing.**",
+        "sub_text": "I caught myself rewriting copy on a landing page nobody had visited. Classic consultant move: polish the thing, avoid the scary one.",
+        "bubble": "The scary thing was sending the cold email. The copy was fine."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Excellent execution** on the wrong thing is still the wrong thing.",
+        "sub_text": "The skill is not doing things well. It is picking the right things to do at all.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What did you optimise perfectly that turned out not to matter?"
+      }
+    ],
+    "images": [
+      "content/images/day4-career/slide-01.png",
+      "content/images/day4-career/slide-02.png",
+      "content/images/day4-career/slide-03.png",
+      "content/images/day4-career/slide-04.png",
+      "content/images/day4-career/slide-05.png",
+      "content/images/day4-career/slide-06.png",
+      "content/images/day4-career/slide-07.png"
+    ],
+    "engagement": null
+  },
+  {
+    "id": "1784098704222",
+    "plan_day": 32,
+    "date": "2026-07-15",
+    "topic": "learning-about-life",
+    "angle": "The job does not stop. Here is what I actually do to switch my brain off. It is not much.",
+    "status": "approved",
+    "theme": "Learning about life",
+    "caption": "The job doesn't stop. My actual off switch: Haikyuu, Terrace House, and snacks from 9am to 3am straight. No meditation, no journaling, no walks. What's your real off switch, not the one you'd post about?",
+    "threads_text": "The job doesn't stop. So my actual switch-off is Haikyuu and Terrace House marathons, 9am to 3am straight, snacking the whole time at home. No meditation, no journaling, no walks. What's your real off switch?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "The job does not stop. So I binge **Haikyuu** until 3am and call it switching off.",
+        "sub_text": "Not a wellness routine. Just anime, reality TV, and snacks.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "How long a binge day actually runs, start to finish",
+        "stat_number": "18",
+        "stat_label": "hours straight, one sitting, more than once",
+        "bubble": "9am to 3am. I have done the math. It is not a great number."
+      },
+      {
+        "type": "content",
+        "main_text": "No meditation. No journaling. No **walks.**",
+        "sub_text": "Just Haikyuu, Terrace House, and whatever else is queued up.",
+        "sub_text_2": null,
+        "bubble": "I have tried to make this sound healthier for this post. I am not going to."
+      },
+      {
+        "type": "content",
+        "main_text": "The appeal is **zero decisions required.**",
+        "sub_text": "Everything else in my day needs a choice. This does not.",
+        "sub_text_2": null,
+        "bubble": "My brain gets a day off from being the one in charge."
+      },
+      {
+        "type": "content",
+        "main_text": "This is not a **hack.** It is just what actually happens.",
+        "sub_text": "No app, no system, no optimisation. Just the couch and snacks from the kitchen.",
+        "sub_text_2": null,
+        "bubble": "I am not proud of it. I am also not going to pretend it does not work."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Switching off does not have to look **impressive.**",
+        "sub_text": "Mine looks like volleyball anime and instant noodles until 3am.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What is your actual off switch, the real one, not the one you would post about?"
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "day8-career",
+    "plan_day": 8,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "A startup taught me something consulting never did. It was not what I expected.",
+    "status": "approved",
+    "theme": "Navigating career",
+    "caption": "A startup taught me what 'fast' actually means. Consulting had it backwards for 5 years.\n\nMBB taught me tight deadlines and late-night decks. Turns out that was not fast.\n\nAt a startup, fast means something else. Seeing it up close, I felt lied to.\n\nWhat is the biggest speed difference between big and small company?",
+    "threads_text": "A startup taught me what 'fast' actually means. Consulting had it backwards for 5 years.\n\nIn consulting, moving fast meant finishing the deck before the client walked in.\n\nAt a startup, moving fast means shipping before someone else does.\n\nVery different stakes. Very different clock.\n\nWhat is the biggest speed gap you have noticed between big and small company?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "A startup taught me what **'fast'** actually means. Consulting had it backwards for 5 years.",
+        "sub_text": "48 hours from idea to shipped. Consulting called weeks fast.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Hours from idea to shipped at a startup vs weeks in consulting",
+        "stat_number": "48",
+        "stat_label": "hours",
+        "bubble": "I once spent 3 weeks on a deliverable a startup would have shipped, iterated, and shipped again."
+      },
+      {
+        "type": "content",
+        "main_text": "In consulting, **moving fast** means finishing the deck before the client meeting.",
+        "sub_text": "The urgency is real. The output is a PowerPoint, and nobody is shipping anything.",
+        "bubble": "Slides do not go live. Code does."
+      },
+      {
+        "type": "content",
+        "main_text": "At a startup, **moving fast** means shipping before someone else does.",
+        "sub_text": "The competitor is not in the room. They are already building.",
+        "sub_text_2": null,
+        "bubble": "The clock is always running. You just cannot see it."
+      },
+      {
+        "type": "content",
+        "main_text": "First time I saw a feature go from **Slack message to live** in two days.",
+        "sub_text": "I genuinely did not know that was possible.",
+        "sub_text_2": null,
+        "bubble": "I asked if that was normal. Everyone looked at me like I was slow."
+      },
+      {
+        "type": "content",
+        "main_text": "**Speed is a competitive advantage.** Slowness is a silent killer.",
+        "sub_text": "You do not feel it until someone else is already three versions ahead of you.",
+        "sub_text_2": null,
+        "bubble": "It is live. Zero paying customers. But it is live. That part matters."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Consulting taught me **structure.** A startup taught me to **ship the thing.**",
+        "sub_text": "Both matter. But only one of them compounds.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "What is the biggest speed difference you have noticed between big company and small company?"
+      }
+    ],
+    "images": [
+      "content/images/day8-career/slide-01.png",
+      "content/images/day8-career/slide-02.png",
+      "content/images/day8-career/slide-03.png",
+      "content/images/day8-career/slide-04.png",
+      "content/images/day8-career/slide-05.png",
+      "content/images/day8-career/slide-06.png",
+      "content/images/day8-career/slide-07.png"
+    ],
+    "engagement": null
+  },
+  {
+    "id": "1784098611098",
+    "plan_day": 26,
+    "date": "2026-07-15",
+    "topic": "building-in-public",
+    "angle": "I am cold emailing 8,471 strangers. Automatically. Here is what I built.",
+    "status": "approved",
+    "theme": "Building in public",
+    "caption": "Built a cold email machine for 8,471 strangers. No agency, no budget, no clue if it'll work. What's your cold email open rate? Drop it below — I want to know if I'm embarrassing myself.",
+    "threads_text": "100 cold emails go out at 1pm every day, automatically, to rental agents I scraped myself. 3-sequence flow, replies hit a real inbox I check every morning. Built it while employed full-time. Zero paying customers so far. What's your cold email open rate? Genuinely asking.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I am cold emailing **8,471 strangers.** Automatically. Here is what I built.",
+        "sub_text": "Automated while working full-time, with no agency and no budget.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Not a blast. Not random. The same time, every day.",
+        "stat_number": "100",
+        "stat_label": "cold emails sent automatically at 1pm, every single day",
+        "bubble": "I feel like a spammer. I also feel like this is the only option I have right now."
+      },
+      {
+        "type": "content",
+        "main_text": "I built **the scraper, sequences, and send logic** myself.",
+        "sub_text": "No agency. No contractor. Just me, Claude, and a lot of trial and error. Non-coder. Vibe coding. It works, somehow.",
+        "sub_text_2": null,
+        "bubble": "I cannot explain how half of it works. It just does."
+      },
+      {
+        "type": "content",
+        "main_text": "**3 sequences.** Day 1 intro. Day 4 follow-up. Day 8 final.",
+        "sub_text": "Each one is short. No fluff. I wrote them the way I'd want to be emailed.",
+        "sub_text_2": null,
+        "bubble": "Day 8 email is the one I'd be most embarrassed for someone to screenshot."
+      },
+      {
+        "type": "content",
+        "main_text": "**Reply-to goes to a real inbox** I check every morning.",
+        "sub_text": "If someone writes back, it lands with me directly. No automation handles the reply. That part is still just me.",
+        "sub_text_2": null,
+        "bubble": "Zero replies so far. Which is its own kind of feedback."
+      },
+      {
+        "type": "content",
+        "main_text": "This is what **distribution looks like with no budget and no audience.**",
+        "sub_text": "You scrape. You write. You send. You wait. It is live. Zero paying customers.",
+        "sub_text_2": null,
+        "bubble": "The gap between 'built it' and 'anyone cares' is larger than I expected."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Cold outreach is not glamorous.** It is just work nobody is watching yet.",
+        "sub_text": "Still running. Still not sure this is the right call.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "If you have done cold email before, drop your open rate. I need a benchmark."
+      }
+    ],
+    "images": [
+      "content/images/1784098611098/slide-01.png",
+      "content/images/1784098611098/slide-02.png",
+      "content/images/1784098611098/slide-03.png",
+      "content/images/1784098611098/slide-04.png",
+      "content/images/1784098611098/slide-05.png",
+      "content/images/1784098611098/slide-06.png",
+      "content/images/1784098611098/slide-07.png"
+    ],
+    "engagement": null
+  },
+  {
+    "id": "1784098674212",
+    "plan_day": 30,
+    "date": "2026-07-15",
+    "topic": "building-in-public",
+    "angle": "I showed my product to 4 people before it was ready. Two said they would pay. Neither has.",
+    "status": "approved",
+    "theme": "Building in public",
+    "caption": "Showed it before it was ready. Two people said they'd pay. Neither has. Have you ever shown something unfinished and had someone say they'd buy it — did they actually? Drop a yes or no below.",
+    "threads_text": "Showed it to 4 agents before it was ready. Broken layout, confusing onboarding, three features that half-worked. Two said they'd pay for it. Neither has. 'I would pay for this' and actually paying are completely different sentences. Still figuring out which one to trust.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I showed **it** to 4 people before it was ready. **Two said they would pay. Neither has.**",
+        "sub_text": "Broken layout, half-finished features, and I showed it anyway.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Agents I showed it to before it was ready",
+        "stat_number": "4",
+        "stat_label": "real humans. real feedback. zero paying customers.",
+        "bubble": "I polished one screen for two hours before the demo. They spent 40 seconds on it."
+      },
+      {
+        "type": "content",
+        "main_text": "It was **not ready**. I showed it anyway.",
+        "sub_text": "Broken mobile layout. Confusing onboarding. Three features that half-worked. Waiting for perfect is just waiting forever with extra steps.",
+        "sub_text_2": null,
+        "bubble": "I kept thinking one more fix and then I'll show it. That was three months ago."
+      },
+      {
+        "type": "content",
+        "main_text": "The feedback was useful. The **silence after** was more useful.",
+        "sub_text": "People tell you what they think when you're in the room. What they do when you leave tells you the truth.",
+        "sub_text_2": null,
+        "bubble": "Neither of them followed up. I checked my inbox more than I'd like to admit."
+      },
+      {
+        "type": "content",
+        "main_text": "**\"I would pay for this\"** and actually paying are completely different things.",
+        "sub_text": "I know that intellectually. I believed them anyway.",
+        "sub_text_2": null,
+        "bubble": "Still zero paying customers. The cold email campaign is running. We'll see."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Show it **before you're ready**. But don't count the compliments.",
+        "sub_text": "The only signal that matters is someone typing in their card details.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Have you shown something unfinished and had someone say they'd buy it — did they actually? Yes or no."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
     "id": "1782739907006",
     "date": "2026-06-29",
     "topic": "founder-journey",
@@ -445,7 +1125,7 @@
     "date": "2026-07-02",
     "topic": "navigating-career",
     "angle": "I left the best job title I will probably ever have. Here is what nobody tells you comes next.",
-    "status": "pending",
+    "status": "posted",
     "theme": "Navigating career",
     "caption": "I walked away from a job title that used to speak for me.\n\nMost people warned me about the pay cut. Nobody warned me about the identity part.\n\nWhat happens when your entire personality was \"consultant at [firm]\" and then suddenly it isn't?\n\nHave you ever left a prestigious job for something uncertain? What pushed you?",
     "threads_text": "I walked away from a job title that used to speak for me.\n\nEveryone warned me about the pay cut. Nobody warned me half my personality was just the firm name.\n\nNow when people ask what I do, I have no clean answer. Nobody prepares you for that.\n\nEver left a prestigious job for something unknown? What pushed you?",
@@ -505,218 +1185,12 @@
       "content/images/day2-career/slide-06.png",
       "content/images/day2-career/slide-07.png"
     ],
-    "engagement": null
-  },
-  {
-    "id": "1782911115672",
-    "plan_day": 3,
-    "date": "2026-07-01",
-    "topic": "navigating-career",
-    "angle": "MBB taught me one skill that transfers to startups. Everything else I had to unlearn.",
-    "status": "pending",
-    "theme": "Navigating career",
-    "caption": "MBB taught me one skill that actually transfers to startups. The rest I had to unlearn, and some of it took embarrassingly long.\n\nSwipe to see what stuck and what didn't.\n\nWhat's the one skill from your current job that would help in a startup?",
-    "threads_text": "One skill from consulting transfers to startups. Everything else I had to unlearn.\n\nThe dangerous one: mistaking analysis for action. I was very good at being thorough. Startups don't reward thorough. They reward moving.\n\nWhat's the one skill from your job that would actually help in a startup?",
-    "slides": [
-      {
-        "type": "hook",
-        "main_text": "MBB taught me **one skill** that transfers to startups.",
-        "sub_text": "Everything else I had to unlearn, and some of it took longer than I expected.",
-        "bubble": null
-      },
-      {
-        "type": "stat",
-        "sub_text": "Number of skills from 5 years of consulting I use every single day building this",
-        "stat_number": "1",
-        "stat_label": "just one skill made the cut",
-        "bubble": "I thought it would be more. It is not more."
-      },
-      {
-        "type": "content",
-        "main_text": "**Structuring the problem** breaks into three things.",
-        "sub_text": "Ask the right question. Set the right goal. Get the right capability. I used to skip straight to solving.",
-        "bubble": "I spent years being the person with the smart-sounding answer. Still unlearning that."
-      },
-      {
-        "type": "content",
-        "main_text": "First: **asking the right question.**",
-        "sub_text": "A right question is specific enough to be wrong. Not \"how do we grow,\" but \"why did the last 10 people say no.\"",
-        "bubble": "I used to ask questions that sounded smart in a room and meant nothing once I sat down alone to actually build."
-      },
-      {
-        "type": "content",
-        "main_text": "Second: **setting the right goal.**",
-        "sub_text": "A right goal is a number you can hit or miss by Friday, not a five-year vision. Consulting trained me to set goals that sound good in a deck.",
-        "bubble": "My first goal for this was \"grow steadily.\" That is not a goal. That is a wish."
-      },
-      {
-        "type": "content",
-        "main_text": "Third: **getting the right capability.**",
-        "sub_text": "In plain terms: do you actually have someone who can do the thing, not someone who can explain why it's hard.",
-        "bubble": "I cannot design, cannot really code, cannot sell yet. Some days that gap feels bigger than the idea itself."
-      },
-      {
-        "type": "content",
-        "main_text": "The dangerous habit: **mistaking analysis for action**",
-        "sub_text": "Consulting pays you to be right, not fast. Startups reward people who move; being thorough while the runway burns is just expensive thinking.",
-        "bubble": "I have 8,471 agents scraped and zero paying customers. Analysis did not cause that. But it did not help either."
-      },
-      {
-        "type": "conclusion",
-        "main_text": "**One skill transfers. The rest is dead weight.**",
-        "sub_text": "Figure out which habits your current job is rewarding that a startup would punish.",
-        "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "Still working on this myself. 100 cold emails a day right now, hoping structure beats inertia."
-      }
-    ],
-    "images": [
-      "content/images/1782911115672/slide-01.png",
-      "content/images/1782911115672/slide-02.png",
-      "content/images/1782911115672/slide-03.png",
-      "content/images/1782911115672/slide-04.png",
-      "content/images/1782911115672/slide-05.png",
-      "content/images/1782911115672/slide-06.png",
-      "content/images/1782911115672/slide-07.png",
-      "content/images/1782911115672/slide-08.png"
-    ],
-    "engagement": null
-  },
-  {
-    "id": "day4-career",
-    "plan_day": 4,
-    "date": "2026-07-02",
-    "topic": "navigating-career",
-    "angle": "Consulting trained me to be excellent at things that do not matter. Startups cured me of this. Slowly.",
-    "status": "pending",
-    "theme": "Navigating career",
-    "caption": "MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.\n\nI spent years getting very good at the wrong things. The transition was humbling.\n\nWhat is something you optimised perfectly that turned out not to matter?",
-    "threads_text": "MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.\n\nI spent years getting good at the wrong things.\n\nWhat is something you optimised perfectly that turned out not to matter?",
-    "slides": [
-      {
-        "type": "hook",
-        "main_text": "Consulting trained me to be **excellent at things that do not matter.**",
-        "sub_text": "Startups cured me of this. Slower than I expected.",
-        "bubble": null
-      },
-      {
-        "type": "stat",
-        "sub_text": "Hours I spent on slide decks that changed nothing at the client",
-        "stat_number": "200",
-        "stat_label": "hours on slides that moved nothing",
-        "bubble": "Conservative estimate. I am being kind to myself."
-      },
-      {
-        "type": "content",
-        "main_text": "The client **decided in 10 minutes.** The deck took 3 weeks.",
-        "sub_text": "Pixel-perfect transitions, consistent font hierarchy, an appendix nobody opened. The decision was made before we even walked in.",
-        "bubble": "I once spent two days aligning boxes on a slide. Two days."
-      },
-      {
-        "type": "content",
-        "main_text": "The **consultant trap:** effort feels like impact because it looks like impact.",
-        "sub_text": "Hours in, polished output, rigorous process. But output is not outcome. Consulting rewards performing work; startups punish it.",
-        "bubble": "Nobody claps for your framework if the thing does not ship."
-      },
-      {
-        "type": "content",
-        "main_text": "A **working feature** beats a perfect plan. Every single time.",
-        "sub_text": "It is live. Zero paying customers, two working features. More real than any deck I ever made.",
-        "bubble": "My first pitch deck had 14 slides. The product had 2 working features. I had the order wrong."
-      },
-      {
-        "type": "content",
-        "main_text": "The moment I realised I was **optimising for the wrong thing.**",
-        "sub_text": "I caught myself rewriting copy on a landing page nobody had visited. Classic consultant move: polish the thing, avoid the scary one.",
-        "bubble": "The scary thing was sending the cold email. The copy was fine."
-      },
-      {
-        "type": "conclusion",
-        "main_text": "**Excellent execution** on the wrong thing is still the wrong thing.",
-        "sub_text": "The skill is not doing things well. It is picking the right things to do at all.",
-        "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "What did you optimise perfectly that turned out not to matter?"
-      }
-    ],
-    "images": [
-      "content/images/day4-career/slide-01.png",
-      "content/images/day4-career/slide-02.png",
-      "content/images/day4-career/slide-03.png",
-      "content/images/day4-career/slide-04.png",
-      "content/images/day4-career/slide-05.png",
-      "content/images/day4-career/slide-06.png",
-      "content/images/day4-career/slide-07.png"
-    ],
-    "engagement": null
-  },
-  {
-    "id": "day8-career",
-    "plan_day": 8,
-    "date": "2026-07-02",
-    "topic": "navigating-career",
-    "angle": "A startup taught me something consulting never did. It was not what I expected.",
-    "status": "pending",
-    "theme": "Navigating career",
-    "caption": "A startup taught me something consulting never did.\n\nI spent years in MBB learning to move fast. Tight deadlines, late nights, decks at 11:59pm. Turns out that was not fast.\n\nAt a startup, fast means something else. Seeing it up close, I felt lied to.\n\nWhat is the biggest speed difference you have noticed between big and small company?",
-    "threads_text": "A startup taught me something consulting never did.\n\nIn consulting, moving fast meant finishing the deck before the client walked in.\n\nAt a startup, moving fast means shipping before someone else does.\n\nVery different stakes. Very different clock.\n\nWhat is the biggest speed gap you have noticed between big and small company?",
-    "slides": [
-      {
-        "type": "hook",
-        "main_text": "A startup taught me something **consulting never did.**",
-        "sub_text": "Speed. Real speed.",
-        "bubble": null
-      },
-      {
-        "type": "stat",
-        "sub_text": "Hours from idea to shipped at a startup vs weeks in consulting",
-        "stat_number": "48",
-        "stat_label": "hours",
-        "bubble": "I once spent 3 weeks on a deliverable a startup would have shipped, iterated, and shipped again."
-      },
-      {
-        "type": "content",
-        "main_text": "In consulting, **moving fast** means finishing the deck before the client meeting.",
-        "sub_text": "The urgency is real. The output is a PowerPoint, and nobody is shipping anything.",
-        "bubble": "Slides do not go live. Code does."
-      },
-      {
-        "type": "content",
-        "main_text": "At a startup, **moving fast** means shipping before someone else does.",
-        "sub_text": "The competitor is not in the room. They are already building.",
-        "sub_text_2": null,
-        "bubble": "The clock is always running. You just cannot see it."
-      },
-      {
-        "type": "content",
-        "main_text": "First time I saw a feature go from **Slack message to live** in two days.",
-        "sub_text": "I genuinely did not know that was possible.",
-        "sub_text_2": null,
-        "bubble": "I asked if that was normal. Everyone looked at me like I was slow."
-      },
-      {
-        "type": "content",
-        "main_text": "**Speed is a competitive advantage.** Slowness is a silent killer.",
-        "sub_text": "You do not feel it until someone else is already three versions ahead of you.",
-        "sub_text_2": null,
-        "bubble": "It is live. Zero paying customers. But it is live. That part matters."
-      },
-      {
-        "type": "conclusion",
-        "main_text": "Consulting taught me **structure.** A startup taught me to **ship the thing.**",
-        "sub_text": "Both matter. But only one of them compounds.",
-        "follow_cta": "Follow to know what happens next or save this for later.",
-        "bubble": "What is the biggest speed difference you have noticed between big company and small company?"
-      }
-    ],
-    "images": [
-      "content/images/day8-career/slide-01.png",
-      "content/images/day8-career/slide-02.png",
-      "content/images/day8-career/slide-03.png",
-      "content/images/day8-career/slide-04.png",
-      "content/images/day8-career/slide-05.png",
-      "content/images/day8-career/slide-06.png",
-      "content/images/day8-career/slide-07.png"
-    ],
-    "engagement": null
+    "engagement": null,
+    "posted_at": "2026-07-12T14:02:03.825Z",
+    "threads_id": "18054322742604949",
+    "threads_carousel_id": "17958340854170843",
+    "instagram_id": "17902679676464615",
+    "instagram_story_id": null
   },
   {
     "id": "day7-career",
@@ -724,7 +1198,7 @@
     "date": "2026-07-02",
     "topic": "navigating-career",
     "angle": "I spent 5 years making slides for clients. Not one of them shipped anything people could use.",
-    "status": "pending",
+    "status": "skipped",
     "theme": "Navigating career",
     "caption": "5 years of slides. None shipped anything real.\n\nConsulting teaches you to think clearly and communicate well. It does not teach you to build.\n\nThe first time I pushed something to production, nobody saw it. I was happier than any client presentation I gave.\n\nWhat have you shipped that you are proud of, even if nobody saw it?",
     "threads_text": "5 years of slides. Zero shipped anything real.\n\nConsulting teaches you to think clearly and communicate well. It does not teach you to build.\n\nThe first time I pushed something to production, nobody saw it. I was happier than any client presentation I gave.\n\nWhat have you shipped that you are proud of, even if nobody saw it?",
@@ -750,10 +1224,10 @@
       },
       {
         "type": "content",
-        "main_text": "The **product** reveals whether your thinking was right. The slide never does.",
+        "main_text": "**kakisewa** reveals whether your thinking was right. The slide never does.",
         "sub_text": "A client can nod at a deck. Real users just leave.",
         "sub_text_2": null,
-        "bubble": "Zero paying customers so far. The product is being very honest with me."
+        "bubble": "Zero paying customers so far. kakisewa is being very honest with me."
       },
       {
         "type": "content",
@@ -949,8 +1423,8 @@
     "angle": "Consulting actively trains you to be a terrible founder. I am proving this in real time.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "Consulting gives you a great salary and a terrible founder brain.\n\nI have three reasons why, and I have lived all three.\n\nI did not notice any of them until I was already building kakisewa and making the mistakes in real time.\n\nWhat habit from your job would hurt you as a founder?",
-    "threads_text": "Consulting gives you a great salary and a terrible founder brain.\n\nThree reasons, and I have lived all three.\n\nI did not notice until I was already building kakisewa and making the mistakes in real time.\n\nWhat habit from your job would hurt you as a founder?",
+    "caption": "Consulting gives you a great salary and a terrible founder brain.\n\nI have three reasons why, and I have lived all three.\n\nI did not notice any of them until I was already building it and making the mistakes in real time.\n\nWhat habit from your job would hurt you as a founder?",
+    "threads_text": "Consulting gives you a great salary and a terrible founder brain.\n\nThree reasons, and I have lived all three.\n\nI did not notice until I was already building it and making the mistakes in real time.\n\nWhat habit from your job would hurt you as a founder?",
     "slides": [
       {
         "type": "hook",
@@ -968,23 +1442,23 @@
       {
         "type": "content",
         "main_text": "Reason 1: You are **wired to reduce risk,** not take it.",
-        "sub_text": "Consulting rewards you for spotting what can go wrong and building a slide about it.",
-        "sub_text_2": "Founding rewards you for shipping anyway. These are opposite instincts.",
+        "sub_text": "Consulting rewards you for spotting what can go wrong and building a slide about it. Founding rewards you for shipping anyway. These are opposite instincts.",
+        "sub_text_2": null,
         "bubble": "I have a 3-tab spreadsheet analysing cold email risk. I should have just sent the emails two weeks earlier."
       },
       {
         "type": "content",
         "main_text": "Reason 2: You are used to **clients defining the problem.**",
-        "sub_text": "In consulting, someone hands you the question. Your job is to answer it well.",
-        "sub_text_2": "As a founder, choosing the right problem to solve is the whole job. Nobody hands you that.",
-        "bubble": "I kept waiting for my users to tell me exactly what to build. They do not know either. That was a surprise."
+        "sub_text": "In consulting, someone hands you the question. As a founder, choosing the right problem is the whole job.",
+        "sub_text_2": null,
+        "bubble": "I kept waiting for my users to tell me exactly what to build. They do not know either."
       },
       {
         "type": "content",
         "main_text": "Reason 3: Optimised for **looking right,** not being right.",
-        "sub_text": "MBB trains you to never walk into a room without the answer already locked.",
-        "sub_text_2": "Founding means being publicly wrong, repeatedly, and updating fast. The deck is never done.",
-        "bubble": "kakisewa.com is live. Zero paying customers. This post exists. Make of that what you will."
+        "sub_text": "MBB trains you to never walk into a room without the answer already locked. Founding means being publicly wrong, repeatedly, and updating fast. The deck is never done.",
+        "sub_text_2": null,
+        "bubble": "It's live. Zero paying customers. This post exists. Make of that what you will."
       },
       {
         "type": "conclusion",
@@ -1012,33 +1486,33 @@
     "angle": "I shipped my first product and felt like a fraud the whole time. Nobody warned me about this part.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "I shipped kakisewa and told exactly zero people about it for two weeks.\n\nNot because I was doing a quiet launch strategy. Because I was terrified.\n\nImposter syndrome when you're a founder hits different from when you're a consultant. In consulting, someone above you signs off. Someone validates the work. The deck gets approved. You're protected by the process.\n\nWhen it's your product, there's no one to approve it. It's just you and whatever you built and the very real possibility that it reflects exactly how you think — and your thinking is wrong.\n\nI pushed through it the only way I knew how. Shipped anyway. Waited for the market to tell me I was an idiot.\n\nStill waiting, honestly. But at least the thing exists now.\n\nHave you ever felt like a fraud doing something you were actually capable of? Comment below.",
-    "threads_text": "I shipped my first product and felt like a fraud the whole time.\n\nNot imposter syndrome in the vague motivational poster sense. The specific kind where you've built something that is a direct reflection of how you think, and you're not sure your thinking is good.\n\nTold zero people for two weeks after launch.\n\nHave you ever felt like a fraud doing something you were actually capable of?",
+    "caption": "I shipped it and told nobody for two weeks. Terrified, not strategic.\n\nFounder imposter syndrome is different. No one signs off on your work anymore. It's just you.\n\nShipped anyway. Still waiting for the market to prove me wrong.\n\nDo you feel like a fraud doing work you're capable of? Vote: often / sometimes / never",
+    "threads_text": "I shipped it and felt like a fraud the whole time.\n\nNot the vague motivational-poster kind. The specific kind where it is a direct reflection of how you think, and you're not sure your thinking is good.\n\nTold zero people for two weeks.\n\nEver felt like a fraud doing something you were actually capable of?",
     "slides": [
       {
         "type": "hook",
-        "main_text": "I shipped my first product and felt like a **fraud** the whole time.",
+        "main_text": "I shipped **it** and felt like a fraud the whole time.",
         "sub_text": "Nobody warned me this part was coming.",
         "bubble": null
       },
       {
         "type": "stat",
-        "sub_text": "Number of people I told about the product for the first two weeks after launch",
+        "sub_text": "Number of people I told about it for the first two weeks after launch",
         "stat_number": "0",
-        "stat_label": "people who knew kakisewa existed",
+        "stat_label": "people who knew it existed",
         "bubble": "Not a strategy. Just fear with a good excuse."
       },
       {
         "type": "content",
         "main_text": "Imposter syndrome hits **differently** when you're the founder.",
-        "sub_text": "In consulting, someone above you validated the work. The deck got approved. You were covered.",
-        "sub_text_2": "Here, no one signs off. It's just you.",
+        "sub_text": "In consulting, someone above you validated the work. The deck got approved. You were covered. Here, no one signs off. It's just you.",
+        "sub_text_2": null,
         "bubble": "I genuinely missed having a senior partner to blame."
       },
       {
         "type": "content",
-        "main_text": "The product is a **direct reflection of your thinking.**",
-        "sub_text": "That's what makes it terrifying. If the product is wrong, you're wrong.",
+        "main_text": "It is a **direct reflection of your thinking.**",
+        "sub_text": "That's what makes it terrifying. If it is wrong, I'm wrong.",
         "sub_text_2": null,
         "bubble": "Years of MBB training and I still wasn't ready for this specific feeling."
       },
@@ -1068,13 +1542,13 @@
     "angle": "The alumni network sounds powerful. Here is what it is actually useful for when you are building.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "Everyone says the alumni network is your biggest asset when you start something.\n\nHere is what mine has actually been useful for — and where it completely fell flat.\n\nHonest answer: 2 meaningful intros from my entire consulting network. That is it.\n\nThe network is real. The problems I am solving just do not match who is in it.\n\nWhat network has actually been useful for your work — alumni, industry, or online? Comment below.",
-    "threads_text": "The alumni network sounds powerful. Here is what it is actually useful for when you are building.\n\nI asked a former McKinsey colleague for cold email strategy advice. He had never sent a cold email in his life.\n\nCredibility? Yes. Warm intros to property agents in Malaysia? Absolutely not.\n\nWhat network has actually moved the needle for you — alumni, industry, or something else?",
+    "caption": "Everyone says the alumni network is your biggest asset when you start something. Mine gave me 2 meaningful intros. That's it.\n\nThe network is real. The problems I'm solving just don't match who's in it.\n\nWhat network has actually moved your work forward? Vote: alumni / industry contacts / online / none yet",
+    "threads_text": "My MBB network got me 2 warm intros in years of connections. Here's what it's actually useful for.\n\nI asked a former McKinsey colleague for cold email advice. He'd never sent a cold email in his life.\n\nCredibility? Yes. Warm intros to property agents in Malaysia? Not even close.\n\nWhat network has actually moved the needle for you?",
     "slides": [
       {
         "type": "hook",
-        "main_text": "The alumni network sounds powerful. Here is what it is **actually useful for** when you are building.",
-        "sub_text": "Honest answer: yes and no, and the split is not where you expect it.",
+        "main_text": "My MBB network got me **2 warm intros** in years of connections.",
+        "sub_text": "Here's what the alumni network is actually useful for when you're building.",
         "bubble": null
       },
       {
@@ -1087,37 +1561,37 @@
       {
         "type": "content",
         "main_text": "It does help with **credibility signals** and warm intros to people who will take your call",
-        "sub_text": "If you need someone to reply to a cold LinkedIn message, the MBB brand still works.",
-        "sub_text_2": "Getting a first meeting is easier. That part is real.",
+        "sub_text": "If you need someone to reply to a cold LinkedIn message, the MBB brand still works. Getting a first meeting is easier. That part is real.",
+        "sub_text_2": null,
         "bubble": "Useful for doors. Less useful for what happens after you walk through them."
       },
       {
         "type": "content",
         "main_text": "The problem: **nobody in my consulting network is a property agent**",
-        "sub_text": "kakisewa.com is built for Malaysian rental agents. My network is bankers, consultants, and ex-consultants.",
-        "sub_text_2": "That is why I scraped 8,471 agents and set up cold email. The warm intro path does not exist here.",
+        "sub_text": "What I am building is for Malaysian rental agents. My network is bankers and consultants — the warm intro path does not exist here.",
+        "sub_text_2": null,
         "bubble": "I asked a former McKinsey colleague for cold email strategy advice. He had never sent a cold email in his life."
       },
       {
         "type": "content",
         "main_text": "The alumni network is **built for corporate problems**, not startup problems",
-        "sub_text": "Corporate problems: navigating org politics, landing a role, getting a reference.",
-        "sub_text_2": "Startup problems: finding your first 10 customers, pricing a product nobody has heard of.",
+        "sub_text": "Corporate problems: politics, landing a role. Startup problems: finding your first 10 customers.",
+        "sub_text_2": null,
         "bubble": "Different game. The playbook does not transfer the way everyone implies it does."
       },
       {
         "type": "content",
         "main_text": "**Build the right network** for what you are actually doing",
-        "sub_text": "For kakisewa, the useful people are property agents, PropTech founders, and people who have done B2B sales to fragmented markets.",
-        "sub_text_2": "Most of them are not in any alumni directory I have access to.",
-        "bubble": "Currently finding more useful people on X and Reddit than anywhere else. Make of that what you will."
+        "sub_text": "For this, the useful people are property agents and people who have done B2B sales to fragmented markets.",
+        "sub_text_2": null,
+        "bubble": "Finding more useful people on X and Reddit than anywhere else."
       },
       {
         "type": "conclusion",
-        "main_text": "Your alumni network is an **asset with a specific use case** — know what it is and is not",
-        "sub_text": "Mine is useful for credibility and corporate doors. For selling to property agents in Malaysia, I am on my own.",
+        "main_text": "Your alumni network has a **specific use case.** Know what it is.",
+        "sub_text": "Useful for credibility and doors. For selling to agents in Malaysia, I am on my own.",
         "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "What network has actually been useful for your work — alumni, industry, or online? Comment below."
+        "bubble": "What network has actually moved your work forward? Vote above."
       }
     ],
     "images": [],
@@ -1279,8 +1753,8 @@
     "angle": "Everyone says quit and go all in. Here is why I have not. It is not fear.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "Everyone says quit your job and go all in. I have not. And it is not fear — it is math.\n\nI ran the numbers. The job funds the experiment. The experiment might make the job optional one day.\n\nHave you ever gone all in on something? What made you pull the trigger? Comment below.",
-    "threads_text": "Everyone says go all in and quit your job. I have not, and it is not fear. I have 8,471 agents scraped, 100 cold emails going out daily, zero paying customers, and a full-time job that keeps the lights on while I find out if this works. Going all in is romantic. Going broke is not. Have you ever quit something stable to bet on yourself?",
+    "caption": "Everyone says quit your job and go all in. I have not. It's not fear, it's math.\n\nI ran the numbers. The job funds the experiment, which might make the job optional one day.\n\nHave you ever gone all in on something? Vote: yes / not yet / thinking about it / never would",
+    "threads_text": "Everyone says go all in and quit your job. I have not, and it's not fear.\n\n8,471 agents scraped, 100 cold emails going out daily, zero paying customers — while a job keeps the lights on.\n\nGoing all in is romantic. Going broke is not.\n\nHave you ever quit something stable to bet on yourself?",
     "slides": [
       {
         "type": "hook",
@@ -1298,8 +1772,8 @@
       {
         "type": "content",
         "main_text": "**Runway is not a vibe.** It is a number.",
-        "sub_text": "Savings divided by monthly burn. That is it.",
-        "sub_text_2": "Mine does not survive long enough to wait out a slow B2B sales cycle.",
+        "sub_text": "Savings divided by monthly burn. That is it. Mine does not survive long enough to wait out a slow B2B sales cycle.",
+        "sub_text_2": null,
         "bubble": "I did the spreadsheet. It was not encouraging."
       },
       {
@@ -1312,15 +1786,15 @@
       {
         "type": "content",
         "main_text": "The job **funds the experiment.**",
-        "sub_text": "The experiment might one day make the job optional.",
-        "sub_text_2": "Right now kakisewa.com is live, 8,471 agents are in the pipeline, and I have zero paying customers. The job stays.",
+        "sub_text": "The experiment might one day make the job optional. Right now it is live, 8,471 agents are in the pipeline, and I have zero paying customers. The job stays.",
+        "sub_text_2": null,
         "bubble": "This is not settling. This is not running out of money before getting an answer."
       },
       {
         "type": "content",
         "main_text": "I will quit when I hit a **specific revenue number.** Not a feeling.",
-        "sub_text": "Not when it feels right. Not when I feel confident enough.",
-        "sub_text_2": "A milestone. A real one. Written down.",
+        "sub_text": "Not when it feels right. Not when I feel confident enough. A milestone. A real one. Written down.",
+        "sub_text_2": null,
         "bubble": "Feelings are not a financial plan."
       },
       {
@@ -1328,7 +1802,7 @@
         "main_text": "**Going all in** only makes sense when the math says you can survive being wrong.",
         "sub_text": "Until then, the job is not the enemy. It is the bet hedge.",
         "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "Have you ever gone all in on something? What made you pull the trigger? Comment below."
+        "bubble": "Have you ever gone all in on something? Vote below — what made you pull the trigger?"
       }
     ],
     "images": [],
@@ -1342,7 +1816,7 @@
     "angle": "If I could go back, would I take the consulting job again? The honest answer surprised me.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "If I could go back, would I take the consulting job again?\n\nHonest answer: yes. And also I would leave it sooner.\n\nBoth things are true.\n\nSwipe for the full breakdown — what MBB actually gave me, and the one thing I wish I had done differently.\n\nIs there a job or decision you would go back and do again — just differently? Comment below.",
+    "caption": "If I could go back, would I take the consulting job again?\n\nHonest answer: yes. And I'd leave it sooner. Both are true.\n\nSwipe for what MBB gave me, and the one thing I'd do differently.\n\nWould you take your last big career decision again? Vote: yes, exactly the same / yes, but sooner exit / no, different choice",
     "threads_text": "If I could go back, would I take the consulting job again?\n\nI thought the answer was obvious. It wasn't.\n\nYes — but I would leave one year earlier. The credential opens doors. The experience builds a pattern library. But staying too long is its own tax.\n\nWould you take your last big career decision again, just differently?",
     "slides": [
       {
@@ -1361,30 +1835,30 @@
       {
         "type": "content",
         "main_text": "I would take it again — for what it taught me to **see**, not what it taught me to **do**",
-        "sub_text": "Frameworks are fine. But the real output is pattern recognition.",
-        "sub_text_2": "You stop seeing problems as new. You start seeing them as variations of something you have already solved.",
-        "bubble": "This is the thing nobody tells you before you join. The decks are not the point."
+        "sub_text": "Frameworks are fine. The real output is pattern recognition — problems stop looking new.",
+        "sub_text_2": null,
+        "bubble": "Nobody tells you this before you join. The decks are not the point."
       },
       {
         "type": "content",
         "main_text": "The **credential** opened doors. The **experience** built the library.",
-        "sub_text": "MBB on a CV gets you in the room. What you did inside the work is what you actually keep.",
-        "sub_text_2": "I use that pattern library every time I scope kakisewa — what is the real problem, who owns it, what does a good enough solution look like.",
-        "bubble": "Genuinely did not expect consulting to be useful when I am cold emailing 8,471 rental agents. And yet."
+        "sub_text": "MBB on a CV gets you in the room. What you actually keep is the pattern library.",
+        "sub_text_2": null,
+        "bubble": "Genuinely did not expect consulting to help with cold emailing 8,471 rental agents. And yet."
       },
       {
         "type": "content",
         "main_text": "What I would change: **leave one year earlier**",
-        "sub_text": "The last year was mostly repetition with a better title.",
-        "sub_text_2": "You know when you have learned everything the environment has to offer. Most people stay anyway. I did.",
-        "bubble": "One year does not sound like much until you are building something at 11pm after a full day at Tarro and you think — okay, that year mattered."
+        "sub_text": "The last year was mostly repetition with a better title. I stayed long after I had learned what the place could teach me.",
+        "sub_text_2": null,
+        "bubble": "One year does not sound like much until you are building something at 11pm and you realise it mattered."
       },
       {
         "type": "conclusion",
         "main_text": "The question is not \"was it worth it\" — it is \"**what did you do with what you learned**\"",
         "sub_text": "The job is an input. What you build after is the output.",
         "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "Is there a job or decision you would go back and do again — just differently? Comment below."
+        "bubble": "Is there a job or decision you'd go back and do again, just differently? Vote above."
       }
     ],
     "images": [],
@@ -1398,8 +1872,8 @@
     "angle": "I almost did not apply to MBB. My GPA was not good enough. Here is what I did instead.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "I almost did not apply to MBB. My GPA was not good enough — or so I thought.\n\nHere is how I actually got in anyway.\n\nHave you ever applied for something you thought you were not qualified for? Comment below.",
-    "threads_text": "I almost did not apply to MBB because my GPA was not good enough.\n\nThen someone told me the online portal is basically a filter — and referrals skip the filter.\n\nSpent 8 weeks doing cases with a stranger from LinkedIn. He got in too. We have never met in person.\n\nHave you ever applied for something you thought you were not qualified for?",
+    "caption": "I almost did not apply to MBB. My GPA was not good enough — or so I thought.\n\nHere is how I actually got in anyway.\n\nHave you ever applied for something you thought you weren't qualified for? Vote: yes, worked out / yes, it didn't / never dared to",
+    "threads_text": "I almost did not apply to MBB. My GPA wasn't good enough.\n\nSomeone told me the online portal is basically a filter, and referrals skip it.\n\nSpent 8 weeks doing cases with a stranger from LinkedIn. He got in too. We've never met in person.\n\nHave you ever applied for something you thought you weren't qualified for?",
     "slides": [
       {
         "type": "hook",
@@ -1417,22 +1891,22 @@
       {
         "type": "content",
         "main_text": "The **GPA filter** is real. But it is not the only door.",
-        "sub_text": "The online portal is where average applications go to die.",
-        "sub_text_2": "The actual move is getting someone inside to submit your name before you apply.",
+        "sub_text": "The online portal is where average applications go to die. The actual move is getting someone inside to submit your name before you apply.",
+        "sub_text_2": null,
         "bubble": "Nobody tells you this in university. I found out from a senior at a mamak."
       },
       {
         "type": "content",
         "main_text": "**Referrals** skip the filter entirely.",
-        "sub_text": "I cold messaged consultants on LinkedIn until one agreed to refer me.",
-        "sub_text_2": "It took maybe 15 messages to get one yes.",
+        "sub_text": "I cold messaged consultants on LinkedIn until one agreed to refer me. It took maybe 15 messages to get one yes.",
+        "sub_text_2": null,
         "bubble": "Most people do not ask because they assume the answer is no. The answer is sometimes yes."
       },
       {
         "type": "content",
         "main_text": "Case prep was **8 weeks of my life.** Some of it was useful.",
-        "sub_text": "Case in Point: read it once, never again. Victor Cheng videos: actually good.",
-        "sub_text_2": "The thing that actually worked was practising out loud with a real person every day.",
+        "sub_text": "Case in Point: read once, forgotten. What worked was practising out loud, daily, with a real person.",
+        "sub_text_2": null,
         "bubble": "I practised cases with a stranger from LinkedIn for 6 weeks. He got in too. We have never met in person."
       },
       {
@@ -1445,7 +1919,7 @@
         "type": "conclusion",
         "main_text": "The application process rewards **people who refuse to disqualify themselves.**",
         "sub_text": "Your GPA is a filter. It is not a verdict.",
-        "bubble": "Have you ever applied for something you thought you were not qualified for? Comment below."
+        "bubble": "Have you ever applied for something you thought you weren't qualified for? Vote above."
       }
     ],
     "images": [],
@@ -1459,13 +1933,13 @@
     "angle": "Inside MBB, your first year looks like this. Nobody puts this in the brochure.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "Nobody puts year one at MBB in the brochure. Here's what it actually looked like.\n\nWhat was the biggest gap between what you expected from a job and what it actually was? Comment below.",
-    "threads_text": "Year one at MBB. Nobody puts this part in the brochure.\n\nI expensed room service at midnight for the third time that week and felt nothing. That was the sign.\n\nWhat was the biggest gap between what you expected from a job and what it actually was?",
+    "caption": "70-hour weeks, year one at MBB. Nobody puts that in the brochure. Here's what it actually looked like.\n\nWhat was the biggest gap between what you expected from a job and what it actually was? Vote: hours / culture / pace / something else entirely",
+    "threads_text": "70-hour weeks, year one at MBB. Nobody puts that in the brochure.\n\nI expensed room service at midnight for the third time that week and felt nothing. That was the sign.\n\nWhat was the biggest gap between what you expected from a job and what it actually was?",
     "slides": [
       {
         "type": "hook",
-        "main_text": "Inside MBB, your first year looks like **this.**",
-        "sub_text": "The hours, the travel, the pressure, and the one thing that actually surprised me.",
+        "main_text": "**70-hour weeks**, year one at MBB. I did not notice until year two.",
+        "sub_text": "The travel, the pressure, and the one thing that actually surprised me.",
         "bubble": null
       },
       {
@@ -1478,8 +1952,8 @@
       {
         "type": "content",
         "main_text": "Day one: **thrown in with zero context,** expected to contribute immediately.",
-        "sub_text": "No ramp-up. No hand-holding. The deck is due Friday.",
-        "sub_text_2": "You figure it out or you figure it out.",
+        "sub_text": "No ramp-up. No hand-holding. The deck is due Friday. You figure it out or you figure it out.",
+        "sub_text_2": null,
         "bubble": "I Googled 'what is a waterfall chart' on my first project. True story."
       },
       {
@@ -1491,8 +1965,8 @@
       {
         "type": "content",
         "main_text": "The unspoken rule: **you are always on,** even when you are off.",
-        "sub_text": "Nobody says it out loud. Everyone just knows.",
-        "sub_text_2": "Your phone is not a phone. It is a leash with a good data plan.",
+        "sub_text": "Nobody says it out loud. Everyone just knows. Your phone is not a phone. It is a leash with a good data plan.",
+        "sub_text_2": null,
         "bubble": "I replied to a Slack message from the pool on a Saturday and called it a win."
       },
       {
@@ -1505,7 +1979,7 @@
         "type": "conclusion",
         "main_text": "MBB trains you hard. It just does not train you for **everything.**",
         "sub_text": "The gap between the brochure and the reality is where you actually learn.",
-        "bubble": "What was the biggest gap between what you expected from a job and what it actually was? Comment below."
+        "bubble": "What was the biggest gap between what you expected from a job and what it actually was? Vote above."
       }
     ],
     "images": [],
@@ -1519,7 +1993,7 @@
     "angle": "The anxiety inside MBB is not what you think. It is quieter. And harder to shake.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "The anxiety inside MBB is not what people imagine from the outside.\n\nIt is not the 80-hour weeks. It is not the decks. It is something quieter and harder to name.\n\nAnd nobody in the building is going to bring it up first.\n\nHave you ever felt like you did not belong somewhere everyone else seemed fine? Comment below.",
+    "caption": "The anxiety inside MBB is not what people imagine.\n\nIt's not the 80-hour weeks or the decks. It's something quieter, harder to name.\n\nNobody in the building brings it up first.\n\nHave you ever felt like you didn't belong somewhere everyone else seemed fine? Vote: yes, often / yes, once / never felt that way",
     "threads_text": "The anxiety inside MBB is not what you think. It is not the work. It is sitting in a room full of people who all seem completely fine, wondering if you are the only one who is not. Nobody says anything. So you assume you are the problem. Have you ever felt like that somewhere?",
     "slides": [
       {
@@ -1538,8 +2012,8 @@
       {
         "type": "content",
         "main_text": "Everyone around you is **exceptional.** That becomes the baseline.",
-        "sub_text": "When exceptional is average, you are not competing with a bar. You are competing with a room.",
-        "sub_text_2": "It does not feel inspiring. It feels like a slow drip of not enough.",
+        "sub_text": "When exceptional is average, you are not competing with a bar. You are competing with a room. It does not feel inspiring. It feels like a slow drip of not enough.",
+        "sub_text_2": null,
         "bubble": "You stop celebrating your own wins because someone next to you did it faster."
       },
       {
@@ -1559,16 +2033,16 @@
       {
         "type": "content",
         "main_text": "The culture of **not showing weakness** makes all of it worse.",
-        "sub_text": "Nobody talks about this out loud. So you assume everyone else is fine and you are the exception.",
-        "sub_text_2": "You are not the exception. But you will not find that out until years later.",
+        "sub_text": "Nobody talks about this out loud. So you assume everyone else is fine and you are the exception. You are not the exception. But you will not find that out until years later.",
+        "sub_text_2": null,
         "bubble": "The irony is everyone is doing the same performance and nobody is breaking first."
       },
       {
         "type": "conclusion",
-        "main_text": "The hardest part was not the work. It was **pretending the work was the hardest part.**",
+        "main_text": "The hardest part was not the work. It was **pretending it was.**",
         "sub_text": "If you felt out of place somewhere everyone else looked fine, it probably was not just you.",
         "follow_cta": "Follow to know what happens next or save this for later.",
-        "bubble": "Have you ever felt like you did not belong somewhere everyone else seemed fine? Comment below."
+        "bubble": "Have you ever felt like you did not belong somewhere everyone else seemed fine?"
       }
     ],
     "images": [],
@@ -1649,78 +2123,6 @@
     "threads_carousel_id": "17959163403169446",
     "instagram_id": "17998497863967239",
     "instagram_story_id": null
-  },
-  {
-    "id": "vibe-coding-tips-explore-plan",
-    "date": "2026-07-09",
-    "topic": "building-in-public",
-    "angle": "Building as a non-technical person is hell mode. Here is what makes it easier.",
-    "status": "pending",
-    "theme": "Building in public",
-    "caption": "Building as a non-technical person is hell mode. But there are real ways to make it easier.\n\nIf you do not understand it, Claude does not either. Ask Claude what it understands first, then refine from there.\n\nNever start with build. Explore first (real references, best practices). Then Plan (let Claude lay it all out). Then Execute.\n\nStop repeating yourself. A skill.md is just a saved instruction file. Type one word, Claude runs the whole process, every time.\n\nMCP is basically a cheat code. It is what lets Claude actually reach your database, browser, or docs, not just chat.\n\nNext post: the exact skills and MCPs I use to make sure the product actually ships.",
-    "threads_text": "Building as a non-technical person is hell mode. But there are real ways to make it easier.\n\nIf you do not understand it, Claude does not either. Ask what it understands first, refine from there.\n\nNever start with build. Explore, then Plan, then Execute.\n\nTurn repeated instructions into a skill.md. Type one word, Claude runs the whole process.\n\nMCP is basically a cheat code, it lets Claude actually reach your tools, not just chat.\n\nNext post: the exact skills and MCPs I use.",
-    "slides": [
-      {
-        "type": "hook",
-        "main_text": "Building as a **non-technical person** is hell mode.",
-        "sub_text": "But there are real ways to make it easier.",
-        "bubble": null
-      },
-      {
-        "type": "stat",
-        "title": "Three steps",
-        "sub_text": "The steps that changed how I build with AI.",
-        "stat_number": "3",
-        "stat_label": "steps that changed how I build with AI",
-        "bubble": "I wish someone had told me this before I burned a month figuring it out myself."
-      },
-      {
-        "type": "content",
-        "title": "Check understanding first",
-        "main_text": "If **you** do not understand it, Claude does not either.",
-        "sub_text": "Ask Claude what it understands first. Refine from there.",
-        "bubble": "I used to just paste an idea and hope. Now I check its understanding before it writes a line."
-      },
-      {
-        "type": "content",
-        "title": "Never start with build",
-        "main_text": "Explore. Then Plan. **Then Execute.**",
-        "sub_text": "Explore finds real references and best practices. Plan lets Claude lay it all out before touching anything.",
-        "bubble": "Skipping straight to build was my biggest month one mistake. Not an exaggeration."
-      },
-      {
-        "type": "content",
-        "title": "Stop repeating yourself",
-        "main_text": "Turn it into a **skill.md.**",
-        "sub_text": "A skill.md is just a saved instruction file. Type one word, Claude runs the whole process for you.",
-        "bubble": "I used to type the same three step instructions daily. Now I type one word."
-      },
-      {
-        "type": "content",
-        "title": "MCP is a cheat code",
-        "main_text": "**MCP** lets Claude actually reach your tools.",
-        "sub_text": "Your database, your browser, live docs, not just what you paste into chat.",
-        "bubble": "The day Claude checked my actual database and fixed a bug itself, I just sat back and watched."
-      },
-      {
-        "type": "conclusion",
-        "title": "What comes next",
-        "main_text": "Next up: **the exact skills and MCPs I use.**",
-        "sub_text": "So your product actually ships.",
-        "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "This is the toolkit I wish I had on day one."
-      }
-    ],
-    "images": [
-      "content/images/vibe-coding-tips-explore-plan/slide-01.png",
-      "content/images/vibe-coding-tips-explore-plan/slide-02.png",
-      "content/images/vibe-coding-tips-explore-plan/slide-03.png",
-      "content/images/vibe-coding-tips-explore-plan/slide-04.png",
-      "content/images/vibe-coding-tips-explore-plan/slide-05.png",
-      "content/images/vibe-coding-tips-explore-plan/slide-06.png",
-      "content/images/vibe-coding-tips-explore-plan/slide-07.png"
-    ],
-    "engagement": null
   },
   {
     "id": "vibe-coding-mcp-tools",
@@ -1807,7 +2209,7 @@
     "angle": "I knew I was going to leave MBB six months before I did. Here is what kept me.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "I knew I wanted to leave MBB six months before I actually did.\n\nThe resignation letter existed. I just kept deleting it.\n\nHere are the four things that kept me longer than they should have.\n\nHave you ever stayed somewhere longer than you should have? What kept you? Comment below.",
+    "caption": "I knew I wanted to leave MBB six months before I actually did.\n\nThe resignation letter existed. I just kept deleting it.\n\nHere are the four things that kept me longer than they should have.\n\nHave you ever stayed somewhere longer than you should have? Vote: the money / the people / sunk cost / fear of the unknown",
     "threads_text": "I knew I was leaving MBB six months before I did.\n\nWrote the resignation letter three times. Deleted it twice. Went back to work.\n\nThe things that kept me had nothing to do with the job itself.\n\nHave you ever stayed somewhere longer than you should have? What actually kept you?",
     "slides": [
       {
@@ -1826,29 +2228,29 @@
       {
         "type": "content",
         "main_text": "The **sunk cost** sat on my chest every morning.",
-        "sub_text": "Years of grinding to get in. Harder years grinding to stay in.",
-        "sub_text_2": "Leaving felt like admitting it was all for nothing. It was not. But it felt like it.",
+        "sub_text": "Years of grinding to get in. Harder years grinding to stay in. Leaving felt like admitting it was all for nothing. It was not. But it felt like it.",
+        "sub_text_2": null,
         "bubble": "Sunk cost fallacy is easy to explain. Much harder to logic your way out of when it is your own life."
       },
       {
         "type": "content",
         "main_text": "Nobody said anything. That was the problem. **The peer pressure was completely silent.**",
-        "sub_text": "Everyone around you seems fine. Energised, even.",
-        "sub_text_2": "So you start wondering if the problem is just you.",
+        "sub_text": "Everyone around you seems fine. Energised, even. So you start wondering if the problem is just you.",
+        "sub_text_2": null,
         "bubble": "Turns out everyone was having the same internal conversation. Nobody mentioned it at the time."
       },
       {
         "type": "content",
         "main_text": "The **salary** bought a lifestyle I had not planned to give up.",
-        "sub_text": "It is not even about being greedy. You just quietly restructure your life around the number.",
-        "sub_text_2": "Then leaving means dismantling things you have gotten used to. That is its own kind of friction.",
+        "sub_text": "You quietly restructure your life around the number. Leaving means dismantling what you got used to.",
+        "sub_text_2": null,
         "bubble": "I told myself I would leave once I had saved enough. The number kept moving."
       },
       {
         "type": "content",
         "main_text": "I was scared **nothing outside would match the people inside.**",
-        "sub_text": "The calibre of colleagues at MBB is genuinely unusual.",
-        "sub_text_2": "I did not know if I would find that again. I was not sure I deserved to assume I would.",
+        "sub_text": "The calibre of colleagues at MBB is genuinely unusual. I did not know if I would find that again. I was not sure I deserved to assume I would.",
+        "sub_text_2": null,
         "bubble": "For what it is worth, I have found sharp people everywhere since. But the fear felt very real at the time."
       },
       {
@@ -1856,7 +2258,7 @@
         "main_text": "Staying too long is not weakness. It is just **what happens when the costs are invisible and the fear is loud.**",
         "sub_text": "Most of what kept me was not logical. It was just heavy.",
         "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "Have you ever stayed somewhere longer than you should have? What kept you? Comment below."
+        "bubble": "What kept you? Vote above."
       }
     ],
     "images": [],
@@ -1870,7 +2272,7 @@
     "angle": "The day I handed in my resignation at MBB. I expected relief. I got something else.",
     "status": "pending",
     "theme": "Navigating career",
-    "caption": "I handed in my MBB resignation on a Tuesday. Wednesday was the worst day of the month.\n\nNobody tells you about the 48 hours after. The part where you're technically free but your brain is running a full audit on every decision you've ever made.\n\nThis is what actually happened.\n\nHave you ever made a big decision and immediately questioned it? Comment below.",
+    "caption": "I handed in my MBB resignation on a Tuesday. Wednesday was the worst day of the month.\n\nNobody tells you about the 48 hours after — technically free, but your brain audits every decision you've ever made.\n\nHave you ever made a big decision and immediately questioned it? Vote: yes, panicked / stayed calm / no regrets",
     "threads_text": "I resigned from MBB on a Tuesday. Wednesday was the worst day of the month.\n\nI was free. I had wanted this. I had planned for this.\n\nThen I googled 'can I take back a resignation letter' four times before lunch.\n\nAnyone else do something they 100% wanted to do and immediately panic? What was it?",
     "slides": [
       {
@@ -1889,37 +2291,716 @@
       {
         "type": "content",
         "main_text": "My manager said something I **did not expect**.",
-        "sub_text": "Not 'don't go.' Not a counter-offer. Just: 'I could tell you'd been thinking about this for a while.'",
-        "sub_text_2": "That one sentence made it feel more real than anything I had prepared for.",
+        "sub_text": "Not 'don't go.' Not a counter-offer. Just: 'I could tell you'd been thinking about this for a while.'. That one sentence made it feel more real than anything I had prepared for.",
+        "sub_text_2": null,
         "bubble": "I had a whole speech ready. Didn't need any of it."
       },
       {
         "type": "content",
         "main_text": "The team **didn't try to talk me out of it**. That was the strangest part.",
-        "sub_text": "No drama. No 'are you sure?' Just genuine good wishes.",
-        "sub_text_2": "I think I wanted someone to push back so I'd have a reason to feel certain.",
+        "sub_text": "No drama. No 'are you sure?' Just genuine good wishes. I think I wanted someone to push back so I'd have a reason to feel certain.",
+        "sub_text_2": null,
         "bubble": "When nobody argues with you, you have to sit alone with the decision. Uncomfortable."
       },
       {
         "type": "content",
         "main_text": "The two days after were **equal parts free and terrified**.",
-        "sub_text": "No morning calls. No deliverables. No reason to open PowerPoint.",
-        "sub_text_2": "Also no structure, no team, no one checking in. Freedom and freefall feel identical at first.",
+        "sub_text": "No morning calls. No deliverables. No reason to open PowerPoint. Also no structure, no team, no one checking in. Freedom and freefall feel identical at first.",
+        "sub_text_2": null,
         "bubble": "I cleaned my apartment twice. That's how I knew I was spiralling."
       },
       {
         "type": "content",
         "main_text": "What I thought I'd feel: **clarity**. What I actually felt: loud silence.",
-        "sub_text": "I had imagined this moment for months. In my head it felt like exhaling.",
-        "sub_text_2": "The reality was a very quiet Tuesday afternoon and a lot of browser tabs I didn't need to open.",
+        "sub_text": "I had imagined this moment for months. In my head it felt like exhaling. The reality was a very quiet Tuesday afternoon and a lot of browser tabs I didn't need to open.",
+        "sub_text_2": null,
         "bubble": "The build-up is always more cinematic than the actual moment."
       },
       {
         "type": "conclusion",
-        "main_text": "Big decisions don't feel like **big decisions** when they're actually happening.",
+        "main_text": "Big decisions do not feel like **big decisions** while they are happening.",
         "sub_text": "They feel like a Tuesday. And then 48 hours of quietly questioning yourself before you adjust.",
         "follow_cta": "Save this for later or follow for what happens next.",
-        "bubble": "Still building kakisewa. Still at Tarro full-time. The decision stuck. Mostly."
+        "bubble": "Still building it. Still working full-time."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1783861519053",
+    "plan_day": 20,
+    "date": "2026-07-12",
+    "topic": "navigating-career",
+    "angle": "The first 30 days after leaving MBB. A timeline of what actually happened.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "Week 1 after leaving MBB: slept in, then panicked. Not the version I'd have put on LinkedIn.\n\nWhat I did, what I felt, and the day things actually started to feel real.\n\nWhat did the first month after a big transition look like for you? Vote: chaos / clarity / both at once / too early to say",
+    "threads_text": "Week 1 after leaving MBB: slept in, then panicked.\n\nWeek 1: slept in, then panicked.\nWeek 2: built stuff with no one watching.\nWeek 3: had a real user conversation with no title to hide behind.\nWeek 4: realised the structure was never the thing.\n\nWhat did your first month after a big change actually feel like?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "**Week 1** after leaving MBB: I slept in. Then I panicked.",
+        "sub_text": "30 days, four weeks, one real turning point.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Days from resignation letter to first real product conversation with a user",
+        "stat_number": "30",
+        "stat_label": "days from MBB to first real user conversation",
+        "bubble": "By day 14 I had stopped checking LinkedIn. That was how I knew I was actually moving on."
+      },
+      {
+        "type": "content",
+        "main_text": "**Week 1:** slept in. Then panicked.",
+        "sub_text": "The first few days felt like freedom. Then the silence got loud. Turns out I had no idea what I actually wanted to do without a deliverable due.",
+        "sub_text_2": null,
+        "bubble": "Consultant brain does not switch off. It just starts consulting on your own life choices."
+      },
+      {
+        "type": "content",
+        "main_text": "**Week 2:** building with no one watching for the first time.",
+        "sub_text": "No client. No manager. No deck. Just me and a product idea that may or may not be stupid. It was uncomfortable in a way that felt important.",
+        "sub_text_2": null,
+        "bubble": "Genuinely did not know if I was being productive or just busy. Still figuring that out."
+      },
+      {
+        "type": "content",
+        "main_text": "**Week 3:** first real user conversation. No title to lean on.",
+        "sub_text": "At MBB the firm opens doors. Outside of it, you are just a person with a deck and a theory. That call humbled me faster than any performance review ever did.",
+        "sub_text_2": null,
+        "bubble": "They did not care where I worked before. They cared if I could solve their problem. Fair."
+      },
+      {
+        "type": "content",
+        "main_text": "**Week 4:** more capable without the structure than I expected.",
+        "sub_text": "The frameworks did not disappear, I just had to apply them without anyone grading me.",
+        "sub_text_2": null,
+        "bubble": "Took longer than I would like to admit to realise the structure was a comfort blanket, not a superpower."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The **first 30 days** did not feel like a highlight reel. They felt like **adjustment**.",
+        "sub_text": "Probably what any honest transition looks like, if you are paying attention.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What did your first month after a big transition feel like?"
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098398525",
+    "plan_day": 21,
+    "date": "2026-07-15",
+    "topic": "navigating-career",
+    "angle": "Three weeks of career content done. The post that hit hardest was not the one I expected.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "Three weeks of career content done. The post I was most nervous about got the most saves. The one I thought would blow up kind of flopped. Turns out I don't know my own audience yet. What do you want next: building in public, managing finances, or life outside work? Tell me which one.",
+    "threads_text": "Three weeks of career content done. The post I thought would hit hardest didn't. The one I almost didn't post got the most saves. Still figuring out what this audience actually wants. Vote: what comes next for me to cover — building in public, managing finances, or life outside work?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Three weeks of career content done. **The post that hit hardest was not the one I expected.**",
+        "sub_text": "What people actually responded to, and what I thought would land but did not.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Days 1 through 20, across saves, shares, and comments — here is where the engagement landed.",
+        "stat_number": "[fill in]",
+        "stat_label": "total engagements across 20 career posts",
+        "bubble": "I thought the salary post would hit hardest. It was not the salary post."
+      },
+      {
+        "type": "content",
+        "main_text": "The post with the most **saves** was the one I almost cut.",
+        "sub_text": "It felt too specific to my situation to be useful to anyone else. Apparently that was exactly why it worked.",
+        "sub_text_2": null,
+        "bubble": "Note to self: the posts that feel too personal are usually the ones worth keeping."
+      },
+      {
+        "type": "content",
+        "main_text": "The **honest take** that made people uncomfortable also made people DM me.",
+        "sub_text": "Not angry DMs. More like 'I've never seen someone say that out loud' DMs.",
+        "sub_text_2": null,
+        "bubble": "Which is its own kind of uncomfortable, honestly."
+      },
+      {
+        "type": "content",
+        "main_text": "Three weeks taught me **who is actually following.**",
+        "sub_text": "Not the audience I assumed. More people mid-career, more people outside Malaysia than I expected. I built a mental picture of my reader that was mostly wrong.",
+        "sub_text_2": null,
+        "bubble": "Still recalibrating. Not sure I've got it right yet."
+      },
+      {
+        "type": "content",
+        "main_text": "**What comes next** depends on what you actually want to read.",
+        "sub_text": "I have three directions I can go: building in public, managing finances, or life outside work. I'll follow the votes. No point guessing again.",
+        "sub_text_2": null,
+        "bubble": "My guesses have a 0% hit rate so far this month."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Three weeks in. Still **figuring out** who I'm writing for.",
+        "sub_text": "Which is probably the most honest career content I could post right now.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Vote in the comments: building in public, managing finances, or life outside work. I'll go wherever the votes land."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098459067",
+    "plan_day": 24,
+    "date": "2026-07-15",
+    "topic": "learning-about-life",
+    "angle": "What building something on the side actually did to my relationship. Not the version I posted about.",
+    "status": "skipped",
+    "theme": "Learning about life",
+    "caption": "Building something on the side has a cost nobody talks about. My fiancée absorbs it too. If you're building something, has it changed a relationship? Vote in the comments: yes a lot / a little / not yet / I'm not building anything.",
+    "threads_text": "Building kakisewa does something to a relationship nobody warns you about. Not the dramatic version. The quiet version — nights that disappear, attention that drifts, a person next to you who never asked to compete with a laptop. Has it changed a relationship for you?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "What building **kakisewa** actually did to my relationship.\n\nNot the version I posted about.",
+        "sub_text": "My fiancée did not sign up to compete with a laptop every night.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Hours a week that quietly shifted from us to the screen",
+        "stat_number": "[fill in]",
+        "stat_label": "hours a week that went from us to the laptop",
+        "bubble": "I did not track it until she pointed it out. Then I could not un-see it."
+      },
+      {
+        "type": "content",
+        "main_text": "The nights did not **disappear all at once.**",
+        "sub_text": "It was one hour here, one there. Then it was just how evenings worked.",
+        "sub_text_2": "Neither of us decided that. It just happened.",
+        "bubble": "The worst part is I thought I was being efficient. She thought I was checked out."
+      },
+      {
+        "type": "content",
+        "main_text": "She never asked me to **stop.**",
+        "sub_text": "She asked me to tell her when I was starting, so it stopped being a surprise every night.",
+        "sub_text_2": null,
+        "bubble": "That one sentence fixed more than any schedule I tried to build."
+      },
+      {
+        "type": "content",
+        "main_text": "The compromise that **stuck** and the one that did not.",
+        "sub_text": "Telling her when I was starting: stuck. Fixed laptop-off times: lasted about a week.",
+        "sub_text_2": "Turns out rules I set for myself are easier to break than a heads-up to another person.",
+        "bubble": "Accountability works better when someone else is holding it."
+      },
+      {
+        "type": "content",
+        "main_text": "Building alone does not mean **living alone.**",
+        "sub_text": "Someone else absorbs the cost of what you are building.",
+        "sub_text_2": "Zero paying customers so far. She is still here. That is not nothing.",
+        "bubble": "I think about that more than I probably let on."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**kakisewa** is mine. The cost is shared.",
+        "sub_text": "Worth naming that out loud, not just optimizing around it.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still figuring out the balance. She would probably agree with that."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098596156",
+    "plan_day": 25,
+    "date": "2026-07-15",
+    "topic": "navigating-career",
+    "angle": "One year into the startup job. Here is what actually surprised me. Not what I expected going in.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "One year in, and nobody has ever once asked me for a slide. That is what surprised me most. If you have made a similar jump, vote in the comments: what hit hardest in year one? The pace / the ambiguity / the lack of structure / something else entirely.",
+    "threads_text": "One year in, and nobody has ever once asked me for a slide. Startup pace is not what I thought it was.\n\nWhat hit hardest was not the speed — nobody wanted a structured framework. They wanted a decision.\n\nWhat surprised you most in year one after a big job switch?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "One year in, and nobody has ever once asked me for a **slide.**",
+        "sub_text": "Startup pace is not what I thought it was from the consulting side.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Months in before it stopped feeling like a different planet",
+        "stat_number": "[fill in]",
+        "stat_label": "months until it felt normal",
+        "bubble": "I am not sure it fully has yet, if I am being honest."
+      },
+      {
+        "type": "content",
+        "main_text": "What I thought startup life would be: **consulting, but faster.**",
+        "sub_text": "Tight decks. Clear problem statements. Smart people debating options. That is not what I walked into.",
+        "sub_text_2": null,
+        "bubble": "I genuinely showed up expecting a structured kickoff. There was no kickoff."
+      },
+      {
+        "type": "content",
+        "main_text": "Month one surprise: **nobody wanted the framework.**",
+        "sub_text": "They wanted a call made, today, with incomplete information. MBB trained me to get comfortable before deciding. That had to go.",
+        "sub_text_2": null,
+        "bubble": "I still catch myself opening a blank slide to structure a problem. Nobody here has ever asked for a slide."
+      },
+      {
+        "type": "content",
+        "main_text": "The skill MBB did not teach me: **tolerance for irreversible ambiguity.**",
+        "sub_text": "Consulting ambiguity has a deadline. Someone always clarifies the brief eventually. Startup ambiguity just lives there. You act anyway.",
+        "sub_text_2": null,
+        "bubble": "A year in and I still find this uncomfortable. I just complain about it less."
+      },
+      {
+        "type": "content",
+        "main_text": "What I would tell my consulting self: **the job will not validate you the way the project did.**",
+        "sub_text": "No end-of-engagement wrap-up. No client sign-off. No clear 'we did it.'. You have to get okay with outputs that just keep moving.",
+        "sub_text_2": null,
+        "bubble": "I thought I was ready for that. I was not ready for that."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "A year in, the biggest shift is this: **I stopped waiting to feel ready before I moved.**",
+        "sub_text": "Still working on it. But the gap between consulting me and now is real.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "What hit hardest for you in year one? Vote above."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098626820",
+    "plan_day": 27,
+    "date": "2026-07-15",
+    "topic": "managing-finances",
+    "angle": "The consulting salary is designed to make you comfortable enough to stay. Here is the trap.",
+    "status": "skipped",
+    "theme": "Managing finances",
+    "caption": "The consulting salary felt like success. My savings rate told a different story. What's yours right now — drop the actual % in the comments.",
+    "threads_text": "The consulting salary is designed to make you comfortable enough to stay. High income, invisible lifestyle creep, and a savings rate you stop checking because you don't want to see it. I thought I was saving well. Then I ran the numbers. What's your actual savings rate right now — rough % is fine, be honest.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "The consulting salary is **designed to make you comfortable enough to stay.**",
+        "sub_text": "High income that quietly inflates your lifestyle until leaving feels unthinkable.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "The share of my consulting income that quietly disappeared into lifestyle",
+        "stat_number": "[fill in]%",
+        "stat_label": "of my income that went to lifestyle, not savings",
+        "bubble": "I thought I was saving well. Then I calculated my actual savings rate. It was not what I thought."
+      },
+      {
+        "type": "content",
+        "main_text": "Lifestyle inflation is **invisible while it's happening.**",
+        "sub_text": "You don't decide to spend more. You just stop noticing what things cost.",
+        "sub_text_2": "It only becomes visible when the income stops.",
+        "bubble": "The hotel upgrade. The cab instead of the train. It felt like nothing each time."
+      },
+      {
+        "type": "content",
+        "main_text": "A high salary makes you **feel wealthy.** Your savings rate is the honest number.",
+        "sub_text": "Income is just the top line. What you keep is what actually matters.",
+        "sub_text_2": null,
+        "bubble": "I was optimizing my portfolio while my savings rate quietly embarrassed me."
+      },
+      {
+        "type": "content",
+        "main_text": "Things I spent on in consulting that I **do not miss at all:**",
+        "sub_text": "Expensive lunches because the day was long. Clothes for a version of myself I was performing.",
+        "sub_text_2": "Most of it was friction relief, not enjoyment.",
+        "bubble": "I genuinely cannot tell you what I bought. That's the problem."
+      },
+      {
+        "type": "content",
+        "main_text": "First month my salary dropped: **the cuts were not what I planned.**",
+        "sub_text": "I thought I'd cut the big stuff. I actually cut the small daily things first.",
+        "sub_text_2": "The things I thought were non-negotiable mostly were.",
+        "bubble": "Turns out I had strong opinions about my expenses until I had to act on them."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The salary wasn't the problem. The **invisible floor it built** was.",
+        "sub_text": "Once you know your real savings rate, you can't unknow it. Go check yours.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Drop your actual savings rate % in the comments. Rough estimate counts. I'll go first."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098642464",
+    "plan_day": 28,
+    "date": "2026-07-15",
+    "topic": "learning-about-life",
+    "angle": "The friendships that survived 5 years of a job that ate my calendar. Fewer than I expected.",
+    "status": "skipped",
+    "theme": "Learning about life",
+    "caption": "5 years of MBB. Here is what it actually cost me in friendships. Has a demanding job ever cost you a friendship you wish you had kept? Vote in the comments: yes, lost one / yes, several / no, they held / not sure yet.",
+    "threads_text": "Five years of a demanding job. Here is what happened to my friendships. Not a dramatic falling out. Just cancelled plans, repeated enough times, until the invites stopped coming. Has a demanding job ever cost you a friendship you wish you had kept? Yes lost one / yes several / no they held / not sure yet",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "The friendships that survived 5 years of a job that ate my calendar. **Fewer than I expected.**",
+        "sub_text": "Not because anyone did anything wrong. Just distance, repeated enough times.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Close friends from before MBB I actually still talk to weekly",
+        "stat_number": "[fill in]",
+        "stat_label": "That number got smaller every year I stayed in the job",
+        "bubble": "I cancelled on the same friend three times in one month once. He stopped asking. I do not blame him."
+      },
+      {
+        "type": "content",
+        "main_text": "The group did not **disappear**. It just quietly thinned.",
+        "sub_text": "No fight. No falling out. Just enough cancelled plans that eventually nobody bothered to schedule one.",
+        "sub_text_2": null,
+        "bubble": "You do not notice it happening. Then one day you do."
+      },
+      {
+        "type": "content",
+        "main_text": "The ones who stuck were not the ones who **tried harder**.",
+        "sub_text": "They were the ones whose lives happened to run on the same schedule as my rare free windows.",
+        "sub_text_2": "Proximity to timing, not effort. That is an uncomfortable thing to admit.",
+        "bubble": "Loyalty matters. But so does being available at the right moment, and I rarely was."
+      },
+      {
+        "type": "content",
+        "main_text": "Some friendships only existed because of a **shared job**.",
+        "sub_text": "The work was the glue. When I left, I found out pretty fast which ones were actually about me.",
+        "sub_text_2": null,
+        "bubble": "Turns out complaining about the same client is a stronger bond than I realised. Until it is not."
+      },
+      {
+        "type": "content",
+        "main_text": "Leaving the job did not **automatically fix** anything.",
+        "sub_text": "I had to actually reach back out. Some conversations picked up fine. Some felt like meeting a stranger.",
+        "sub_text_2": "A few I have not managed to rebuild yet.",
+        "bubble": "Having free time and knowing how to use it socially are not the same thing. I am still figuring that out."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The job did not ruin my friendships. But it **narrowed** them, and I let it.",
+        "sub_text": "I am more deliberate now. Not perfectly, but more.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Vote in the comments: yes lost one / yes several / no they held / not sure yet. Curious where people land on this."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098661844",
+    "plan_day": 29,
+    "date": "2026-07-15",
+    "topic": "navigating-career",
+    "angle": "What I would tell my old MBB team about startups, now that I have actually been in one for a year.",
+    "status": "pending",
+    "theme": "Navigating career",
+    "caption": "12 months in. Here is what I would actually say to my old MBB team about startup life — not the polished version.\n\nWhat do former colleagues get most wrong about your decision? Vote: scarier than it is / easier than it is / just the money / they don't ask",
+    "threads_text": "A year into startup life, former MBB colleagues keep asking the same questions. Most assumptions are wrong, but not always the direction you'd expect.\n\nWhat do people get most wrong about why you left a prestigious job? Vote: scarier / easier / just the money / they never ask",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "What I would tell my old MBB team about startups, **now that I have actually been in one for a year**",
+        "sub_text": "Not the LinkedIn version. The version I would actually say over coffee.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Former colleagues who have asked me some version of 'so... do you regret it yet'",
+        "stat_number": "[fill in]",
+        "stat_label": "people who deserve an honest answer, not a highlight reel",
+        "bubble": "My answer is still 'ask me again in a year.' It has been a year. I am still saying it."
+      },
+      {
+        "type": "content",
+        "main_text": "What they assume is true: **startups move faster**",
+        "sub_text": "Some things move faster. Decisions, yes. Feedback loops, yes. But ambiguity does not move fast. It just sits there and you have to live in it.",
+        "sub_text_2": null,
+        "bubble": "Nobody warned me that unclear beats slow in terms of how exhausting it actually is."
+      },
+      {
+        "type": "content",
+        "main_text": "What they assume is false: **that the prestige safety net matters less once you leave**",
+        "sub_text": "It still opens doors. What I lost is the feeling the institution was backing me. Now it is just me.",
+        "sub_text_2": null,
+        "bubble": "More freeing and more terrifying than I expected. Sometimes on the same Tuesday."
+      },
+      {
+        "type": "content",
+        "main_text": "What I miss and what I do not",
+        "sub_text": "Miss: smart rooms, peer pressure that made the work better, someone else owning the sales problem. Do not miss: the performance of busyness, the decks that changed nothing, the hierarchy I had to manage upward.",
+        "sub_text_2": null,
+        "bubble": "I have 8,471 agents scraped and zero paying customers. I own the sales problem now. Fully."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "You are not leaving **safety for risk.** You are trading one risk for another.",
+        "sub_text": "MBB felt safe. It was betting everything on one employer's opinion of you.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "I do not know yet if I made the right call. My old colleagues do not want to hear that."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098721591",
+    "plan_day": 33,
+    "date": "2026-07-15",
+    "topic": "navigating-career",
+    "angle": "One skill from consulting I use every single day at the startup job. Not the side project — the actual job.",
+    "status": "skipped",
+    "theme": "Navigating career",
+    "caption": "One consulting skill I actually use every day at the startup — not kakisewa, the real job. Which skill from a past role still follows you around? Vote in the comments: problem-structuring / communication / negotiation / something else.",
+    "threads_text": "One consulting skill I use every single day at the startup job. Not kakisewa — the actual job.\n\nIt's not slide-making. It's not frameworks. It's the ability to find the real question inside a messy one.\n\nWhich skill from a past job still follows you around? Problem-structuring / communication / negotiation / something else?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "One skill from consulting I use **every single day** at the startup job.",
+        "sub_text": "Not kakisewa. The actual job. And it's not what most people guess.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Rough count of how many times a week this skill saves me from a meeting going sideways",
+        "stat_number": "[fill in]",
+        "stat_label": "times a week I lean on it",
+        "bubble": "I did not expect 'consulting skill' and 'startup speed' to overlap this much."
+      },
+      {
+        "type": "content",
+        "main_text": "The skill: **distilling the actual question** out of a messy one.",
+        "sub_text": "Someone says 'we need to fix retention.' That is not a question. That is a feeling.",
+        "sub_text_2": "The question is usually three layers deeper and nobody has named it yet.",
+        "bubble": "Five years of this and it still takes effort. Just less embarrassing effort now."
+      },
+      {
+        "type": "content",
+        "main_text": "At a startup it shows up **constantly** — and faster than you expect.",
+        "sub_text": "Ambiguous asks, five-minute decisions, meetings where the agenda is also the problem.",
+        "sub_text_2": null,
+        "bubble": "In my first startup meeting I tried to frame the problem the MBB way. Someone just said 'so what do we do.' Different game."
+      },
+      {
+        "type": "content",
+        "main_text": "What almost **did not transfer**: the pacing.",
+        "sub_text": "Consulting gave me the tool but trained me to use it slowly, with a deck, with buy-in loops.",
+        "sub_text_2": "I had to relearn how to do the same thing in about ninety seconds out loud.",
+        "bubble": "The skill transferred. The speed did not. Had to rebuild that part from scratch."
+      },
+      {
+        "type": "content",
+        "main_text": "Why **this** skill, out of everything consulting taught.",
+        "sub_text": "Slides fade. Frameworks date. But every job, every context, still has people solving the wrong problem.",
+        "sub_text_2": null,
+        "bubble": "Honestly I thought client management would be the one. It is not. It is this."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Find the real question.** Everything else is just work on top of the wrong answer.",
+        "sub_text": "Which skill from a past job still follows you? Vote: problem-structuring / communication / negotiation / something else.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still figuring out which consulting habits are assets and which ones just slow me down."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098735155",
+    "plan_day": 34,
+    "date": "2026-07-15",
+    "topic": "building-in-public",
+    "angle": "I get 3 hours a day to build my startup. Here is the honest schedule.",
+    "status": "pending",
+    "theme": "Building in public",
+    "caption": "3 hours a day to build. This is what the actual schedule looks like, including what I gave up to make it work. How many hours a day do you get for your own thing? Drop the number below.",
+    "threads_text": "I get 3 hours a day to build. Not 3 focused, romantic, deep-work hours. 3 hours after a full day job, after dinner, after pretending I will stop at midnight. 8pm me and 6am me are completely different people. Took me a while to stop fighting that. How many hours do you actually get?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I get **3 hours a day** to build. Here is the honest schedule.",
+        "sub_text": "The real breakdown, including what I gave up to make the hours work.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Not a goal. Not an average. The actual number most days.",
+        "stat_number": "3",
+        "stat_label": "hours per day I actually get to build",
+        "bubble": "I told myself I would stop at midnight. I stopped at 1:30am. I do this every few days."
+      },
+      {
+        "type": "content",
+        "main_text": "**Energy management** matters more than time management.",
+        "sub_text": "8pm Howard is not the same as 6am Howard. I stopped pretending otherwise and picked my hours deliberately.",
+        "sub_text_2": null,
+        "bubble": "Turns out writing logic at 11pm is fine. Writing copy at 11pm is a disaster."
+      },
+      {
+        "type": "content",
+        "main_text": "The **math only works** if your day job does not drain you completely.",
+        "sub_text": "Full-time startup job in Malaysia. Side project after hours. If work is a wreck, the 3 hours disappear. That is the fragile part I have not solved.",
+        "sub_text_2": null,
+        "bubble": "Some weeks I get 3 hours. Some weeks I get 45 minutes and a headache."
+      },
+      {
+        "type": "content",
+        "main_text": "What I actually **gave up** to find the hours.",
+        "sub_text": "Netflix, most social plans, some sleep. I do not miss Netflix. I miss sleep.",
+        "sub_text_2": null,
+        "bubble": "People keep asking when I will slow down. I do not have a good answer yet."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "3 hours is enough. But only if you **protect them like they are the only ones you have.**",
+        "sub_text": "Because they are.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still zero paying customers. Still showing up. Not sure if that is discipline or stubbornness."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098752081",
+    "plan_day": 35,
+    "date": "2026-07-15",
+    "topic": "managing-finances",
+    "angle": "The default investment options are better than most investors think. Most people are ignoring free money.",
+    "status": "pending",
+    "theme": "Managing finances",
+    "caption": "EPF and ASNB are the base I never touch. Everything else is where I take real risk — space, AI infra, semiconductors, biomed. Do you max your defaults before investing elsewhere? Vote: yes / no / did not know you could top up",
+    "threads_text": "Most Malaysian investors are chasing higher returns while leaving guaranteed money sitting on the table. EPF and ASNB are not exciting. They are also not supposed to be. Boring base first, selective bets on top. Do you max your defaults before investing elsewhere? Yes / no / genuinely did not know you could top up.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "The default investment options are **better than most investors think.**",
+        "sub_text": "The boring defaults beat most people's active picks, and the data is not close.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "The guaranteed return on one of the most overlooked default investments available to Malaysians",
+        "stat_number": "[fill in]%",
+        "stat_label": "guaranteed return — no volatility, no stock-picking required",
+        "bubble": "This is the part of my portfolio that does not need my genius. That is the point."
+      },
+      {
+        "type": "content",
+        "main_text": "**EPF compounding** is real and most people underestimate it.",
+        "sub_text": "The dividend compounds on your entire balance, not just new contributions. Most people treat it as a deduction, not an asset. That framing is costing them.",
+        "sub_text_2": null,
+        "bubble": "I did this too until I actually ran the numbers on what my balance would be at 55."
+      },
+      {
+        "type": "content",
+        "main_text": "**ASNB** is risk-free with a guaranteed return and most investors walk past it.",
+        "sub_text": "It has an allocation cap, which makes it annoying. Not a reason to ignore it.",
+        "sub_text_2": null,
+        "bubble": "The cap being full is a reason to get in earlier, not a reason to give up."
+      },
+      {
+        "type": "content",
+        "main_text": "The mistake is **chasing higher returns** before locking in the guaranteed base.",
+        "sub_text": "People skip a guaranteed base to go hunt for more, and most do not find it.",
+        "sub_text_2": null,
+        "bubble": "I have chased extra yield before locking in the base. It never actually paid off."
+      },
+      {
+        "type": "content",
+        "main_text": "How I actually think about it: **boring base first, selective bets on top.**",
+        "sub_text": "Max the guaranteed stuff first. What is left goes into the real bets — space, AI infra, semiconductors, biomed.",
+        "sub_text_2": null,
+        "bubble": "It took me longer than I want to admit to stop treating it like one."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Free guaranteed returns** are what most people are too sophisticated to take.",
+        "sub_text": "Max the boring stuff first. You can still take your bets on top.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still working out the right split. Have not fully figured it out either."
+      }
+    ],
+    "images": [],
+    "engagement": null
+  },
+  {
+    "id": "1784098772002",
+    "plan_day": 36,
+    "date": "2026-07-15",
+    "topic": "learning-about-life",
+    "angle": "The advice everyone gave me right after I left MBB. Some of it helped. Most of it missed the point.",
+    "status": "pending",
+    "theme": "Learning about life",
+    "caption": "Everyone had advice when I left MBB. Ex-consultants knew how to optimise the exit. Nobody told me what to do with myself after.\n\nBest advice came from a friend with a normal 9-5 who did not know he was giving advice.\n\nVote: best advice came from a mentor / a friend outside my field / a stranger online / family",
+    "threads_text": "Everyone had advice when I left MBB. Ex-consultants told me how to optimise the exit. None told me what to do with myself after.\n\nThe best advice came from a friend with a normal job who had no idea it was even advice.\n\nWhere did your best career advice come from?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "The advice everyone gave me after I left MBB. **Some of it helped. Most of it missed the point.**",
+        "sub_text": "What actually helped came from people who had never worked a day in consulting.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Rough count of advice conversations I had in the weeks after leaving — the number I actually used:",
+        "stat_number": "3 out of ~30",
+        "stat_label": "pieces of advice I actually used",
+        "bubble": "The rest was well-meaning noise. Including some of my own plans."
+      },
+      {
+        "type": "content",
+        "main_text": "Ex-consultants gave me advice about **optimising the exit**",
+        "sub_text": "Which firm to join next. How to frame the gap. Which roles convert best from MBB. All useful if you know what you want. I did not know what I wanted.",
+        "sub_text_2": null,
+        "bubble": "They answered a question I hadn't asked yet."
+      },
+      {
+        "type": "content",
+        "main_text": "Non-consultants gave me **simpler advice**",
+        "sub_text": "A friend with a normal 9-5 told me to just try things without needing them to work out immediately. He meant it casually. I wrote it down.",
+        "sub_text_2": null,
+        "bubble": "He had no idea it was even good advice. That was probably why it landed."
+      },
+      {
+        "type": "content",
+        "main_text": "The one piece I **ignored** — and probably shouldn't have",
+        "sub_text": "Someone told me to take two months off before deciding anything. I took two weeks and called it enough. I don't think it was.",
+        "sub_text_2": null,
+        "bubble": "Classic consultant move. Treat rest like a deliverable with a deadline."
+      },
+      {
+        "type": "content",
+        "main_text": "What I'd tell someone in my position **six months ago**",
+        "sub_text": "Stop asking people who optimised the same path you just left. Find someone who built something different and ask them what they were scared of.",
+        "sub_text_2": null,
+        "bubble": "Still working this out myself, to be clear."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The best advice didn't come from **experience in my field.** It came from distance from it.",
+        "sub_text": "Distance turned out to matter more than expertise.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still not sure I have taken enough of the good advice. Six months in."
       }
     ],
     "images": [],

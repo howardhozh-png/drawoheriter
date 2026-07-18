@@ -20,7 +20,7 @@
     },
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-10T14:00:01.645Z"
+      "tracked_at": "2026-07-17T14:00:01.314Z"
     },
     "posted_at": "2026-06-29T13:32:30.902Z",
     "threads_id": "17862260145639660"
@@ -87,7 +87,7 @@
     ],
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-10T14:00:01.966Z"
+      "tracked_at": "2026-07-17T14:00:01.531Z"
     },
     "posted_at": "2026-06-30T14:51:39.599Z",
     "threads_id": "18009060179873823",
@@ -159,14 +159,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 374,
+        "views": 379,
         "likes": 1,
         "replies": 8,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 54,
-      "tracked_at": "2026-07-10T14:00:04.434Z"
+      "score": 55,
+      "tracked_at": "2026-07-17T14:00:03.254Z"
     },
     "posted_at": "2026-07-01T07:24:17.694Z",
     "threads_id": "17895978171475242",
@@ -308,14 +308,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 563,
+        "views": 565,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 58,
-      "tracked_at": "2026-07-10T14:00:05.756Z"
+      "score": 59,
+      "tracked_at": "2026-07-17T14:00:04.166Z"
     },
     "posted_at": "2026-07-02T13:03:48.187Z",
     "threads_id": "17997374477966589",
@@ -402,14 +402,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 541,
+        "views": 545,
         "likes": 2,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 58,
-      "tracked_at": "2026-07-10T14:00:06.506Z"
+      "score": 59,
+      "tracked_at": "2026-07-17T14:00:04.966Z"
     },
     "posted_at": "2026-07-05T07:06:55.870Z",
     "threads_id": "18138479773508940",
@@ -498,7 +498,7 @@
         "quotes": 0
       },
       "score": 995,
-      "tracked_at": "2026-07-10T14:00:07.006Z"
+      "tracked_at": "2026-07-17T14:00:05.463Z"
     },
     "posted_at": "2026-07-05T14:13:07.177Z",
     "threads_id": "17930570442347389",
@@ -577,14 +577,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 134,
+        "views": 138,
         "likes": 1,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 16,
-      "tracked_at": "2026-07-10T14:00:07.753Z"
+      "score": 17,
+      "tracked_at": "2026-07-17T14:00:05.984Z"
     },
     "posted_at": "2026-07-06T12:35:49.895Z",
     "threads_id": "18097598354124832",
@@ -663,14 +663,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 77,
+        "views": 84,
         "likes": 2,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
       "score": 12,
-      "tracked_at": "2026-07-10T14:00:08.604Z"
+      "tracked_at": "2026-07-17T14:00:07.229Z"
     },
     "posted_at": "2026-07-07T13:29:40.427Z",
     "threads_id": "18031614380818784",
@@ -744,14 +744,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 35,
+        "views": 44,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
       "score": 6,
-      "tracked_at": "2026-07-10T14:00:09.245Z"
+      "tracked_at": "2026-07-17T14:00:07.966Z"
     },
     "posted_at": "2026-07-08T14:39:01.076Z",
     "threads_id": "18101972450138631",
@@ -830,14 +830,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 675,
+        "views": 694,
         "likes": 2,
         "replies": 3,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 76,
-      "tracked_at": "2026-07-10T14:00:09.735Z"
+      "score": 77,
+      "tracked_at": "2026-07-17T14:00:08.684Z"
     },
     "posted_at": "2026-07-09T09:21:34.247Z",
     "threads_id": "17881077951672061",
@@ -915,11 +915,424 @@
       "content/images/vibe-coding-mcp-tools/slide-06.png",
       "content/images/vibe-coding-mcp-tools/slide-07.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "threads": {
+        "views": 23,
+        "likes": 1,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 5,
+      "tracked_at": "2026-07-17T14:00:09.266Z"
+    },
     "posted_at": "2026-07-12T06:19:59.424Z",
     "threads_id": "18273039499290125",
     "threads_carousel_id": "18117912784845469",
     "instagram_id": "17925544143144488",
+    "instagram_story_id": null
+  },
+  {
+    "id": "day2-career",
+    "plan_day": 2,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "I left the best job title I will probably ever have. Here is what nobody tells you comes next.",
+    "status": "posted",
+    "theme": "Navigating career",
+    "caption": "I walked away from a job title that used to speak for me.\n\nMost people warned me about the pay cut. Nobody warned me about the identity part.\n\nWhat happens when your entire personality was \"consultant at [firm]\" and then suddenly it isn't?\n\nHave you ever left a prestigious job for something uncertain? What pushed you?",
+    "threads_text": "I walked away from a job title that used to speak for me.\n\nEveryone warned me about the pay cut. Nobody warned me half my personality was just the firm name.\n\nNow when people ask what I do, I have no clean answer. Nobody prepares you for that.\n\nEver left a prestigious job for something unknown? What pushed you?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I walked away from a **job title** that used to speak for me.",
+        "sub_text": "The identity crisis nobody warns you about when you leave a prestigious job for something unknown.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Years I spent in consulting before I walked away from it",
+        "stat_number": "5",
+        "stat_label": "years in MBB consulting",
+        "bubble": "Long enough for it to become who I was. Short enough that people still ask why I left."
+      },
+      {
+        "type": "content",
+        "main_text": "The **prestige was real.** So was the trap.",
+        "sub_text": "The brand opened doors. It also became a crutch, until I stopped knowing if I was good or just well-labeled.",
+        "bubble": "The firm name was doing a lot of heavy lifting in conversations I didn't notice."
+      },
+      {
+        "type": "content",
+        "main_text": "Nobody outside consulting **cares what tier your firm was.**",
+        "sub_text": "Inside the bubble it's everything. Outside it's a blank stare.",
+        "sub_text_2": null,
+        "bubble": "First time I said the firm name to a non-corporate person and got nothing back. Humbling."
+      },
+      {
+        "type": "content",
+        "main_text": "Going from **\"consultant at X\"** to not having a title at all is a full identity reset.",
+        "sub_text": "The old answer to \"what do you do\" was a conversation starter. The new one is a conversation ender.",
+        "bubble": "I still fumble the answer when people ask what I do now. There isn't a clean one anymore."
+      },
+      {
+        "type": "content",
+        "main_text": "I expected **freedom, clarity, momentum.**",
+        "sub_text": "It's a job, a side project with no customers yet, and a lot of quiet. Clarity comes eventually, just not with the resignation letter.",
+        "bubble": "I genuinely thought leaving would feel like a movie moment. It felt more like a Sunday with no plans."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "The title was never the thing. **You learn that after you give it up.**",
+        "sub_text": "I still have my old business cards. I keep them as a reminder, not a trophy.",
+        "follow_cta": "Have you ever left a prestigious job for something uncertain? What pushed you?",
+        "bubble": "Not having an answer for \"what do you do\" is humbling in ways no consulting project ever was."
+      }
+    ],
+    "images": [
+      "content/images/day2-career/slide-01.png",
+      "content/images/day2-career/slide-02.png",
+      "content/images/day2-career/slide-03.png",
+      "content/images/day2-career/slide-04.png",
+      "content/images/day2-career/slide-05.png",
+      "content/images/day2-career/slide-06.png",
+      "content/images/day2-career/slide-07.png"
+    ],
+    "engagement": {
+      "threads": {
+        "views": 42,
+        "likes": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 6,
+      "tracked_at": "2026-07-17T14:00:10.094Z"
+    },
+    "posted_at": "2026-07-12T14:02:03.825Z",
+    "threads_id": "18054322742604949",
+    "threads_carousel_id": "17958340854170843",
+    "instagram_id": "17902679676464615",
+    "instagram_story_id": null
+  },
+  {
+    "id": "1784098438861",
+    "plan_day": 23,
+    "date": "2026-07-15",
+    "topic": "managing-finances",
+    "angle": "I thought I was investing. I was just buying companies I could explain at dinner parties.",
+    "status": "posted",
+    "theme": "Managing finances",
+    "caption": "Three years of investing before I realised I was just buying companies I could explain at dinner parties. What was the first thing you ever invested in? Drop it below — genuinely curious, zero judgment.",
+    "threads_text": "I thought I was investing. I was just buying companies I could explain at dinner parties. Knew exactly what they did. Had no idea if they were mispriced. Three years and average returns to learn the difference. What was the first stock or asset you ever bought?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I thought I was investing. **I was just buying companies I could explain at dinner parties.**",
+        "sub_text": "Three years and average returns to figure out the difference.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "How long it took me to understand what an edge actually is",
+        "stat_number": "3",
+        "stat_label": "years investing before I got this",
+        "bubble": "My portfolio looked like a TED Talk watchlist. Great companies. Average returns."
+      },
+      {
+        "type": "content",
+        "main_text": "**Knowing what a company does** is not the same as knowing it is mispriced.",
+        "sub_text": "I could explain the business model in two sentences. That felt like research. It was not research.",
+        "sub_text_2": null,
+        "bubble": "Turns out everyone at the dinner party already knew too."
+      },
+      {
+        "type": "content",
+        "main_text": "The **clarity trap**: understanding a company does not equal conviction it will outperform.",
+        "sub_text": "A good business and a good investment are different questions. I kept confusing the first for the second.",
+        "sub_text_2": null,
+        "bubble": "Bought Apple at a price that made complete sense and still underperformed the index."
+      },
+      {
+        "type": "content",
+        "main_text": "I was buying **stories**, not bets.",
+        "sub_text": "Stories feel safe. Bets require you to be specifically right about something the market is specifically wrong about.",
+        "sub_text_2": null,
+        "bubble": "Much easier to say 'I believe in this company' than to say exactly what you think the market is missing."
+      },
+      {
+        "type": "content",
+        "main_text": "The question I should have been asking: **what do I believe that the market does not?**",
+        "sub_text": "If the answer is nothing, you are not making a bet. You are just paying market price for market returns.",
+        "sub_text_2": null,
+        "bubble": "Still working on having a real answer to this. Most days I don't."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Liking a company and **having an edge on a company** are not the same thing.",
+        "sub_text": "What was the first thing you ever invested in? Drop it below.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Mine was a Malaysian bank stock I bought because I had an account there. True story."
+      }
+    ],
+    "images": [
+      "content/images/1784098438861/slide-01.png",
+      "content/images/1784098438861/slide-02.png",
+      "content/images/1784098438861/slide-03.png",
+      "content/images/1784098438861/slide-04.png",
+      "content/images/1784098438861/slide-05.png",
+      "content/images/1784098438861/slide-06.png",
+      "content/images/1784098438861/slide-07.png"
+    ],
+    "engagement": {
+      "threads": {
+        "views": 225,
+        "likes": 0,
+        "replies": 4,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 31,
+      "tracked_at": "2026-07-17T14:00:10.802Z"
+    },
+    "posted_at": "2026-07-15T13:05:29.719Z",
+    "threads_id": "18218131654328683",
+    "threads_carousel_id": "17997438500795206",
+    "instagram_id": "18055882271770872",
+    "instagram_story_id": null
+  },
+  {
+    "id": "vibe-coding-tips-explore-plan",
+    "date": "2026-07-09",
+    "topic": "building-in-public",
+    "angle": "Building as a non-technical person is hell mode. Here is what makes it easier.",
+    "status": "posted",
+    "theme": "Building in public",
+    "caption": "Building as a non-technical person is hell mode. Here's the one habit that helps.\n\nNever start with build. Explore first, real references and best practices. Then Plan, let Claude lay it out. Then Execute.\n\nSkipping straight to build is how you end up debugging code you don't understand.\n\nDo you plan before you build? Vote: always / sometimes / never",
+    "threads_text": "Building as a non-technical person is hell mode. One habit made it easier: never start with build.\n\nExplore first, then Plan, then Execute. Skipping straight to code is how you end up debugging something you don't understand.\n\nDo you plan before you build, or just wing it?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Building as a non-technical person is hell mode. **One habit** made it survivable.",
+        "sub_text": "Not a tool. A sequence.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Steps, every single time, no matter how small the task",
+        "stat_number": "3",
+        "stat_label": "steps I never skip anymore",
+        "bubble": "Skipping straight to build is how I've wasted the most hours, by far."
+      },
+      {
+        "type": "content",
+        "main_text": "**Explore first.** Real references, real best practices.",
+        "sub_text": "If I do not understand it, Claude does not either. I ask it to explain the codebase back to me before anything gets touched.",
+        "sub_text_2": null,
+        "bubble": "Feels slow. Saves hours later."
+      },
+      {
+        "type": "content",
+        "main_text": "**Then Plan.** Let Claude lay it all out first.",
+        "sub_text": "I read the plan like a spec, not a suggestion.",
+        "sub_text_2": null,
+        "bubble": "Half my edits happen here, before a single line is written."
+      },
+      {
+        "type": "content",
+        "main_text": "**Then Execute.** Only after the first two.",
+        "sub_text": "By the time we get here, there are barely any surprises left.",
+        "sub_text_2": null,
+        "bubble": "This is the boring part now. That is the whole point."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Explore. Plan. Execute.** In that order, every time.",
+        "sub_text": "Skipping straight to build is still the mistake I have to actively resist.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Do you plan before you build, or just wing it?"
+      }
+    ],
+    "images": [
+      "content/images/vibe-coding-tips-explore-plan/slide-01.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-02.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-03.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-04.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-05.png",
+      "content/images/vibe-coding-tips-explore-plan/slide-06.png"
+    ],
+    "engagement": {
+      "threads": {
+        "views": 175,
+        "likes": 2,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 22,
+      "tracked_at": "2026-07-17T14:00:11.668Z"
+    },
+    "posted_at": "2026-07-16T13:05:08.103Z",
+    "threads_id": "18099475435957347",
+    "threads_carousel_id": "18081901544657145",
+    "instagram_id": "18359218201209462",
+    "instagram_story_id": null
+  },
+  {
+    "id": "1782911115672",
+    "plan_day": 3,
+    "date": "2026-07-01",
+    "topic": "navigating-career",
+    "angle": "MBB taught me one skill that transfers to startups. Everything else I had to unlearn.",
+    "status": "posted",
+    "theme": "Navigating career",
+    "caption": "MBB taught me one skill that actually transfers to startups. The rest I had to unlearn, and some of it took embarrassingly long.\n\nSwipe to see what stuck and what didn't.\n\nWhat's the one skill from your current job that would help in a startup?",
+    "threads_text": "One skill from consulting transfers to startups. Everything else I had to unlearn.\n\nThe dangerous one: mistaking analysis for action. I was very good at being thorough. Startups don't reward thorough. They reward moving.\n\nWhat's the one skill from your job that would actually help in a startup?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "MBB taught me **one skill** that transfers to startups.",
+        "sub_text": "Everything else I had to unlearn, and some of it took longer than I expected.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Number of skills from 5 years of consulting I use every single day building this",
+        "stat_number": "1",
+        "stat_label": "just one skill made the cut",
+        "bubble": "I thought it would be more. It is not more."
+      },
+      {
+        "type": "content",
+        "main_text": "**Structuring the problem** breaks into three things.",
+        "sub_text": "Ask the right question. Set the right goal. Get the right capability. I used to skip straight to solving.",
+        "bubble": "I spent years being the person with the smart-sounding answer. Still unlearning that."
+      },
+      {
+        "type": "content",
+        "main_text": "First: **asking the right question.**",
+        "sub_text": "A right question is specific enough to be wrong. Not \"how do we grow,\" but \"why did the last 10 people say no.\"",
+        "bubble": "I used to ask questions that sounded smart in a room and meant nothing once I sat down alone to actually build."
+      },
+      {
+        "type": "content",
+        "main_text": "Second: **setting the right goal.**",
+        "sub_text": "A right goal is a number you can hit or miss by Friday, not a five-year vision. Consulting trained me to set goals that sound good in a deck.",
+        "bubble": "My first goal for this was \"grow steadily.\" That is not a goal. That is a wish."
+      },
+      {
+        "type": "content",
+        "main_text": "Third: **getting the right capability.**",
+        "sub_text": "In plain terms: do you actually have someone who can do the thing, not someone who can explain why it's hard.",
+        "bubble": "I cannot design, cannot really code, cannot sell yet. Some days that gap feels bigger than the idea itself."
+      },
+      {
+        "type": "content",
+        "main_text": "The dangerous habit: **mistaking analysis for action**",
+        "sub_text": "Consulting pays you to be right, not fast. Startups reward people who move; being thorough while the runway burns is just expensive thinking.",
+        "bubble": "I have 8,471 agents scraped and zero paying customers. Analysis did not cause that. But it did not help either."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**One skill transfers. The rest is dead weight.**",
+        "sub_text": "Figure out which habits your current job is rewarding that a startup would punish.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still working on this myself. 100 cold emails a day right now, hoping structure beats inertia."
+      }
+    ],
+    "images": [
+      "content/images/1782911115672/slide-01.png",
+      "content/images/1782911115672/slide-02.png",
+      "content/images/1782911115672/slide-03.png",
+      "content/images/1782911115672/slide-04.png",
+      "content/images/1782911115672/slide-05.png",
+      "content/images/1782911115672/slide-06.png",
+      "content/images/1782911115672/slide-07.png",
+      "content/images/1782911115672/slide-08.png"
+    ],
+    "engagement": {
+      "threads": {
+        "views": 10,
+        "likes": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 3,
+      "tracked_at": "2026-07-17T14:00:12.508Z"
+    },
+    "posted_at": "2026-07-17T13:05:29.750Z",
+    "threads_id": "18144247342542972",
+    "threads_carousel_id": "18098582461970138",
+    "instagram_id": "18113278076484094",
+    "instagram_story_id": null
+  },
+  {
+    "id": "1784098689030",
+    "plan_day": 31,
+    "date": "2026-07-15",
+    "topic": "managing-finances",
+    "angle": "After trying everything, I use one investing principle. It is boring. It works.",
+    "status": "posted",
+    "theme": "Managing finances",
+    "caption": "I don't DCA into an index fund — I bet on sectors right before they bottleneck: space, AI infra, semiconductors, biomed. Concentrated, not diversified, and I don't always time it right. What's your actual investing style? Vote: index funds / sector bets / individual stocks / not investing yet",
+    "threads_text": "I don't dollar-cost-average into an index fund. I bet on sectors right before they bottleneck — space, AI infrastructure, semiconductors, biomed. Concentrated, not diversified. Higher risk, and I don't always get the timing right. What's your actual investing style?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I don't dollar-cost-average into an index fund. **I bet on sectors right before they bottleneck.**",
+        "sub_text": "Space, AI infrastructure, semiconductors, biomed. Concentrated, not diversified.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Sectors I actually invest in, not the whole market",
+        "stat_number": "4",
+        "stat_label": "high-growth sectors, concentrated not diversified",
+        "bubble": "I have strong opinions about supply chains most people have never thought about once."
+      },
+      {
+        "type": "content",
+        "main_text": "The thesis: **find the bottleneck before everyone else does.**",
+        "sub_text": "Every high-growth sector eventually hits a capacity constraint. That is usually where the value sits.",
+        "sub_text_2": null,
+        "bubble": "Sounds smart until you are three months early and the position is just red."
+      },
+      {
+        "type": "content",
+        "main_text": "**Concentrated,** not diversified.",
+        "sub_text": "Four sectors, not four hundred stocks. I would rather be wrong with conviction than right by accident.",
+        "sub_text_2": null,
+        "bubble": "My portfolio would give a financial advisor a small heart attack."
+      },
+      {
+        "type": "content",
+        "main_text": "This is **not** the boring, safe version of investing.",
+        "sub_text": "Higher risk, higher variance, and I do not always get the timing right.",
+        "sub_text_2": null,
+        "bubble": "I have eaten some real losses being early. That part does not make it into the highlight reel."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Conviction, not comfort.** That is the actual strategy.",
+        "sub_text": "It will not work for everyone. It is the only version of investing I have ever been able to stick with.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Ask me again in ten years whether this was smart or just lucky."
+      }
+    ],
+    "images": [
+      "content/images/1784098689030/slide-01.png",
+      "content/images/1784098689030/slide-02.png",
+      "content/images/1784098689030/slide-03.png",
+      "content/images/1784098689030/slide-04.png",
+      "content/images/1784098689030/slide-05.png",
+      "content/images/1784098689030/slide-06.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-18T14:30:46.646Z",
+    "threads_id": "18103238983889449",
+    "threads_carousel_id": "18139263823492950",
+    "instagram_id": "18121233748697397",
     "instagram_story_id": null
   }
 ]
