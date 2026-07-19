@@ -5,6 +5,11 @@ on:
     - cron: "0 14 * * *"   # 10pm MYT (14:00 UTC)
   workflow_dispatch:
 
+# Default GITHUB_TOKEN is read-only on repo contents unless declared here —
+# without this, the final "git push" step fails every run, every time.
+permissions:
+  contents: write
+
 jobs:
   track:
     runs-on: ubuntu-latest
