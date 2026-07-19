@@ -1334,5 +1334,80 @@
     "threads_carousel_id": "18139263823492950",
     "instagram_id": "18121233748697397",
     "instagram_story_id": null
+  },
+  {
+    "id": "1784098418704",
+    "plan_day": 22,
+    "date": "2026-07-15",
+    "topic": "building-in-public",
+    "angle": "I have been building alone for months and nobody warned me about this part.",
+    "status": "posted",
+    "theme": "Building in public",
+    "caption": "Building alone is fine until it isn't. Solo founders — what is the one thing nobody warned you about? Drop it below.",
+    "threads_text": "Nobody talks about this part of building alone. Not the workload. The silence. You make a call, sit with it, and there is literally no one to tell you if you got it wrong. Shipping solo with a full-time job and zero paying customers is a very specific kind of quiet. What is the hardest part nobody mentions?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I have been building alone for months and **nobody warned me about this part.**",
+        "sub_text": "It is not the work. It is the silence.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "People on the team who can tell you if you are making the right call.",
+        "stat_number": "0",
+        "stat_label": "that is the whole team",
+        "bubble": "I texted my friend about a product decision at 11pm. He replied 'sounds good bro.' That was my feedback loop."
+      },
+      {
+        "type": "content",
+        "main_text": "There is **no standup. No Slack. No one to share a small win with.**",
+        "sub_text": "You hit a milestone and just close the laptop. The win still happened, it just evaporated.",
+        "bubble": "I told a friend. He said 'sounds good bro' and moved on."
+      },
+      {
+        "type": "content",
+        "main_text": "I made a **decision I am still not sure about.** Had to live with it alone.",
+        "sub_text": "No one to stress-test it. No one to talk me out of it or into it.",
+        "sub_text_2": null,
+        "bubble": "I did eventually make a call. It might be wrong. I will probably find out in six weeks when the numbers tell me."
+      },
+      {
+        "type": "content",
+        "main_text": "Loneliness is not really about **people.** It is about **no one catching your blind spots.**",
+        "sub_text": "You can be surrounded and still building in a fog.",
+        "sub_text_2": null,
+        "bubble": "A co-founder would push back. A friend replies 'sounds good bro.' These are not the same thing and I keep pretending they are."
+      },
+      {
+        "type": "content",
+        "main_text": "**Therapy is cheaper than a co-founder.** Barely.",
+        "sub_text": "At least someone is professionally obligated to engage with your decisions.",
+        "sub_text_2": null,
+        "bubble": "Half joking. Maybe less than half."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Building alone does not cost you work. It costs you **blind spots.**",
+        "sub_text": "Fill in the blank: nobody warned me building alone would ___.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "Still figuring this one out. No clean lesson here."
+      }
+    ],
+    "images": [
+      "content/images/1784098418704/slide-01.png",
+      "content/images/1784098418704/slide-02.png",
+      "content/images/1784098418704/slide-03.png",
+      "content/images/1784098418704/slide-04.png",
+      "content/images/1784098418704/slide-05.png",
+      "content/images/1784098418704/slide-06.png",
+      "content/images/1784098418704/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-19T15:41:20.773Z",
+    "threads_id": "18097546462983255",
+    "threads_carousel_id": "18069249392452262",
+    "instagram_id": "18013956365939284",
+    "instagram_story_id": null
   }
 ]

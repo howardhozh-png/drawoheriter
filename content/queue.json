@@ -295,7 +295,7 @@
     "date": "2026-07-15",
     "topic": "building-in-public",
     "angle": "I have been building alone for months and nobody warned me about this part.",
-    "status": "approved",
+    "status": "posted",
     "theme": "Building in public",
     "caption": "Building alone is fine until it isn't. Solo founders — what is the one thing nobody warned you about? Drop it below.",
     "threads_text": "Nobody talks about this part of building alone. Not the workload. The silence. You make a call, sit with it, and there is literally no one to tell you if you got it wrong. Shipping solo with a full-time job and zero paying customers is a very specific kind of quiet. What is the hardest part nobody mentions?",
@@ -357,7 +357,12 @@
       "content/images/1784098418704/slide-06.png",
       "content/images/1784098418704/slide-07.png"
     ],
-    "engagement": null
+    "engagement": null,
+    "posted_at": "2026-07-19T15:41:20.773Z",
+    "threads_id": "18097546462983255",
+    "threads_carousel_id": "18069249392452262",
+    "instagram_id": "18013956365939284",
+    "instagram_story_id": null
   },
   {
     "id": "day4-career",
