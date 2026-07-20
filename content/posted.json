@@ -20,7 +20,7 @@
     },
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-17T14:00:01.314Z"
+      "tracked_at": "2026-07-20T15:54:44.099Z"
     },
     "posted_at": "2026-06-29T13:32:30.902Z",
     "threads_id": "17862260145639660"
@@ -87,7 +87,7 @@
     ],
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-17T14:00:01.531Z"
+      "tracked_at": "2026-07-20T15:54:44.171Z"
     },
     "posted_at": "2026-06-30T14:51:39.599Z",
     "threads_id": "18009060179873823",
@@ -159,14 +159,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 379,
+        "views": 383,
         "likes": 1,
         "replies": 8,
         "reposts": 0,
         "quotes": 0
       },
       "score": 55,
-      "tracked_at": "2026-07-17T14:00:03.254Z"
+      "tracked_at": "2026-07-20T15:54:45.009Z"
     },
     "posted_at": "2026-07-01T07:24:17.694Z",
     "threads_id": "17895978171475242",
@@ -315,7 +315,7 @@
         "quotes": 0
       },
       "score": 59,
-      "tracked_at": "2026-07-17T14:00:04.166Z"
+      "tracked_at": "2026-07-20T15:54:45.255Z"
     },
     "posted_at": "2026-07-02T13:03:48.187Z",
     "threads_id": "17997374477966589",
@@ -402,14 +402,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 545,
+        "views": 546,
         "likes": 2,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
       "score": 59,
-      "tracked_at": "2026-07-17T14:00:04.966Z"
+      "tracked_at": "2026-07-20T15:54:45.624Z"
     },
     "posted_at": "2026-07-05T07:06:55.870Z",
     "threads_id": "18138479773508940",
@@ -498,7 +498,7 @@
         "quotes": 0
       },
       "score": 995,
-      "tracked_at": "2026-07-17T14:00:05.463Z"
+      "tracked_at": "2026-07-20T15:54:45.797Z"
     },
     "posted_at": "2026-07-05T14:13:07.177Z",
     "threads_id": "17930570442347389",
@@ -577,14 +577,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 138,
+        "views": 139,
         "likes": 1,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
       "score": 17,
-      "tracked_at": "2026-07-17T14:00:05.984Z"
+      "tracked_at": "2026-07-20T15:54:46.169Z"
     },
     "posted_at": "2026-07-06T12:35:49.895Z",
     "threads_id": "18097598354124832",
@@ -663,14 +663,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 84,
+        "views": 85,
         "likes": 2,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 12,
-      "tracked_at": "2026-07-17T14:00:07.229Z"
+      "score": 13,
+      "tracked_at": "2026-07-20T15:54:46.494Z"
     },
     "posted_at": "2026-07-07T13:29:40.427Z",
     "threads_id": "18031614380818784",
@@ -744,14 +744,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 44,
+        "views": 45,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 6,
-      "tracked_at": "2026-07-17T14:00:07.966Z"
+      "score": 7,
+      "tracked_at": "2026-07-20T15:54:46.842Z"
     },
     "posted_at": "2026-07-08T14:39:01.076Z",
     "threads_id": "18101972450138631",
@@ -830,14 +830,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 694,
+        "views": 697,
         "likes": 2,
         "replies": 3,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 77,
-      "tracked_at": "2026-07-17T14:00:08.684Z"
+      "score": 78,
+      "tracked_at": "2026-07-20T15:54:47.158Z"
     },
     "posted_at": "2026-07-09T09:21:34.247Z",
     "threads_id": "17881077951672061",
@@ -917,14 +917,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 23,
+        "views": 25,
         "likes": 1,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 5,
-      "tracked_at": "2026-07-17T14:00:09.266Z"
+      "score": 6,
+      "tracked_at": "2026-07-20T15:54:47.473Z"
     },
     "posted_at": "2026-07-12T06:19:59.424Z",
     "threads_id": "18273039499290125",
@@ -1000,14 +1000,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 42,
+        "views": 44,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
       "score": 6,
-      "tracked_at": "2026-07-17T14:00:10.094Z"
+      "tracked_at": "2026-07-20T15:54:47.731Z"
     },
     "posted_at": "2026-07-12T14:02:03.825Z",
     "threads_id": "18054322742604949",
@@ -1086,14 +1086,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 225,
+        "views": 228,
         "likes": 0,
         "replies": 4,
         "reposts": 0,
         "quotes": 0
       },
       "score": 31,
-      "tracked_at": "2026-07-17T14:00:10.802Z"
+      "tracked_at": "2026-07-20T15:54:47.984Z"
     },
     "posted_at": "2026-07-15T13:05:29.719Z",
     "threads_id": "18218131654328683",
@@ -1163,14 +1163,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 175,
+        "views": 181,
         "likes": 2,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
       "score": 22,
-      "tracked_at": "2026-07-17T14:00:11.668Z"
+      "tracked_at": "2026-07-20T15:54:48.252Z"
     },
     "posted_at": "2026-07-16T13:05:08.103Z",
     "threads_id": "18099475435957347",
@@ -1252,14 +1252,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 10,
+        "views": 29,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 3,
-      "tracked_at": "2026-07-17T14:00:12.508Z"
+      "score": 5,
+      "tracked_at": "2026-07-20T15:54:48.611Z"
     },
     "posted_at": "2026-07-17T13:05:29.750Z",
     "threads_id": "18144247342542972",
@@ -1328,7 +1328,17 @@
       "content/images/1784098689030/slide-05.png",
       "content/images/1784098689030/slide-06.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "threads": {
+        "views": 76,
+        "likes": 0,
+        "replies": 2,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 12,
+      "tracked_at": "2026-07-20T15:54:48.860Z"
+    },
     "posted_at": "2026-07-18T14:30:46.646Z",
     "threads_id": "18103238983889449",
     "threads_carousel_id": "18139263823492950",
@@ -1403,7 +1413,17 @@
       "content/images/1784098418704/slide-06.png",
       "content/images/1784098418704/slide-07.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "threads": {
+        "views": 7,
+        "likes": 0,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 3,
+      "tracked_at": "2026-07-20T15:54:49.187Z"
+    },
     "posted_at": "2026-07-19T15:41:20.773Z",
     "threads_id": "18097546462983255",
     "threads_carousel_id": "18069249392452262",
@@ -1475,7 +1495,10 @@
       "content/images/day4-career/slide-06.png",
       "content/images/day4-career/slide-07.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "score": 0,
+      "tracked_at": "2026-07-20T15:54:49.188Z"
+    },
     "posted_at": "2026-07-20T15:12:14.685Z",
     "threads_id": null,
     "threads_carousel_id": null,
