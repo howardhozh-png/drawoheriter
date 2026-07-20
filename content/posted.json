@@ -1409,5 +1409,77 @@
     "threads_carousel_id": "18069249392452262",
     "instagram_id": "18013956365939284",
     "instagram_story_id": null
+  },
+  {
+    "id": "day4-career",
+    "plan_day": 4,
+    "date": "2026-07-02",
+    "topic": "navigating-career",
+    "angle": "Consulting trained me to be excellent at things that do not matter. Startups cured me of this. Slowly.",
+    "status": "posted",
+    "theme": "Navigating career",
+    "caption": "MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.\n\nI spent years getting very good at the wrong things. The transition was humbling.\n\nWhat is something you optimised perfectly that turned out not to matter?",
+    "threads_text": "MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.\n\nI spent years getting good at the wrong things.\n\nWhat is something you optimised perfectly that turned out not to matter?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Consulting trained me to be **excellent at things that do not matter.**",
+        "sub_text": "Startups cured me of this. Slower than I expected.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Hours I spent on slide decks that changed nothing at the client",
+        "stat_number": "11,520",
+        "stat_label": "hours on slides, 80% of everything I did for 5 years",
+        "bubble": "That is not an exaggeration. I did the math and immediately regretted it."
+      },
+      {
+        "type": "content",
+        "main_text": "The client decided in **10 minutes.** The deck took 3 weeks.",
+        "sub_text": "Pixel-perfect transitions, consistent font hierarchy, an appendix nobody opened. The decision was made before we even walked in.",
+        "bubble": "I once spent two days aligning boxes on a slide. Two days."
+      },
+      {
+        "type": "content",
+        "main_text": "The **consultant trap:** effort feels like impact because it looks like impact.",
+        "sub_text": "Hours in, polished output, rigorous process. But output is not outcome. Consulting rewards performing work; startups punish it.",
+        "bubble": "Nobody claps for your framework if the thing does not ship."
+      },
+      {
+        "type": "content",
+        "main_text": "A **working feature** beats a perfect plan. Every single time.",
+        "sub_text": "It is live. Zero paying customers, two working features. More real than any deck I ever made.",
+        "bubble": "My first pitch deck had 14 slides. what I built had 2 working features. I had the order wrong."
+      },
+      {
+        "type": "content",
+        "main_text": "The moment I realised I was **optimising for the wrong thing.**",
+        "sub_text": "I caught myself rewriting copy on a landing page nobody had visited. Classic consultant move: polish the thing, avoid the scary one.",
+        "bubble": "The scary thing was sending the cold email. The copy was fine."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Excellent execution** on the wrong thing is still the wrong thing.",
+        "sub_text": "The skill is not doing things well. It is picking the right things to do at all.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What did you optimise perfectly that turned out not to matter?"
+      }
+    ],
+    "images": [
+      "content/images/day4-career/slide-01.png",
+      "content/images/day4-career/slide-02.png",
+      "content/images/day4-career/slide-03.png",
+      "content/images/day4-career/slide-04.png",
+      "content/images/day4-career/slide-05.png",
+      "content/images/day4-career/slide-06.png",
+      "content/images/day4-career/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-20T15:12:14.685Z",
+    "threads_id": null,
+    "threads_carousel_id": null,
+    "instagram_id": null,
+    "instagram_story_id": null
   }
 ]

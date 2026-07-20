@@ -370,7 +370,7 @@
     "date": "2026-07-02",
     "topic": "navigating-career",
     "angle": "Consulting trained me to be excellent at things that do not matter. Startups cured me of this. Slowly.",
-    "status": "approved",
+    "status": "posted",
     "theme": "Navigating career",
     "caption": "MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.\n\nI spent years getting very good at the wrong things. The transition was humbling.\n\nWhat is something you optimised perfectly that turned out not to matter?",
     "threads_text": "MBB trained me to make things look good. Startups trained me to make things work. These are not the same skill.\n\nI spent years getting good at the wrong things.\n\nWhat is something you optimised perfectly that turned out not to matter?",
@@ -429,7 +429,12 @@
       "content/images/day4-career/slide-06.png",
       "content/images/day4-career/slide-07.png"
     ],
-    "engagement": null
+    "engagement": null,
+    "posted_at": "2026-07-20T15:12:14.685Z",
+    "threads_id": null,
+    "threads_carousel_id": null,
+    "instagram_id": null,
+    "instagram_story_id": null
   },
   {
     "id": "1784098704222",
