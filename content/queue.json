@@ -442,7 +442,7 @@
     "date": "2026-07-15",
     "topic": "learning-about-life",
     "angle": "The job does not stop. Here is what I actually do to switch my brain off. It is not much.",
-    "status": "approved",
+    "status": "posted",
     "theme": "Learning about life",
     "caption": "The job doesn't stop. My actual off switch: Haikyuu, Terrace House, and snacks from 9am to 3am straight. No meditation, no journaling, no walks. What's your real off switch, not the one you'd post about?",
     "threads_text": "The job doesn't stop. So my actual switch-off is Haikyuu and Terrace House marathons, 9am to 3am straight, snacking the whole time at home. No meditation, no journaling, no walks. What's your real off switch?",
@@ -489,8 +489,20 @@
         "bubble": "What is your actual off switch, the real one, not the one you would post about?"
       }
     ],
-    "images": [],
-    "engagement": null
+    "images": [
+      "content/images/1784098704222/slide-01.png",
+      "content/images/1784098704222/slide-02.png",
+      "content/images/1784098704222/slide-03.png",
+      "content/images/1784098704222/slide-04.png",
+      "content/images/1784098704222/slide-05.png",
+      "content/images/1784098704222/slide-06.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-21T15:07:47.460Z",
+    "threads_id": "18105792065018827",
+    "threads_carousel_id": null,
+    "instagram_id": null,
+    "instagram_story_id": null
   },
   {
     "id": "day8-career",

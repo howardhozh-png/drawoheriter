@@ -1504,5 +1504,73 @@
     "threads_carousel_id": null,
     "instagram_id": null,
     "instagram_story_id": null
+  },
+  {
+    "id": "1784098704222",
+    "plan_day": 32,
+    "date": "2026-07-15",
+    "topic": "learning-about-life",
+    "angle": "The job does not stop. Here is what I actually do to switch my brain off. It is not much.",
+    "status": "posted",
+    "theme": "Learning about life",
+    "caption": "The job doesn't stop. My actual off switch: Haikyuu, Terrace House, and snacks from 9am to 3am straight. No meditation, no journaling, no walks. What's your real off switch, not the one you'd post about?",
+    "threads_text": "The job doesn't stop. So my actual switch-off is Haikyuu and Terrace House marathons, 9am to 3am straight, snacking the whole time at home. No meditation, no journaling, no walks. What's your real off switch?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "The job does not stop. So I binge **Haikyuu** until 3am and call it switching off.",
+        "sub_text": "Not a wellness routine. Just anime, reality TV, and snacks.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "How long a binge day actually runs, start to finish",
+        "stat_number": "18",
+        "stat_label": "hours straight, one sitting, more than once",
+        "bubble": "9am to 3am. I have done the math. It is not a great number."
+      },
+      {
+        "type": "content",
+        "main_text": "No meditation. No journaling. No **walks.**",
+        "sub_text": "Just Haikyuu, Terrace House, and whatever else is queued up.",
+        "sub_text_2": null,
+        "bubble": "I have tried to make this sound healthier for this post. I am not going to."
+      },
+      {
+        "type": "content",
+        "main_text": "The appeal is **zero decisions required.**",
+        "sub_text": "Everything else in my day needs a choice. This does not.",
+        "sub_text_2": null,
+        "bubble": "My brain gets a day off from being the one in charge."
+      },
+      {
+        "type": "content",
+        "main_text": "This is not a **hack.** It is just what actually happens.",
+        "sub_text": "No app, no system, no optimisation. Just the couch and snacks from the kitchen.",
+        "sub_text_2": null,
+        "bubble": "I am not proud of it. I am also not going to pretend it does not work."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Switching off does not have to look **impressive.**",
+        "sub_text": "Mine looks like volleyball anime and instant noodles until 3am.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "What is your actual off switch, the real one, not the one you would post about?"
+      }
+    ],
+    "images": [
+      "content/images/1784098704222/slide-01.png",
+      "content/images/1784098704222/slide-02.png",
+      "content/images/1784098704222/slide-03.png",
+      "content/images/1784098704222/slide-04.png",
+      "content/images/1784098704222/slide-05.png",
+      "content/images/1784098704222/slide-06.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-21T15:07:47.460Z",
+    "threads_id": "18105792065018827",
+    "threads_carousel_id": null,
+    "instagram_id": null,
+    "instagram_story_id": null
   }
 ]
