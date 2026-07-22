@@ -20,7 +20,7 @@
     },
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-21T15:46:49.295Z"
+      "tracked_at": "2026-07-22T15:45:01.413Z"
     },
     "posted_at": "2026-06-29T13:32:30.902Z",
     "threads_id": "17862260145639660"
@@ -87,7 +87,7 @@
     ],
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-21T15:46:49.373Z"
+      "tracked_at": "2026-07-22T15:45:01.621Z"
     },
     "posted_at": "2026-06-30T14:51:39.599Z",
     "threads_id": "18009060179873823",
@@ -166,7 +166,7 @@
         "quotes": 0
       },
       "score": 56,
-      "tracked_at": "2026-07-21T15:46:50.247Z"
+      "tracked_at": "2026-07-22T15:45:02.269Z"
     },
     "posted_at": "2026-07-01T07:24:17.694Z",
     "threads_id": "17895978171475242",
@@ -315,7 +315,7 @@
         "quotes": 0
       },
       "score": 59,
-      "tracked_at": "2026-07-21T15:46:50.602Z"
+      "tracked_at": "2026-07-22T15:45:02.577Z"
     },
     "posted_at": "2026-07-02T13:03:48.187Z",
     "threads_id": "17997374477966589",
@@ -409,7 +409,7 @@
         "quotes": 0
       },
       "score": 59,
-      "tracked_at": "2026-07-21T15:46:50.983Z"
+      "tracked_at": "2026-07-22T15:45:02.881Z"
     },
     "posted_at": "2026-07-05T07:06:55.870Z",
     "threads_id": "18138479773508940",
@@ -498,7 +498,7 @@
         "quotes": 0
       },
       "score": 995,
-      "tracked_at": "2026-07-21T15:46:51.140Z"
+      "tracked_at": "2026-07-22T15:45:03.022Z"
     },
     "posted_at": "2026-07-05T14:13:07.177Z",
     "threads_id": "17930570442347389",
@@ -584,7 +584,7 @@
         "quotes": 0
       },
       "score": 17,
-      "tracked_at": "2026-07-21T15:46:51.362Z"
+      "tracked_at": "2026-07-22T15:45:03.311Z"
     },
     "posted_at": "2026-07-06T12:35:49.895Z",
     "threads_id": "18097598354124832",
@@ -670,7 +670,7 @@
         "quotes": 0
       },
       "score": 13,
-      "tracked_at": "2026-07-21T15:46:51.849Z"
+      "tracked_at": "2026-07-22T15:45:03.606Z"
     },
     "posted_at": "2026-07-07T13:29:40.427Z",
     "threads_id": "18031614380818784",
@@ -751,7 +751,7 @@
         "quotes": 0
       },
       "score": 7,
-      "tracked_at": "2026-07-21T15:46:52.152Z"
+      "tracked_at": "2026-07-22T15:45:03.880Z"
     },
     "posted_at": "2026-07-08T14:39:01.076Z",
     "threads_id": "18101972450138631",
@@ -837,7 +837,7 @@
         "quotes": 0
       },
       "score": 78,
-      "tracked_at": "2026-07-21T15:46:52.457Z"
+      "tracked_at": "2026-07-22T15:45:04.199Z"
     },
     "posted_at": "2026-07-09T09:21:34.247Z",
     "threads_id": "17881077951672061",
@@ -924,7 +924,7 @@
         "quotes": 0
       },
       "score": 6,
-      "tracked_at": "2026-07-21T15:46:52.777Z"
+      "tracked_at": "2026-07-22T15:45:04.482Z"
     },
     "posted_at": "2026-07-12T06:19:59.424Z",
     "threads_id": "18273039499290125",
@@ -1007,7 +1007,7 @@
         "quotes": 0
       },
       "score": 6,
-      "tracked_at": "2026-07-21T15:46:53.045Z"
+      "tracked_at": "2026-07-22T15:45:04.868Z"
     },
     "posted_at": "2026-07-12T14:02:03.825Z",
     "threads_id": "18054322742604949",
@@ -1093,7 +1093,7 @@
         "quotes": 0
       },
       "score": 31,
-      "tracked_at": "2026-07-21T15:46:53.363Z"
+      "tracked_at": "2026-07-22T15:45:05.152Z"
     },
     "posted_at": "2026-07-15T13:05:29.719Z",
     "threads_id": "18218131654328683",
@@ -1170,7 +1170,7 @@
         "quotes": 0
       },
       "score": 22,
-      "tracked_at": "2026-07-21T15:46:53.833Z"
+      "tracked_at": "2026-07-22T15:45:05.444Z"
     },
     "posted_at": "2026-07-16T13:05:08.103Z",
     "threads_id": "18099475435957347",
@@ -1259,7 +1259,7 @@
         "quotes": 0
       },
       "score": 5,
-      "tracked_at": "2026-07-21T15:46:54.210Z"
+      "tracked_at": "2026-07-22T15:45:05.730Z"
     },
     "posted_at": "2026-07-17T13:05:29.750Z",
     "threads_id": "18144247342542972",
@@ -1337,7 +1337,7 @@
         "quotes": 0
       },
       "score": 12,
-      "tracked_at": "2026-07-21T15:46:54.591Z"
+      "tracked_at": "2026-07-22T15:45:06.013Z"
     },
     "posted_at": "2026-07-18T14:30:46.646Z",
     "threads_id": "18103238983889449",
@@ -1415,14 +1415,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 7,
+        "views": 8,
         "likes": 0,
         "replies": 1,
         "reposts": 0,
         "quotes": 0
       },
       "score": 3,
-      "tracked_at": "2026-07-21T15:46:54.857Z"
+      "tracked_at": "2026-07-22T15:45:06.316Z"
     },
     "posted_at": "2026-07-19T15:41:20.773Z",
     "threads_id": "18097546462983255",
@@ -1497,7 +1497,7 @@
     ],
     "engagement": {
       "score": 0,
-      "tracked_at": "2026-07-21T15:46:54.857Z"
+      "tracked_at": "2026-07-22T15:45:06.316Z"
     },
     "posted_at": "2026-07-20T15:12:14.685Z",
     "threads_id": null,
@@ -1568,14 +1568,14 @@
     ],
     "engagement": {
       "threads": {
-        "views": 5,
+        "views": 27,
         "likes": 0,
         "replies": 0,
         "reposts": 0,
         "quotes": 0
       },
-      "score": 1,
-      "tracked_at": "2026-07-21T15:46:55.025Z"
+      "score": 3,
+      "tracked_at": "2026-07-22T15:45:06.504Z"
     },
     "posted_at": "2026-07-21T15:07:47.460Z",
     "threads_id": "18105792065018827",
@@ -1651,7 +1651,17 @@
       "content/images/day8-career/slide-06.png",
       "content/images/day8-career/slide-07.png"
     ],
-    "engagement": null,
+    "engagement": {
+      "threads": {
+        "views": 0,
+        "likes": 0,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0
+      },
+      "score": 0,
+      "tracked_at": "2026-07-22T15:45:06.855Z"
+    },
     "posted_at": "2026-07-22T15:07:40.204Z",
     "threads_id": "17978563374062193",
     "threads_carousel_id": null,
