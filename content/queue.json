@@ -510,7 +510,7 @@
     "date": "2026-07-02",
     "topic": "navigating-career",
     "angle": "A startup taught me something consulting never did. It was not what I expected.",
-    "status": "approved",
+    "status": "posted",
     "theme": "Navigating career",
     "caption": "A startup taught me what 'fast' actually means. Consulting had it backwards for 5 years.\n\nMBB taught me tight deadlines and late-night decks. Turns out that was not fast.\n\nAt a startup, fast means something else. Seeing it up close, I felt lied to.\n\nWhat is the biggest speed difference between big and small company?",
     "threads_text": "A startup taught me what 'fast' actually means. Consulting had it backwards for 5 years.\n\nIn consulting, moving fast meant finishing the deck before the client walked in.\n\nAt a startup, moving fast means shipping before someone else does.\n\nVery different stakes. Very different clock.\n\nWhat is the biggest speed gap you have noticed between big and small company?",
@@ -572,7 +572,12 @@
       "content/images/day8-career/slide-06.png",
       "content/images/day8-career/slide-07.png"
     ],
-    "engagement": null
+    "engagement": null,
+    "posted_at": "2026-07-22T15:07:40.204Z",
+    "threads_id": "17978563374062193",
+    "threads_carousel_id": null,
+    "instagram_id": null,
+    "instagram_story_id": null
   },
   {
     "id": "1784098611098",
