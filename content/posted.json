@@ -1582,5 +1582,117 @@
     "threads_carousel_id": null,
     "instagram_id": null,
     "instagram_story_id": null
+  },
+  {
+    "id": "market-dip-dca",
+    "date": "2026-07-23",
+    "topic": "managing-finances",
+    "angle": "Market-wide drop right now. I am buying more, not less. What DCA actually feels like when it is ugly, not when it is easy.",
+    "status": "posted",
+    "theme": "Managing finances",
+    "caption": "The whole market is down today, not just one sector. I'm not selling, I'm buying more on the way down, same as always. DCA only means something when it's ugly like this. Are you buying through this dip, sitting it out, or waiting for it to drop more?",
+    "threads_text": "Everything is red right now, market wide, not just one sector. I am not selling. I am buying more on the way down, same as I always do. DCA is easy when it is green. It is only real when it is ugly like this. Are you buying through this, sitting out, or waiting for it to drop more?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Everything is **red** right now. I am buying more, not less.",
+        "sub_text": "Not because I am brave. Because the math does not change just because the chart is ugly.",
+        "bubble": null
+      },
+      {
+        "type": "content",
+        "main_text": "A market wide drop is not a signal to panic. It is a signal to check the plan still holds.",
+        "sub_text": "If the plan only worked when prices went up, it was never really a plan.",
+        "bubble": "I built the plan on a green chart. This is the part where I find out if I actually believe it."
+      },
+      {
+        "type": "content",
+        "main_text": "I am not trying to time the exact bottom.",
+        "sub_text": "Nobody does that consistently. I would rather keep buying through the mess than guess the one perfect day.",
+        "bubble": "I have tried timing it before. I was wrong more than I was right."
+      },
+      {
+        "type": "content",
+        "main_text": "DCA is boring when everything is green. Right now it is just hard, which is the whole point.",
+        "sub_text": "The strategy only works if you keep buying when it is uncomfortable, not only when it is easy.",
+        "bubble": "Watching the number drop every time I add money is not fun. I am doing it anyway."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Red days are not the exception. They are the toll for the years that are not red.",
+        "sub_text": "Still buying. Still uncomfortable. Still doing it.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "Are you buying through this dip, sitting it out, or waiting for it to drop more?"
+      }
+    ],
+    "images": [
+      "content/images/market-dip-dca/slide-01.png",
+      "content/images/market-dip-dca/slide-02.png",
+      "content/images/market-dip-dca/slide-03.png",
+      "content/images/market-dip-dca/slide-04.png",
+      "content/images/market-dip-dca/slide-05.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-23T14:15:26.503Z",
+    "threads_id": null,
+    "threads_carousel_id": null,
+    "instagram_id": "18129943411633930",
+    "instagram_story_id": null
+  },
+  {
+    "id": "market-dip-dca",
+    "date": "2026-07-23",
+    "topic": "managing-finances",
+    "angle": "Market-wide drop right now. I am buying more, not less. What DCA actually feels like when it is ugly, not when it is easy.",
+    "status": "posted",
+    "theme": "Managing finances",
+    "caption": "The whole market is down today, not just one sector. I'm not selling, I'm buying more on the way down, same as always. DCA only means something when it's ugly like this. Are you buying through this dip, sitting it out, or waiting for it to drop more?",
+    "threads_text": "Everything is red right now, market wide, not just one sector. I am not selling. I am buying more on the way down, same as I always do. DCA is easy when it is green. It is only real when it is ugly like this. Are you buying through this, sitting out, or waiting for it to drop more?",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "Everything is **red** right now. I am buying more, not less.",
+        "sub_text": "Not because I am brave. Because the math does not change just because the chart is ugly.",
+        "bubble": null
+      },
+      {
+        "type": "content",
+        "main_text": "A market wide drop is not a signal to panic. It is a signal to check the plan still holds.",
+        "sub_text": "If the plan only worked when prices went up, it was never really a plan.",
+        "bubble": "I built the plan on a green chart. This is the part where I find out if I actually believe it."
+      },
+      {
+        "type": "content",
+        "main_text": "I am not trying to time the exact bottom.",
+        "sub_text": "Nobody does that consistently. I would rather keep buying through the mess than guess the one perfect day.",
+        "bubble": "I have tried timing it before. I was wrong more than I was right."
+      },
+      {
+        "type": "content",
+        "main_text": "DCA is boring when everything is green. Right now it is just hard, which is the whole point.",
+        "sub_text": "The strategy only works if you keep buying when it is uncomfortable, not only when it is easy.",
+        "bubble": "Watching the number drop every time I add money is not fun. I am doing it anyway."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "Red days are not the exception. They are the toll for the years that are not red.",
+        "sub_text": "Still buying. Still uncomfortable. Still doing it.",
+        "follow_cta": "Follow to know what happens next or save this for later.",
+        "bubble": "Are you buying through this dip, sitting it out, or waiting for it to drop more?"
+      }
+    ],
+    "images": [
+      "content/images/market-dip-dca/slide-01.png",
+      "content/images/market-dip-dca/slide-02.png",
+      "content/images/market-dip-dca/slide-03.png",
+      "content/images/market-dip-dca/slide-04.png",
+      "content/images/market-dip-dca/slide-05.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-23T14:18:34.463Z",
+    "threads_id": "18603805381034865",
+    "threads_carousel_id": "17999641757960444",
+    "instagram_id": "18129943411633930",
+    "instagram_story_id": null
   }
 ]
