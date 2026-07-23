@@ -261,6 +261,25 @@ async function postToInstagram(imagePaths, caption) {
   return { postId, imageUrls };
 }
 
+// Prefers an approved item whose topic differs from the most recently posted
+// item's topic, so the career/building-in-public/finance/life rotation
+// doesn't accidentally post the same topic twice in a row (this happened
+// with day4-career -> day8-career, both leftover pre-rotation items).
+// Falls back to the oldest approved item if every approved item shares that
+// topic, so a day never goes unposted just for lack of a different one.
+// Kept identical in render.mjs -- the two must always pick the same entry.
+function pickNextApproved(queue) {
+  const approved = queue.filter(e => e.status === "approved");
+  if (approved.length === 0) return null;
+  const posted = queue.filter(e => e.status === "posted" && e.posted_at);
+  const lastPosted = posted.sort((a, b) => new Date(b.posted_at) - new Date(a.posted_at))[0];
+  if (lastPosted?.topic) {
+    const differentTopic = approved.find(e => e.topic !== lastPosted.topic);
+    if (differentTopic) return differentTopic;
+  }
+  return approved[0];
+}
+
 // ─────────────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -272,14 +291,13 @@ async function main() {
   const queue = loadJSON(QUEUE_FILE, []);
   const posted = loadJSON(POSTED_FILE, []);
 
-  const approved = queue.filter(e => e.status === "approved");
+  const entry = pickNextApproved(queue);
 
-  if (approved.length === 0) {
+  if (!entry) {
     console.log("No approved posts. Run `node scripts/review.mjs` to approve.");
     return;
   }
 
-  const entry = approved[0];
   const idx = queue.findIndex(e => e.id === entry.id);
 
   console.log(`Posting: [${entry.id}] ${entry.theme} — ${entry.date}`);
