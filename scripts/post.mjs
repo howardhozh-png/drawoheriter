@@ -261,6 +261,30 @@ async function postToInstagram(imagePaths, caption) {
   return { postId, imageUrls };
 }
 
+// plan.md intentionally uses "[fill in]"-style placeholders for stats Howard
+// must supply a real number for by hand before a post goes out (generate.mjs
+// is instructed to weave the placeholder in naturally, never invent a
+// number). Nothing previously stopped one of these from reaching a live
+// post if it slipped past manual /approve review -- this is the hard gate.
+// Checks every text field a post actually publishes from.
+function findUnfilledPlaceholders(entry) {
+  const fields = [
+    ["threads_text", entry.threads_text],
+    ["caption", entry.caption],
+    ...(entry.slides || []).flatMap((s, i) => [
+      [`slides[${i}].main_text`, s.main_text],
+      [`slides[${i}].sub_text`, s.sub_text],
+      [`slides[${i}].sub_text_2`, s.sub_text_2],
+      [`slides[${i}].stat_number`, s.stat_number],
+      [`slides[${i}].stat_label`, s.stat_label],
+      [`slides[${i}].bubble`, s.bubble],
+    ]),
+  ];
+  return fields
+    .filter(([, value]) => typeof value === "string" && /\[.*?fill.*?\]/i.test(value))
+    .map(([field, value]) => ({ field, value }));
+}
+
 // Prefers an approved item whose topic differs from the most recently posted
 // item's topic, so the career/building-in-public/finance/life rotation
 // doesn't accidentally post the same topic twice in a row (this happened
@@ -291,11 +315,28 @@ async function main() {
   const queue = loadJSON(QUEUE_FILE, []);
   const posted = loadJSON(POSTED_FILE, []);
 
-  const entry = pickNextApproved(queue);
+  // Optional explicit id (e.g. `node scripts/post.mjs 1784098752081`) to
+  // override the auto-picker for a manual call — mirrors render.mjs's
+  // existing id-targeting. Still requires status "approved", same safety
+  // gate as the normal path.
+  const targetId = process.argv[2];
+  const entry = targetId
+    ? queue.find(e => e.id === targetId && e.status === "approved")
+    : pickNextApproved(queue);
 
   if (!entry) {
-    console.log("No approved posts. Run `node scripts/review.mjs` to approve.");
+    console.log(targetId
+      ? `No approved entry found with id: ${targetId}`
+      : "No approved posts. Run `node scripts/review.mjs` to approve.");
     return;
+  }
+
+  const placeholderFields = findUnfilledPlaceholders(entry);
+  if (placeholderFields.length > 0) {
+    console.error(`Refusing to post [${entry.id}] -- unfilled placeholder text still present:`);
+    for (const f of placeholderFields) console.error(`  ${f.field}: "${f.value}"`);
+    console.error("Fill in the real number/value in content/queue.json (or content/plan.md and regenerate), then try again.");
+    process.exit(1);
   }
 
   const idx = queue.findIndex(e => e.id === entry.id);
