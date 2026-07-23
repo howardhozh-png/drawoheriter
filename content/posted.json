@@ -1694,5 +1694,81 @@
     "threads_carousel_id": "17999641757960444",
     "instagram_id": "18129943411633930",
     "instagram_story_id": null
+  },
+  {
+    "id": "1784098611098",
+    "plan_day": 26,
+    "date": "2026-07-15",
+    "topic": "building-in-public",
+    "angle": "I am cold emailing 8,471 strangers. Automatically. Here is what I built.",
+    "status": "posted",
+    "theme": "Building in public",
+    "caption": "Built a cold email machine for 8,471 strangers. No agency, no budget, no clue if it'll work. What's your cold email open rate? Drop it below — I want to know if I'm embarrassing myself.",
+    "threads_text": "100 cold emails go out at 1pm every day, automatically, to rental agents I scraped myself. 3-sequence flow, replies hit a real inbox I check every morning. Built it while employed full-time. Zero paying customers so far. What's your cold email open rate? Genuinely asking.",
+    "slides": [
+      {
+        "type": "hook",
+        "main_text": "I am cold emailing **8,471 strangers.** Automatically. Here is what I built.",
+        "sub_text": "Automated while working full-time, with no agency and no budget.",
+        "bubble": null
+      },
+      {
+        "type": "stat",
+        "sub_text": "Not a blast. Not random. The same time, every day.",
+        "stat_number": "100",
+        "stat_label": "cold emails sent automatically at 1pm, every single day",
+        "bubble": "I feel like a spammer. I also feel like this is the only option I have right now."
+      },
+      {
+        "type": "content",
+        "main_text": "I built **the scraper, sequences, and send logic** myself.",
+        "sub_text": "No agency. No contractor. Just me, Claude, and a lot of trial and error. Non-coder. Vibe coding. It works, somehow.",
+        "sub_text_2": null,
+        "bubble": "I cannot explain how half of it works. It just does."
+      },
+      {
+        "type": "content",
+        "main_text": "**3 sequences.** Day 1 intro. Day 4 follow-up. Day 8 final.",
+        "sub_text": "Each one is short. No fluff. I wrote them the way I'd want to be emailed.",
+        "sub_text_2": null,
+        "bubble": "Day 8 email is the one I'd be most embarrassed for someone to screenshot."
+      },
+      {
+        "type": "content",
+        "main_text": "**Reply-to goes to a real inbox** I check every morning.",
+        "sub_text": "If someone writes back, it lands with me directly. No automation handles the reply. That part is still just me.",
+        "sub_text_2": null,
+        "bubble": "Zero replies so far. Which is its own kind of feedback."
+      },
+      {
+        "type": "content",
+        "main_text": "This is what **distribution looks like with no budget and no audience.**",
+        "sub_text": "You scrape. You write. You send. You wait. It is live. Zero paying customers.",
+        "sub_text_2": null,
+        "bubble": "The gap between 'built it' and 'anyone cares' is larger than I expected."
+      },
+      {
+        "type": "conclusion",
+        "main_text": "**Cold outreach is not glamorous.** It is just work nobody is watching yet.",
+        "sub_text": "Still running. Still not sure this is the right call.",
+        "follow_cta": "Save this for later or follow for what happens next.",
+        "bubble": "If you have done cold email before, drop your open rate. I need a benchmark."
+      }
+    ],
+    "images": [
+      "content/images/1784098611098/slide-01.png",
+      "content/images/1784098611098/slide-02.png",
+      "content/images/1784098611098/slide-03.png",
+      "content/images/1784098611098/slide-04.png",
+      "content/images/1784098611098/slide-05.png",
+      "content/images/1784098611098/slide-06.png",
+      "content/images/1784098611098/slide-07.png"
+    ],
+    "engagement": null,
+    "posted_at": "2026-07-23T15:12:09.494Z",
+    "threads_id": "17966940866942976",
+    "threads_carousel_id": null,
+    "instagram_id": null,
+    "instagram_story_id": null
   }
 ]
